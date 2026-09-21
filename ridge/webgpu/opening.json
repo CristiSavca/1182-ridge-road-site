@@ -1,9 +1,9 @@
 {
   "version": 1,
   "url": "/ridge/webgpu/opening.glb.gz",
-  "bytes": 11166461,
-  "decodedBytes": 17540052,
-  "sha256": "89fadb8c6c939f0c0e3f5f7e749706090726dedeb40c2c19ae9934453bf97b2d",
+  "bytes": 11041342,
+  "decodedBytes": 17411696,
+  "sha256": "1b73488420788d18c9f7e137d3c41d4e58a94932d7692c18a467ab675800de24",
   "instances": 21797,
   "triangles": 2632339,
   "offscreenTriangles": 444149,
