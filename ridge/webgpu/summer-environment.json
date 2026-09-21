@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "source": "output/blender/assets/render_cache_v67/3061c00a16ecae74_2048.exr",
+  "sourceSha256": "47f4850a2106cd5422a4689b52891085964622166dcb0ce3bc7cc0b66d221517",
+  "sourceModified": false,
+  "nativeSources": [
+    {
+      "path": "scripts/v62_cloudy_daylight.py",
+      "sha256": "b96400cc0a955c4309937471751e90833143dd7ccef215ae0748745ae79be8e7"
+    },
+    {
+      "path": "scripts/v63_southeast_daylight.py",
+      "sha256": "73f3214b5a7a91cb26086b4cb25150d3233e303823b491755474ab5cf90472fa"
+    },
+    {
+      "path": "scripts/blender_v64_south_daylight.py",
+      "sha256": "967a792e4b3bce1d11c15eb1c433b6fe5ec96d79acb54fdb5ee7659fb7c29372"
+    },
+    {
+      "path": "scripts/v105_restore_approved_sun.py",
+      "sha256": "78634a8fc7f70fed06e11e1763b316d7853b97208a2b203e6f97961c79c64f8f"
+    },
+    {
+      "path": "output/blender/verification/v105/approved_light_settings.json",
+      "sha256": "31a6144f43f1bdcb846e6ddcb3bb89a5cf424dfa1d27400f2281fff3d67726c7"
+    }
+  ],
+  "outputs": [
+    {
+      "url": "/ridge/webgpu/summer-sky.hdr",
+      "bytes": 1365830,
+      "sha256": "d96facaec6a4e4a59a23f053463b4aa4c0bf01570ef6ec6daba6ce70161a1d1a",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "branch": "camera/glossy/singular",
+      "runtimeStrength": 0.32,
+      "strengthBaked": false,
+      "minimum": [
+        0.0,
+        0.03125,
+        0.109375
+      ],
+      "maximum": [
+        11.3125,
+        9.3125,
+        9.0
+      ]
+    },
+    {
+      "url": "/ridge/webgpu/summer-light.hdr",
+      "bytes": 1379584,
+      "sha256": "60490b420bd301719f2d20132abd6d1b819889579d06a984ef06cd99a216a014",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "branch": "diffuse environment",
+      "runtimeStrength": 0.95,
+      "strengthBaked": false,
+      "minimum": [
+        0.04296875,
+        0.05859375,
+        0.109375
+      ],
+      "maximum": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    }
+  ],
+  "recipe": {
+    "solarAzimuthRadians": -0.597941481748713,
+    "solarElevationRadians": 0.83577120002471,
+    "patchRotationRadians": 0.3141592653589793,
+    "innerAngleDegrees": 2,
+    "outerAngleDegrees": 6,
+    "interpolation": "SMOOTHERSTEP",
+    "visibleSaturation": 1.45,
+    "diffuseChannelMaximum": 8,
+    "strengthBaked": false,
+    "exposureBaked": false,
+    "blenderLookupYawRadians": 1.6709865655985765,
+    "threeSceneRotationY": -1.6709865655985765
+  },
+  "validation": {
+    "rawMaximum": [
+      75258.984375,
+      78309.53125,
+      74676.2265625
+    ],
+    "patchedMaximum": [
+      13.315847983982506,
+      11.254772473800504,
+      10.734952966428956
+    ],
+    "originalSunPixel": [
+      239,
+      1218
+    ],
+    "originalSunRadiance": [
+      75258.984375,
+      77962.75,
+      74676.2265625
+    ],
+    "patchedSunRadiance": [
+      0.4838350653648369,
+      0.696864044666291,
+      1.3214711427688601
+    ],
+    "changedPixelCount": 5475,
+    "outsideConeUnchanged": true,
+    "hsvReferenceMaximumError": 4.440892098500626e-16,
+    "nativeVsThreeUvMaximumError": 0.0
+  },
+  "limitations": [
+    "1024x512 web image resolution; source graph evaluated at native cached 2048x1024 resolution before filtering.",
+    "Scene.environment PMREM provides one lighting texture: diffuse branch is used for both diffuse and rough/specular IBL unless the renderer separately binds the native glossy branch."
+  ]
+}

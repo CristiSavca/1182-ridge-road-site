@@ -1,0 +1,798 @@
+{
+  "version": 1,
+  "sourceSha256": "aa4ba817ecbab01c2e6e01e7c7ccdb0943a494ed1bcd20f482e725e4f107f7d9",
+  "cameraSha256": "1e79b2f68936d3796af3b6e13f879dc0df6746a684bf2306dc8acf22206afca5",
+  "url": "/ridge/webgpu/assembly-visibility.bin",
+  "bytes": 775796,
+  "sha256": "2931c8f8461ad32e03c710a2b44cda38f19b7843362f3f2f347505f82ced7a75",
+  "frames": [
+    1004,
+    1196
+  ],
+  "sampleStep": 0.25,
+  "grazingMarginDegrees": 8,
+  "totalTriangles": 1294973,
+  "closedTriangles": 115456,
+  "removedTriangles": 51392,
+  "retainedTriangles": 1243581,
+  "records": [
+    {
+      "meshIndex": 0,
+      "primitiveIndex": 2,
+      "sourceTriangles": 62,
+      "triangles": 32,
+      "offset": 0
+    },
+    {
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "sourceTriangles": 777,
+      "triangles": 443,
+      "offset": 128
+    },
+    {
+      "meshIndex": 1,
+      "primitiveIndex": 1,
+      "sourceTriangles": 1336,
+      "triangles": 770,
+      "offset": 1900
+    },
+    {
+      "meshIndex": 1,
+      "primitiveIndex": 2,
+      "sourceTriangles": 1684,
+      "triangles": 910,
+      "offset": 4980
+    },
+    {
+      "meshIndex": 2,
+      "primitiveIndex": 1,
+      "sourceTriangles": 296,
+      "triangles": 286,
+      "offset": 8620
+    },
+    {
+      "meshIndex": 2,
+      "primitiveIndex": 2,
+      "sourceTriangles": 274,
+      "triangles": 272,
+      "offset": 9764
+    },
+    {
+      "meshIndex": 3,
+      "primitiveIndex": 0,
+      "sourceTriangles": 120,
+      "triangles": 60,
+      "offset": 10852
+    },
+    {
+      "meshIndex": 4,
+      "primitiveIndex": 0,
+      "sourceTriangles": 132,
+      "triangles": 66,
+      "offset": 11092
+    },
+    {
+      "meshIndex": 4,
+      "primitiveIndex": 1,
+      "sourceTriangles": 48,
+      "triangles": 24,
+      "offset": 11356
+    },
+    {
+      "meshIndex": 4,
+      "primitiveIndex": 2,
+      "sourceTriangles": 12,
+      "triangles": 6,
+      "offset": 11452
+    },
+    {
+      "meshIndex": 4,
+      "primitiveIndex": 4,
+      "sourceTriangles": 60,
+      "triangles": 30,
+      "offset": 11476
+    },
+    {
+      "meshIndex": 4,
+      "primitiveIndex": 5,
+      "sourceTriangles": 644,
+      "triangles": 378,
+      "offset": 11596
+    },
+    {
+      "meshIndex": 4,
+      "primitiveIndex": 6,
+      "sourceTriangles": 92,
+      "triangles": 48,
+      "offset": 13108
+    },
+    {
+      "meshIndex": 6,
+      "primitiveIndex": 0,
+      "sourceTriangles": 10012,
+      "triangles": 5290,
+      "offset": 13300
+    },
+    {
+      "meshIndex": 7,
+      "primitiveIndex": 0,
+      "sourceTriangles": 972,
+      "triangles": 561,
+      "offset": 34460
+    },
+    {
+      "meshIndex": 7,
+      "primitiveIndex": 1,
+      "sourceTriangles": 84,
+      "triangles": 42,
+      "offset": 36704
+    },
+    {
+      "meshIndex": 8,
+      "primitiveIndex": 0,
+      "sourceTriangles": 431,
+      "triangles": 252,
+      "offset": 36872
+    },
+    {
+      "meshIndex": 9,
+      "primitiveIndex": 0,
+      "sourceTriangles": 20,
+      "triangles": 10,
+      "offset": 37880
+    },
+    {
+      "meshIndex": 9,
+      "primitiveIndex": 3,
+      "sourceTriangles": 2313,
+      "triangles": 2311,
+      "offset": 37920
+    },
+    {
+      "meshIndex": 52,
+      "primitiveIndex": 0,
+      "sourceTriangles": 92,
+      "triangles": 50,
+      "offset": 47164
+    },
+    {
+      "meshIndex": 55,
+      "primitiveIndex": 0,
+      "sourceTriangles": 92,
+      "triangles": 50,
+      "offset": 47364
+    },
+    {
+      "meshIndex": 58,
+      "primitiveIndex": 0,
+      "sourceTriangles": 92,
+      "triangles": 48,
+      "offset": 47564
+    },
+    {
+      "meshIndex": 59,
+      "primitiveIndex": 0,
+      "sourceTriangles": 12,
+      "triangles": 6,
+      "offset": 47756
+    },
+    {
+      "meshIndex": 60,
+      "primitiveIndex": 0,
+      "sourceTriangles": 2000,
+      "triangles": 1190,
+      "offset": 47780
+    },
+    {
+      "meshIndex": 61,
+      "primitiveIndex": 0,
+      "sourceTriangles": 828,
+      "triangles": 480,
+      "offset": 52540
+    },
+    {
+      "meshIndex": 62,
+      "primitiveIndex": 0,
+      "sourceTriangles": 2000,
+      "triangles": 1184,
+      "offset": 54460
+    },
+    {
+      "meshIndex": 63,
+      "primitiveIndex": 0,
+      "sourceTriangles": 828,
+      "triangles": 474,
+      "offset": 59196
+    },
+    {
+      "meshIndex": 64,
+      "primitiveIndex": 0,
+      "sourceTriangles": 2000,
+      "triangles": 1182,
+      "offset": 61092
+    },
+    {
+      "meshIndex": 65,
+      "primitiveIndex": 0,
+      "sourceTriangles": 828,
+      "triangles": 476,
+      "offset": 65820
+    },
+    {
+      "meshIndex": 66,
+      "primitiveIndex": 0,
+      "sourceTriangles": 764,
+      "triangles": 434,
+      "offset": 67724
+    },
+    {
+      "meshIndex": 68,
+      "primitiveIndex": 0,
+      "sourceTriangles": 764,
+      "triangles": 434,
+      "offset": 69460
+    },
+    {
+      "meshIndex": 69,
+      "primitiveIndex": 0,
+      "sourceTriangles": 764,
+      "triangles": 434,
+      "offset": 71196
+    },
+    {
+      "meshIndex": 70,
+      "primitiveIndex": 0,
+      "sourceTriangles": 1791,
+      "triangles": 1225,
+      "offset": 72932
+    },
+    {
+      "meshIndex": 70,
+      "primitiveIndex": 1,
+      "sourceTriangles": 128,
+      "triangles": 56,
+      "offset": 77832
+    },
+    {
+      "meshIndex": 71,
+      "primitiveIndex": 2,
+      "sourceTriangles": 38,
+      "triangles": 32,
+      "offset": 78056
+    },
+    {
+      "meshIndex": 72,
+      "primitiveIndex": 0,
+      "sourceTriangles": 550,
+      "triangles": 370,
+      "offset": 78184
+    },
+    {
+      "meshIndex": 72,
+      "primitiveIndex": 2,
+      "sourceTriangles": 34,
+      "triangles": 22,
+      "offset": 79664
+    },
+    {
+      "meshIndex": 73,
+      "primitiveIndex": 0,
+      "sourceTriangles": 242,
+      "triangles": 192,
+      "offset": 79752
+    },
+    {
+      "meshIndex": 74,
+      "primitiveIndex": 0,
+      "sourceTriangles": 552,
+      "triangles": 356,
+      "offset": 80520
+    },
+    {
+      "meshIndex": 75,
+      "primitiveIndex": 2,
+      "sourceTriangles": 62,
+      "triangles": 44,
+      "offset": 81944
+    },
+    {
+      "meshIndex": 78,
+      "primitiveIndex": 0,
+      "sourceTriangles": 114,
+      "triangles": 102,
+      "offset": 82120
+    },
+    {
+      "meshIndex": 78,
+      "primitiveIndex": 1,
+      "sourceTriangles": 254,
+      "triangles": 174,
+      "offset": 82528
+    },
+    {
+      "meshIndex": 78,
+      "primitiveIndex": 2,
+      "sourceTriangles": 92,
+      "triangles": 50,
+      "offset": 83224
+    },
+    {
+      "meshIndex": 80,
+      "primitiveIndex": 0,
+      "sourceTriangles": 1402,
+      "triangles": 1124,
+      "offset": 83424
+    },
+    {
+      "meshIndex": 81,
+      "primitiveIndex": 0,
+      "sourceTriangles": 157,
+      "triangles": 77,
+      "offset": 87920
+    },
+    {
+      "meshIndex": 82,
+      "primitiveIndex": 1,
+      "sourceTriangles": 1196,
+      "triangles": 650,
+      "offset": 88228
+    },
+    {
+      "meshIndex": 85,
+      "primitiveIndex": 0,
+      "sourceTriangles": 14,
+      "triangles": 8,
+      "offset": 90828
+    },
+    {
+      "meshIndex": 86,
+      "primitiveIndex": 0,
+      "sourceTriangles": 20,
+      "triangles": 14,
+      "offset": 90860
+    },
+    {
+      "meshIndex": 87,
+      "primitiveIndex": 0,
+      "sourceTriangles": 94,
+      "triangles": 52,
+      "offset": 90916
+    },
+    {
+      "meshIndex": 88,
+      "primitiveIndex": 0,
+      "sourceTriangles": 108,
+      "triangles": 72,
+      "offset": 91124
+    },
+    {
+      "meshIndex": 90,
+      "primitiveIndex": 0,
+      "sourceTriangles": 14,
+      "triangles": 8,
+      "offset": 91412
+    },
+    {
+      "meshIndex": 90,
+      "primitiveIndex": 2,
+      "sourceTriangles": 644,
+      "triangles": 380,
+      "offset": 91444
+    },
+    {
+      "meshIndex": 90,
+      "primitiveIndex": 3,
+      "sourceTriangles": 92,
+      "triangles": 50,
+      "offset": 92964
+    },
+    {
+      "meshIndex": 92,
+      "primitiveIndex": 0,
+      "sourceTriangles": 64,
+      "triangles": 58,
+      "offset": 93164
+    },
+    {
+      "meshIndex": 92,
+      "primitiveIndex": 1,
+      "sourceTriangles": 22,
+      "triangles": 16,
+      "offset": 93396
+    },
+    {
+      "meshIndex": 92,
+      "primitiveIndex": 2,
+      "sourceTriangles": 8,
+      "triangles": 2,
+      "offset": 93460
+    },
+    {
+      "meshIndex": 94,
+      "primitiveIndex": 0,
+      "sourceTriangles": 248,
+      "triangles": 132,
+      "offset": 93468
+    },
+    {
+      "meshIndex": 94,
+      "primitiveIndex": 1,
+      "sourceTriangles": 354,
+      "triangles": 238,
+      "offset": 93996
+    },
+    {
+      "meshIndex": 94,
+      "primitiveIndex": 2,
+      "sourceTriangles": 118,
+      "triangles": 2,
+      "offset": 94948
+    },
+    {
+      "meshIndex": 101,
+      "primitiveIndex": 0,
+      "sourceTriangles": 158,
+      "triangles": 156,
+      "offset": 94956
+    },
+    {
+      "meshIndex": 101,
+      "primitiveIndex": 1,
+      "sourceTriangles": 13,
+      "triangles": 11,
+      "offset": 95580
+    },
+    {
+      "meshIndex": 101,
+      "primitiveIndex": 2,
+      "sourceTriangles": 2,
+      "triangles": 0,
+      "offset": 95624
+    },
+    {
+      "meshIndex": 102,
+      "primitiveIndex": 1,
+      "sourceTriangles": 101,
+      "triangles": 96,
+      "offset": 95624
+    },
+    {
+      "meshIndex": 103,
+      "primitiveIndex": 0,
+      "sourceTriangles": 82,
+      "triangles": 48,
+      "offset": 96008
+    },
+    {
+      "meshIndex": 103,
+      "primitiveIndex": 1,
+      "sourceTriangles": 14,
+      "triangles": 0,
+      "offset": 96200
+    },
+    {
+      "meshIndex": 104,
+      "primitiveIndex": 0,
+      "sourceTriangles": 288,
+      "triangles": 144,
+      "offset": 96200
+    },
+    {
+      "meshIndex": 104,
+      "primitiveIndex": 1,
+      "sourceTriangles": 12,
+      "triangles": 6,
+      "offset": 96776
+    },
+    {
+      "meshIndex": 107,
+      "primitiveIndex": 2,
+      "sourceTriangles": 45,
+      "triangles": 41,
+      "offset": 96800
+    },
+    {
+      "meshIndex": 107,
+      "primitiveIndex": 3,
+      "sourceTriangles": 19,
+      "triangles": 17,
+      "offset": 96964
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 1,
+      "sourceTriangles": 300,
+      "triangles": 180,
+      "offset": 97032
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 2,
+      "sourceTriangles": 928,
+      "triangles": 726,
+      "offset": 97752
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 3,
+      "sourceTriangles": 2142,
+      "triangles": 1021,
+      "offset": 100656
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 4,
+      "sourceTriangles": 670,
+      "triangles": 580,
+      "offset": 104740
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 6,
+      "sourceTriangles": 204,
+      "triangles": 192,
+      "offset": 107060
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 8,
+      "sourceTriangles": 249,
+      "triangles": 219,
+      "offset": 107828
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 14,
+      "sourceTriangles": 276,
+      "triangles": 210,
+      "offset": 108704
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 16,
+      "sourceTriangles": 28,
+      "triangles": 18,
+      "offset": 109544
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 19,
+      "sourceTriangles": 637,
+      "triangles": 511,
+      "offset": 109616
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 23,
+      "sourceTriangles": 24,
+      "triangles": 12,
+      "offset": 111660
+    },
+    {
+      "meshIndex": 109,
+      "primitiveIndex": 24,
+      "sourceTriangles": 20,
+      "triangles": 10,
+      "offset": 111708
+    },
+    {
+      "meshIndex": 110,
+      "primitiveIndex": 0,
+      "sourceTriangles": 1644,
+      "triangles": 1364,
+      "offset": 111748
+    },
+    {
+      "meshIndex": 111,
+      "primitiveIndex": 0,
+      "sourceTriangles": 8808,
+      "triangles": 6324,
+      "offset": 117204
+    },
+    {
+      "meshIndex": 113,
+      "primitiveIndex": 0,
+      "sourceTriangles": 31374,
+      "triangles": 22130,
+      "offset": 142500
+    },
+    {
+      "meshIndex": 113,
+      "primitiveIndex": 1,
+      "sourceTriangles": 2376,
+      "triangles": 1292,
+      "offset": 231020
+    },
+    {
+      "meshIndex": 114,
+      "primitiveIndex": 0,
+      "sourceTriangles": 1184,
+      "triangles": 617,
+      "offset": 236188
+    },
+    {
+      "meshIndex": 114,
+      "primitiveIndex": 1,
+      "sourceTriangles": 260,
+      "triangles": 172,
+      "offset": 238656
+    },
+    {
+      "meshIndex": 114,
+      "primitiveIndex": 2,
+      "sourceTriangles": 1150,
+      "triangles": 580,
+      "offset": 239344
+    },
+    {
+      "meshIndex": 114,
+      "primitiveIndex": 4,
+      "sourceTriangles": 57,
+      "triangles": 51,
+      "offset": 241664
+    },
+    {
+      "meshIndex": 114,
+      "primitiveIndex": 5,
+      "sourceTriangles": 41,
+      "triangles": 37,
+      "offset": 241868
+    },
+    {
+      "meshIndex": 116,
+      "primitiveIndex": 0,
+      "sourceTriangles": 1920,
+      "triangles": 1322,
+      "offset": 242016
+    },
+    {
+      "meshIndex": 117,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 206,
+      "offset": 247304
+    },
+    {
+      "meshIndex": 118,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 206,
+      "offset": 248128
+    },
+    {
+      "meshIndex": 119,
+      "primitiveIndex": 0,
+      "sourceTriangles": 2880,
+      "triangles": 2104,
+      "offset": 248952
+    },
+    {
+      "meshIndex": 121,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 226,
+      "offset": 257368
+    },
+    {
+      "meshIndex": 123,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 228,
+      "offset": 258272
+    },
+    {
+      "meshIndex": 125,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 206,
+      "offset": 259184
+    },
+    {
+      "meshIndex": 127,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 206,
+      "offset": 260008
+    },
+    {
+      "meshIndex": 129,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 258,
+      "offset": 260832
+    },
+    {
+      "meshIndex": 131,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 216,
+      "offset": 261864
+    },
+    {
+      "meshIndex": 133,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 211,
+      "offset": 262728
+    },
+    {
+      "meshIndex": 135,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 206,
+      "offset": 263572
+    },
+    {
+      "meshIndex": 136,
+      "primitiveIndex": 0,
+      "sourceTriangles": 380,
+      "triangles": 206,
+      "offset": 264396
+    },
+    {
+      "meshIndex": 140,
+      "primitiveIndex": 0,
+      "sourceTriangles": 92,
+      "triangles": 50,
+      "offset": 265220
+    },
+    {
+      "meshIndex": 141,
+      "primitiveIndex": 0,
+      "sourceTriangles": 204,
+      "triangles": 198,
+      "offset": 265420
+    },
+    {
+      "meshIndex": 141,
+      "primitiveIndex": 1,
+      "sourceTriangles": 364,
+      "triangles": 278,
+      "offset": 266212
+    },
+    {
+      "meshIndex": 141,
+      "primitiveIndex": 6,
+      "sourceTriangles": 26873,
+      "triangles": 17623,
+      "offset": 267324
+    },
+    {
+      "meshIndex": 141,
+      "primitiveIndex": 7,
+      "sourceTriangles": 1944,
+      "triangles": 1884,
+      "offset": 337816
+    },
+    {
+      "meshIndex": 141,
+      "primitiveIndex": 8,
+      "sourceTriangles": 24,
+      "triangles": 12,
+      "offset": 345352
+    },
+    {
+      "meshIndex": 141,
+      "primitiveIndex": 9,
+      "sourceTriangles": 110109,
+      "triangles": 104851,
+      "offset": 345400
+    },
+    {
+      "meshIndex": 141,
+      "primitiveIndex": 12,
+      "sourceTriangles": 2400,
+      "triangles": 1406,
+      "offset": 764804
+    },
+    {
+      "meshIndex": 142,
+      "primitiveIndex": 2,
+      "sourceTriangles": 2400,
+      "triangles": 1342,
+      "offset": 770428
+    }
+  ],
+  "algorithm": "Rear-facing union over quarter-frame interpolated camera/part poses, independent of viewport bounds. Only watertight consistently wound opaque connected components qualify. 8 degree silhouette margin; open sheets, zero-volume components and transparent surfaces unchanged. Full source geometry retained for free camera fallback."
+}

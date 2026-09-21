@@ -1,0 +1,12 @@
+{
+  "id": "winter-interior",
+  "label": "Winter Interior",
+  "url": "/ridge/webgpu/winter-interior.glb",
+  "bytes": 1065432,
+  "triangles": 28763,
+  "instances": 0,
+  "sourceObjects": 32,
+  "category": "interior",
+  "sourceRevision": "V116",
+  "variant": "winter"
+}

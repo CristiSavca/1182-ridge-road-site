@@ -1,0 +1,19 @@
+{
+  "id": "vegetation",
+  "label": "Vegetation",
+  "url": "/ridge/webgpu/vegetation.glb",
+  "bytes": 48769968,
+  "triangles": 1126640,
+  "instances": 657,
+  "sourceObjects": 657,
+  "category": "vegetation",
+  "sourceRevision": "V115",
+  "variant": "all",
+  "nativeTriangles": 2128992,
+  "lod": {
+    "beforeTriangles": 2128992,
+    "afterTriangles": 1126640,
+    "maxError": 0.03134610503911972,
+    "method": "meshoptimizer topology LOD, 3% relative error"
+  }
+}

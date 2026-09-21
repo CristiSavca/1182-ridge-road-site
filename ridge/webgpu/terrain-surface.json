@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 1,
+  "coordinateSystem": "Y_UP",
+  "units": "meters",
+  "revision": "Native V86 terrain with V95 albedo balance and V98 surveyed seam",
+  "textures": {
+    "grass": {
+      "asset": "aerial_grass_rock",
+      "diffuse": {
+        "url": "/ridge/webgpu/terrain-surface/aerial_grass_rock_diff_2k.jpg",
+        "bytes": 2278776,
+        "sha256": "757943ae78706df4a77e5e52552c23e90ed590fa2d0d8b1471b0057261223da2",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "colorSpace": "srgb",
+        "source": {
+          "path": "output/blender/assets/polyhaven/aerial_grass_rock/aerial_grass_rock_diff_4k.jpg",
+          "sha256": "84bf24b80d097c1a38d0fbe5c84584b1ede3e2ab06b4af2721fd184a9f94d5a3"
+        },
+        "sourceDimensions": [
+          4096,
+          4096
+        ],
+        "wrap": "repeat",
+        "flipY": false
+      },
+      "roughness": {
+        "url": "/ridge/webgpu/terrain-surface/aerial_grass_rock_rough_2k.jpg",
+        "bytes": 1730645,
+        "sha256": "c43dba443372db2fad5fb3a7b8bc9db5551421cb24b6ba37ad4d2a92376bdac6",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "colorSpace": "linear",
+        "source": {
+          "path": "output/blender/assets/polyhaven/aerial_grass_rock/aerial_grass_rock_rough_4k.jpg",
+          "sha256": "54a58a4d9a1b7eabc6c9bdbb46244bf1206ab0f0c23cc511d270ec37de4c69ce"
+        },
+        "sourceDimensions": [
+          4096,
+          4096
+        ],
+        "wrap": "repeat",
+        "flipY": false
+      },
+      "repeatMeters": 15,
+      "pigmentLinear": [
+        0.168,
+        0.285,
+        0.104
+      ],
+      "license": "CC0",
+      "sourceUrl": "https://polyhaven.com/a/aerial_grass_rock",
+      "height": {
+        "url": "/ridge/webgpu/terrain-surface/aerial_grass_rock_height_2k.png",
+        "bytes": 6347407,
+        "sha256": "329d8a9863f850ad9efa8dbae0fa82c23a45f4dfaca7787da48720c33094dcd2",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "colorSpace": "linear",
+        "source": {
+          "path": "output/blender/assets/polyhaven/aerial_grass_rock/aerial_grass_rock_disp_4k.exr",
+          "sha256": "475b09ba5fe868470ccdb887ac5f3ff7eed3569bf6ac64670602053508468f3d"
+        },
+        "wrap": "repeat",
+        "flipY": false,
+        "bitDepth": 16,
+        "rangeUint16": [
+          182,
+          65292
+        ],
+        "use": "Shading-only relief; never vertex displacement"
+      }
+    },
+    "forest": {
+      "asset": "forest_ground_04",
+      "diffuse": {
+        "url": "/ridge/webgpu/terrain-surface/forest_ground_04_diff_2k.jpg",
+        "bytes": 4529321,
+        "sha256": "24b8aaf4c8547305d80b0e029ec365219ab1b90748d4ca5651bdc9e75bfde5e6",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "colorSpace": "srgb",
+        "source": {
+          "path": "output/blender/assets/polyhaven/forest_ground_04/forest_ground_04_diff_2k.jpg",
+          "sha256": "24b8aaf4c8547305d80b0e029ec365219ab1b90748d4ca5651bdc9e75bfde5e6"
+        },
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "wrap": "repeat",
+        "flipY": false
+      },
+      "roughness": {
+        "url": "/ridge/webgpu/terrain-surface/forest_ground_04_rough_2k.jpg",
+        "bytes": 2509805,
+        "sha256": "24194662948424c323c75e0918461ad9d38bc0a275022000144f248b3efb4119",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "colorSpace": "linear",
+        "source": {
+          "path": "output/blender/assets/polyhaven/forest_ground_04/forest_ground_04_rough_2k.jpg",
+          "sha256": "24194662948424c323c75e0918461ad9d38bc0a275022000144f248b3efb4119"
+        },
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "wrap": "repeat",
+        "flipY": false
+      },
+      "repeatMeters": 3,
+      "pigmentLinear": [
+        0.085,
+        0.11,
+        0.05
+      ],
+      "license": "CC0",
+      "sourceUrl": "https://polyhaven.com/a/forest_ground_04"
+    },
+    "rock": {
+      "asset": "rock_face_03",
+      "diffuse": {
+        "url": "/ridge/webgpu/terrain-surface/rock_face_03_diff_2k.jpg",
+        "bytes": 3814362,
+        "sha256": "644ee79df7ffbf5f6afc330b64dd3f33794bab8820915fe61ffe0c88ecfd7ece",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "colorSpace": "srgb",
+        "source": {
+          "path": "output/blender/assets/polyhaven/rock_face_03/rock_face_03_diff_2k.jpg",
+          "sha256": "644ee79df7ffbf5f6afc330b64dd3f33794bab8820915fe61ffe0c88ecfd7ece"
+        },
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "wrap": "repeat",
+        "flipY": false
+      },
+      "roughness": {
+        "url": "/ridge/webgpu/terrain-surface/rock_face_03_rough_2k.jpg",
+        "bytes": 2601552,
+        "sha256": "9ca3e9e196685f702328f24d66f039b72f5330fc35cf2a2c265cfa50a7916301",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "colorSpace": "linear",
+        "source": {
+          "path": "output/blender/assets/polyhaven/rock_face_03/rock_face_03_rough_2k.jpg",
+          "sha256": "9ca3e9e196685f702328f24d66f039b72f5330fc35cf2a2c265cfa50a7916301"
+        },
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "wrap": "repeat",
+        "flipY": false
+      },
+      "repeatMeters": 8,
+      "pigmentLinear": [
+        0.3,
+        0.34,
+        0.36
+      ],
+      "license": "CC0",
+      "sourceUrl": "https://polyhaven.com/a/rock_face_03"
+    }
+  },
+  "mapping": {
+    "position": "world",
+    "projection": "box",
+    "projectionBlend": 0.25,
+    "nativeCoordinates": "[world.x, -world.z, world.y]",
+    "registration": {
+      "path": "output/blender/assets/v9_geography/geography_registration.json",
+      "sha256": "75a1debb6f81943f81a6b1a70c77dc91d1c0d7867a154e70b801d273b10c904a"
+    },
+    "modelToUtmMatrix": [
+      [
+        0.7693581765250624,
+        -0.6388176549016402
+      ],
+      [
+        0.6388176549016402,
+        0.7693581765250624
+      ]
+    ],
+    "worldToUtmMatrix": [
+      [
+        0.7693581765250624,
+        0,
+        0.6388176549016402
+      ],
+      [
+        0.6388176549016402,
+        0,
+        -0.7693581765250624
+      ]
+    ],
+    "worldToUtmTranslationMeters": [
+      458517.2714476108,
+      4424958.880997516
+    ],
+    "crs": "EPSG:26913"
+  },
+  "classification": {
+    "attribute": "_HABITAT",
+    "threeAttribute": "_habitat",
+    "sourceAttribute": "V86_Habitat.red",
+    "values": "Exact native vertex classification; interpolate linearly",
+    "formula": "clamp((G/max(R,0.02)-1)/0.11,0,1)*clamp((G/max(B,0.02)-1)/0.18,0,1)",
+    "inputColorSpace": "Raw JPEG RGB / 255; do not linearize classifier inputs",
+    "tiers": [
+      {
+        "id": "regional-66km",
+        "source": {
+          "path": "output/blender/assets/v10_horizon/USGS_NAIP_66km_20m.jpg",
+          "sha256": "ad5cc228db65dabacf03d4bb164eae23a7fee86718554a4e8c1abd0c77814da0"
+        },
+        "dimensions": [
+          3300,
+          3300
+        ],
+        "originUtmMeters": [
+          425513.6442766578,
+          4391952.022872338
+        ],
+        "spanMeters": 66000
+      },
+      {
+        "id": "regional-30km",
+        "source": {
+          "path": "output/blender/assets/usgs_naip/nederland_regional_30km_4000.jpg",
+          "sha256": "b5526c48c4c7633329eaaee2964ca00b25f4cbe013258149f9d5eb9230c3d362"
+        },
+        "dimensions": [
+          4000,
+          4000
+        ],
+        "originUtmMeters": [
+          443518.6442766578,
+          4409947.022872338
+        ],
+        "spanMeters": 30000
+      },
+      {
+        "id": "middle-8km",
+        "source": {
+          "path": "output/blender/assets/usgs_naip/nederland_middle_8km_2000.jpg",
+          "sha256": "5a7486ac6257485661553242e5b5b29d6b8f7c48cb5b53a3db5c27edea08f5ad"
+        },
+        "dimensions": [
+          2000,
+          2000
+        ],
+        "originUtmMeters": [
+          454518.6442766578,
+          4420947.022872338
+        ],
+        "spanMeters": 8000
+      }
+    ],
+    "tierSelection": "Later, finer tiers replace earlier tiers where 0 <= U,V < 1",
+    "rasterUv": "[(E-originE)/span, 1-(N-originN)/span]",
+    "rasterSampling": "Nearest pixel, top-left origin",
+    "geographicPhotographsVisible": false,
+    "spectralHardGroundDisconnected": true
+  },
+  "regional": {
+    "noise": {
+      "detail": 3,
+      "roughness": 0.65,
+      "patchScale": 0.032,
+      "grainScale": 24,
+      "rockShapeScale": 0.55
+    },
+    "grassStraw": {
+      "noiseRange": [
+        0.27,
+        0.73
+      ],
+      "factorRange": [
+        0.1,
+        0.55
+      ],
+      "interpolation": "smoothstep",
+      "colorLinear": [
+        0.074,
+        0.08,
+        0.035
+      ]
+    },
+    "forestTaper": {
+      "worldYRangeMeters": [
+        660,
+        890
+      ],
+      "factorRange": [
+        1,
+        0
+      ],
+      "interpolation": "smoothstep"
+    },
+    "rockExposure": {
+      "combine": "maximum",
+      "normalYRange": [
+        0.5,
+        0.8
+      ],
+      "slopeFactorRange": [
+        1,
+        0
+      ],
+      "worldYRangeMeters": [
+        680,
+        1100
+      ],
+      "altitudeFactorRange": [
+        0,
+        1
+      ],
+      "interpolation": "smoothstep"
+    },
+    "mineralSoil": {
+      "factor": "rockExposure * 0.12",
+      "pigmentLinear": [
+        0.75,
+        0.7,
+        0.6
+      ]
+    },
+    "blendOrder": [
+      "grassDiffuse * grassPigment",
+      "mix(grass, straw, grassStraw)",
+      "mix(grass, forestDiffuse * forestPigment, _HABITAT * forestTaper)",
+      "mix(ground, rockDiffuse * rockPigment, rockExposure)",
+      "mix(ground, rock * mineralPigment, rockExposure * 0.12)"
+    ],
+    "roughness": {
+      "grassLitterRange": [
+        0.87,
+        0.98
+      ],
+      "grainRange": [
+        0,
+        1
+      ],
+      "interpolation": "smoothstep",
+      "rockMap": "textures.rock.roughness",
+      "blendFactor": "rockExposure"
+    },
+    "specularIorLevel": 0.22,
+    "bump": {
+      "distanceMeters": 0.028,
+      "strength": 0.22,
+      "height": "mix(grainNoise, rockShapeNoise, rockExposure)"
+    }
+  },
+  "perennialSnow": {
+    "attribute": "_SNOW",
+    "threeAttribute": "_snow",
+    "sourceAttribute": "V87_Perennial_Snow",
+    "colorLinear": [
+      0.76,
+      0.8,
+      0.85
+    ],
+    "roughness": 0.79
+  },
+  "siteMeadow": {
+    "scan": "textures.grass",
+    "scanRepeatMeters": 15,
+    "projectionBlend": 0.32,
+    "rotationRadians": [
+      0.27,
+      1.83
+    ],
+    "rotationAxis": "native Z / world Y",
+    "offsets": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.317,
+        0.193,
+        0.127
+      ]
+    ],
+    "orientationNoise": {
+      "scale": 0.036,
+      "detail": 3,
+      "roughness": 0.62
+    },
+    "vegetationGrade": {
+      "chromaRange": [
+        0.58,
+        0.86
+      ],
+      "greenRedRatioRange": [
+        0.48,
+        0.7
+      ],
+      "safeDenominator": 0.0001,
+      "hue": 0.61,
+      "saturation": 0.9,
+      "value": 0.52,
+      "inputColorSpace": "linear"
+    },
+    "litter": {
+      "scan": "textures.forest",
+      "coordinateScale": 0.325,
+      "noiseScale": 0.26,
+      "noiseDetail": 3,
+      "colorRamp": [
+        {
+          "position": 0.23,
+          "colorLinear": [
+            0.35,
+            0.27,
+            0.14
+          ]
+        },
+        {
+          "position": 0.6,
+          "colorLinear": [
+            0.28,
+            0.34,
+            0.1
+          ]
+        },
+        {
+          "position": 0.8,
+          "colorLinear": [
+            0.54,
+            0.5,
+            0.25
+          ]
+        }
+      ],
+      "multiplyFactor": 0.72
+    },
+    "patchNoise": {
+      "scale": 0.19,
+      "detail": 3,
+      "roughness": 0.62
+    },
+    "scanFactorRamp": [
+      [
+        0.24,
+        0.55
+      ],
+      [
+        0.5,
+        0.83
+      ],
+      [
+        0.76,
+        0.96
+      ]
+    ],
+    "pigmentLinear": [
+      0.22,
+      0.34,
+      0.12
+    ],
+    "pigmentMultiplyFactor": 0.88,
+    "specularIorLevel": 0.18,
+    "bump": {
+      "distanceMeters": 0.06,
+      "strength": 0.33
+    },
+    "seam": {
+      "attribute": "_SEAM",
+      "threeAttribute": "_seam",
+      "sourceAttribute": "TerrainMasks.alpha",
+      "range": [
+        0,
+        0.012
+      ],
+      "interpolation": "smoothstep",
+      "channels": [
+        "color",
+        "roughness",
+        "normal"
+      ],
+      "atZero": "siteMeadow",
+      "atOne": "regional"
+    }
+  },
+  "sourceScripts": [
+    {
+      "path": "scripts/v86_landscape_data.py",
+      "sha256": "39bf39ac7920e63af0424509eaa0536a5af8d84227f4e462d514e79fe6de9328"
+    },
+    {
+      "path": "scripts/v86_terrain_materials.py",
+      "sha256": "234a3f9ca279fe8ea05e0270d2709d23c1d165e598d59f9ee61ea0dd0bb2c715"
+    },
+    {
+      "path": "scripts/v94_surface_finish.py",
+      "sha256": "8c9e0e2270a3fa5873169c4b29dce724ada48d8f6e67997aa404050169a703bd"
+    },
+    {
+      "path": "scripts/v98_terrain_transition.py",
+      "sha256": "8c4a7539510e71d4b84c20a3ba35623d9b024d8591d3c9612bb9d26b9bffeb85"
+    },
+    {
+      "path": "scripts/v10_meadow_surface.py",
+      "sha256": "7b453d96b5aac4a5eaea2825dad308d014a5b963324de12ab13b7b4de10106bd"
+    },
+    {
+      "path": "scripts/blender_v93_green_ground_and_continuous_steel.py",
+      "sha256": "b9d3cfe91cb96337b6086333ad38dbd8a73279bf99767851a6499450c0030375"
+    },
+    {
+      "path": "scripts/blender_v87_clear_summer.py",
+      "sha256": "d5c0f9fd2371419ab096a43a5eaaa06167ff8f297062faeac628171d2e1669d3"
+    }
+  ]
+}

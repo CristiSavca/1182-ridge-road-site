@@ -1,0 +1,3572 @@
+{
+  "baselineAudit": "output/blender/verification/v100/material_audit_after.json",
+  "baselineSource": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/Weekender_V100_1080p_Connected_Materials.blend",
+  "scope": "All materials in current manifest. V100 graph baseline plus separate newer wood, architecture, terrain, cloth, glass and environment implementations. A matching texture filename does not establish shader parity.",
+  "materialCount": 169,
+  "repairs": {
+    "ENV_V21_Display_ENV_V10_NAIP_Forest_Healthy_Needles_pine_tree_01_twig": {
+      "roughness": "/ridge/webgpu/native-channel-recovery/c12da3dd6c1588f50307.jpg",
+      "normalStrength": 1.0
+    },
+    "ENV_V21_Display_pine_tree_01_bark": {
+      "roughness": "/ridge/webgpu/native-channel-recovery/63c3785c47a2f4193e50.jpg",
+      "normalStrength": 1.0
+    },
+    "ENV_V21_Display_pine_tree_01_dead_branches": {
+      "roughness": "/ridge/webgpu/native-channel-recovery/63c3785c47a2f4193e50.jpg",
+      "normalStrength": 1.0
+    },
+    "LOOKDEV_Firewood_Pine_Bark_CC0_01": {
+      "normalStrength": 0.5799999833106995
+    },
+    "LOOKDEV_Firewood_Pine_Bark_CC0_02": {
+      "normalStrength": 0.5799999833106995
+    },
+    "LOOKDEV_Firewood_Pine_Bark_CC0_03": {
+      "normalStrength": 0.5799999833106995
+    },
+    "LOOKDEV_Firewood_Pine_Bark_CC0_04": {
+      "normalStrength": 0.5799999833106995
+    },
+    "LOOKDEV_Firewood_Rough_Wood_CC0_01": {
+      "normalStrength": 0.3799999952316284
+    },
+    "LOOKDEV_Firewood_Rough_Wood_CC0_02": {
+      "normalStrength": 0.3799999952316284
+    },
+    "LOOKDEV_Firewood_Rough_Wood_CC0_03": {
+      "normalStrength": 0.3799999952316284
+    },
+    "LOOKDEV_Upholstery_Taupe_Terlenka_CC0_01": {
+      "normalStrength": 0.3199999928474426
+    },
+    "LOOKDEV_Upholstery_Taupe_Terlenka_CC0_02": {
+      "normalStrength": 0.3199999928474426
+    },
+    "LOOKDEV_White_Plaster_CC0_01": {
+      "normalStrength": 0.14000000059604645
+    },
+    "LOOKDEV_White_Plaster_CC0_03": {
+      "normalStrength": 0.14000000059604645
+    },
+    "LOOKDEV_White_Plaster_CC0_04": {
+      "normalStrength": 0.14000000059604645
+    },
+    "V38_Fade_0_ENV_V21_Display_SITE_MAT_Pine_Bark_PolyHaven_CC0": {
+      "roughness": "/ridge/webgpu/native-channel-recovery/a86618f6358a97410b15.jpg",
+      "normalStrength": 0.6499999761581421
+    },
+    "V38_Fade_0_ENV_V21_Display_SITE_MAT_Pine_Twigs_PolyHaven_CC0": {
+      "normalStrength": 0.3499999940395355
+    },
+    "V66_Ivory_Loft_Cover_1": {
+      "normalStrength": 0.14000000059604645
+    },
+    "V66_Ivory_Loft_Cover_2": {
+      "normalStrength": 0.14000000059604645
+    }
+  },
+  "images": {
+    "/ridge/webgpu/native-channel-recovery/c12da3dd6c1588f50307.jpg": {
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_twig_rough_1k.png",
+      "sourceSha256": "c12da3dd6c1588f50307d96807d78115757f110bc562811369d90b86bd6fddc7",
+      "bytes": 255644
+    },
+    "/ridge/webgpu/native-channel-recovery/63c3785c47a2f4193e50.jpg": {
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_bark_rough_1k.png",
+      "sourceSha256": "63c3785c47a2f4193e5054d9f8481da0bd41bc2bfc1a993cd8785fad6339fe97",
+      "bytes": 380532
+    },
+    "/ridge/webgpu/native-channel-recovery/a86618f6358a97410b15.jpg": {
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_bark/pine_bark_rough_2k.jpg",
+      "sourceSha256": "a86618f6358a97410b15d226d0b3d52bb203aed8d9a29cfa355769b95df94d03",
+      "bytes": 1224754
+    }
+  },
+  "materials": [
+    {
+      "name": "*29",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "*3",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "*4",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "*5",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "<Black>1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "<Charcoal>2",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "<CorrogateShiny>1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "<auto>",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "Built-in-Induction-Cooktop-With-Two-Zones-3100-Watts-220-Volts-and-Black-Ceran-Smooth-top-Finish-SINC2220",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "CERAMIC",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "Chips grijs",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "Chips grijs.001",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "Chips zwart",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Default back",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "Default front",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "ENV_V21_Display_ENV_V10_NAIP_Forest_Healthy_Needles_pine_tree_01_twig",
+      "nativeNodeTypes": [
+        "ADD_SHADER",
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BSDF_TRANSPARENT",
+        "HUE_SAT",
+        "INVERT",
+        "MAPPING",
+        "MATH",
+        "MIX",
+        "MIX_RGB",
+        "MIX_SHADER",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "REROUTE",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "roughness": "/ridge/webgpu/native-channel-recovery/c12da3dd6c1588f50307.jpg",
+        "normalStrength": 1.0
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "ENV_V21_Display_pine_tree_01_bark",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "DISPLACEMENT",
+        "MAPPING",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "REROUTE",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "roughness": "/ridge/webgpu/native-channel-recovery/63c3785c47a2f4193e50.jpg",
+        "normalStrength": 1.0
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": [
+        "DISPLACEMENT"
+      ]
+    },
+    {
+      "name": "ENV_V21_Display_pine_tree_01_dead_branches",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "DISPLACEMENT",
+        "MAPPING",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "REROUTE",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "roughness": "/ridge/webgpu/native-channel-recovery/63c3785c47a2f4193e50.jpg",
+        "normalStrength": 1.0
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": [
+        "DISPLACEMENT"
+      ]
+    },
+    {
+      "name": "ENV_V21_Display_pine_tree_01_trunk_a",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "MAPPING",
+        "MIX_SHADER",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "REROUTE",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VERTEX_COLOR"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "BOX",
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "ENV_V21_Display_pine_tree_01_trunk_b",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "MAPPING",
+        "MIX_SHADER",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "REROUTE",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VERTEX_COLOR"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "BOX",
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "ENV_V21_Display_pine_tree_01_trunk_c",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "MAPPING",
+        "MIX_SHADER",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "REROUTE",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VERTEX_COLOR"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "BOX",
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Brass_Hardware_Procedural_01",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_Brass_Hardware_Procedural_02",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_Brushed_Stainless_Procedural",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_Driveway_Compacted_Black_Granite_PolyHaven_CC0",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "HUE_SAT",
+        "MAPPING",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "BOX"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_Driveway_Gravel_Feather_PolyHaven_CC0",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "HUE_SAT",
+        "MAPPING",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "BOX"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_Exterior_Dark_Stained_Oak",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Exterior_Dark_Stained_Oak_Raw_U_Longitudinal",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Exterior_Dark_Stained_Oak_Vertical_Chimney_Gable",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Fire_Procedural_Emission_01",
+      "nativeNodeTypes": [
+        "BSDF_TRANSPARENT",
+        "OUTPUT_MATERIAL"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Fire_Procedural_Emission_02",
+      "nativeNodeTypes": [
+        "BSDF_TRANSPARENT",
+        "OUTPUT_MATERIAL"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Firewood_Charred_Procedural_01",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAPPING",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "LOOKDEV_Firewood_Charred_Procedural_02",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAPPING",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "LOOKDEV_Firewood_Pine_Bark_CC0_01",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.5799999833106995
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Firewood_Pine_Bark_CC0_02",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.5799999833106995
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Firewood_Pine_Bark_CC0_03",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.5799999833106995
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Firewood_Pine_Bark_CC0_04",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.5799999833106995
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Firewood_Rough_Wood_CC0_01",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.3799999952316284
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Firewood_Rough_Wood_CC0_02",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.3799999952316284
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Firewood_Rough_Wood_CC0_03",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.3799999952316284
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Forest_Ground_CC0",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "SEPXYZ",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "BOX"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Interior_Natural_Oak_PolyHaven_CC0",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Upholstery_Taupe_Terlenka_CC0_01",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "HUE_SAT",
+        "MAPPING",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.3199999928474426
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_Upholstery_Taupe_Terlenka_CC0_02",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "HUE_SAT",
+        "MAPPING",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.3199999928474426
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_V5_HotTub_Brushed_Stainless_Interior",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_V5_HotTub_Clear_Turquoise_Water",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH",
+        "VOLUME_ABSORPTION"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "LOOKDEV_V5_Solar_Black_Backplate",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "LOOKDEV_White_Plaster_CC0_01",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "HUE_SAT",
+        "MAPPING",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.14000000059604645
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_White_Plaster_CC0_03",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "HUE_SAT",
+        "MAPPING",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.14000000059604645
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "LOOKDEV_White_Plaster_CC0_04",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "HUE_SAT",
+        "MAPPING",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.14000000059604645
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "Matte: FF1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Metal_Corrogated_Shiny",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Nickel metal",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Night Watch",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "Night Watch.001",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "Oak floors",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "Screen Shot 2017-08-24 at 11.34.44 AM1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "TEX_NOISE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "Steve_Edges",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "Stuv Metal",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V101 Walkway uniform satin coating",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V108 blue_hour_winter V62 bq_Leaf_Populus-tremuloides",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V10_Firebox_Soot_Dark_Refractory",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V10_Native_Architectural_Glass_01",
+      "nativeNodeTypes": [
+        "BSDF_GLASS",
+        "BSDF_TRANSPARENT",
+        "BUMP",
+        "LIGHT_PATH",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V10_Reading_Fixture_3000K_Diffuser",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V10_Reading_Fixture_Blackened_Steel",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V110 cocktail 1 liquid shared volume",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V110 cocktail 2 liquid shared volume",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V110 decanter liquid shared volume",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V116 Slightly dimmed cozy sconce lens",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V38_Fade_0_ENV_V10_Regional_Canopy_Evergreen_Needles",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSPARENT",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V38_Fade_0_ENV_V10_Regional_Canopy_Ponderosa_Bark",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSPARENT",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V38_Fade_0_ENV_V10_Regional_Canopy_Sunward_Needle_Tips",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSPARENT",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V38_Fade_0_ENV_V21_Display_SITE_MAT_Pine_Bark_PolyHaven_CC0",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSPARENT",
+        "HUE_SAT",
+        "MAPPING",
+        "MIX_RGB",
+        "MIX_SHADER",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "roughness": "/ridge/webgpu/native-channel-recovery/a86618f6358a97410b15.jpg",
+        "normalStrength": 0.6499999761581421
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "V38_Fade_0_ENV_V21_Display_SITE_MAT_Pine_Twigs_PolyHaven_CC0",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSPARENT",
+        "HUE_SAT",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "MIX_SHADER",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.3499999940395355
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "nativeNodeTypes": [
+        "BSDF_GLASS",
+        "BSDF_TRANSPARENT",
+        "BUMP",
+        "LIGHT_PATH",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V53_Amber_Decanter_Liquid",
+      "nativeNodeTypes": [
+        "BSDF_GLASS",
+        "BSDF_TRANSPARENT",
+        "BUMP",
+        "LIGHT_PATH",
+        "MAP_RANGE",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V53_Clear_Modern_Crystal",
+      "nativeNodeTypes": [
+        "BSDF_GLASS",
+        "BSDF_TRANSPARENT",
+        "BUMP",
+        "LIGHT_PATH",
+        "MAP_RANGE",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V54_Reservoir_Dielectric_Water",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH",
+        "VOLUME_ABSORPTION"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V5_Archive_Original_Bench_Pads_Transparent",
+      "nativeNodeTypes": [
+        "BSDF_TRANSPARENT",
+        "OUTPUT_MATERIAL"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "V5_Clear_Handcut_Ice",
+      "nativeNodeTypes": [
+        "BSDF_GLASS",
+        "BSDF_TRANSPARENT",
+        "BUMP",
+        "LIGHT_PATH",
+        "MAP_RANGE",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V5_Round_Table_Natural_Oak_PolyHaven_CC0",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "MAPPING",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "V60_Render_A_V62 bq_Bark_Pinus-ponderosa",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V60_Render_A_V62 bq_Leaf_Pinus-ponderosa",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V60_Render_C_V62 bq_Bark_Pinus-ponderosa",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V60_Render_C_V62 bq_Leaf_Pinus-ponderosa",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V62 bq_Bark_Pinus-ponderosa",
+      "nativeNodeTypes": [
+        "BSDF_TRANSPARENT",
+        "GROUP",
+        "MIX_SHADER",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "V62 bq_Bark_Populus-tremuloides",
+      "nativeNodeTypes": [
+        "BSDF_TRANSPARENT",
+        "GROUP",
+        "MIX_SHADER",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "V62 bq_Leaf_Pinus-ponderosa",
+      "nativeNodeTypes": [
+        "BSDF_TRANSPARENT",
+        "GROUP",
+        "MIX_SHADER",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "V62 bq_Leaf_Populus-tremuloides",
+      "nativeNodeTypes": [
+        "BSDF_TRANSPARENT",
+        "GROUP",
+        "MIX_SHADER",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "V66_Ivory_Loft_Cover_1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "HUE_SAT",
+        "MAPPING",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.14000000059604645
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "V66_Ivory_Loft_Cover_2",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "HUE_SAT",
+        "MAPPING",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {
+        "normalStrength": 0.14000000059604645
+      },
+      "status": "direct-channels-recovered",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "V66_Warm_Ivory_Handwoven_Wool_Rug",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MATH",
+        "MIX_RGB",
+        "OUTPUT_MATERIAL",
+        "SEPXYZ",
+        "TEX_COORD",
+        "TEX_NOISE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V67_Deck_Original_SKP_Ipe",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V68_Neutral_Satin_Standing_Seam",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": true,
+      "nativeProjection": [
+        "BOX",
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V68_Oak_Inside_Neutral_Steel_Outside",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "BOX",
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V68_Oak_Inside_Neutral_Steel_Outside / native exterior backface",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V68_PV_Glass_Restrained_Highlight",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V68_Pine_Litter_and_Natural_Stair_Earth",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "GROUP",
+        "HUE_SAT",
+        "MAP_RANGE",
+        "MATH",
+        "MIX",
+        "MIX_RGB",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "SEPXYZ",
+        "TEX_IMAGE",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V68_bq_Rock_Granite_Photoscan_C",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "V68_bq_Rock_Granite_Photoscan_E",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "V69_Exterior_Concrete_Full_Cast_Scan",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "COMBXYZ",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "SEPXYZ",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V69_Exterior_Concrete_Full_Cast_Scan / native floor",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V69_Exterior_Concrete_Full_Cast_Scan / native wall",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V69_Honed_Concrete_Floor_Photo",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "COMBXYZ",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "SEPXYZ",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V69_Honed_Concrete_Floor_Photo / native floor",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V69_Honed_Concrete_Floor_Photo / native wall",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V69_Interior_Cast_Concrete_Real_Pores",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "COMBXYZ",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "SEPXYZ",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V69_Interior_Cast_Concrete_Real_Pores / native floor",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V69_Interior_Cast_Concrete_Real_Pores / native wall",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "V69_Photographic_Roughness_Couch_and_Sleeping_Pads",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "SEPXYZ",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "TEX_NOISE",
+        "VECT_MATH",
+        "VECT_TRANSFORM"
+      ],
+      "exportHasRoughnessTexture": true,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "SEPARATE_COLOR",
+        "SEPXYZ",
+        "TEX_IMAGE",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "BOX"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V74_Striped_Throw_Continuous_UV",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V77_Native_Wildflower_Leaf_and_Bract_Surface",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BSDF_TRANSLUCENT",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VERTEX_COLOR"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V88 Local granite grains",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V8_Fixture_2700K_Luminous_Diffuser",
+      "nativeNodeTypes": [
+        "EMISSION",
+        "OUTPUT_MATERIAL"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "V8_Lantern_Aged_Brass_Details",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V8_Lantern_Blackened_Steel",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "V8_Lantern_Clear_Glass",
+      "nativeNodeTypes": [
+        "BSDF_GLASS",
+        "BSDF_TRANSPARENT",
+        "BUMP",
+        "LIGHT_PATH",
+        "MAP_RANGE",
+        "MIX_SHADER",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V8_Lantern_Warm_Ivory_Wax",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant roof 0",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant roof 1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant roof 2",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant roof 3",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant roof 4",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant wall 0",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant wall 1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant wall 2",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant wall 3",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Distant wall 4",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Unpaved road gravel",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V94 Weathered asphalt",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V97 Excavated mountain soil",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VALTORGB"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "GROUP",
+        "MAP_RANGE",
+        "MATH",
+        "MIX",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "SEPARATE_COLOR",
+        "SEPXYZ",
+        "TEX_IMAGE",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "BOX"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "[0131_Silver]",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "[Aluminum]",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "[Color M00]",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "[Color M09]",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "[Color_003]1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "[Color_009]",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "[Color_A01]8",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "BUMP",
+        "TEX_NOISE",
+        "TEX_NOISE"
+      ]
+    },
+    {
+      "name": "[Metal_Rough]1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "bq_Bark_Pinus-ponderosa",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "bq_Bark_Rhus-aromatica",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Basic_Forest-debris",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Basic_Pinecone-Needle-Forest-Debris",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Flower_Bellflower",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Flower_Bromus-carinatus",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Flower_achillea-millefolium",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Grass",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Grass_Bromus-carinatus",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "REROUTE",
+        "SEPARATE_COLOR",
+        "SEPXYZ",
+        "TEX_IMAGE",
+        "VALTORGB",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Leaf_Achillea-millefolium",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Leaf_Pinus-ponderosa",
+      "status": "later-or-unrecorded-material",
+      "note": "Not present in V100 graph audit; do not assume parity."
+    },
+    {
+      "name": "bq_Leaf_Rhus-aromatica",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Snow",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "bq_Stem_Achillea-millefolium",
+      "nativeNodeTypes": [
+        "GROUP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP",
+        "GROUP"
+      ]
+    },
+    {
+      "name": "cedar1",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "floors2 copy",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "floors2 copy#2",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "floors2 copy#2.001",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "floors2 copy.001",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "grass_medium_01",
+      "nativeNodeTypes": [
+        "GROUP",
+        "MAPPING",
+        "OUTPUT_MATERIAL",
+        "REROUTE",
+        "TEX_COORD",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    },
+    {
+      "name": "ipe",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "ipe#2",
+      "nativeNodeTypes": [
+        "ATTRIBUTE",
+        "BSDF_PRINCIPLED",
+        "COMBXYZ",
+        "HUE_SAT",
+        "MAPPING",
+        "MAP_RANGE",
+        "MATH",
+        "MIX_RGB",
+        "NORMAL_MAP",
+        "OUTPUT_MATERIAL",
+        "TEX_COORD",
+        "TEX_IMAGE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "specialized-recipe",
+      "proceduralNodesRequireExplicitPort": []
+    },
+    {
+      "name": "reflection1",
+      "nativeNodeTypes": [
+        "BSDF_PRINCIPLED",
+        "BUMP",
+        "MAP_RANGE",
+        "MIX_RGB",
+        "NEW_GEOMETRY",
+        "OUTPUT_MATERIAL",
+        "TEX_NOISE",
+        "VECT_MATH"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "TEX_NOISE",
+        "TEX_NOISE",
+        "BUMP",
+        "BUMP"
+      ]
+    },
+    {
+      "name": "shrub_02",
+      "nativeNodeTypes": [
+        "GROUP",
+        "MAPPING",
+        "MATH",
+        "OUTPUT_MATERIAL",
+        "REROUTE",
+        "TEX_COORD",
+        "TEX_IMAGE"
+      ],
+      "exportHasRoughnessTexture": false,
+      "nativeProjection": [
+        "FLAT"
+      ],
+      "directChannelRecovery": {},
+      "status": "graph-review-required",
+      "proceduralNodesRequireExplicitPort": [
+        "GROUP"
+      ]
+    }
+  ],
+  "knownRemainingDifferences": [
+    "Cycles multi-bounce light transport and volume shaders",
+    "Non-baked procedural microstructure and displacement",
+    "BOX projection blends outside the explicit terrain/architecture implementations",
+    "Later V108-V116 graphs require their own revision-specific verification"
+  ]
+}

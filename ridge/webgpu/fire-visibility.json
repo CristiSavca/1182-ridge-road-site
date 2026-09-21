@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "cameraSha256": "1e79b2f68936d3796af3b6e13f879dc0df6746a684bf2306dc8acf22206afca5",
+  "sources": [
+    {
+      "id": "architecture",
+      "sha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b"
+    },
+    {
+      "id": "interior",
+      "sha256": "92c8893b0f11de8ba41596526628313ff7ce73881e47939122eca039223a42ed"
+    }
+  ],
+  "sampleStep": 0.25,
+  "leadFrames": 18,
+  "padding": 0.12,
+  "pointsPerFire": 27,
+  "occluderClearance": 0.25,
+  "triangles": 288625,
+  "fires": [
+    {
+      "name": "V54_Deck_Fireplace_Emissive_Volume_VDB0",
+      "position": [
+        -9.075204849243164,
+        1.1797428140416741,
+        11.405375480651855
+      ],
+      "intervals": [
+        [
+          58,
+          234
+        ],
+        [
+          273,
+          580
+        ],
+        [
+          655,
+          948
+        ]
+      ],
+      "activeFrames": 779
+    },
+    {
+      "name": "V54_Interior_Fireplace_Emissive_Volume_VDB0",
+      "position": [
+        -15.766081099398434,
+        1.8226430425420403,
+        3.2372011030092835
+      ],
+      "intervals": [
+        [
+          101,
+          172
+        ],
+        [
+          223,
+          945
+        ]
+      ],
+      "activeFrames": 795
+    }
+  ],
+  "policy": "Quarter-frame 27-point visibility of enlarged native flame bounds, 18-frame temporal guard. Glass and moving door excluded. Only a scheduling hint: preserve warmed visible geometry, lighting and free-camera fallback."
+}

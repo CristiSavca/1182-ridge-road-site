@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "encoding": "gzip",
+  "records": [
+    {
+      "sourceUrl": "/ridge/webgpu/interior.glb",
+      "sourceSha256": "92c8893b0f11de8ba41596526628313ff7ce73881e47939122eca039223a42ed",
+      "sourceBytes": 434988,
+      "url": "/ridge/webgpu/transport/interior.glb.gz",
+      "sha256": "526a859cdfb9cb885d57f6631e942ba65724fbf5d4619bfd5e322e0dc0a2d46e",
+      "bytes": 134249
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/details.glb",
+      "sourceSha256": "89d67766e8fe04ccc85d0709ce2b9e2e4c366944a1f107f8cf7c743b90fb3c4d",
+      "sourceBytes": 41088,
+      "url": "/ridge/webgpu/transport/details.glb.gz",
+      "sha256": "23dcbfd9a1806b9194cbb034c335b34a9b55e9a64c21c54db4a7c7f58e87793e",
+      "bytes": 9450
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/vegetation.glb",
+      "sourceSha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+      "sourceBytes": 32710052,
+      "url": "/ridge/webgpu/transport/vegetation.glb.gz",
+      "sha256": "ca8e318bd0d54e86434f01eb2c9c554d74d9d6ff1663b7fe9c6b9c4ba6ac4826",
+      "bytes": 25497693
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/meadow.glb",
+      "sourceSha256": "64f4d4b503f185d6c0722001e922b79fbfba7ca117c6b051054ecb749f55974a",
+      "sourceBytes": 21014996,
+      "url": "/ridge/webgpu/transport/meadow.glb.gz",
+      "sha256": "d3dc243818903c61a03b5b581f0d3889d340f4dae226ad8a3198711304396cc2",
+      "bytes": 19239119
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/regional-forest.glb",
+      "sourceSha256": "9d30c5e3a7310db9bff524582a36bd1dc274cd90feb6a433e8356864b8fbb778",
+      "sourceBytes": 1227072,
+      "url": "/ridge/webgpu/transport/regional-forest.glb.gz",
+      "sha256": "9f4edb99d0381c072e736090c25692acc333d0c5be6faa0d0a68b58b085578a8",
+      "bytes": 822233
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/winter-vegetation.glb",
+      "sourceSha256": "edef38d11d5f71b33a009f2d4ba35ad2251d8153cbc00815e7d850e18fb91245",
+      "sourceBytes": 36968124,
+      "url": "/ridge/webgpu/transport/winter-vegetation.glb.gz",
+      "sha256": "be25f8f649ac4854478b2fdaa59b329774cab719cc2ad9d2af87b2165b94d466",
+      "bytes": 29480152
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/winter-interior.glb",
+      "sourceSha256": "068f52027cc10dbb7d19d3b4b8a72588c8e2749c479ef6b2b5c876f46deb8938",
+      "sourceBytes": 477916,
+      "url": "/ridge/webgpu/transport/winter-interior.glb.gz",
+      "sha256": "0d890b71e817512129d590c6c3d5412a9fdd429328f1470476702c5664f9fff9",
+      "bytes": 198567
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/complete-terrain.glb",
+      "sourceSha256": "0286cc77baef4fb1b838ecf7b2cd27f3c1ebd57b9975001e8392fa784a0d7edf",
+      "sourceBytes": 44403472,
+      "url": "/ridge/webgpu/transport/complete-terrain.glb.gz",
+      "sha256": "028d2c3f749b3263f0e5c2a23798fe174eed227bfe97a73ad70b7f5c081aba10",
+      "bytes": 31282247
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/authored-assembly.glb",
+      "sourceSha256": "aa4ba817ecbab01c2e6e01e7c7ccdb0943a494ed1bcd20f482e725e4f107f7d9",
+      "sourceBytes": 30075128,
+      "url": "/ridge/webgpu/transport/authored-assembly.glb.gz",
+      "sha256": "fdd01de8d50d15b8add171f8971d1131c999b2449af066159bf4cdb9fd2a1b8a",
+      "bytes": 21218987
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/architecture-preview.glb",
+      "sourceSha256": "6f68b8c2e6764c4eed347b13de14c8e38088a36dc4d4b83ad124dd0e6d601cf9",
+      "sourceBytes": 14444312,
+      "url": "/ridge/webgpu/transport/architecture-preview.glb.gz",
+      "sha256": "1f45adc26970e19c38dea9dd1663fb96a8747e7efc4fe15f9bff7e9d57be9102",
+      "bytes": 10255311
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/landscape-preview.glb",
+      "sourceSha256": "1644647837122f8b684ce505a2f995cbb0831c26b0010b0b973bb813c72ca5bb",
+      "sourceBytes": 9966716,
+      "url": "/ridge/webgpu/transport/landscape-preview.glb.gz",
+      "sha256": "1837b02f4ac667401b186a897db294f77b9b39edb6be7c0bcb717633e37288e6",
+      "bytes": 7477089
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/complete-terrain-preview.glb",
+      "sourceSha256": "ba9bea18c33b16e98d937f5c7aa6694b2cc692ffc17a4eae5426fba7a3d9e470",
+      "sourceBytes": 9735576,
+      "url": "/ridge/webgpu/transport/complete-terrain-preview.glb.gz",
+      "sha256": "b9897224b591835487a1e10e126ba6e086247f5a37653ebe349cfde329d1a2fd",
+      "bytes": 8221069
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/vegetation-lod.glb",
+      "sourceSha256": "b76ed2707a7a13090f1438f7e0c170a31e60cee671531b1923fe933c1b8bf6f4",
+      "sourceBytes": 17308308,
+      "url": "/ridge/webgpu/transport/vegetation-lod.glb.gz",
+      "sha256": "0f90ae9b23dc55503d0a047f2c4bb894e063ac461cd36f43c60fd146146bcfb8",
+      "bytes": 10068270
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/meadow-lod.glb",
+      "sourceSha256": "8c69de7457c8d4439cb028d93a383d830beb4077df17e1fb0a45ef800cba58da",
+      "sourceBytes": 240780,
+      "url": "/ridge/webgpu/transport/meadow-lod.glb.gz",
+      "sha256": "e53c756ef3dc96b53cc8301fac63d69dc4421b5e57ae30a36ec24f15a80392a8",
+      "bytes": 125706
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/meadow-far.glb",
+      "sourceSha256": "a1d94c90496664a7933a1b774882a93bd8642f4fb5931d0081db366f34fd2c2d",
+      "sourceBytes": 150584,
+      "url": "/ridge/webgpu/transport/meadow-far.glb.gz",
+      "sha256": "5e3f644218af647a51ce30da57fbef8d4130ba405aed4a60e03c8224d645c452",
+      "bytes": 60527
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/meadow-close.glb",
+      "sourceSha256": "403946718f8b0fe3a1766da6296689616a0f949d407b5c3aa41fc03fd032b4d1",
+      "sourceBytes": 4137016,
+      "url": "/ridge/webgpu/transport/meadow-close.glb.gz",
+      "sha256": "2d7ac59ae6c04c1ff9145da171fbc95b1a516688cf5b1a566f72a3488f84722b",
+      "bytes": 2927983
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-lod.glb",
+      "sourceSha256": "6b2343eeb68254f1a5e59a0059040a94eced34b9b703fe36dee10225c8876ebd",
+      "sourceBytes": 9730352,
+      "url": "/ridge/webgpu/transport/terrain-lod.glb.gz",
+      "sha256": "413af99bbb9df180e74b8580281f28015a3c5eeba704db9c34ece32514c5459a",
+      "bytes": 8192286
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/native-hero-geometry.glb",
+      "sourceSha256": "4cb84740eed5bc6d96290991a4f179ccfdd961fd9c859d3c8cd0bc47ed103db7",
+      "sourceBytes": 4908428,
+      "url": "/ridge/webgpu/transport/native-hero-geometry.glb.gz",
+      "sha256": "f2b92f0e49d8ec852b1ce0d372353917cbe9cdfa13d90847b324758a1293f05d",
+      "bytes": 2341311
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/native-tree-geometry.glb",
+      "sourceSha256": "35547011835fba3205db38aa6dbc31e39fc64c2e4f6cebf927c5976443e54b2c",
+      "sourceBytes": 45503136,
+      "url": "/ridge/webgpu/transport/native-tree-geometry.glb.gz",
+      "sha256": "a974620b34d6af880bcfaa52495b5cf480916da79dbd24ac6a90bc4137fad16a",
+      "bytes": 34670293
+    }
+  ]
+}

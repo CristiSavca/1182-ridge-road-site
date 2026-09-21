@@ -1,0 +1,21 @@
+{
+  "sourceScene": "output/blender/renders/Weekender_Black_Oak_4K_V115/regular_06/prepared_scenes/view_06.blend",
+  "nativeSceneModified": false,
+  "textures": {
+    "color": {
+      "source": "output/blender/assets/polyhaven/white_plaster_02/white_plaster_02_diff_2k.jpg",
+      "file": "loft-cover-color-2k.jpg",
+      "sha256": "0ca5245ba70777d3e41ff4566c9f8d363855461891802c55cb7dc0f6f85f084e"
+    },
+    "normal": {
+      "source": "output/blender/assets/polyhaven/white_plaster_02/white_plaster_02_nor_gl_2k.jpg",
+      "file": "loft-cover-normal-2k.jpg",
+      "sha256": "083579b03a8f31ec1886512e5972f3b893610bf26a2098f97910e0f46745cdc9"
+    },
+    "roughness": {
+      "source": "output/blender/assets/polyhaven/white_plaster_02/white_plaster_02_rough_2k.jpg",
+      "file": "loft-cover-roughness-2k.jpg",
+      "sha256": "a3dc1911f6e25d88fdb0031fe0cfb602eec5496084c508774c60691bed087417"
+    }
+  }
+}

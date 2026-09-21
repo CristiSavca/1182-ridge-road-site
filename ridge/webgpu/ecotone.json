@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "url": "/ridge/webgpu/ecotone.bin",
+  "stride": 8,
+  "instances": 51837,
+  "counts": [
+    38731,
+    8417,
+    3268,
+    1421
+  ],
+  "seed": 336052026,
+  "outerRadius": 360,
+  "fadeStart": 130,
+  "grounded": true,
+  "excluded": "architecture, driveways, boulders, reservoir, mapped roads and buildings; slopes over 44 degrees",
+  "rejected": {
+    "slope": 0,
+    "obstacle": 275,
+    "surface": 0
+  },
+  "bytes": 1658784,
+  "terrainTriangles": 160774
+}

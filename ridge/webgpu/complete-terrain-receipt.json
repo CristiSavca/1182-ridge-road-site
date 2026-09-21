@@ -1,0 +1,279 @@
+{
+  "id": "complete-terrain",
+  "label": "Complete Terrain",
+  "url": "/ridge/webgpu/complete-terrain.glb",
+  "bytes": 105235808,
+  "triangles": 3478459,
+  "instances": 0,
+  "sourceObjects": 16,
+  "category": "terrain",
+  "variant": "all",
+  "sourceRevision": "V107",
+  "source": "output/blender/Weekender_V107_4K_Approved_Details.blend",
+  "sourceSha256": "1022a4ff6d6d738042b247a6af46a0a44b9df52430307bab1a8befa98769d848",
+  "completeNativeTerrain": true,
+  "replacesLandscapeNodeNamePrefixes": [
+    "V19_Preview_ENV_V9_USGS_Terrain_",
+    "V19_Preview_ENV_V10_USGS_Outer_"
+  ],
+  "cameraIndependent": true,
+  "bounds": {
+    "min": [
+      -46403.03125,
+      -1097.7347392293188,
+      -46402.69922389361
+    ],
+    "max": [
+      46392.390625,
+      1737.8875590113698,
+      46405.58597642594
+    ]
+  },
+  "nativeAttributes": {
+    "_HABITAT": "V86_Habitat.red: forest confidence",
+    "_SEAM": "TerrainMasks.alpha: V98 site edge feather",
+    "_SNOW": "V87_Perennial_Snow: registered perennial ice confidence"
+  },
+  "rows": [
+    {
+      "object": "V19_Preview_ENV_V10_USGS_Outer_Peaks_01",
+      "mesh": "ENV_V10_USGS_Outer_Peaks_01_Mesh",
+      "vertices": 147630,
+      "polygons": 146828,
+      "triangles": 293656,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V10_USGS_Outer_Peaks_02",
+      "mesh": "ENV_V10_USGS_Outer_Peaks_02_Mesh",
+      "vertices": 147915,
+      "polygons": 147112,
+      "triangles": 294224,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V10_USGS_Outer_Peaks_03",
+      "mesh": "ENV_V10_USGS_Outer_Peaks_03_Mesh",
+      "vertices": 147630,
+      "polygons": 146828,
+      "triangles": 293656,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V10_USGS_Outer_Peaks_04",
+      "mesh": "ENV_V10_USGS_Outer_Peaks_04_Mesh",
+      "vertices": 147915,
+      "polygons": 147112,
+      "triangles": 294224,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V10_USGS_Outer_Peaks_05",
+      "mesh": "ENV_V10_USGS_Outer_Peaks_05_Mesh",
+      "vertices": 147630,
+      "polygons": 146828,
+      "triangles": 293656,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V10_USGS_Outer_Peaks_06",
+      "mesh": "ENV_V10_USGS_Outer_Peaks_06_Mesh",
+      "vertices": 147915,
+      "polygons": 147112,
+      "triangles": 294224,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V10_USGS_Outer_Peaks_07",
+      "mesh": "ENV_V10_USGS_Outer_Peaks_07_Mesh",
+      "vertices": 147630,
+      "polygons": 146828,
+      "triangles": 293656,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V10_USGS_Outer_Peaks_08",
+      "mesh": "ENV_V10_USGS_Outer_Peaks_08_Mesh",
+      "vertices": 147915,
+      "polygons": 147112,
+      "triangles": 294224,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V9_USGS_Terrain_Sector_01",
+      "mesh": "ENV_V9_USGS_Terrain_Sector_01_Mesh",
+      "vertices": 71008,
+      "polygons": 70468,
+      "triangles": 140936,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V9_USGS_Terrain_Sector_02",
+      "mesh": "ENV_V9_USGS_Terrain_Sector_02_Mesh",
+      "vertices": 73861,
+      "polygons": 73312,
+      "triangles": 146624,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V9_USGS_Terrain_Sector_03",
+      "mesh": "ENV_V9_USGS_Terrain_Sector_03_Mesh",
+      "vertices": 73544,
+      "polygons": 72996,
+      "triangles": 145992,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V9_USGS_Terrain_Sector_04",
+      "mesh": "ENV_V10_ENV_V9_USGS_Terrain_Sector_04_Shoreline_Conforming",
+      "vertices": 71186,
+      "polygons": 70168,
+      "triangles": 140107,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V9_USGS_Terrain_Sector_05",
+      "mesh": "ENV_V10_ENV_V9_USGS_Terrain_Sector_05_Shoreline_Conforming",
+      "vertices": 73387,
+      "polygons": 65419,
+      "triangles": 129064,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V9_USGS_Terrain_Sector_06",
+      "mesh": "ENV_V10_ENV_V9_USGS_Terrain_Sector_06_Shoreline_Conforming",
+      "vertices": 76105,
+      "polygons": 71985,
+      "triangles": 142976,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V9_USGS_Terrain_Sector_07",
+      "mesh": "ENV_V9_USGS_Terrain_Sector_07_Mesh",
+      "vertices": 72276,
+      "polygons": 71732,
+      "triangles": 143464,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "object": "V19_Preview_ENV_V9_USGS_Terrain_Sector_08",
+      "mesh": "ENV_V9_USGS_Terrain_Sector_08_Mesh",
+      "vertices": 69423,
+      "polygons": 68888,
+      "triangles": 137776,
+      "forestRange": [
+        0.0,
+        1.0
+      ],
+      "seamRange": [
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

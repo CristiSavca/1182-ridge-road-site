@@ -1,0 +1,19 @@
+{
+  "id": "interior",
+  "label": "Interior",
+  "url": "/ridge/webgpu/interior.glb",
+  "bytes": 1032816,
+  "triangles": 27703,
+  "instances": 0,
+  "sourceObjects": 32,
+  "category": "interior",
+  "sourceRevision": "V115",
+  "variant": "all",
+  "nativeTriangles": 27703,
+  "lod": {
+    "beforeTriangles": 27703,
+    "afterTriangles": 27703,
+    "maxError": 0,
+    "method": "meshoptimizer topology LOD, 3% relative error"
+  }
+}

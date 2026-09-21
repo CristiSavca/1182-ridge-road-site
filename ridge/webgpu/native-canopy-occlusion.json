@@ -1,0 +1,1738 @@
+{
+  "schemaVersion": 1,
+  "attribute": "nativeCanopyOcclusion",
+  "url": "/ridge/webgpu/native-canopy-occlusion.bin",
+  "bytes": 1535325,
+  "sha256": "9ef8709e7d46b441c6fa1a369cccb9b867323e96ba37318bfbd4e7283a825cf7",
+  "format": "UNORM8",
+  "sources": [
+    {
+      "id": "vegetation",
+      "url": "/ridge/webgpu/vegetation.glb",
+      "bytes": 32710052,
+      "sha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6"
+    },
+    {
+      "id": "vegetation-lod",
+      "url": "/ridge/webgpu/vegetation-lod.glb",
+      "bytes": 17308308,
+      "sha256": "b76ed2707a7a13090f1438f7e0c170a31e60cee671531b1923fe933c1b8bf6f4"
+    }
+  ],
+  "records": [
+    {
+      "assetId": "vegetation",
+      "meshIndex": 0,
+      "primitiveIndex": 0,
+      "meshName": "ENV_V21_full_LOD_1",
+      "offset": 0,
+      "count": 754
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 0,
+      "primitiveIndex": 0,
+      "meshName": "ENV_V21_full_LOD_1",
+      "offset": 754,
+      "count": 464
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 0,
+      "primitiveIndex": 1,
+      "meshName": "ENV_V21_full_LOD_1",
+      "offset": 1218,
+      "count": 69
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 0,
+      "primitiveIndex": 1,
+      "meshName": "ENV_V21_full_LOD_1",
+      "offset": 1287,
+      "count": 44
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 0,
+      "primitiveIndex": 2,
+      "meshName": "ENV_V21_full_LOD_1",
+      "offset": 1331,
+      "count": 3881
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 0,
+      "primitiveIndex": 2,
+      "meshName": "ENV_V21_full_LOD_1",
+      "offset": 5212,
+      "count": 2398
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 0,
+      "primitiveIndex": 3,
+      "meshName": "ENV_V21_full_LOD_1",
+      "offset": 7610,
+      "count": 46
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 0,
+      "primitiveIndex": 3,
+      "meshName": "ENV_V21_full_LOD_1",
+      "offset": 7656,
+      "count": 28
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "meshName": "ENV_V21_full_LOD_2",
+      "offset": 7684,
+      "count": 796
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "meshName": "ENV_V21_full_LOD_2",
+      "offset": 8480,
+      "count": 489
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 1,
+      "primitiveIndex": 1,
+      "meshName": "ENV_V21_full_LOD_2",
+      "offset": 8969,
+      "count": 107
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 1,
+      "primitiveIndex": 1,
+      "meshName": "ENV_V21_full_LOD_2",
+      "offset": 9076,
+      "count": 63
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 1,
+      "primitiveIndex": 2,
+      "meshName": "ENV_V21_full_LOD_2",
+      "offset": 9139,
+      "count": 4104
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 1,
+      "primitiveIndex": 2,
+      "meshName": "ENV_V21_full_LOD_2",
+      "offset": 13243,
+      "count": 2470
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 1,
+      "primitiveIndex": 3,
+      "meshName": "ENV_V21_full_LOD_2",
+      "offset": 15713,
+      "count": 74
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 1,
+      "primitiveIndex": 3,
+      "meshName": "ENV_V21_full_LOD_2",
+      "offset": 15787,
+      "count": 46
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 2,
+      "primitiveIndex": 0,
+      "meshName": "ENV_V21_full_LOD_3",
+      "offset": 15833,
+      "count": 702
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 2,
+      "primitiveIndex": 0,
+      "meshName": "ENV_V21_full_LOD_3",
+      "offset": 16535,
+      "count": 430
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 2,
+      "primitiveIndex": 1,
+      "meshName": "ENV_V21_full_LOD_3",
+      "offset": 16965,
+      "count": 34
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 2,
+      "primitiveIndex": 1,
+      "meshName": "ENV_V21_full_LOD_3",
+      "offset": 16999,
+      "count": 21
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 2,
+      "primitiveIndex": 2,
+      "meshName": "ENV_V21_full_LOD_3",
+      "offset": 17020,
+      "count": 3713
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 2,
+      "primitiveIndex": 2,
+      "meshName": "ENV_V21_full_LOD_3",
+      "offset": 20733,
+      "count": 2282
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 2,
+      "primitiveIndex": 3,
+      "meshName": "ENV_V21_full_LOD_3",
+      "offset": 23015,
+      "count": 52
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 2,
+      "primitiveIndex": 3,
+      "meshName": "ENV_V21_full_LOD_3",
+      "offset": 23067,
+      "count": 33
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 3,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "offset": 23100,
+      "count": 46046
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 3,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "offset": 69146,
+      "count": 2525
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 3,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "offset": 71671,
+      "count": 176544
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 3,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "offset": 248215,
+      "count": 92084
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 4,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_D_spring-summer-autumn",
+      "offset": 340299,
+      "count": 4854
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 4,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_D_spring-summer-autumn",
+      "offset": 345153,
+      "count": 2559
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 4,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_D_spring-summer-autumn",
+      "offset": 347712,
+      "count": 1011
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 4,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_D_spring-summer-autumn",
+      "offset": 348723,
+      "count": 789
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 5,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "offset": 349512,
+      "count": 2970
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 5,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "offset": 352482,
+      "count": 2018
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 5,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "offset": 354500,
+      "count": 973
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 5,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "offset": 355473,
+      "count": 793
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 6,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "offset": 356266,
+      "count": 23131
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 6,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "offset": 379397,
+      "count": 5032
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 6,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "offset": 384429,
+      "count": 8112
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 6,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "offset": 392541,
+      "count": 4777
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 7,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "offset": 397318,
+      "count": 51642
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 7,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "offset": 448960,
+      "count": 4035
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 7,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "offset": 452995,
+      "count": 71855
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 7,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "offset": 524850,
+      "count": 42355
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 8,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "offset": 567205,
+      "count": 45118
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 8,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "offset": 612323,
+      "count": 2890
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 8,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "offset": 615213,
+      "count": 140892
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 8,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "offset": 756105,
+      "count": 79977
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 9,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "offset": 836082,
+      "count": 3030
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 9,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "offset": 839112,
+      "count": 2216
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 9,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "offset": 841328,
+      "count": 819
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 9,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "offset": 842147,
+      "count": 642
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 10,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "offset": 842789,
+      "count": 4741
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 10,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "offset": 847530,
+      "count": 2762
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 10,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "offset": 850292,
+      "count": 423
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 10,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "offset": 850715,
+      "count": 358
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 11,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "offset": 851073,
+      "count": 4402
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 11,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "offset": 855475,
+      "count": 2224
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 11,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "offset": 857699,
+      "count": 671
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 11,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "offset": 858370,
+      "count": 515
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 12,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Populus-tremuloides_B_summer",
+      "offset": 858885,
+      "count": 2586
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 12,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Populus-tremuloides_B_summer",
+      "offset": 861471,
+      "count": 1352
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 12,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Populus-tremuloides_B_summer",
+      "offset": 862823,
+      "count": 7362
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 12,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Populus-tremuloides_B_summer",
+      "offset": 870185,
+      "count": 4169
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 13,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Populus-tremuloides_A_summer",
+      "offset": 874354,
+      "count": 3381
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 13,
+      "primitiveIndex": 0,
+      "meshName": "bq_Tree_Populus-tremuloides_A_summer",
+      "offset": 877735,
+      "count": 1882
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 13,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Populus-tremuloides_A_summer",
+      "offset": 879617,
+      "count": 7481
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 13,
+      "primitiveIndex": 1,
+      "meshName": "bq_Tree_Populus-tremuloides_A_summer",
+      "offset": 887098,
+      "count": 3959
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 14,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_01_TRUNK_SURVEY_DBH",
+      "offset": 891057,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 14,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_01_TRUNK_SURVEY_DBH",
+      "offset": 896168,
+      "count": 1246
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 15,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_02_TRUNK_SURVEY_DBH",
+      "offset": 897414,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 15,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_02_TRUNK_SURVEY_DBH",
+      "offset": 902525,
+      "count": 1247
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 16,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_03_TRUNK_SURVEY_DBH",
+      "offset": 903772,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 16,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_03_TRUNK_SURVEY_DBH",
+      "offset": 911333,
+      "count": 1448
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 17,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_04_TRUNK_SURVEY_DBH",
+      "offset": 912781,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 17,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_04_TRUNK_SURVEY_DBH",
+      "offset": 917892,
+      "count": 1248
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 18,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_05_TRUNK_SURVEY_DBH",
+      "offset": 919140,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 18,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_05_TRUNK_SURVEY_DBH",
+      "offset": 924251,
+      "count": 1242
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 19,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_06_TRUNK_SURVEY_DBH",
+      "offset": 925493,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 19,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_06_TRUNK_SURVEY_DBH",
+      "offset": 933054,
+      "count": 1450
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 20,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_07_TRUNK_SURVEY_DBH",
+      "offset": 934504,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 20,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_07_TRUNK_SURVEY_DBH",
+      "offset": 939615,
+      "count": 1243
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 21,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_08_TRUNK_SURVEY_DBH",
+      "offset": 940858,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 21,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_08_TRUNK_SURVEY_DBH",
+      "offset": 945969,
+      "count": 1245
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 22,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_09_TRUNK_SURVEY_DBH",
+      "offset": 947214,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 22,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_09_TRUNK_SURVEY_DBH",
+      "offset": 954775,
+      "count": 1450
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 23,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_10_TRUNK_SURVEY_DBH",
+      "offset": 956225,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 23,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_10_TRUNK_SURVEY_DBH",
+      "offset": 961336,
+      "count": 1245
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 24,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_11_TRUNK_SURVEY_DBH",
+      "offset": 962581,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 24,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_11_TRUNK_SURVEY_DBH",
+      "offset": 967692,
+      "count": 1247
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 25,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_12_TRUNK_SURVEY_DBH",
+      "offset": 968939,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 25,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_12_TRUNK_SURVEY_DBH",
+      "offset": 976500,
+      "count": 1447
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 26,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_13_TRUNK_SURVEY_DBH",
+      "offset": 977947,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 26,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_13_TRUNK_SURVEY_DBH",
+      "offset": 983058,
+      "count": 1243
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 27,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_14_TRUNK_SURVEY_DBH",
+      "offset": 984301,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 27,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_14_TRUNK_SURVEY_DBH",
+      "offset": 989412,
+      "count": 1248
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 28,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_15_TRUNK_SURVEY_DBH",
+      "offset": 990660,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 28,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_15_TRUNK_SURVEY_DBH",
+      "offset": 998221,
+      "count": 1445
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 29,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_16_TRUNK_SURVEY_DBH",
+      "offset": 999666,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 29,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_16_TRUNK_SURVEY_DBH",
+      "offset": 1004777,
+      "count": 1248
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 30,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_17_TRUNK_SURVEY_DBH",
+      "offset": 1006025,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 30,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_17_TRUNK_SURVEY_DBH",
+      "offset": 1011136,
+      "count": 1247
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 31,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_18_TRUNK_SURVEY_DBH",
+      "offset": 1012383,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 31,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_18_TRUNK_SURVEY_DBH",
+      "offset": 1019944,
+      "count": 1454
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 32,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_19_TRUNK_SURVEY_DBH",
+      "offset": 1021398,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 32,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_19_TRUNK_SURVEY_DBH",
+      "offset": 1026509,
+      "count": 1244
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 33,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_20_TRUNK_SURVEY_DBH",
+      "offset": 1027753,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 33,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_20_TRUNK_SURVEY_DBH",
+      "offset": 1032864,
+      "count": 1248
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 34,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_21_TRUNK_SURVEY_DBH",
+      "offset": 1034112,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 34,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_21_TRUNK_SURVEY_DBH",
+      "offset": 1041673,
+      "count": 1449
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 35,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_22_TRUNK_SURVEY_DBH",
+      "offset": 1043122,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 35,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_22_TRUNK_SURVEY_DBH",
+      "offset": 1048233,
+      "count": 1247
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 36,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_23_TRUNK_SURVEY_DBH",
+      "offset": 1049480,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 36,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_23_TRUNK_SURVEY_DBH",
+      "offset": 1054591,
+      "count": 1246
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 37,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_24_TRUNK_SURVEY_DBH",
+      "offset": 1055837,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 37,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_24_TRUNK_SURVEY_DBH",
+      "offset": 1063398,
+      "count": 1452
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 38,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_25_TRUNK_SURVEY_DBH",
+      "offset": 1064850,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 38,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_25_TRUNK_SURVEY_DBH",
+      "offset": 1069961,
+      "count": 1242
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 39,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_26_TRUNK_SURVEY_DBH",
+      "offset": 1071203,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 39,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_26_TRUNK_SURVEY_DBH",
+      "offset": 1076314,
+      "count": 1246
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 40,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_27_TRUNK_SURVEY_DBH",
+      "offset": 1077560,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 40,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_27_TRUNK_SURVEY_DBH",
+      "offset": 1085121,
+      "count": 1447
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 41,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_28_TRUNK_SURVEY_DBH",
+      "offset": 1086568,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 41,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_28_TRUNK_SURVEY_DBH",
+      "offset": 1091679,
+      "count": 1246
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 42,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_29_TRUNK_SURVEY_DBH",
+      "offset": 1092925,
+      "count": 5111
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 42,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_29_TRUNK_SURVEY_DBH",
+      "offset": 1098036,
+      "count": 1244
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 43,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_30_TRUNK_SURVEY_DBH",
+      "offset": 1099280,
+      "count": 7561
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 43,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Fitted_Roots_SITE_TREE_30_TRUNK_SURVEY_DBH",
+      "offset": 1106841,
+      "count": 1447
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 44,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Shared_Native_A",
+      "offset": 1108288,
+      "count": 40007
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 44,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Shared_Native_A",
+      "offset": 1148295,
+      "count": 3179
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 44,
+      "primitiveIndex": 1,
+      "meshName": "V60_Render_Shared_Native_A",
+      "offset": 1151474,
+      "count": 140892
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 44,
+      "primitiveIndex": 1,
+      "meshName": "V60_Render_Shared_Native_A",
+      "offset": 1292366,
+      "count": 80025
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 45,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Shared_Native_C",
+      "offset": 1372391,
+      "count": 44094
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 45,
+      "primitiveIndex": 0,
+      "meshName": "V60_Render_Shared_Native_C",
+      "offset": 1416485,
+      "count": 4588
+    },
+    {
+      "assetId": "vegetation",
+      "meshIndex": 45,
+      "primitiveIndex": 1,
+      "meshName": "V60_Render_Shared_Native_C",
+      "offset": 1421073,
+      "count": 71855
+    },
+    {
+      "assetId": "vegetation-lod",
+      "meshIndex": 45,
+      "primitiveIndex": 1,
+      "meshName": "V60_Render_Shared_Native_C",
+      "offset": 1492928,
+      "count": 42397
+    }
+  ],
+  "algorithm": {
+    "name": "Alpha-aware prototype cosine visibility",
+    "samples": 12,
+    "radius": "Native prototype bounding-sphere diameter",
+    "bias": 0.003,
+    "maximumAlphaHits": 12,
+    "maximumSamplesPerPrototype": 8192,
+    "spatialApproximation": "Adaptive position bins plus quantized source-normal bins; sample original midpoint-index vertex, broadcast visibility to members",
+    "alphaFilter": "Bilinear source PNG alpha with material cutoff and UV transform; rejected hits continue",
+    "transparentHitLimit": "Fail open",
+    "sourceVerticesMoved": false
+  },
+  "statistics": {
+    "prototypes": 46,
+    "tracedUniqueSamples": 180176,
+    "exactLodMatches": 438271,
+    "alphaPassed": 598372,
+    "alphaRejected": 1174211,
+    "seconds": 20.13563275,
+    "prototypesReport": [
+      {
+        "meshIndex": 0,
+        "name": "ENV_V21_full_LOD_1",
+        "triangles": 9562,
+        "vertices": 4750,
+        "radius": 1.9365153830760724,
+        "tracedSpatialNormalBins": 4725,
+        "cellMeters": 0.015129026430281816,
+        "minimum": 0,
+        "mean": 0.5371434468524251,
+        "maximum": 1,
+        "seconds": 0.23957312499999997
+      },
+      {
+        "meshIndex": 1,
+        "name": "ENV_V21_full_LOD_2",
+        "triangles": 9794,
+        "vertices": 5081,
+        "radius": 2.005020719016005,
+        "tracedSpatialNormalBins": 5052,
+        "cellMeters": 0.01566422436731254,
+        "minimum": 0,
+        "mean": 0.5753923691106043,
+        "maximum": 1,
+        "seconds": 0.23498500000000003
+      },
+      {
+        "meshIndex": 2,
+        "name": "ENV_V21_full_LOD_3",
+        "triangles": 9221,
+        "vertices": 4501,
+        "radius": 1.951481063311244,
+        "tracedSpatialNormalBins": 4480,
+        "cellMeters": 0.015245945807119094,
+        "minimum": 0,
+        "mean": 0.5243950146154885,
+        "maximum": 1,
+        "seconds": 0.22226641600000005
+      },
+      {
+        "meshIndex": 3,
+        "name": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+        "triangles": 169500,
+        "vertices": 222590,
+        "radius": 20.51494219824343,
+        "tracedSpatialNormalBins": 5514,
+        "cellMeters": 4.107621330648044,
+        "minimum": 0,
+        "mean": 0.2914248037145583,
+        "maximum": 1,
+        "seconds": 2.6947671250000003
+      },
+      {
+        "meshIndex": 4,
+        "name": "bq_Tree_Pinus-ponderosa_D_spring-summer-autumn",
+        "triangles": 11418,
+        "vertices": 5865,
+        "radius": 8.995942833184893,
+        "tracedSpatialNormalBins": 5646,
+        "cellMeters": 0.07028080338425698,
+        "minimum": 0,
+        "mean": 0.5457646724503953,
+        "maximum": 1,
+        "seconds": 0.6097195410000004
+      },
+      {
+        "meshIndex": 5,
+        "name": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+        "triangles": 8014,
+        "vertices": 3943,
+        "radius": 20.918226918518496,
+        "tracedSpatialNormalBins": 3934,
+        "cellMeters": 0.16342364780092575,
+        "minimum": 0,
+        "mean": 0.6104111033203543,
+        "maximum": 1,
+        "seconds": 0.4092103749999997
+      },
+      {
+        "meshIndex": 6,
+        "name": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+        "triangles": 37412,
+        "vertices": 31243,
+        "radius": 12.99224637046701,
+        "tracedSpatialNormalBins": 7777,
+        "cellMeters": 0.7707802412166707,
+        "minimum": 0,
+        "mean": 0.6075204296742862,
+        "maximum": 1,
+        "seconds": 0.8739865
+      },
+      {
+        "meshIndex": 7,
+        "name": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+        "triangles": 112974,
+        "vertices": 123497,
+        "radius": 14.111233679780309,
+        "tracedSpatialNormalBins": 5893,
+        "cellMeters": 1.8836223179736042,
+        "minimum": 0,
+        "mean": 0.26748777099769194,
+        "maximum": 1,
+        "seconds": 1.9821805839999997
+      },
+      {
+        "meshIndex": 8,
+        "name": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+        "triangles": 159891,
+        "vertices": 186010,
+        "radius": 15.831593674993176,
+        "tracedSpatialNormalBins": 5191,
+        "cellMeters": 2.1132626566900683,
+        "minimum": 0,
+        "mean": 0.28578899932641194,
+        "maximum": 1,
+        "seconds": 2.7037065839999994
+      },
+      {
+        "meshIndex": 9,
+        "name": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+        "triangles": 7595,
+        "vertices": 3849,
+        "radius": 15.59048713823902,
+        "tracedSpatialNormalBins": 3781,
+        "cellMeters": 0.12180068076749234,
+        "minimum": 0,
+        "mean": 0.7423155492386615,
+        "maximum": 1,
+        "seconds": 0.27784291699999997
+      },
+      {
+        "meshIndex": 10,
+        "name": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+        "triangles": 9230,
+        "vertices": 5164,
+        "radius": 13.901729094108804,
+        "tracedSpatialNormalBins": 5097,
+        "cellMeters": 0.10860725854772503,
+        "minimum": 0,
+        "mean": 0.605761607508999,
+        "maximum": 1,
+        "seconds": 0.6224113749999997
+      },
+      {
+        "meshIndex": 11,
+        "name": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+        "triangles": 11098,
+        "vertices": 5073,
+        "radius": 13.004798076273469,
+        "tracedSpatialNormalBins": 4646,
+        "cellMeters": 0.10159998497088647,
+        "minimum": 0,
+        "mean": 0.7130204890945142,
+        "maximum": 1,
+        "seconds": 0.3103725830000003
+      },
+      {
+        "meshIndex": 12,
+        "name": "bq_Tree_Populus-tremuloides_B_summer",
+        "triangles": 11059,
+        "vertices": 9948,
+        "radius": 22.777862722209196,
+        "tracedSpatialNormalBins": 7140,
+        "cellMeters": 1.3513233988029385,
+        "minimum": 0,
+        "mean": 0.6087896276323155,
+        "maximum": 1,
+        "seconds": 0.4073003340000014
+      },
+      {
+        "meshIndex": 13,
+        "name": "bq_Tree_Populus-tremuloides_A_summer",
+        "triangles": 10999,
+        "vertices": 10862,
+        "radius": 16.586762116811563,
+        "tracedSpatialNormalBins": 7156,
+        "cellMeters": 1.4760436502875522,
+        "minimum": 0,
+        "mean": 0.5977041746545793,
+        "maximum": 1,
+        "seconds": 0.4939487079999999
+      },
+      {
+        "meshIndex": 14,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_01_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.461785150664346,
+        "tracedSpatialNormalBins": 2390,
+        "cellMeters": 0.1207951964895652,
+        "minimum": 0,
+        "mean": 0.9637851462244065,
+        "maximum": 1,
+        "seconds": 0.05830183299999953
+      },
+      {
+        "meshIndex": 15,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_02_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.400540169355324,
+        "tracedSpatialNormalBins": 2395,
+        "cellMeters": 0.12031672007308847,
+        "minimum": 0,
+        "mean": 0.9646698201879069,
+        "maximum": 1,
+        "seconds": 0.05693416599999909
+      },
+      {
+        "meshIndex": 16,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_03_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.247942182079107,
+        "tracedSpatialNormalBins": 4279,
+        "cellMeters": 0.08787454829749303,
+        "minimum": 0,
+        "mean": 0.867409902725804,
+        "maximum": 1,
+        "seconds": 0.11689058300000034
+      },
+      {
+        "meshIndex": 17,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_04_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.40138159833061,
+        "tracedSpatialNormalBins": 2397,
+        "cellMeters": 0.1203232937369579,
+        "minimum": 0,
+        "mean": 0.9646053686589094,
+        "maximum": 1,
+        "seconds": 0.05712254099999882
+      },
+      {
+        "meshIndex": 18,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_05_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.455639859334942,
+        "tracedSpatialNormalBins": 2393,
+        "cellMeters": 0.12074718640105424,
+        "minimum": 0,
+        "mean": 0.9643652099853833,
+        "maximum": 1,
+        "seconds": 0.05876516699999956
+      },
+      {
+        "meshIndex": 19,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_06_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.24144271757661,
+        "tracedSpatialNormalBins": 4290,
+        "cellMeters": 0.08782377123106727,
+        "minimum": 0,
+        "mean": 0.8667703981473558,
+        "maximum": 1,
+        "seconds": 0.11558012500000041
+      },
+      {
+        "meshIndex": 20,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_07_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.401371177806496,
+        "tracedSpatialNormalBins": 2394,
+        "cellMeters": 0.12032321232661325,
+        "minimum": 0,
+        "mean": 0.9646859330701562,
+        "maximum": 1,
+        "seconds": 0.05576787499999955
+      },
+      {
+        "meshIndex": 21,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_08_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.417017509156517,
+        "tracedSpatialNormalBins": 2392,
+        "cellMeters": 0.12044544929028529,
+        "minimum": 0,
+        "mean": 0.9643314496606704,
+        "maximum": 1,
+        "seconds": 0.05690070899999955
+      },
+      {
+        "meshIndex": 22,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_09_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.269457706971933,
+        "tracedSpatialNormalBins": 4293,
+        "cellMeters": 0.08804263833571822,
+        "minimum": 0,
+        "mean": 0.8672734958286978,
+        "maximum": 1,
+        "seconds": 0.11651345900000161
+      },
+      {
+        "meshIndex": 23,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_10_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.499991567262606,
+        "tracedSpatialNormalBins": 2402,
+        "cellMeters": 0.12109368411923911,
+        "minimum": 0,
+        "mean": 0.9635940934777354,
+        "maximum": 1,
+        "seconds": 0.05862695800000074
+      },
+      {
+        "meshIndex": 24,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_11_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.573880111029885,
+        "tracedSpatialNormalBins": 2405,
+        "cellMeters": 0.12167093836742097,
+        "minimum": 0,
+        "mean": 0.9633984370504218,
+        "maximum": 1,
+        "seconds": 0.05710470800000075
+      },
+      {
+        "meshIndex": 25,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_12_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.248258299671212,
+        "tracedSpatialNormalBins": 4277,
+        "cellMeters": 0.08787701796618134,
+        "minimum": 0,
+        "mean": 0.8672890555508012,
+        "maximum": 1,
+        "seconds": 0.11365166599999975
+      },
+      {
+        "meshIndex": 26,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_13_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.421492554121885,
+        "tracedSpatialNormalBins": 2397,
+        "cellMeters": 0.12048041057907723,
+        "minimum": 0,
+        "mean": 0.9642370742074955,
+        "maximum": 1,
+        "seconds": 0.06327270800000043
+      },
+      {
+        "meshIndex": 27,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_14_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.443643003554557,
+        "tracedSpatialNormalBins": 2393,
+        "cellMeters": 0.12065346096526998,
+        "minimum": 0,
+        "mean": 0.9643007584563859,
+        "maximum": 1,
+        "seconds": 0.05851179200000115
+      },
+      {
+        "meshIndex": 28,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_15_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.284876823786965,
+        "tracedSpatialNormalBins": 4284,
+        "cellMeters": 0.08816310018583566,
+        "minimum": 0,
+        "mean": 0.867486664021514,
+        "maximum": 1,
+        "seconds": 0.11519924999999967
+      },
+      {
+        "meshIndex": 29,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_16_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.738830032986476,
+        "tracedSpatialNormalBins": 2358,
+        "cellMeters": 0.12295960963270684,
+        "minimum": 0,
+        "mean": 0.9621938072822556,
+        "maximum": 1,
+        "seconds": 0.05809758300000067
+      },
+      {
+        "meshIndex": 30,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_17_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.635834889467366,
+        "tracedSpatialNormalBins": 2371,
+        "cellMeters": 0.1221549600739638,
+        "minimum": 0,
+        "mean": 0.9632795086338195,
+        "maximum": 1,
+        "seconds": 0.05713100000000122
+      },
+      {
+        "meshIndex": 31,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_18_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.36792511052516,
+        "tracedSpatialNormalBins": 4258,
+        "cellMeters": 0.08881191492597781,
+        "minimum": 0,
+        "mean": 0.8667859578694591,
+        "maximum": 1,
+        "seconds": 0.11772858400000041
+      },
+      {
+        "meshIndex": 32,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_19_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.48274733724951,
+        "tracedSpatialNormalBins": 2392,
+        "cellMeters": 0.1209589635722618,
+        "minimum": 0,
+        "mean": 0.9635917916374142,
+        "maximum": 1,
+        "seconds": 0.058964041999999606
+      },
+      {
+        "meshIndex": 33,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_20_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.498520483754568,
+        "tracedSpatialNormalBins": 2393,
+        "cellMeters": 0.12108219127933256,
+        "minimum": 0,
+        "mean": 0.9636585450067329,
+        "maximum": 1,
+        "seconds": 0.05800212500000089
+      },
+      {
+        "meshIndex": 34,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_21_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.376226873624113,
+        "tracedSpatialNormalBins": 4253,
+        "cellMeters": 0.08887677245018838,
+        "minimum": 0,
+        "mean": 0.8662755989844687,
+        "maximum": 1,
+        "seconds": 0.1143726659999993
+      },
+      {
+        "meshIndex": 35,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_22_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.380963278588116,
+        "tracedSpatialNormalBins": 2405,
+        "cellMeters": 0.12016377561396965,
+        "minimum": 0,
+        "mean": 0.9619636232501217,
+        "maximum": 1,
+        "seconds": 0.058351916999999955
+      },
+      {
+        "meshIndex": 36,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_23_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.54380059291816,
+        "tracedSpatialNormalBins": 2404,
+        "cellMeters": 0.12143594213217312,
+        "minimum": 0,
+        "mean": 0.9645777465750535,
+        "maximum": 1,
+        "seconds": 0.05900983399999859
+      },
+      {
+        "meshIndex": 37,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_24_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.322043796153874,
+        "tracedSpatialNormalBins": 4284,
+        "cellMeters": 0.08845346715745214,
+        "minimum": 0,
+        "mean": 0.8673295108282699,
+        "maximum": 1,
+        "seconds": 0.11305041700000037
+      },
+      {
+        "meshIndex": 38,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_25_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.428248587796167,
+        "tracedSpatialNormalBins": 2394,
+        "cellMeters": 0.12053319209215756,
+        "minimum": 0,
+        "mean": 0.9647373408373328,
+        "maximum": 1,
+        "seconds": 0.057411958000000596
+      },
+      {
+        "meshIndex": 39,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_26_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.3901967841658,
+        "tracedSpatialNormalBins": 2397,
+        "cellMeters": 0.12023591237629531,
+        "minimum": 0,
+        "mean": 0.9644419379960946,
+        "maximum": 1,
+        "seconds": 0.06021383400000013
+      },
+      {
+        "meshIndex": 40,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_27_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.260645119330919,
+        "tracedSpatialNormalBins": 4288,
+        "cellMeters": 0.0879737899947728,
+        "minimum": 0,
+        "mean": 0.8656822549149272,
+        "maximum": 1,
+        "seconds": 0.11700712500000009
+      },
+      {
+        "meshIndex": 41,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_28_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.452290740638855,
+        "tracedSpatialNormalBins": 2399,
+        "cellMeters": 0.12072102141124105,
+        "minimum": 0,
+        "mean": 0.9640598325027526,
+        "maximum": 1,
+        "seconds": 0.05723270800000137
+      },
+      {
+        "meshIndex": 42,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_29_TRUNK_SURVEY_DBH",
+        "triangles": 8717,
+        "vertices": 5111,
+        "radius": 15.407492654041327,
+        "tracedSpatialNormalBins": 2401,
+        "cellMeters": 0.12037103635969787,
+        "minimum": 0,
+        "mean": 0.9644281269541666,
+        "maximum": 1,
+        "seconds": 0.056640583000000334
+      },
+      {
+        "meshIndex": 43,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_30_TRUNK_SURVEY_DBH",
+        "triangles": 12265,
+        "vertices": 7561,
+        "radius": 11.226666089123501,
+        "tracedSpatialNormalBins": 4294,
+        "cellMeters": 0.08770832882127735,
+        "minimum": 0,
+        "mean": 0.8664773567144091,
+        "maximum": 1,
+        "seconds": 0.11365137499999946
+      },
+      {
+        "meshIndex": 44,
+        "name": "V60_Render_Shared_Native_A",
+        "triangles": 151174,
+        "vertices": 180899,
+        "radius": 11.540505016866671,
+        "tracedSpatialNormalBins": 7983,
+        "cellMeters": 1.5404714643485966,
+        "minimum": 0,
+        "mean": 0.29185389875771867,
+        "maximum": 1,
+        "seconds": 3.250680584
+      },
+      {
+        "meshIndex": 45,
+        "name": "V60_Render_Shared_Native_C",
+        "triangles": 100709,
+        "vertices": 115949,
+        "radius": 9.30588876878698,
+        "tracedSpatialNormalBins": 5489,
+        "cellMeters": 1.863279303345074,
+        "minimum": 0,
+        "mean": 0.23904495536323525,
+        "maximum": 1,
+        "seconds": 2.0130020000000006
+      }
+    ]
+  },
+  "limitations": [
+    "Local canopy geometric visibility, not Cycles GI, translucency, terrain shadow or occlusion between different trees.",
+    "Twelve deterministic cosine rays with at most8192 spatial/normal samples per prototype are a bounded approximation. Visibility is shared locally; vertex interpolation and fixed prototype-space radius remain approximations.",
+    "Native and LOD normals/positions match exactly; nonuniform instance scales can change true angular visibility.",
+    "No albedo, source geometry, plant placement or source PNG was changed."
+  ]
+}

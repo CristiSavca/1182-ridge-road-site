@@ -1,0 +1,75 @@
+{
+  "revision": "native-roof-sides-pv-and-calibrated-concrete-v2",
+  "sourceRawSha256": "cdabcedf6df78665cb47a97173d3b0e9bf41a17730102a1aed4c1fa26ec71308",
+  "preservedOriginalBufferSha256": "b6732a23c73a38990d82c82bc4fb7a2127de16e69612572cc253e029b82e062a",
+  "originalBufferBytes": 24240576,
+  "sourceGeometryUnchanged": true,
+  "oppositeSidedRoofTriangles": 20,
+  "steelPrimitivesWorldMapped": 12,
+  "solarMaterial": "V68_PV_Glass_Restrained_Highlight",
+  "concreteTrianglesByNativeSurface": {
+    "wall": 532,
+    "floor": 423
+  },
+  "sourceRecipes": [
+    "scripts/blender_prepare_weekender.py",
+    "scripts/v67_exterior_surfaces.py",
+    "scripts/v68_surface_refinement.py",
+    "scripts/v80_surface_finish.py",
+    "scripts/v94_surface_finish.py",
+    "scripts/v69_concrete_materials.py",
+    "scripts/v86_concrete_alignment.py",
+    "scripts/v106_material_refinement.py"
+  ],
+  "textures": [
+    {
+      "url": "/ridge/webgpu/textures/native-v68-steel-tone-2k.png",
+      "bytes": 697098,
+      "sha256": "69e4ea104145aadf1a46d3d8de58f953005d500fd8e6e631ec61a25136f12438"
+    },
+    {
+      "url": "/ridge/webgpu/textures/native-v94-steel-metallic-roughness-2k.png",
+      "bytes": 779512,
+      "sha256": "b1d6b48f3c60227dbbd2150da34e46a12ccdcc43dced5a289b34edc38faad47d"
+    },
+    {
+      "url": "/ridge/webgpu/textures/native-v69-honed-floor-color-2k.jpg",
+      "bytes": 778106,
+      "sha256": "d416ff18be19b8db1ef41ec689aea607ba2e217a543477c88e49d3839cd3b048"
+    },
+    {
+      "url": "/ridge/webgpu/textures/native-v69-honed-floor-normal-2k.jpg",
+      "bytes": 890277,
+      "sha256": "03eccccaf7966cd73e337cc9719cbe1fdb6357523bab6741504639ee118a3f76"
+    },
+    {
+      "url": "/ridge/webgpu/textures/native-v69-honed-floor-roughness-2k.jpg",
+      "bytes": 2141583,
+      "sha256": "6d9bff7d355fba9038412de7f551f9b36e9908fc1678d03775f8307e96235b2e"
+    },
+    {
+      "url": "/ridge/webgpu/textures/native-v106-cast-concrete-color-4k.jpg",
+      "bytes": 4449541,
+      "sha256": "c4e01d32810aee52298a35381f9caff971102d42caf9469fe8db438e65741bc8"
+    },
+    {
+      "url": "/ridge/webgpu/textures/native-v106-cast-concrete-normal-4k.jpg",
+      "bytes": 2971162,
+      "sha256": "c8a8b22e148ae092a509701458054e28b13fb677357679e28aebaedcc65d580e"
+    },
+    {
+      "url": "/ridge/webgpu/textures/native-v106-cast-concrete-roughness-4k.jpg",
+      "bytes": 8605108,
+      "sha256": "b470900c214eb82fad42071ce0fa6ef6a574b29028c3e1932ab72ff0c388b3e1"
+    }
+  ],
+  "sourceScanSha256": "5da4c3d958657b404e1d5ab1284662fe2000fabc8025030c805a5e1906f2f2b2",
+  "bytes": 43465700,
+  "sha256": "373a3e434f4620db9ce7883b7f77d4d7bab49efa068ee8cbf25937073bcddfe7",
+  "stage": "uncompressed native material conversion; final packed asset below",
+  "packedAsset": {
+    "url": "/ridge/webgpu/architecture.glb",
+    "bytes": 24199404,
+    "sha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b"
+  }
+}

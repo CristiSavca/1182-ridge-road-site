@@ -1,0 +1,24 @@
+{
+  "id": "regional-forest",
+  "label": "Regional Forest",
+  "url": "/ridge/webgpu/regional-forest.glb",
+  "bytes": 1543240,
+  "triangles": 33482,
+  "instances": 3115,
+  "sourceObjects": 3115,
+  "category": "vegetation",
+  "sourceRevision": "V115",
+  "variant": "all",
+  "density": {
+    "source": 41102,
+    "exported": 3115,
+    "culled": 37987
+  },
+  "nativeTriangles": 1182403,
+  "lod": {
+    "beforeTriangles": 1182403,
+    "afterTriangles": 33482,
+    "maxError": 0.07508943229913712,
+    "method": "meshoptimizer topology LOD, 3% relative error"
+  }
+}

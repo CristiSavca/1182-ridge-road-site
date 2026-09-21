@@ -1,0 +1,57 @@
+{
+  "trueNorthThree": [
+    0.6429993336518125,
+    0,
+    -0.7658667357467128
+  ],
+  "northernLimitMeters": 650,
+  "protectedRadiusMeters": 250,
+  "sourceFilesUnchanged": true,
+  "assets": [
+    {
+      "id": "complete-terrain",
+      "url": "/ridge/webgpu/complete-terrain-trimmed.glb",
+      "sourceSha256": "0286cc77baef4fb1b838ecf7b2cd27f3c1ebd57b9975001e8392fa784a0d7edf",
+      "sha256": "3cf46caeacefbe1f031d60af29ceb8675f7198d8cb8ec56066cc2b0ddfa84266",
+      "sourceBytes": 44403472,
+      "bytes": 23637076,
+      "beforeTriangles": 3478459,
+      "afterTriangles": 1854157,
+      "beforeVertices": 1762970,
+      "afterVertices": 939843,
+      "beforeInstances": 0,
+      "afterInstances": 0,
+      "protectedTriangles": 52215
+    },
+    {
+      "id": "terrain-lod",
+      "url": "/ridge/webgpu/terrain-lod-trimmed.glb",
+      "sourceSha256": "6b2343eeb68254f1a5e59a0059040a94eced34b9b703fe36dee10225c8876ebd",
+      "sha256": "4d8687dc64b38f0a772da940a2aa4de15ba38606957024eef4aeea6aa2431282",
+      "sourceBytes": 9730352,
+      "bytes": 5523308,
+      "beforeTriangles": 696763,
+      "afterTriangles": 394349,
+      "beforeVertices": 364786,
+      "afterVertices": 209332,
+      "beforeInstances": 0,
+      "afterInstances": 0,
+      "protectedTriangles": 52215
+    },
+    {
+      "id": "regional-forest",
+      "url": "/ridge/webgpu/regional-forest-trimmed.glb",
+      "sourceSha256": "9d30c5e3a7310db9bff524582a36bd1dc274cd90feb6a433e8356864b8fbb778",
+      "sha256": "456c929036f07f8d42105149d7559a4a357bbaf0641caaa34e9abd1def830456",
+      "sourceBytes": 1227072,
+      "bytes": 1201824,
+      "beforeTriangles": 0,
+      "afterTriangles": 0,
+      "beforeVertices": 0,
+      "afterVertices": 0,
+      "beforeInstances": 3115,
+      "afterInstances": 2894,
+      "protectedTriangles": 0
+    }
+  ]
+}

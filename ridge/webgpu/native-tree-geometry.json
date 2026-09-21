@@ -1,0 +1,85 @@
+{
+  "url": "/ridge/webgpu/native-tree-geometry.glb",
+  "sha256": "35547011835fba3205db38aa6dbc31e39fc64c2e4f6cebf927c5976443e54b2c",
+  "bytes": 45503136,
+  "sourceAsset": "vegetation",
+  "sourceSha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+  "nativeExportSha256": "d2deb7908cf2232132ff54825ed68c0c8840762e2a47136eb1790c6798ddad25",
+  "triangles": 1100342,
+  "records": [
+    {
+      "sourceMeshIndex": 0,
+      "sourceObject": "ENV_V21_Adjacent_002",
+      "sourceMesh": "ENV_V21_full_LOD_1",
+      "beforeTriangles": 9562,
+      "nativeTriangles": 83290
+    },
+    {
+      "sourceMeshIndex": 1,
+      "sourceObject": "ENV_V21_Adjacent_003",
+      "sourceMesh": "ENV_V21_full_LOD_2",
+      "beforeTriangles": 9794,
+      "nativeTriangles": 53468
+    },
+    {
+      "sourceMeshIndex": 2,
+      "sourceObject": "ENV_V21_Adjacent_007",
+      "sourceMesh": "ENV_V21_full_LOD_3",
+      "beforeTriangles": 9221,
+      "nativeTriangles": 69598
+    },
+    {
+      "sourceMeshIndex": 4,
+      "sourceObject": "ENV_V23_Forest_0002",
+      "sourceMesh": "bq_Tree_Pinus-ponderosa_D_spring-summer-autumn",
+      "beforeTriangles": 11418,
+      "nativeTriangles": 35561
+    },
+    {
+      "sourceMeshIndex": 5,
+      "sourceObject": "ENV_V23_Forest_0003",
+      "sourceMesh": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "beforeTriangles": 8014,
+      "nativeTriangles": 169500
+    },
+    {
+      "sourceMeshIndex": 9,
+      "sourceObject": "ENV_V23_Forest_0009",
+      "sourceMesh": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "beforeTriangles": 7595,
+      "nativeTriangles": 159891
+    },
+    {
+      "sourceMeshIndex": 10,
+      "sourceObject": "ENV_V23_Forest_0014",
+      "sourceMesh": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "beforeTriangles": 9230,
+      "nativeTriangles": 112974
+    },
+    {
+      "sourceMeshIndex": 11,
+      "sourceObject": "ENV_V23_Forest_0015",
+      "sourceMesh": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "beforeTriangles": 11098,
+      "nativeTriangles": 37412
+    },
+    {
+      "sourceMeshIndex": 12,
+      "sourceObject": "ENV_V23_Forest_0022",
+      "sourceMesh": "bq_Tree_Populus-tremuloides_B_summer",
+      "beforeTriangles": 11059,
+      "nativeTriangles": 167858
+    },
+    {
+      "sourceMeshIndex": 13,
+      "sourceObject": "ENV_V23_Forest_0213",
+      "sourceMesh": "bq_Tree_Populus-tremuloides_A_summer",
+      "beforeTriangles": 10999,
+      "nativeTriangles": 210790
+    }
+  ],
+  "visibilityTransfer": {
+    "primitives": 26,
+    "method": "Offline nearest-surface barycentric transfer of source canopy visibility; full native positions, normals and UVs"
+  }
+}

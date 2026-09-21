@@ -1,0 +1,968 @@
+[
+  {
+    "nativeName": "floors2 copy#2",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/92fd3742f4744e62_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Default back",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "[Color_009]",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "[Metal_Rough]1",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V10_Native_Architectural_Glass_01",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": true
+  },
+  {
+    "nativeName": "LOOKDEV_White_Plaster_CC0_03",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0ca5245ba70777d3_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Upholstery_Taupe_Terlenka_CC0_01",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/9528ce33df474c01_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_White_Plaster_CC0_04",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0ca5245ba70777d3_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Screen Shot 2017-08-24 at 11.34.44 AM1",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "floors2 copy",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ec3d2deb1fe21150_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Oak floors",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ec3d2deb1fe21150_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "CERAMIC",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Nickel metal",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "<auto>",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_White_Plaster_CC0_01",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0ca5245ba70777d3_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Upholstery_Taupe_Terlenka_CC0_02",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/9528ce33df474c01_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "ipe",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/92fd3742f4744e62_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V69_Interior_Cast_Concrete_Real_Pores",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Night Watch",
+    "baseImage": "",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "[Color M09]",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Night Watch.001",
+    "baseImage": "",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Brushed_Stainless_Procedural",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "floors2 copy.001",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ec3d2deb1fe21150_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "*5",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "*3",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Built-in-Induction-Cooktop-With-Two-Zones-3100-Watts-220-Volts-and-Black-Ceran-Smooth-top-Finish-SINC2220",
+    "baseImage": "",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "[Aluminum]",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "[Color_003]1",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "*4",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Default front",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "reflection1",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "ipe#2",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/92fd3742f4744e62_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Stuv Metal",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Steve_Edges",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Firewood_Rough_Wood_CC0_03",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0bd2b3195db9b54d_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Firewood_Pine_Bark_CC0_04",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/741f333ab9f8a099_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "floors2 copy#2.001",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/92fd3742f4744e62_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "*29",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "<Black>1",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Metal_Corrogated_Shiny",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V69_Photographic_Roughness_Couch_and_Sleeping_Pads",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/9528ce33df474c01_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Chips zwart",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Chips grijs",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Chips grijs.001",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Fire_Procedural_Emission_01",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Fire_Procedural_Emission_02",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Firewood_Rough_Wood_CC0_01",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0bd2b3195db9b54d_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Firewood_Pine_Bark_CC0_01",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/741f333ab9f8a099_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Firewood_Pine_Bark_CC0_02",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/741f333ab9f8a099_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Firewood_Charred_Procedural_01",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Firewood_Charred_Procedural_02",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Firewood_Pine_Bark_CC0_03",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/741f333ab9f8a099_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Firewood_Rough_Wood_CC0_02",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0bd2b3195db9b54d_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Exterior_Dark_Stained_Oak",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ec3d2deb1fe21150_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "cedar1",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/92fd3742f4744e62_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "[Color M00]",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Brass_Hardware_Procedural_01",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "[Color_A01]8",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Brass_Hardware_Procedural_02",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "<CorrogateShiny>1",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "<Charcoal>2",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "[0131_Silver]",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "Matte: FF1",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V68_Oak_Inside_Neutral_Steel_Outside",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ec3d2deb1fe21150_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V68_Neutral_Satin_Standing_Seam",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V67_Deck_Original_SKP_Ipe",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/original_skp_ipe/ipe.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Interior_Natural_Oak_PolyHaven_CC0",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ec3d2deb1fe21150_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Exterior_Dark_Stained_Oak_Vertical_Chimney_Gable",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ec3d2deb1fe21150_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Exterior_Dark_Stained_Oak_Raw_U_Longitudinal",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ec3d2deb1fe21150_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V5_Archive_Original_Bench_Pads_Transparent",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V5_Round_Table_Natural_Oak_PolyHaven_CC0",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ec3d2deb1fe21150_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V69_Honed_Concrete_Floor_Photo",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V66_Ivory_Loft_Cover_1",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0ca5245ba70777d3_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V66_Ivory_Loft_Cover_2",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0ca5245ba70777d3_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V69_Exterior_Concrete_Full_Cast_Scan",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V101 Walkway uniform satin coating",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V50_Daylight_V10_Native_Architectural_Glass_01",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": true
+  },
+  {
+    "nativeName": "V53_Clear_Modern_Crystal",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": true
+  },
+  {
+    "nativeName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": true
+  },
+  {
+    "nativeName": "LOOKDEV_V5_HotTub_Brushed_Stainless_Interior",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_V5_HotTub_Clear_Turquoise_Water",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": true
+  },
+  {
+    "nativeName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_V5_Solar_Black_Backplate",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V68_PV_Glass_Restrained_Highlight",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": true
+  },
+  {
+    "nativeName": "V8_Lantern_Clear_Glass",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": true
+  },
+  {
+    "nativeName": "V74_Striped_Throw_Continuous_UV",
+    "baseImage": "",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V10_Reading_Fixture_Blackened_Steel",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V66_Warm_Ivory_Handwoven_Wool_Rug",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V53_Amber_Decanter_Liquid",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V5_Clear_Handcut_Ice",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": true
+  },
+  {
+    "nativeName": "V10_Reading_Fixture_3000K_Diffuser",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V8_Fixture_2700K_Luminous_Diffuser",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V8_Lantern_Blackened_Steel",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V8_Lantern_Aged_Brass_Details",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V8_Lantern_Warm_Ivory_Wax",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V97 Excavated mountain soil",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V68_Pine_Litter_and_Natural_Stair_Earth",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/24b8aaf4c8547305_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/84bf24b80d097c1a_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/84bf24b80d097c1a_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V54_Reservoir_Dielectric_Water",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": true
+  },
+  {
+    "nativeName": "V68_bq_Rock_Granite_Photoscan_E",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Rock_Granite-Photoscan_E_Diffuse.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V68_bq_Rock_Granite_Photoscan_C",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Rock_Granite-Photoscan_C_Diffuse.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Driveway_Compacted_Black_Granite_PolyHaven_CC0",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/5eb5eec5af1fb33a_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Driveway_Gravel_Feather_PolyHaven_CC0",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/24b8aaf4c8547305_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "LOOKDEV_Forest_Ground_CC0",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/24b8aaf4c8547305_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Weathered asphalt",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Unpaved road gravel",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant roof 0",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant roof 1",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant roof 2",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant roof 3",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant roof 4",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant wall 0",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant wall 1",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant wall 2",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant wall 3",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V94 Distant wall 4",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "ENV_V21_Display_pine_tree_01_bark",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_bark_diff_1k.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "ENV_V21_Display_pine_tree_01_trunk_a",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_trunk_a_diff_1k.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "ENV_V21_Display_ENV_V10_NAIP_Forest_Healthy_Needles_pine_tree_01_twig",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_twig_diff_1k.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "ENV_V21_Display_pine_tree_01_dead_branches",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_bark_diff_1k.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "ENV_V21_Display_pine_tree_01_trunk_b",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_trunk_b_diff_1k.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "ENV_V21_Display_pine_tree_01_trunk_c",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_trunk_c_diff_1k.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V62 bq_Bark_Pinus-ponderosa",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/3b9308ad20300f23_2048.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V62 bq_Leaf_Pinus-ponderosa",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Pinus-ponderosa_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V62 bq_Bark_Populus-tremuloides",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/facd49c24ada9488_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V62 bq_Leaf_Populus-tremuloides",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Populus-tremuloides_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V60_Render_A_V62 bq_Bark_Pinus-ponderosa",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/3b9308ad20300f23_2048.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V60_Render_A_V62 bq_Leaf_Pinus-ponderosa",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Pinus-ponderosa_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V60_Render_C_V62 bq_Bark_Pinus-ponderosa",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/3b9308ad20300f23_2048.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V60_Render_C_V62 bq_Leaf_Pinus-ponderosa",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Pinus-ponderosa_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Grass_Bromus-carinatus",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/b96fd19a7c8a72d2_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Flower_Bromus-carinatus",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Flower_Bromus-carinatus_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "grass_medium_01",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_diff_1k.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V77_Native_Wildflower_Leaf_and_Bract_Surface",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V88 Local granite grains",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Leaf_Achillea-millefolium",
+    "baseImage": "//..\\..\\..\\textures\\bq_Flower_Achillea-millefolium_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Flower_achillea-millefolium",
+    "baseImage": "//..\\..\\..\\textures\\bq_Flower_Achillea-millefolium_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Stem_Achillea-millefolium",
+    "baseImage": "//..\\..\\..\\textures\\bq_Flower_Achillea-millefolium_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Bark_Rhus-aromatica",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ba18e54137f52073_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Leaf_Rhus-aromatica",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/7ed28af982fac238_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Flower_Bellflower",
+    "baseImage": "//..\\..\\..\\textures\\bq_Flowers_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Grass",
+    "baseImage": "//..\\..\\textures/bq_Grass_Diffuse.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Basic_Pinecone-Needle-Forest-Debris",
+    "baseImage": "//..\\..\\..\\textures\\bq_Misc_Forest-debris_Diffuse.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Basic_Forest-debris",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Misc_Forest-debris_Diffuse.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "shrub_02",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ac1f0a16eef67a6e_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V38_Fade_0_ENV_V21_Display_SITE_MAT_Pine_Bark_PolyHaven_CC0",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/741f333ab9f8a099_1024.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V38_Fade_0_ENV_V21_Display_SITE_MAT_Pine_Twigs_PolyHaven_CC0",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/pine_tree_01_twig_diff_1k.jpg",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V38_Fade_0_ENV_V10_Regional_Canopy_Evergreen_Needles",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V38_Fade_0_ENV_V10_Regional_Canopy_Sunward_Needle_Tips",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V38_Fade_0_ENV_V10_Regional_Canopy_Ponderosa_Bark",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Bark_Pinus-ponderosa",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Bark_Pinus-ponderosa_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Leaf_Pinus-ponderosa",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Pinus-ponderosa_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "bq_Snow",
+    "baseImage": null,
+    "proceduralApproximation": true,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V108 blue_hour_winter V62 bq_Leaf_Populus-tremuloides",
+    "baseImage": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Populus-tremuloides_Diffuse.png",
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V110 cocktail 1 liquid shared volume",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V110 cocktail 2 liquid shared volume",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V110 decanter liquid shared volume",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  },
+  {
+    "nativeName": "V116 Slightly dimmed cozy sconce lens",
+    "baseImage": null,
+    "proceduralApproximation": false,
+    "glassApproximation": false
+  }
+]

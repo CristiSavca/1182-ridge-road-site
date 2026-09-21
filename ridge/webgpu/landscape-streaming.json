@@ -1,0 +1,22 @@
+{
+  "id": "landscape-preview",
+  "sourceAssetId": "landscape",
+  "url": "/ridge/webgpu/landscape-preview.glb",
+  "bytes": 9966716,
+  "sha256": "1644647837122f8b684ce505a2f995cbb0831c26b0010b0b973bb813c72ca5bb",
+  "source": "/ridge/webgpu/landscape.glb",
+  "sourceSha256": "88f179caadb1b6e39d04949232aff0984ed7a20f8beedcb9e0b72c053c0315dc",
+  "sourceBytes": 13946344,
+  "geometrySource": "/ridge/webgpu/landscape.glb",
+  "geometrySha256": "88f179caadb1b6e39d04949232aff0984ed7a20f8beedcb9e0b72c053c0315dc",
+  "geometryBytes": 13946344,
+  "triangles": 381661,
+  "materialImagesUnchanged": true,
+  "nativeInstancesUnchanged": true,
+  "nativeSourceUnchanged": true,
+  "exactGeometry": true,
+  "droppedUnusedBuffers": true,
+  "method": "Exact retained geometry; omit only replaced terrain nodes with the same prefixes used by the renderer",
+  "omittedReplacedTerrainNodes": 11,
+  "exactRetainedGeometry": true
+}

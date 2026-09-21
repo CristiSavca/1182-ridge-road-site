@@ -1,0 +1,19 @@
+{
+  "id": "winter-vegetation",
+  "label": "Winter Vegetation",
+  "url": "/ridge/webgpu/winter-vegetation.glb",
+  "bytes": 57071436,
+  "triangles": 1420909,
+  "instances": 296,
+  "sourceObjects": 296,
+  "category": "vegetation",
+  "sourceRevision": "V116",
+  "variant": "winter",
+  "nativeTriangles": 3169188,
+  "lod": {
+    "beforeTriangles": 3169188,
+    "afterTriangles": 1420909,
+    "maxError": 0.035523537546396255,
+    "method": "meshoptimizer topology LOD, 3% relative error"
+  }
+}

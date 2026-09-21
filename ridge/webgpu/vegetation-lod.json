@@ -1,0 +1,1628 @@
+{
+  "url": "/ridge/webgpu/vegetation-lod.glb",
+  "bytes": 17308308,
+  "sha256": "b76ed2707a7a13090f1438f7e0c170a31e60cee671531b1923fe933c1b8bf6f4",
+  "source": "public/ridge/webgpu/vegetation.glb",
+  "sourceSha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+  "targetTrianglesPerMesh": 6000,
+  "minimumCanopyCoverage": 0.6,
+  "method": "Meshopt simplifyWithAttributes; NORMAL weight .5, TEXCOORD_0 weight 1.5; no canopy component pruning; canopy keeps >=60% surface and each-axis projected area; trunk-only budget1500; original surviving vertex data preserved; separate Float32 vertex layout",
+  "geometryOnly": true,
+  "runtimeMatch": "Exact source mesh/node order and names; exact primitive order; native materials and instance transforms retained by renderer",
+  "rows": [
+    {
+      "name": "ENV_V21_full_LOD_1",
+      "sourceTriangles": 9562,
+      "triangles": 6951,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1062,
+          "triangles": 666,
+          "error": 0.0004755755071528256,
+          "canopy": false,
+          "retainedSurfaceArea": 0.6487259204587914,
+          "retainedProjectedAreas": [
+            0.7186319316381341,
+            0.654010293534964,
+            0.639718718716243
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_pine_tree_01_bark"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 116,
+          "triangles": 72,
+          "error": 0.03824005648493767,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8725900289156536,
+          "retainedProjectedAreas": [
+            0.8255754493473515,
+            0.8543026450229263,
+            0.9302551862395328
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_pine_tree_01_trunk_a"
+        },
+        {
+          "primitiveIndex": 2,
+          "sourceTriangles": 8340,
+          "triangles": 6187,
+          "error": 0.11850655823945999,
+          "canopy": true,
+          "retainedSurfaceArea": 0.9143998249428006,
+          "retainedProjectedAreas": [
+            0.9749218174524774,
+            0.9835165123233882,
+            0.9059123562266641
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_ENV_V10_NAIP_Forest_Healthy_Needles_pine_tree_01_twig"
+        },
+        {
+          "primitiveIndex": 3,
+          "sourceTriangles": 44,
+          "triangles": 26,
+          "error": 0.00040584479575045407,
+          "canopy": false,
+          "retainedSurfaceArea": 0.587068836938825,
+          "retainedProjectedAreas": [
+            0.5700662224148267,
+            0.6479717317197645,
+            0.5731022722247828
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_pine_tree_01_dead_branches"
+        }
+      ]
+    },
+    {
+      "name": "ENV_V21_full_LOD_2",
+      "sourceTriangles": 9794,
+      "triangles": 7023,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1115,
+          "triangles": 683,
+          "error": 0.0005060670082457364,
+          "canopy": false,
+          "retainedSurfaceArea": 0.6101665382746629,
+          "retainedProjectedAreas": [
+            0.6199770373402342,
+            0.6718058941107224,
+            0.5991586669863225
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_pine_tree_01_bark"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 192,
+          "triangles": 117,
+          "error": 0.051937151700258255,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9160426489156592,
+          "retainedProjectedAreas": [
+            0.9429043542697968,
+            0.9062291962200175,
+            0.9315567709029716
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_pine_tree_01_trunk_b"
+        },
+        {
+          "primitiveIndex": 2,
+          "sourceTriangles": 8413,
+          "triangles": 6179,
+          "error": 0.11753373593091965,
+          "canopy": true,
+          "retainedSurfaceArea": 0.8996314441375025,
+          "retainedProjectedAreas": [
+            0.937889099935971,
+            0.9441402786432497,
+            0.8909932438853796
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_ENV_V10_NAIP_Forest_Healthy_Needles_pine_tree_01_twig"
+        },
+        {
+          "primitiveIndex": 3,
+          "sourceTriangles": 74,
+          "triangles": 44,
+          "error": 0.0003651339211501181,
+          "canopy": false,
+          "retainedSurfaceArea": 0.6215205302083024,
+          "retainedProjectedAreas": [
+            0.7439413614685636,
+            0.7223639280535434,
+            0.573673474538691
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_pine_tree_01_dead_branches"
+        }
+      ]
+    },
+    {
+      "name": "ENV_V21_full_LOD_3",
+      "sourceTriangles": 9221,
+      "triangles": 6710,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1057,
+          "triangles": 669,
+          "error": 0.000503143819514662,
+          "canopy": false,
+          "retainedSurfaceArea": 0.694302187092641,
+          "retainedProjectedAreas": [
+            0.654291240907385,
+            0.7187610857009501,
+            0.7015646125959596
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_pine_tree_01_bark"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 54,
+          "triangles": 35,
+          "error": 0.06957599520683289,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8273821984694251,
+          "retainedProjectedAreas": [
+            0.8596963163228681,
+            0.7032318817059572,
+            0.9053026588755124
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_pine_tree_01_trunk_c"
+        },
+        {
+          "primitiveIndex": 2,
+          "sourceTriangles": 8060,
+          "triangles": 5974,
+          "error": 0.11898066848516464,
+          "canopy": true,
+          "retainedSurfaceArea": 0.9191931240692687,
+          "retainedProjectedAreas": [
+            0.9934946798703195,
+            0.9973230531499955,
+            0.9023970181735677
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_ENV_V10_NAIP_Forest_Healthy_Needles_pine_tree_01_twig"
+        },
+        {
+          "primitiveIndex": 3,
+          "sourceTriangles": 50,
+          "triangles": 32,
+          "error": 0.00037126237293705344,
+          "canopy": false,
+          "retainedSurfaceArea": 0.45234058323176757,
+          "retainedProjectedAreas": [
+            0.43280754194324733,
+            0.51232884485131,
+            0.4591344207125071
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "ENV_V21_Display_pine_tree_01_dead_branches"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "sourceTriangles": 169500,
+      "triangles": 39269,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 59954,
+          "triangles": 1905,
+          "error": 0.014604438096284866,
+          "canopy": false,
+          "retainedSurfaceArea": 0.5432598741804968,
+          "retainedProjectedAreas": [
+            0.5985315211587092,
+            0.5929733168574469,
+            0.3674832935212635
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 109546,
+          "triangles": 37364,
+          "error": 0.008510692976415157,
+          "canopy": true,
+          "retainedSurfaceArea": 0.6091705625885495,
+          "retainedProjectedAreas": [
+            0.6005124901063151,
+            0.6024543831724622,
+            0.6290796810400007
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Pinus-ponderosa_D_spring-summer-autumn",
+      "sourceTriangles": 11418,
+      "triangles": 7066,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8650,
+          "triangles": 4534,
+          "error": 0.004366709850728512,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8407026795047076,
+          "retainedProjectedAreas": [
+            0.8530750297014075,
+            0.846478566531116,
+            0.8191582052603006
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 2768,
+          "triangles": 2532,
+          "error": 0.10833576321601868,
+          "canopy": true,
+          "retainedSurfaceArea": 0.9359421455887955,
+          "retainedProjectedAreas": [
+            0.9412400710340862,
+            0.9341210862860442,
+            0.9266510709364575
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "sourceTriangles": 8014,
+      "triangles": 6655,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 4147,
+          "triangles": 3060,
+          "error": 0.0003937346918974072,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8319979559604446,
+          "retainedProjectedAreas": [
+            0.8533241256423433,
+            0.8464288640943182,
+            0.7475966775468246
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 3867,
+          "triangles": 3595,
+          "error": 0.11721130460500717,
+          "canopy": true,
+          "retainedSurfaceArea": 0.9699264611003957,
+          "retainedProjectedAreas": [
+            0.9715782438333657,
+            0.9733080778312592,
+            0.9676220870330362
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "sourceTriangles": 37412,
+      "triangles": 6758,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 32004,
+          "triangles": 4685,
+          "error": 0.0061571672558784485,
+          "canopy": false,
+          "retainedSurfaceArea": 0.6721011961931302,
+          "retainedProjectedAreas": [
+            0.7267720818804502,
+            0.7300482776143392,
+            0.4701297608957332
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 5408,
+          "triangles": 2073,
+          "error": 0.019526774063706398,
+          "canopy": true,
+          "retainedSurfaceArea": 0.6455168132016389,
+          "retainedProjectedAreas": [
+            0.655306365580923,
+            0.6517480882997749,
+            0.6161977349978733
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "sourceTriangles": 112974,
+      "triangles": 19881,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 69861,
+          "triangles": 3318,
+          "error": 0.010493370704352856,
+          "canopy": false,
+          "retainedSurfaceArea": 0.4896728948863211,
+          "retainedProjectedAreas": [
+            0.5367023666693107,
+            0.530470252326518,
+            0.28378881276020923
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 43113,
+          "triangles": 16563,
+          "error": 0.019902236759662628,
+          "canopy": true,
+          "retainedSurfaceArea": 0.6154645389723835,
+          "retainedProjectedAreas": [
+            0.6032139048638943,
+            0.6003517271759726,
+            0.6655884808103535
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "sourceTriangles": 159891,
+      "triangles": 35256,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 65963,
+          "triangles": 2243,
+          "error": 0.010105445049703121,
+          "canopy": false,
+          "retainedSurfaceArea": 0.6202546332381088,
+          "retainedProjectedAreas": [
+            0.6760489065735058,
+            0.6905733659069082,
+            0.39817014453820637
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 93928,
+          "triangles": 33013,
+          "error": 0.007042004261165857,
+          "canopy": true,
+          "retainedSurfaceArea": 0.622090711202816,
+          "retainedProjectedAreas": [
+            0.6014489311952983,
+            0.6000484210264365,
+            0.6699093342494982
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "sourceTriangles": 7595,
+      "triangles": 6245,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 4669,
+          "triangles": 3648,
+          "error": 0.00040429134969599545,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8765423504336668,
+          "retainedProjectedAreas": [
+            0.9068908021248565,
+            0.9115692449531838,
+            0.732523028989864
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 2926,
+          "triangles": 2597,
+          "error": 0.11802765727043152,
+          "canopy": true,
+          "retainedSurfaceArea": 0.9453296175557507,
+          "retainedProjectedAreas": [
+            0.9394201051417437,
+            0.9473707598687363,
+            0.9590562828402088
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "sourceTriangles": 9230,
+      "triangles": 6690,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 7010,
+          "triangles": 4555,
+          "error": 0.0006207965780049562,
+          "canopy": false,
+          "retainedSurfaceArea": 0.7913047263180031,
+          "retainedProjectedAreas": [
+            0.8156158036219441,
+            0.819218973642678,
+            0.6656019452008157
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 2220,
+          "triangles": 2135,
+          "error": 0.11625805497169495,
+          "canopy": true,
+          "retainedSurfaceArea": 0.9809087310718991,
+          "retainedProjectedAreas": [
+            0.9778121149777345,
+            0.9796986650058107,
+            0.9842596977531215
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "sourceTriangles": 11098,
+      "triangles": 6383,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 9637,
+          "triangles": 5092,
+          "error": 0.002485543955117464,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8162032061579915,
+          "retainedProjectedAreas": [
+            0.827545879700542,
+            0.8297962572429632,
+            0.7319070750028281
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 1461,
+          "triangles": 1291,
+          "error": 0.11702233552932739,
+          "canopy": true,
+          "retainedSurfaceArea": 0.9090641838684067,
+          "retainedProjectedAreas": [
+            0.9141590423951761,
+            0.9190225853993756,
+            0.8961770628546338
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Populus-tremuloides_B_summer",
+      "sourceTriangles": 11059,
+      "triangles": 6920,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 3057,
+          "triangles": 1615,
+          "error": 0.00026717677246779203,
+          "canopy": false,
+          "retainedSurfaceArea": 0.5150129505796383,
+          "retainedProjectedAreas": [
+            0.5366847228172963,
+            0.5170569068284109,
+            0.47462521582464046
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Populus-tremuloides"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 8002,
+          "triangles": 5305,
+          "error": 0.10372272878885269,
+          "canopy": true,
+          "retainedSurfaceArea": 0.7686994932114689,
+          "retainedProjectedAreas": [
+            0.7714701180642601,
+            0.7788404522132244,
+            0.7572711680449633
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Populus-tremuloides"
+        }
+      ]
+    },
+    {
+      "name": "bq_Tree_Populus-tremuloides_A_summer",
+      "sourceTriangles": 10999,
+      "triangles": 6620,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 3763,
+          "triangles": 2043,
+          "error": 0.001609239843674004,
+          "canopy": false,
+          "retainedSurfaceArea": 0.5190184413197559,
+          "retainedProjectedAreas": [
+            0.5262712376568597,
+            0.528919729317978,
+            0.5082283294567104
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Populus-tremuloides"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 7236,
+          "triangles": 4577,
+          "error": 0.11836061626672745,
+          "canopy": true,
+          "retainedSurfaceArea": 0.7322572589725131,
+          "retainedProjectedAreas": [
+            0.7297313984318796,
+            0.7378310845429642,
+            0.7234682160911987
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Leaf_Populus-tremuloides"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_01_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1500,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1500,
+          "error": 0.0039050825871527195,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9593487284387333,
+          "retainedProjectedAreas": [
+            0.9648638696374526,
+            0.9560521945784134,
+            0.8626142390272228
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_02_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.00399761600419879,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9589466848555975,
+          "retainedProjectedAreas": [
+            0.965073450252743,
+            0.956572356784527,
+            0.8645620366196639
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_03_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1493,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1493,
+          "error": 0.015582197345793247,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8149817029204102,
+          "retainedProjectedAreas": [
+            0.8195511038537279,
+            0.8184163861860154,
+            0.5630707137403282
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_04_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003953149542212486,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9580172274648198,
+          "retainedProjectedAreas": [
+            0.9639128505392082,
+            0.9563617913314011,
+            0.8646588438630455
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_05_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.0039016681257635355,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9595892509462668,
+          "retainedProjectedAreas": [
+            0.965281768947799,
+            0.9571235936439253,
+            0.8660397300192789
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_06_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1489,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1489,
+          "error": 0.015614538453519344,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8145905415300746,
+          "retainedProjectedAreas": [
+            0.8233668501925534,
+            0.8207571122183431,
+            0.541158581953438
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_07_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.004006586037576199,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9577677300977743,
+          "retainedProjectedAreas": [
+            0.9666722336283101,
+            0.956655091269267,
+            0.8616683555786019
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_08_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003903712145984173,
+          "canopy": false,
+          "retainedSurfaceArea": 0.957957781539426,
+          "retainedProjectedAreas": [
+            0.9636311512162806,
+            0.9574450047600174,
+            0.8575280723742864
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_09_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1487,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1487,
+          "error": 0.016090650111436844,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8185603266002788,
+          "retainedProjectedAreas": [
+            0.817131742168882,
+            0.8235717914760995,
+            0.576305230226728
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_10_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003902383614331484,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9572145495621436,
+          "retainedProjectedAreas": [
+            0.9632622572940022,
+            0.9542751930973752,
+            0.8656764306827025
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_11_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.0038446064572781324,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9574212024992639,
+          "retainedProjectedAreas": [
+            0.9624688558928013,
+            0.9545550430749807,
+            0.8532681035549086
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_12_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1487,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1487,
+          "error": 0.01622459478676319,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8131728042658642,
+          "retainedProjectedAreas": [
+            0.8208262524953231,
+            0.8218769115604948,
+            0.55375105087714
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_13_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003896191017702222,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9588550873087788,
+          "retainedProjectedAreas": [
+            0.9666213887038941,
+            0.957882310778457,
+            0.8634273378274755
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_14_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.0038513755425810814,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9579709507610953,
+          "retainedProjectedAreas": [
+            0.9663331249138156,
+            0.9564631098334572,
+            0.8565100451681024
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_15_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1488,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1488,
+          "error": 0.015609176829457283,
+          "canopy": false,
+          "retainedSurfaceArea": 0.812489770762733,
+          "retainedProjectedAreas": [
+            0.8191559430219576,
+            0.8157444961559793,
+            0.5535902899833984
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_16_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003883231896907091,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9579488175809019,
+          "retainedProjectedAreas": [
+            0.9597796169794567,
+            0.95170728938264,
+            0.8637641697858819
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_17_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003885765792801976,
+          "canopy": false,
+          "retainedSurfaceArea": 0.958011318893724,
+          "retainedProjectedAreas": [
+            0.9645127611862979,
+            0.9575522655821626,
+            0.860284657454658
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_18_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1482,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1482,
+          "error": 0.016096917912364006,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8089775660785196,
+          "retainedProjectedAreas": [
+            0.8191173799342208,
+            0.8085196976730018,
+            0.5651298702620103
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_19_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003832736285403371,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9575992479496123,
+          "retainedProjectedAreas": [
+            0.9629290526806794,
+            0.9557493429475721,
+            0.8555351599689976
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_20_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003896840615198016,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9583914666517688,
+          "retainedProjectedAreas": [
+            0.9632532117896438,
+            0.9563462595920398,
+            0.8570309106132853
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_21_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1490,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1490,
+          "error": 0.015378482639789581,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8150035535621545,
+          "retainedProjectedAreas": [
+            0.8228097267680086,
+            0.807844565172458,
+            0.5605773547904342
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_22_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.004024885594844818,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9573371481184979,
+          "retainedProjectedAreas": [
+            0.9614876808265272,
+            0.957653654087547,
+            0.8622805716511218
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_23_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003891170723363757,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9568715261819105,
+          "retainedProjectedAreas": [
+            0.9629768203083783,
+            0.9549036932880098,
+            0.8612011321553071
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_24_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1489,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1489,
+          "error": 0.015551984310150146,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8115927408613451,
+          "retainedProjectedAreas": [
+            0.8207768386039823,
+            0.8273351905869728,
+            0.5362236340460399
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_25_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.003987111151218414,
+          "canopy": false,
+          "retainedSurfaceArea": 0.958424693569989,
+          "retainedProjectedAreas": [
+            0.963578577641755,
+            0.9583338214561586,
+            0.8616694111803512
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_26_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.0039015363436192274,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9581366310395422,
+          "retainedProjectedAreas": [
+            0.9645389571855101,
+            0.9568250403223482,
+            0.8639533512523164
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_27_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1489,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1489,
+          "error": 0.015608119778335094,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8150703828177167,
+          "retainedProjectedAreas": [
+            0.8150585400879279,
+            0.8135015749030936,
+            0.5782587262187427
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_28_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1500,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1500,
+          "error": 0.0039026825688779354,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9583012279564707,
+          "retainedProjectedAreas": [
+            0.9666096675334643,
+            0.9551636362026941,
+            0.862602386543258
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_29_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 8717,
+      "triangles": 1499,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8717,
+          "triangles": 1499,
+          "error": 0.0040023899637162685,
+          "canopy": false,
+          "retainedSurfaceArea": 0.9587017841526626,
+          "retainedProjectedAreas": [
+            0.9672075847687037,
+            0.9590202829309267,
+            0.8621181582129028
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_30_TRUNK_SURVEY_DBH",
+      "sourceTriangles": 12265,
+      "triangles": 1489,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12265,
+          "triangles": 1489,
+          "error": 0.016059163957834244,
+          "canopy": false,
+          "retainedSurfaceArea": 0.8123832393397942,
+          "retainedProjectedAreas": [
+            0.8182097907818147,
+            0.8110934521294798,
+            0.5737380511763964
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V62 bq_Bark_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Shared_Native_A",
+      "sourceTriangles": 151174,
+      "triangles": 35282,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 57246,
+          "triangles": 2221,
+          "error": 0.01178576610982418,
+          "canopy": false,
+          "retainedSurfaceArea": 0.4322454075664535,
+          "retainedProjectedAreas": [
+            0.474172299456603,
+            0.49548002447840117,
+            0.3505175193898371
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V60_Render_A_V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 93928,
+          "triangles": 33061,
+          "error": 0.007042004261165857,
+          "canopy": true,
+          "retainedSurfaceArea": 0.6226963299463878,
+          "retainedProjectedAreas": [
+            0.6020794672555807,
+            0.6006660443448149,
+            0.6705126503808614
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V60_Render_A_V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    },
+    {
+      "name": "V60_Render_Shared_Native_C",
+      "sourceTriangles": 100709,
+      "triangles": 19952,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 57596,
+          "triangles": 3367,
+          "error": 0.014824995771050453,
+          "canopy": false,
+          "retainedSurfaceArea": 0.3776776067381104,
+          "retainedProjectedAreas": [
+            0.40841938411246026,
+            0.39266598715809825,
+            0.3223914196306964
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V60_Render_C_V62 bq_Bark_Pinus-ponderosa"
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 43113,
+          "triangles": 16585,
+          "error": 0.019902236759662628,
+          "canopy": true,
+          "retainedSurfaceArea": 0.6160106342031172,
+          "retainedProjectedAreas": [
+            0.6037823972069029,
+            0.6008621172932279,
+            0.666171968168273
+          ],
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "TEXCOORD_0"
+          ],
+          "sourceMaterial": "V60_Render_C_V62 bq_Leaf_Pinus-ponderosa"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2091 @@
+{
+  "schemaVersion": 1,
+  "attribute": "nativeSkyOcclusion",
+  "url": "/ridge/webgpu/native-sky-occlusion.bin",
+  "bytes": 639330,
+  "sha256": "133a4da86db05a4fafb29e90ac6ccebca4b3b9894ae2af3c0fd629bbc6671cd0",
+  "format": "UNORM8",
+  "sources": [
+    {
+      "id": "architecture",
+      "url": "/ridge/webgpu/architecture.glb",
+      "bytes": 24199404,
+      "sha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b"
+    },
+    {
+      "id": "interior",
+      "url": "/ridge/webgpu/interior.glb",
+      "bytes": 434988,
+      "sha256": "92c8893b0f11de8ba41596526628313ff7ce73881e47939122eca039223a42ed"
+    }
+  ],
+  "algorithm": {
+    "name": "Cosine-weighted native architectural visibility",
+    "samples": 24,
+    "maxDistance": 8,
+    "bias": 0.006,
+    "distribution": "Deterministic spherical Fibonacci cosine hemisphere",
+    "doubleSidedOccluders": true,
+    "transparentGlassIgnored": true,
+    "sourceVerticesMoved": false
+  },
+  "records": [
+    {
+      "assetId": "architecture",
+      "meshIndex": 0,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / floors2 copy#2",
+      "materialName": "floors2 copy#2",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Default back",
+      "materialName": "Default back",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 2,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Screen Shot 2017-08-24 at 11.34.44 AM",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 3,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / [Color_009]",
+      "materialName": "[Color_009]",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 4,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / [Metal_Rough]1",
+      "materialName": "[Metal_Rough]1",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 5,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_White_Plaster_CC0_03",
+      "materialName": "LOOKDEV_White_Plaster_CC0_03",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 6,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Upholstery_Taupe_Terlenka_CC0_01",
+      "materialName": "LOOKDEV_Upholstery_Taupe_Terlenka_CC0_01",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 7,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_White_Plaster_CC0_04",
+      "materialName": "LOOKDEV_White_Plaster_CC0_04",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 8,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Screen Shot 2017-08-24 at 11.34.44 AM1",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM1",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 9,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / floors2 copy",
+      "materialName": "floors2 copy",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 10,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Oak floors",
+      "materialName": "Oak floors",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 11,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / CERAMIC",
+      "materialName": "CERAMIC",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 12,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Nickel metal",
+      "materialName": "Nickel metal",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 13,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / <auto>",
+      "materialName": "<auto>",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 14,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_White_Plaster_CC0_01",
+      "materialName": "LOOKDEV_White_Plaster_CC0_01",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 15,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Upholstery_Taupe_Terlenka_CC0_02",
+      "materialName": "LOOKDEV_Upholstery_Taupe_Terlenka_CC0_02",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 16,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / ipe",
+      "materialName": "ipe",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 17,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V69_Interior_Cast_Concrete_Real_Pores",
+      "materialName": "V69_Interior_Cast_Concrete_Real_Pores / native wall",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 17,
+      "primitiveIndex": 1,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V69_Interior_Cast_Concrete_Real_Pores",
+      "materialName": "V69_Interior_Cast_Concrete_Real_Pores / native floor",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 18,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Night Watch",
+      "materialName": "Night Watch",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 19,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / [Color M09]",
+      "materialName": "[Color M09]",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 20,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Night Watch.001",
+      "materialName": "Night Watch.001",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 21,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Brushed_Stainless_Procedural",
+      "materialName": "LOOKDEV_Brushed_Stainless_Procedural",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 22,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / floors2 copy.001",
+      "materialName": "floors2 copy.001",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 23,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / *5",
+      "materialName": "*5",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 24,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / *3",
+      "materialName": "*3",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 25,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Built-in-Induction-Cooktop-With-Two-Zones-3100-Watts-220-Volts-and-Black-Ceran-Smooth-top-Finish-SINC2220",
+      "materialName": "Built-in-Induction-Cooktop-With-Two-Zones-3100-Watts-220-Volts-and-Black-Ceran-Smooth-top-Finish-SINC2220",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 26,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / [Aluminum]",
+      "materialName": "[Aluminum]",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 27,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / [Color_003]1",
+      "materialName": "[Color_003]1",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 28,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / *4",
+      "materialName": "*4",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 29,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Default front",
+      "materialName": "Default front",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 30,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / reflection1",
+      "materialName": "reflection1",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 31,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / ipe#2",
+      "materialName": "ipe#2",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 32,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Stuv Metal",
+      "materialName": "Stuv Metal",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 33,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Steve_Edges",
+      "materialName": "Steve_Edges",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 34,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Firewood_Rough_Wood_CC0_03",
+      "materialName": "LOOKDEV_Firewood_Rough_Wood_CC0_03",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 35,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Firewood_Pine_Bark_CC0_04",
+      "materialName": "LOOKDEV_Firewood_Pine_Bark_CC0_04",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 36,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / floors2 copy#2.001",
+      "materialName": "floors2 copy#2.001",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 37,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / *29",
+      "materialName": "*29",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 38,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / <Black>1",
+      "materialName": "<Black>1",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 39,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Metal_Corrogated_Shiny",
+      "materialName": "Metal_Corrogated_Shiny",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 40,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V69_Photographic_Roughness_Couch_and_Sleeping_Pads",
+      "materialName": "V69_Photographic_Roughness_Couch_and_Sleeping_Pads",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 41,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Chips zwart",
+      "materialName": "Chips zwart",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 42,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Chips grijs",
+      "materialName": "Chips grijs",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 43,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Chips grijs.001",
+      "materialName": "Chips grijs.001",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 44,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Fire_Procedural_Emission_01",
+      "materialName": "LOOKDEV_Fire_Procedural_Emission_01",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 45,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Fire_Procedural_Emission_02",
+      "materialName": "LOOKDEV_Fire_Procedural_Emission_02",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 46,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Firewood_Rough_Wood_CC0_01",
+      "materialName": "LOOKDEV_Firewood_Rough_Wood_CC0_01",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 47,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Firewood_Pine_Bark_CC0_01",
+      "materialName": "LOOKDEV_Firewood_Pine_Bark_CC0_01",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 48,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Firewood_Pine_Bark_CC0_02",
+      "materialName": "LOOKDEV_Firewood_Pine_Bark_CC0_02",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 49,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Firewood_Charred_Procedural_01",
+      "materialName": "LOOKDEV_Firewood_Charred_Procedural_01",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 50,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Firewood_Charred_Procedural_02",
+      "materialName": "LOOKDEV_Firewood_Charred_Procedural_02",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 51,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Firewood_Pine_Bark_CC0_03",
+      "materialName": "LOOKDEV_Firewood_Pine_Bark_CC0_03",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 52,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Firewood_Rough_Wood_CC0_02",
+      "materialName": "LOOKDEV_Firewood_Rough_Wood_CC0_02",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 53,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Exterior_Dark_Stained_Oak",
+      "materialName": "LOOKDEV_Exterior_Dark_Stained_Oak",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 54,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / cedar1",
+      "materialName": "cedar1",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 55,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / [Color M00]",
+      "materialName": "[Color M00]",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 56,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Brass_Hardware_Procedural_01",
+      "materialName": "LOOKDEV_Brass_Hardware_Procedural_01",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 57,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / [Color_A01]8",
+      "materialName": "[Color_A01]8",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 58,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Brass_Hardware_Procedural_02",
+      "materialName": "LOOKDEV_Brass_Hardware_Procedural_02",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 59,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / <CorrogateShiny>1",
+      "materialName": "<CorrogateShiny>1",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 60,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / <Charcoal>2",
+      "materialName": "<Charcoal>2",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 61,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / [0131_Silver]",
+      "materialName": "[0131_Silver]",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 62,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / Matte: FF1",
+      "materialName": "Matte: FF1",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 63,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V68_Oak_Inside_Neutral_Steel_Outside",
+      "materialName": "V68_Oak_Inside_Neutral_Steel_Outside",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 63,
+      "primitiveIndex": 1,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V68_Oak_Inside_Neutral_Steel_Outside",
+      "materialName": "V68_Oak_Inside_Neutral_Steel_Outside / native exterior backface",
+      "group": 1,
+      "count": 40,
+      "offset": 590948
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 64,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V68_Neutral_Satin_Standing_Seam",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 65,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V67_Deck_Original_SKP_Ipe",
+      "materialName": "V67_Deck_Original_SKP_Ipe",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 66,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Interior_Natural_Oak_PolyHaven_CC0",
+      "materialName": "LOOKDEV_Interior_Natural_Oak_PolyHaven_CC0",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 67,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Exterior_Dark_Stained_Oak_Vertical_Chimney_Gable",
+      "materialName": "LOOKDEV_Exterior_Dark_Stained_Oak_Vertical_Chimney_Gable",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 68,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / LOOKDEV_Exterior_Dark_Stained_Oak_Raw_U_Longitudinal",
+      "materialName": "LOOKDEV_Exterior_Dark_Stained_Oak_Raw_U_Longitudinal",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 69,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V5_Round_Table_Natural_Oak_PolyHaven_CC0",
+      "materialName": "V5_Round_Table_Natural_Oak_PolyHaven_CC0",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 70,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V69_Honed_Concrete_Floor_Photo",
+      "materialName": "V69_Honed_Concrete_Floor_Photo / native wall",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 70,
+      "primitiveIndex": 1,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V69_Honed_Concrete_Floor_Photo",
+      "materialName": "V69_Honed_Concrete_Floor_Photo / native floor",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 71,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V66_Ivory_Loft_Cover_1",
+      "materialName": "V66_Ivory_Loft_Cover_1",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 72,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V66_Ivory_Loft_Cover_2",
+      "materialName": "V66_Ivory_Loft_Cover_2",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 73,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V69_Exterior_Concrete_Full_Cast_Scan",
+      "materialName": "V69_Exterior_Concrete_Full_Cast_Scan / native wall",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 73,
+      "primitiveIndex": 1,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V69_Exterior_Concrete_Full_Cast_Scan",
+      "materialName": "V69_Exterior_Concrete_Full_Cast_Scan / native floor",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 74,
+      "primitiveIndex": 0,
+      "meshName": "V73_V65_Source_Preserved_V30_Tour_Architecture_Source_Preserved.001 / V10_Firebox_Soot_Dark_Refractory",
+      "materialName": "V10_Firebox_Soot_Dark_Refractory",
+      "group": 0,
+      "count": 590948,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 75,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Main_Grating_Mesh",
+      "materialName": "V101 Walkway uniform satin coating",
+      "group": 2,
+      "count": 10368,
+      "offset": 590988
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 76,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Main_South_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 3,
+      "count": 48,
+      "offset": 601356
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 77,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Main_South_Flush_Band_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 4,
+      "count": 24,
+      "offset": 601404
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 78,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Main_North_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 5,
+      "count": 48,
+      "offset": 601428
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 79,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Main_North_Flush_Band_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 6,
+      "count": 24,
+      "offset": 601476
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 80,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Main_End_Bands_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 7,
+      "count": 48,
+      "offset": 601500
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 81,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_long_Grating_Mesh",
+      "materialName": "V101 Walkway uniform satin coating",
+      "group": 8,
+      "count": 5208,
+      "offset": 601548
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 82,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_long_0_0_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 9,
+      "count": 48,
+      "offset": 606756
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 83,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_long_0_1_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 10,
+      "count": 48,
+      "offset": 606804
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 84,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_long_0_Flush_Band_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 11,
+      "count": 48,
+      "offset": 606852
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 85,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_long_1_0_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 12,
+      "count": 48,
+      "offset": 606900
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 86,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_long_1_1_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 13,
+      "count": 48,
+      "offset": 606948
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 87,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_long_1_Flush_Band_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 14,
+      "count": 48,
+      "offset": 606996
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 88,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_middle_Grating_Mesh",
+      "materialName": "V101 Walkway uniform satin coating",
+      "group": 15,
+      "count": 1032,
+      "offset": 607044
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 89,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_middle_0_0_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 16,
+      "count": 48,
+      "offset": 608076
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 90,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_middle_0_Flush_Band_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 17,
+      "count": 24,
+      "offset": 608124
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 91,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_middle_1_0_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 18,
+      "count": 48,
+      "offset": 608148
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 92,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_middle_1_Flush_Band_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 19,
+      "count": 24,
+      "offset": 608196
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 93,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_far_Grating_Mesh",
+      "materialName": "V101 Walkway uniform satin coating",
+      "group": 20,
+      "count": 1032,
+      "offset": 608220
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 94,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_far_0_0_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 21,
+      "count": 48,
+      "offset": 609252
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 95,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_far_0_Flush_Band_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 22,
+      "count": 24,
+      "offset": 609300
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 96,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_far_1_0_Channel_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 23,
+      "count": 48,
+      "offset": 609324
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 97,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_far_1_Flush_Band_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 24,
+      "count": 24,
+      "offset": 609372
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 98,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_long_Step_Riser_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 25,
+      "count": 24,
+      "offset": 609396
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 99,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Spur_middle_Step_Riser_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 26,
+      "count": 24,
+      "offset": 609420
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 100,
+      "primitiveIndex": 0,
+      "meshName": "V19_Door_Clearance_V16_Level_V15_Walkway_Guard_Posts_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 27,
+      "count": 1056,
+      "offset": 609444
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 101,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Handrail_00_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 28,
+      "count": 24,
+      "offset": 610500
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 102,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_01_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 29,
+      "count": 24,
+      "offset": 610524
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 103,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_01_1_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 30,
+      "count": 24,
+      "offset": 610548
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 104,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_02_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 31,
+      "count": 24,
+      "offset": 610572
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 105,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_03_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 32,
+      "count": 24,
+      "offset": 610596
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 106,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_03_1_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 33,
+      "count": 24,
+      "offset": 610620
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 107,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Handrail_04_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 34,
+      "count": 24,
+      "offset": 610644
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 108,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Handrail_05_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 35,
+      "count": 24,
+      "offset": 610668
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 109,
+      "primitiveIndex": 0,
+      "meshName": "V15_Walkway_Handrail_06_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 36,
+      "count": 24,
+      "offset": 610692
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 110,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_07_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 37,
+      "count": 24,
+      "offset": 610716
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 111,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_07_1_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 38,
+      "count": 24,
+      "offset": 610740
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 112,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_07_2_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 39,
+      "count": 24,
+      "offset": 610764
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 113,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_07_3_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 40,
+      "count": 24,
+      "offset": 610788
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 114,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_09_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 41,
+      "count": 24,
+      "offset": 610812
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 115,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_09_1_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 42,
+      "count": 24,
+      "offset": 610836
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 116,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_09_2_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 43,
+      "count": 24,
+      "offset": 610860
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 117,
+      "primitiveIndex": 0,
+      "meshName": "V16_Level_V15_Walkway_Handrail_09_3_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 44,
+      "count": 24,
+      "offset": 610884
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 118,
+      "primitiveIndex": 0,
+      "meshName": "V19_Door_Clearance_V15_Walkway_Handrail_10_0_Mesh",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "group": 45,
+      "count": 24,
+      "offset": 610908
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 119,
+      "primitiveIndex": 0,
+      "meshName": "V9_Entry_Door_Leaf_Mesh",
+      "materialName": "[Color_009]",
+      "group": 46,
+      "count": 124,
+      "offset": 610932
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 119,
+      "primitiveIndex": 1,
+      "meshName": "V9_Entry_Door_Leaf_Mesh",
+      "materialName": "[Metal_Rough]1",
+      "group": 46,
+      "count": 124,
+      "offset": 610932
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 156,
+      "primitiveIndex": 0,
+      "meshName": "LODGE_USER_Interior_Oak_Ridge_Soffit_MESH",
+      "materialName": "LOOKDEV_Interior_Natural_Oak_PolyHaven_CC0",
+      "group": 47,
+      "count": 6,
+      "offset": 611056
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 158,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Blackened_Steel_Roof_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 48,
+      "count": 24,
+      "offset": 611062
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 159,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Column_01_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 49,
+      "count": 24,
+      "offset": 611086
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 160,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Column_02_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 50,
+      "count": 24,
+      "offset": 611110
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 161,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Column_03_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 51,
+      "count": 24,
+      "offset": 611134
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 162,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Column_04_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 52,
+      "count": 24,
+      "offset": 611158
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 163,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Concrete_Retaining_Edge_MESH",
+      "materialName": "V69_Interior_Cast_Concrete_Real_Pores / native wall",
+      "group": 53,
+      "count": 1022,
+      "offset": 611182
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 163,
+      "primitiveIndex": 1,
+      "meshName": "SITE_PHYSICAL_Carport_Concrete_Retaining_Edge_MESH",
+      "materialName": "V69_Interior_Cast_Concrete_Real_Pores / native floor",
+      "group": 53,
+      "count": 1022,
+      "offset": 611182
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 164,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Natural_Oak_Soffit_Planks_MESH",
+      "materialName": "LOOKDEV_Interior_Natural_Oak_PolyHaven_CC0",
+      "group": 54,
+      "count": 672,
+      "offset": 612204
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 165,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Perimeter_Beam_01_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 55,
+      "count": 24,
+      "offset": 612876
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 166,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Perimeter_Beam_02_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 56,
+      "count": 24,
+      "offset": 612900
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 167,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Perimeter_Beam_03_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 57,
+      "count": 24,
+      "offset": 612924
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 168,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Perimeter_Beam_04_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 58,
+      "count": 24,
+      "offset": 612948
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 169,
+      "primitiveIndex": 0,
+      "meshName": "SITE_PHYSICAL_Carport_Standing_Seams_MESH",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 59,
+      "count": 216,
+      "offset": 612972
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 170,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Floor_Drain_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 60,
+      "count": 128,
+      "offset": 613188
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 171,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Jet_01_Escutcheon_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 61,
+      "count": 128,
+      "offset": 613316
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 173,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Jet_02_Escutcheon_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 62,
+      "count": 128,
+      "offset": 613444
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 175,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Jet_03_Escutcheon_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 63,
+      "count": 128,
+      "offset": 613572
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 177,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Jet_04_Escutcheon_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 64,
+      "count": 128,
+      "offset": 613700
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 179,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Jet_05_Escutcheon_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 65,
+      "count": 128,
+      "offset": 613828
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 181,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Jet_06_Escutcheon_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 66,
+      "count": 128,
+      "offset": 613956
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 183,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Jet_07_Escutcheon_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 67,
+      "count": 128,
+      "offset": 614084
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 185,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Jet_08_Escutcheon_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 68,
+      "count": 128,
+      "offset": 614212
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 187,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Recessed_Basin_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Brushed_Stainless_Interior",
+      "group": 69,
+      "count": 1442,
+      "offset": 614340
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 188,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Rim_Control_1_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 70,
+      "count": 128,
+      "offset": 615782
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 189,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Rim_Control_2_Mesh",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "group": 71,
+      "count": 128,
+      "offset": 615910
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 190,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_HotTub_Thin_Blackened_Steel_Rim_Mesh.002",
+      "materialName": "V68_Neutral_Satin_Standing_Seam",
+      "group": 72,
+      "count": 960,
+      "offset": 616038
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 192,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Mounting_Rail_1_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "group": 73,
+      "count": 24,
+      "offset": 616998
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 193,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Mounting_Rail_2_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "group": 74,
+      "count": 24,
+      "offset": 617022
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 194,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_01_Backsheet_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "group": 75,
+      "count": 24,
+      "offset": 617046
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 195,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_01_Cells_Mesh",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "group": 76,
+      "count": 480,
+      "offset": 617070
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 196,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_01_Frame_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "group": 77,
+      "count": 24,
+      "offset": 617550
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 197,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_02_Backsheet_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "group": 78,
+      "count": 24,
+      "offset": 617574
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 198,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_02_Cells_Mesh",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "group": 79,
+      "count": 480,
+      "offset": 617598
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 199,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_02_Frame_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "group": 80,
+      "count": 24,
+      "offset": 618078
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 200,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_03_Backsheet_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "group": 81,
+      "count": 24,
+      "offset": 618102
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 201,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_03_Cells_Mesh",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "group": 82,
+      "count": 480,
+      "offset": 618126
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 202,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_03_Frame_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "group": 83,
+      "count": 24,
+      "offset": 618606
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 203,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_04_Backsheet_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "group": 84,
+      "count": 24,
+      "offset": 618630
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 204,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_04_Cells_Mesh",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "group": 85,
+      "count": 480,
+      "offset": 618654
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 205,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_04_Frame_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "group": 86,
+      "count": 24,
+      "offset": 619134
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 206,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_05_Backsheet_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "group": 87,
+      "count": 24,
+      "offset": 619158
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 207,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_05_Cells_Mesh",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "group": 88,
+      "count": 480,
+      "offset": 619182
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 208,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_05_Frame_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "group": 89,
+      "count": 24,
+      "offset": 619662
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 209,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_06_Backsheet_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "group": 90,
+      "count": 24,
+      "offset": 619686
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 210,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_06_Cells_Mesh",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "group": 91,
+      "count": 480,
+      "offset": 619710
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 211,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_06_Frame_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "group": 92,
+      "count": 24,
+      "offset": 620190
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 212,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_07_Backsheet_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "group": 93,
+      "count": 24,
+      "offset": 620214
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 213,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_07_Cells_Mesh",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "group": 94,
+      "count": 480,
+      "offset": 620238
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 214,
+      "primitiveIndex": 0,
+      "meshName": "SITE_V5_Solar_Panel_07_Frame_Mesh",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "group": 95,
+      "count": 24,
+      "offset": 620718
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 0,
+      "primitiveIndex": 0,
+      "meshName": "V74_Original_Pose_Rounded_Crease",
+      "materialName": "V74_Striped_Throw_Continuous_UV",
+      "group": 96,
+      "count": 7857,
+      "offset": 620742
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "meshName": "V10_Loft_Reading_Adjustable_Body_Mesh",
+      "materialName": "V10_Reading_Fixture_Blackened_Steel",
+      "group": 97,
+      "count": 192,
+      "offset": 628599
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 2,
+      "primitiveIndex": 0,
+      "meshName": "V10_Loft_Reading_Backplate_Mesh",
+      "materialName": "V10_Reading_Fixture_Blackened_Steel",
+      "group": 98,
+      "count": 192,
+      "offset": 628791
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 3,
+      "primitiveIndex": 0,
+      "meshName": "V10_Loft_Reading_Support_Arm_Mesh",
+      "materialName": "V10_Reading_Fixture_Blackened_Steel",
+      "group": 99,
+      "count": 192,
+      "offset": 628983
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 4,
+      "primitiveIndex": 0,
+      "meshName": "V5_Ground_Floor_Bench_Pad_1_Mesh",
+      "materialName": "V69_Photographic_Roughness_Couch_and_Sleeping_Pads",
+      "group": 100,
+      "count": 640,
+      "offset": 629175
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 5,
+      "primitiveIndex": 0,
+      "meshName": "V5_Ground_Floor_Bench_Pad_2_Mesh",
+      "materialName": "V69_Photographic_Roughness_Couch_and_Sleeping_Pads",
+      "group": 101,
+      "count": 640,
+      "offset": 629815
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 6,
+      "primitiveIndex": 0,
+      "meshName": "V5_Ground_Floor_Bench_Pad_3_Mesh",
+      "materialName": "V69_Photographic_Roughness_Couch_and_Sleeping_Pads",
+      "group": 102,
+      "count": 640,
+      "offset": 630455
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 7,
+      "primitiveIndex": 0,
+      "meshName": "V8_Square_Corner_Woven_Rug_Foundation",
+      "materialName": "V66_Warm_Ivory_Handwoven_Wool_Rug",
+      "group": 103,
+      "count": 24,
+      "offset": 631095
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 8,
+      "primitiveIndex": 0,
+      "meshName": "V53_Square_Tumbler_Liquid",
+      "materialName": "V53_Amber_Decanter_Liquid",
+      "group": 104,
+      "count": 144,
+      "offset": 631119
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 11,
+      "primitiveIndex": 0,
+      "meshName": "V53_Square_Tumbler_Liquid",
+      "materialName": "V53_Amber_Decanter_Liquid",
+      "group": 105,
+      "count": 144,
+      "offset": 631263
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 14,
+      "primitiveIndex": 0,
+      "meshName": "V53_Square_Decanter_Liquid",
+      "materialName": "V53_Amber_Decanter_Liquid",
+      "group": 106,
+      "count": 144,
+      "offset": 631407
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 16,
+      "primitiveIndex": 0,
+      "meshName": "V10_Hearth_Firewood_Reference_Position_Mesh.001",
+      "materialName": "LOOKDEV_Firewood_Rough_Wood_CC0_03",
+      "group": 107,
+      "count": 4173,
+      "offset": 631551
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 16,
+      "primitiveIndex": 1,
+      "meshName": "V10_Hearth_Firewood_Reference_Position_Mesh.001",
+      "materialName": "LOOKDEV_Firewood_Pine_Bark_CC0_04",
+      "group": 108,
+      "count": 192,
+      "offset": 635724
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 17,
+      "primitiveIndex": 0,
+      "meshName": "V10_Loft_Reading_Luminous_Lens_Mesh",
+      "materialName": "V10_Reading_Fixture_3000K_Diffuser",
+      "group": 109,
+      "count": 192,
+      "offset": 635916
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 18,
+      "primitiveIndex": 0,
+      "meshName": "V8_Loft_Wall_Sconce_Emitter_Lens_Mesh",
+      "materialName": "V8_Fixture_2700K_Luminous_Diffuser",
+      "group": 110,
+      "count": 64,
+      "offset": 636108
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 19,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Hearth_Base_Mesh",
+      "materialName": "V8_Lantern_Blackened_Steel",
+      "group": 111,
+      "count": 452,
+      "offset": 636172
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 20,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Hearth_Brass_Collar_Mesh",
+      "materialName": "V8_Lantern_Aged_Brass_Details",
+      "group": 112,
+      "count": 128,
+      "offset": 636624
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 21,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Hearth_Candle_Mesh",
+      "materialName": "V8_Lantern_Warm_Ivory_Wax",
+      "group": 113,
+      "count": 259,
+      "offset": 636752
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 22,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Hearth_Crown_Mesh",
+      "materialName": "V8_Lantern_Blackened_Steel",
+      "group": 114,
+      "count": 517,
+      "offset": 637011
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 23,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Hearth_Handle_Fixing_Mesh",
+      "materialName": "V8_Lantern_Blackened_Steel",
+      "group": 115,
+      "count": 128,
+      "offset": 637528
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 24,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Left_Bench_Floor_Base_Mesh",
+      "materialName": "V8_Lantern_Blackened_Steel",
+      "group": 116,
+      "count": 452,
+      "offset": 637656
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 25,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Left_Bench_Floor_Brass_Collar_Mesh",
+      "materialName": "V8_Lantern_Aged_Brass_Details",
+      "group": 117,
+      "count": 128,
+      "offset": 638108
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 26,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Left_Bench_Floor_Candle_Mesh",
+      "materialName": "V8_Lantern_Warm_Ivory_Wax",
+      "group": 118,
+      "count": 259,
+      "offset": 638236
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 27,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Left_Bench_Floor_Crown_Mesh",
+      "materialName": "V8_Lantern_Blackened_Steel",
+      "group": 119,
+      "count": 515,
+      "offset": 638495
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 28,
+      "primitiveIndex": 0,
+      "meshName": "V8_Portable_Lantern_Left_Bench_Floor_Handle_Fixing_Mesh",
+      "materialName": "V8_Lantern_Blackened_Steel",
+      "group": 120,
+      "count": 128,
+      "offset": 639010
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 29,
+      "primitiveIndex": 0,
+      "meshName": "V8_Tellium_Center_Emitter_Lens_Mesh",
+      "materialName": "V8_Fixture_2700K_Luminous_Diffuser",
+      "group": 121,
+      "count": 64,
+      "offset": 639138
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 30,
+      "primitiveIndex": 0,
+      "meshName": "V8_Tellium_East_Emitter_Lens_Mesh",
+      "materialName": "V8_Fixture_2700K_Luminous_Diffuser",
+      "group": 122,
+      "count": 64,
+      "offset": 639202
+    },
+    {
+      "assetId": "interior",
+      "meshIndex": 31,
+      "primitiveIndex": 0,
+      "meshName": "V8_Tellium_West_Emitter_Lens_Mesh",
+      "materialName": "V8_Fixture_2700K_Luminous_Diffuser",
+      "group": 123,
+      "count": 64,
+      "offset": 639266
+    }
+  ],
+  "statistics": {
+    "triangles": 358407,
+    "groups": 124,
+    "tracedUniqueSamples": 355358,
+    "referencedVertices": 610626,
+    "seconds": 44.104209,
+    "visibilityDecileHistogram": [
+      502805,
+      34079,
+      32407,
+      12420,
+      6427,
+      6980,
+      1569,
+      3058,
+      2151,
+      5786,
+      2944
+    ]
+  },
+  "limitations": [
+    "Static geometric ambient visibility approximation, not Cycles GI or indirect light baking.",
+    "Only architecture and summer interior opaque geometry occlude; plants, terrain and glazing are excluded.",
+    "The finite 8m radius and 24 rays approximate occluded sky; no interreflected light, bent normals or color bleeding.",
+    "Original vertex density is unchanged, so interpolation on large source triangles cannot reproduce per-pixel contact shadows.",
+    "Valid only for the exact source hashes and assembled transforms; disable during exploded views."
+  ]
+}

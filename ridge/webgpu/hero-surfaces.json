@@ -1,0 +1,135 @@
+{
+  "revision": "original-2k-hero-and-measured-cloth-v1",
+  "textures": [
+    {
+      "url": "/ridge/webgpu/textures/6a885ce97deaefde8f86.jpg",
+      "bytes": 1771691,
+      "sha256": "7348ae2a7a71900b7c0ac9dc952a040f3820c540861c43a5f925969762dce2c4",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/japanese_cedar_planks/japanese_cedar_planks_diff_2k.jpg",
+      "sourceSha256": "92fd3742f4744e6262e8093c5dfb919a6bbabac48fe672734d4cba7bc5a4aea3",
+      "bakedStainRamp": false
+    },
+    {
+      "url": "/ridge/webgpu/textures/0eb66e3604d579a55fe0.jpg",
+      "bytes": 2497471,
+      "sha256": "42bef08a7fd70b542228eb15df32cc69c6edc2e094244d6c4c1f7bfc0d39d2a3",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/japanese_cedar_planks/japanese_cedar_planks_nor_gl_2k.jpg",
+      "sourceSha256": "8f9d6194b9345b9a89702a0a146edf70728a2dc2d23050b60260a1442a2df526",
+      "bakedStainRamp": false
+    },
+    {
+      "url": "/ridge/webgpu/textures/24ec5f5e130c051276dd.jpg",
+      "bytes": 2016350,
+      "sha256": "2be58841566c8b1044f72379e3f00b93084eb194d53249f0c665e96d35b105a5",
+      "dimensions": [
+        2043,
+        2048
+      ],
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/terlenka/terlenka_diff_2k.jpg",
+      "sourceSha256": "9528ce33df474c01f938b3afafe895b79a7b66f5706e4c735e8362e61b5bfb84",
+      "bakedStainRamp": false
+    },
+    {
+      "url": "/ridge/webgpu/textures/1439f0a10a4945a807d5.jpg",
+      "bytes": 2870635,
+      "sha256": "ccfb4178084c042b2b49d4f29dbad8bb6bf5ef2b771b8b22334141eb1c98985c",
+      "dimensions": [
+        2043,
+        2048
+      ],
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/terlenka/terlenka_nor_gl_2k.jpg",
+      "sourceSha256": "7fd916e6d897dfe003dac3400c81dd919e11e3441558bac04c26e07be380e6a0",
+      "bakedStainRamp": false
+    },
+    {
+      "url": "/ridge/webgpu/textures/5e01c20700f158a5d547.jpg",
+      "bytes": 1732363,
+      "sha256": "ef2693ef97b02506192e74811f19d730ef910082e9b725c397daf211e1d8400c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/oak_wood_planks/oak_wood_planks_diff_2k.jpg",
+      "sourceSha256": "ec3d2deb1fe21150ede5f987b48c691b3c7dbffe4183850a9b8717e904917a46",
+      "bakedStainRamp": false
+    },
+    {
+      "url": "/ridge/webgpu/textures/c4ffe08ac8608d6d109e.jpg",
+      "bytes": 1099133,
+      "sha256": "b2f4f2d74f955f8c65d0e5719b72b19faba855d6afde73e9eb2db3236b18c7d3",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/oak_wood_planks/oak_wood_planks_nor_gl_2k.jpg",
+      "sourceSha256": "340a51d81e5ec2ead28a1c864637375becb00a1e11861e47a72dde4c03950968",
+      "bakedStainRamp": false
+    },
+    {
+      "url": "/ridge/webgpu/textures/b0c9c4b8432a93f22e93.jpg",
+      "bytes": 437445,
+      "sha256": "73ed730dd5a3027b91669b8b6b19969c76372f456937c420ec226b0b00e5669f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/oak_wood_planks/oak_wood_planks_diff_2k.jpg",
+      "sourceSha256": "ec3d2deb1fe21150ede5f987b48c691b3c7dbffe4183850a9b8717e904917a46",
+      "bakedStainRamp": true
+    },
+    {
+      "url": "/ridge/webgpu/textures/native-v69-couch-metallic-roughness-2k.png",
+      "bytes": 3525586,
+      "dimensions": [
+        2048,
+        2053
+      ],
+      "sha256": "dc342ae1e8c4c374036e144cb71904518380e2908b632f322e2b6b8e47afeb2c",
+      "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/terlenka/terlenka_rough_2k.jpg",
+      "roughnessFormula": ".54 + .34 * source Non-Color luminance"
+    }
+  ],
+  "assets": [
+    {
+      "path": "output/blender/webgpu/native-surfaces/architecture.glb",
+      "bytes": 43466748,
+      "sha256": "97e1ea6ef8da849f2495091ecc44bd9452a8e8636b0edc3d885ac7b9a7b1066b",
+      "revision": "original-2k-hero-and-measured-cloth-v1",
+      "materials": [
+        "V69_Photographic_Roughness_Couch_and_Sleeping_Pads"
+      ],
+      "sourceBinarySha256": "100a3fe53b310db008bb8216105a2d2b7b1f7a5395862c1345e820a16429def2",
+      "geometryBinaryUnchanged": true
+    },
+    {
+      "path": "public/ridge/webgpu/interior.glb",
+      "bytes": 434988,
+      "sha256": "92c8893b0f11de8ba41596526628313ff7ce73881e47939122eca039223a42ed",
+      "revision": "original-2k-hero-and-measured-cloth-v1",
+      "materials": [
+        "V69_Photographic_Roughness_Couch_and_Sleeping_Pads"
+      ],
+      "sourceBinarySha256": "230c7b4dc5fa868ca0645c8f73107cb040a41c6c6dccf22f26cd05c772368c70",
+      "geometryBinaryUnchanged": true
+    },
+    {
+      "path": "public/ridge/webgpu/winter-interior.glb",
+      "bytes": 477916,
+      "sha256": "068f52027cc10dbb7d19d3b4b8a72588c8e2749c479ef6b2b5c876f46deb8938",
+      "revision": "original-2k-hero-and-measured-cloth-v1",
+      "materials": [
+        "V69_Photographic_Roughness_Couch_and_Sleeping_Pads"
+      ],
+      "sourceBinarySha256": "f2b7bddd0f9ad75b5606bf85bcd94935deffa94a20e01a27bf746d0f82c3e9c3",
+      "geometryBinaryUnchanged": true
+    }
+  ]
+}

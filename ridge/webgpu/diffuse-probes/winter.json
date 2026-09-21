@@ -1,0 +1,4097 @@
+{
+  "schemaVersion": 1,
+  "season": "winter",
+  "hour": 17,
+  "format": "RGB_FLOAT16_LE",
+  "bytes": 4991964,
+  "sha256": "e734cfc7ad972d5df48f66883c8c2dbbaddb06a0c40944f34042796f9e667e18",
+  "url": "/ridge/webgpu/diffuse-probes/winter.bin",
+  "sources": [
+    {
+      "id": "lighting-definition",
+      "url": "/ridge/webgpu/manifest.json",
+      "kind": "lighting",
+      "sha256": "7c8b05fde89ce4405e164a086daf7556d32f5daa9889eae8c86b59e520305359",
+      "bytes": 51795
+    },
+    {
+      "id": "architecture",
+      "url": "/ridge/webgpu/architecture.glb",
+      "kind": "asset",
+      "sha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b",
+      "bytes": 24199404
+    },
+    {
+      "id": "winter-interior",
+      "url": "/ridge/webgpu/winter-interior.glb",
+      "kind": "asset",
+      "sha256": "068f52027cc10dbb7d19d3b4b8a72588c8e2749c479ef6b2b5c876f46deb8938",
+      "bytes": 477916
+    },
+    {
+      "id": "native-hero-geometry",
+      "url": "/ridge/webgpu/native-hero-geometry.glb",
+      "kind": "evaluated-geometry",
+      "sha256": "4cb84740eed5bc6d96290991a4f179ccfdd961fd9c859d3c8cd0bc47ed103db7",
+      "bytes": 4908428
+    },
+    {
+      "id": "textures/6a885ce97deaefde8f86.jpg",
+      "url": "/ridge/webgpu/textures/6a885ce97deaefde8f86.jpg",
+      "kind": "texture",
+      "sha256": "7348ae2a7a71900b7c0ac9dc952a040f3820c540861c43a5f925969762dce2c4",
+      "bytes": 1771691
+    },
+    {
+      "id": "textures/19d09cd6917e99927e17.jpg",
+      "url": "/ridge/webgpu/textures/19d09cd6917e99927e17.jpg",
+      "kind": "texture",
+      "sha256": "7801452b3415902e4b9ee7317af8af84b7a7c806781cc1b292a45bdd97267838",
+      "bytes": 407627
+    },
+    {
+      "id": "textures/24ec5f5e130c051276dd.jpg",
+      "url": "/ridge/webgpu/textures/24ec5f5e130c051276dd.jpg",
+      "kind": "texture",
+      "sha256": "2be58841566c8b1044f72379e3f00b93084eb194d53249f0c665e96d35b105a5",
+      "bytes": 2016350
+    },
+    {
+      "id": "textures/5e01c20700f158a5d547.jpg",
+      "url": "/ridge/webgpu/textures/5e01c20700f158a5d547.jpg",
+      "kind": "texture",
+      "sha256": "ef2693ef97b02506192e74811f19d730ef910082e9b725c397daf211e1d8400c",
+      "bytes": 1732363
+    },
+    {
+      "id": "textures/native-v106-cast-concrete-color-4k.jpg",
+      "url": "/ridge/webgpu/textures/native-v106-cast-concrete-color-4k.jpg",
+      "kind": "texture",
+      "sha256": "c4e01d32810aee52298a35381f9caff971102d42caf9469fe8db438e65741bc8",
+      "bytes": 4449541
+    },
+    {
+      "id": "textures/native-v106-cast-concrete-roughness-4k.jpg",
+      "url": "/ridge/webgpu/textures/native-v106-cast-concrete-roughness-4k.jpg",
+      "kind": "texture",
+      "sha256": "b470900c214eb82fad42071ce0fa6ef6a574b29028c3e1932ab72ff0c388b3e1",
+      "bytes": 8605108
+    },
+    {
+      "id": "textures/native-v69-honed-floor-color-2k.jpg",
+      "url": "/ridge/webgpu/textures/native-v69-honed-floor-color-2k.jpg",
+      "kind": "texture",
+      "sha256": "d416ff18be19b8db1ef41ec689aea607ba2e217a543477c88e49d3839cd3b048",
+      "bytes": 778106
+    },
+    {
+      "id": "textures/native-v69-honed-floor-roughness-2k.jpg",
+      "url": "/ridge/webgpu/textures/native-v69-honed-floor-roughness-2k.jpg",
+      "kind": "texture",
+      "sha256": "6d9bff7d355fba9038412de7f551f9b36e9908fc1678d03775f8307e96235b2e",
+      "bytes": 2141583
+    },
+    {
+      "id": "textures/377ee88d1a432b0999ae.jpg",
+      "url": "/ridge/webgpu/textures/377ee88d1a432b0999ae.jpg",
+      "kind": "texture",
+      "sha256": "3a19b5a6ada4e90e0c6900a0cdc75b7a3094c223983b8f762846854344d2cd62",
+      "bytes": 90051
+    },
+    {
+      "id": "textures/94807299ff052cdc14d5.jpg",
+      "url": "/ridge/webgpu/textures/94807299ff052cdc14d5.jpg",
+      "kind": "texture",
+      "sha256": "60085f0d03fd9e0b7ed630edf0561ee1570d753d6b6b83d7e0784e5aa7a19372",
+      "bytes": 88434
+    },
+    {
+      "id": "textures/dcec10eaa0649164803f.jpg",
+      "url": "/ridge/webgpu/textures/dcec10eaa0649164803f.jpg",
+      "kind": "texture",
+      "sha256": "f707c6d3f3632b187448f117cdae9a9bb2cdd69e98c10ce8b04b1e9fc1bb7e2a",
+      "bytes": 356655
+    },
+    {
+      "id": "textures/8b2613a54a31d941bf46.jpg",
+      "url": "/ridge/webgpu/textures/8b2613a54a31d941bf46.jpg",
+      "kind": "texture",
+      "sha256": "74b13eccfaeb61c6fcd13c08e4f155ded615018f897b76fd9f310f1eecc3162c",
+      "bytes": 318360
+    },
+    {
+      "id": "textures/native-v69-couch-metallic-roughness-2k.png",
+      "url": "/ridge/webgpu/textures/native-v69-couch-metallic-roughness-2k.png",
+      "kind": "texture",
+      "sha256": "dc342ae1e8c4c374036e144cb71904518380e2908b632f322e2b6b8e47afeb2c",
+      "bytes": 3525586
+    },
+    {
+      "id": "textures/b0c9c4b8432a93f22e93.jpg",
+      "url": "/ridge/webgpu/textures/b0c9c4b8432a93f22e93.jpg",
+      "kind": "texture",
+      "sha256": "73ed730dd5a3027b91669b8b6b19969c76372f456937c420ec226b0b00e5669f",
+      "bytes": 437445
+    },
+    {
+      "id": "textures/native-v68-steel-tone-2k.png",
+      "url": "/ridge/webgpu/textures/native-v68-steel-tone-2k.png",
+      "kind": "texture",
+      "sha256": "69e4ea104145aadf1a46d3d8de58f953005d500fd8e6e631ec61a25136f12438",
+      "bytes": 697098
+    },
+    {
+      "id": "textures/native-v94-steel-metallic-roughness-2k.png",
+      "url": "/ridge/webgpu/textures/native-v94-steel-metallic-roughness-2k.png",
+      "kind": "texture",
+      "sha256": "b1d6b48f3c60227dbbd2150da34e46a12ccdcc43dced5a289b34edc38faad47d",
+      "bytes": 779512
+    },
+    {
+      "id": "textures/bdb6450f9cb087174837.jpg",
+      "url": "/ridge/webgpu/textures/bdb6450f9cb087174837.jpg",
+      "kind": "texture",
+      "sha256": "51806566d77be471a64b835d4589512144b2b44edf34a9d659b876bbf8c7a9a9",
+      "bytes": 44939
+    },
+    {
+      "id": "textures/780f191f5ad4f20b710b.jpg",
+      "url": "/ridge/webgpu/textures/780f191f5ad4f20b710b.jpg",
+      "kind": "texture",
+      "sha256": "56809ee528f68a717e361194b6ad829a6ad3475593950cbf524f327a917cdaba",
+      "bytes": 45852
+    },
+    {
+      "id": "winter-sky.hdr",
+      "url": "/ridge/webgpu/winter-sky.hdr",
+      "kind": "environment",
+      "sha256": "da1c1a3b7c2ae4ebb466acbc1ac306af35fbd94b4921aa8410b0c1d2120eff3e",
+      "bytes": 4589362
+    }
+  ],
+  "records": [
+    {
+      "assetId": "architecture",
+      "meshIndex": 0,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 2,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 3,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 4,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 5,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 6,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 7,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 8,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 9,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 10,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 11,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 12,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 13,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 14,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 15,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 16,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 17,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 17,
+      "primitiveIndex": 1,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 18,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 19,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 20,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 21,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 22,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 23,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 24,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 25,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 26,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 27,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 28,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 29,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 30,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 31,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 32,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 33,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 34,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 35,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 36,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 37,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 38,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 39,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 40,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 41,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 42,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 43,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 46,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 47,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 48,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 49,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 50,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 51,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 52,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 53,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 54,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 55,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 56,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 57,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 58,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 59,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 60,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 61,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 62,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 63,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 63,
+      "primitiveIndex": 1,
+      "count": 40,
+      "group": 1,
+      "offset": 3545688
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 64,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 65,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 66,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 67,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 68,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 69,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 70,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 70,
+      "primitiveIndex": 1,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 71,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 72,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 73,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 73,
+      "primitiveIndex": 1,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 74,
+      "primitiveIndex": 0,
+      "count": 590948,
+      "group": 0,
+      "offset": 0
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 75,
+      "primitiveIndex": 0,
+      "count": 10368,
+      "group": 2,
+      "offset": 3545928
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 76,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 3,
+      "offset": 3608136
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 77,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 4,
+      "offset": 3608424
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 78,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 5,
+      "offset": 3608568
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 79,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 6,
+      "offset": 3608856
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 80,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 7,
+      "offset": 3609000
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 81,
+      "primitiveIndex": 0,
+      "count": 5208,
+      "group": 8,
+      "offset": 3609288
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 82,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 9,
+      "offset": 3640536
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 83,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 10,
+      "offset": 3640824
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 84,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 11,
+      "offset": 3641112
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 85,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 12,
+      "offset": 3641400
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 86,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 13,
+      "offset": 3641688
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 87,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 14,
+      "offset": 3641976
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 88,
+      "primitiveIndex": 0,
+      "count": 1032,
+      "group": 15,
+      "offset": 3642264
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 89,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 16,
+      "offset": 3648456
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 90,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 17,
+      "offset": 3648744
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 91,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 18,
+      "offset": 3648888
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 92,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 19,
+      "offset": 3649176
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 93,
+      "primitiveIndex": 0,
+      "count": 1032,
+      "group": 20,
+      "offset": 3649320
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 94,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 21,
+      "offset": 3655512
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 95,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 22,
+      "offset": 3655800
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 96,
+      "primitiveIndex": 0,
+      "count": 48,
+      "group": 23,
+      "offset": 3655944
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 97,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 24,
+      "offset": 3656232
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 98,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 25,
+      "offset": 3656376
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 99,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 26,
+      "offset": 3656520
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 100,
+      "primitiveIndex": 0,
+      "count": 1056,
+      "group": 27,
+      "offset": 3656664
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 101,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 28,
+      "offset": 3663000
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 102,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 29,
+      "offset": 3663144
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 103,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 30,
+      "offset": 3663288
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 104,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 31,
+      "offset": 3663432
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 105,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 32,
+      "offset": 3663576
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 106,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 33,
+      "offset": 3663720
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 107,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 34,
+      "offset": 3663864
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 108,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 35,
+      "offset": 3664008
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 109,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 36,
+      "offset": 3664152
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 110,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 37,
+      "offset": 3664296
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 111,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 38,
+      "offset": 3664440
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 112,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 39,
+      "offset": 3664584
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 113,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 40,
+      "offset": 3664728
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 114,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 41,
+      "offset": 3664872
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 115,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 42,
+      "offset": 3665016
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 116,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 43,
+      "offset": 3665160
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 117,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 44,
+      "offset": 3665304
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 118,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 45,
+      "offset": 3665448
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 119,
+      "primitiveIndex": 0,
+      "count": 124,
+      "group": 46,
+      "offset": 3665592
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 119,
+      "primitiveIndex": 1,
+      "count": 124,
+      "group": 46,
+      "offset": 3665592
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 156,
+      "primitiveIndex": 0,
+      "count": 6,
+      "group": 47,
+      "offset": 3666336
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 158,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 48,
+      "offset": 3666372
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 159,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 49,
+      "offset": 3666516
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 160,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 50,
+      "offset": 3666660
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 161,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 51,
+      "offset": 3666804
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 162,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 52,
+      "offset": 3666948
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 163,
+      "primitiveIndex": 0,
+      "count": 1022,
+      "group": 53,
+      "offset": 3667092
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 163,
+      "primitiveIndex": 1,
+      "count": 1022,
+      "group": 53,
+      "offset": 3667092
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 164,
+      "primitiveIndex": 0,
+      "count": 672,
+      "group": 54,
+      "offset": 3673224
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 165,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 55,
+      "offset": 3677256
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 166,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 56,
+      "offset": 3677400
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 167,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 57,
+      "offset": 3677544
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 168,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 58,
+      "offset": 3677688
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 169,
+      "primitiveIndex": 0,
+      "count": 216,
+      "group": 59,
+      "offset": 3677832
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 170,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 60,
+      "offset": 3679128
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 171,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 61,
+      "offset": 3679896
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 173,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 62,
+      "offset": 3680664
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 175,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 63,
+      "offset": 3681432
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 177,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 64,
+      "offset": 3682200
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 179,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 65,
+      "offset": 3682968
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 181,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 66,
+      "offset": 3683736
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 183,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 67,
+      "offset": 3684504
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 185,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 68,
+      "offset": 3685272
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 187,
+      "primitiveIndex": 0,
+      "count": 1442,
+      "group": 69,
+      "offset": 3686040
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 188,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 70,
+      "offset": 3694692
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 189,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 71,
+      "offset": 3695460
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 190,
+      "primitiveIndex": 0,
+      "count": 960,
+      "group": 72,
+      "offset": 3696228
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 192,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 73,
+      "offset": 3701988
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 193,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 74,
+      "offset": 3702132
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 194,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 75,
+      "offset": 3702276
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 195,
+      "primitiveIndex": 0,
+      "count": 480,
+      "group": 76,
+      "offset": 3702420
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 196,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 77,
+      "offset": 3705300
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 197,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 78,
+      "offset": 3705444
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 198,
+      "primitiveIndex": 0,
+      "count": 480,
+      "group": 79,
+      "offset": 3705588
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 199,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 80,
+      "offset": 3708468
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 200,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 81,
+      "offset": 3708612
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 201,
+      "primitiveIndex": 0,
+      "count": 480,
+      "group": 82,
+      "offset": 3708756
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 202,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 83,
+      "offset": 3711636
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 203,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 84,
+      "offset": 3711780
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 204,
+      "primitiveIndex": 0,
+      "count": 480,
+      "group": 85,
+      "offset": 3711924
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 205,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 86,
+      "offset": 3714804
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 206,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 87,
+      "offset": 3714948
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 207,
+      "primitiveIndex": 0,
+      "count": 480,
+      "group": 88,
+      "offset": 3715092
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 208,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 89,
+      "offset": 3717972
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 209,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 90,
+      "offset": 3718116
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 210,
+      "primitiveIndex": 0,
+      "count": 480,
+      "group": 91,
+      "offset": 3718260
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 211,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 92,
+      "offset": 3721140
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 212,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 93,
+      "offset": 3721284
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 213,
+      "primitiveIndex": 0,
+      "count": 480,
+      "group": 94,
+      "offset": 3721428
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 214,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 95,
+      "offset": 3724308
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 0,
+      "primitiveIndex": 0,
+      "count": 7857,
+      "group": 96,
+      "offset": 3724452
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "count": 192,
+      "group": 97,
+      "offset": 3771594
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 2,
+      "primitiveIndex": 0,
+      "count": 192,
+      "group": 98,
+      "offset": 3772746
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 3,
+      "primitiveIndex": 0,
+      "count": 192,
+      "group": 99,
+      "offset": 3773898
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 4,
+      "primitiveIndex": 0,
+      "count": 640,
+      "group": 100,
+      "offset": 3775050
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 5,
+      "primitiveIndex": 0,
+      "count": 640,
+      "group": 101,
+      "offset": 3778890
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 6,
+      "primitiveIndex": 0,
+      "count": 640,
+      "group": 102,
+      "offset": 3782730
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 7,
+      "primitiveIndex": 0,
+      "count": 24,
+      "group": 103,
+      "offset": 3786570
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 16,
+      "primitiveIndex": 0,
+      "count": 4365,
+      "group": 104,
+      "offset": 3786714
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 16,
+      "primitiveIndex": 1,
+      "count": 4365,
+      "group": 104,
+      "offset": 3786714
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 17,
+      "primitiveIndex": 0,
+      "count": 192,
+      "group": 105,
+      "offset": 3812904
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 18,
+      "primitiveIndex": 0,
+      "count": 64,
+      "group": 106,
+      "offset": 3814056
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 19,
+      "primitiveIndex": 0,
+      "count": 452,
+      "group": 107,
+      "offset": 3814440
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 20,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 108,
+      "offset": 3817152
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 21,
+      "primitiveIndex": 0,
+      "count": 259,
+      "group": 109,
+      "offset": 3817920
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 22,
+      "primitiveIndex": 0,
+      "count": 517,
+      "group": 110,
+      "offset": 3819474
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 23,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 111,
+      "offset": 3822576
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 24,
+      "primitiveIndex": 0,
+      "count": 452,
+      "group": 112,
+      "offset": 3823344
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 25,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 113,
+      "offset": 3826056
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 26,
+      "primitiveIndex": 0,
+      "count": 259,
+      "group": 114,
+      "offset": 3826824
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 27,
+      "primitiveIndex": 0,
+      "count": 515,
+      "group": 115,
+      "offset": 3828378
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 28,
+      "primitiveIndex": 0,
+      "count": 128,
+      "group": 116,
+      "offset": 3831468
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 29,
+      "primitiveIndex": 0,
+      "count": 64,
+      "group": 117,
+      "offset": 3832236
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 30,
+      "primitiveIndex": 0,
+      "count": 64,
+      "group": 118,
+      "offset": 3832620
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 31,
+      "primitiveIndex": 0,
+      "count": 64,
+      "group": 119,
+      "offset": 3833004
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 0,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Floor_Drain",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 120,
+      "offset": 3833388
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_01_Escutcheon",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 121,
+      "offset": 3836076
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 2,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_01_Orifice",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+      "count": 448,
+      "group": 122,
+      "offset": 3838764
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 3,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_02_Escutcheon",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 123,
+      "offset": 3841452
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 4,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_02_Orifice",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+      "count": 448,
+      "group": 124,
+      "offset": 3844140
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 5,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_03_Escutcheon",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 125,
+      "offset": 3846828
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 6,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_03_Orifice",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+      "count": 448,
+      "group": 126,
+      "offset": 3849516
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 7,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_04_Escutcheon",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 127,
+      "offset": 3852204
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 8,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_04_Orifice",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+      "count": 448,
+      "group": 128,
+      "offset": 3854892
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 9,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_05_Escutcheon",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 129,
+      "offset": 3857580
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 10,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_05_Orifice",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+      "count": 448,
+      "group": 130,
+      "offset": 3860268
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 11,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_06_Escutcheon",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 131,
+      "offset": 3862956
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 12,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_06_Orifice",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+      "count": 448,
+      "group": 132,
+      "offset": 3865644
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 13,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_07_Escutcheon",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 133,
+      "offset": 3868332
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 14,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_07_Orifice",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+      "count": 448,
+      "group": 134,
+      "offset": 3871020
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 15,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_08_Escutcheon",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 135,
+      "offset": 3873708
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 16,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Jet_08_Orifice",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Dark_Orifice",
+      "count": 448,
+      "group": 136,
+      "offset": 3876396
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 17,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Rim_Control_1",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 137,
+      "offset": 3879084
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 18,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_HotTub_Rim_Control_2",
+      "materialName": "LOOKDEV_V5_HotTub_Jet_Stainless",
+      "count": 448,
+      "group": 138,
+      "offset": 3881772
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 19,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Mounting_Rail_1",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "count": 216,
+      "group": 139,
+      "offset": 3884460
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 20,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Mounting_Rail_2",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "count": 216,
+      "group": 140,
+      "offset": 3885756
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 21,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_01_Backsheet",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "count": 24,
+      "group": 141,
+      "offset": 3887052
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 22,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_01_Cells",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "count": 480,
+      "group": 142,
+      "offset": 3887196
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 23,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_01_Frame",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "count": 216,
+      "group": 143,
+      "offset": 3890076
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 24,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_02_Backsheet",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "count": 24,
+      "group": 144,
+      "offset": 3891372
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 25,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_02_Cells",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "count": 480,
+      "group": 145,
+      "offset": 3891516
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 26,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_02_Frame",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "count": 216,
+      "group": 146,
+      "offset": 3894396
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 27,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_03_Backsheet",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "count": 24,
+      "group": 147,
+      "offset": 3895692
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 28,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_03_Cells",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "count": 480,
+      "group": 148,
+      "offset": 3895836
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 29,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_03_Frame",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "count": 216,
+      "group": 149,
+      "offset": 3898716
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 30,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_04_Backsheet",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "count": 24,
+      "group": 150,
+      "offset": 3900012
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 31,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_04_Cells",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "count": 480,
+      "group": 151,
+      "offset": 3900156
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 32,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_04_Frame",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "count": 216,
+      "group": 152,
+      "offset": 3903036
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 33,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_05_Backsheet",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "count": 24,
+      "group": 153,
+      "offset": 3904332
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 34,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_05_Cells",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "count": 480,
+      "group": 154,
+      "offset": 3904476
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 35,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_05_Frame",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "count": 216,
+      "group": 155,
+      "offset": 3907356
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 36,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_06_Backsheet",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "count": 24,
+      "group": 156,
+      "offset": 3908652
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 37,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_06_Cells",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "count": 480,
+      "group": 157,
+      "offset": 3908796
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 38,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_06_Frame",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "count": 216,
+      "group": 158,
+      "offset": 3911676
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 39,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_07_Backsheet",
+      "materialName": "LOOKDEV_V5_Solar_Black_Backplate",
+      "count": 24,
+      "group": 159,
+      "offset": 3912972
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 40,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_07_Cells",
+      "materialName": "V68_PV_Glass_Restrained_Highlight",
+      "count": 480,
+      "group": 160,
+      "offset": 3913116
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 41,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "SITE_V5_Solar_Panel_07_Frame",
+      "materialName": "LOOKDEV_V5_Solar_Black_Anodized_Frame",
+      "count": 216,
+      "group": 161,
+      "offset": 3915996
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 46,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Guard_Posts",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 9504,
+      "group": 162,
+      "offset": 3917292
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 47,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_00_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 163,
+      "offset": 3974316
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 48,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_01_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 164,
+      "offset": 3975612
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 49,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_01_1",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 165,
+      "offset": 3976908
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 50,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_02_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 166,
+      "offset": 3978204
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 51,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_03_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 167,
+      "offset": 3979500
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 52,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_03_1",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 168,
+      "offset": 3980796
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 53,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_04_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 169,
+      "offset": 3982092
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 54,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_05_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 170,
+      "offset": 3983388
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 55,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_06_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 171,
+      "offset": 3984684
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 56,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_07_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 172,
+      "offset": 3985980
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 57,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_07_1",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 173,
+      "offset": 3987276
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 58,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_07_2",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 174,
+      "offset": 3988572
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 59,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_07_3",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 175,
+      "offset": 3989868
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 60,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_09_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 176,
+      "offset": 3991164
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 61,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_09_1",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 177,
+      "offset": 3992460
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 62,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_09_2",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 178,
+      "offset": 3993756
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 63,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_09_3",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 179,
+      "offset": 3995052
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 64,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Handrail_10_0",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 180,
+      "offset": 3996348
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 65,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Main_End_Bands",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 181,
+      "offset": 3997644
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 66,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Main_Grating",
+      "materialName": "V101 Walkway uniform satin coating",
+      "count": 93312,
+      "group": 182,
+      "offset": 4000236
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 67,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Main_North_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 183,
+      "offset": 4560108
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 68,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Main_North_Flush_Band",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 184,
+      "offset": 4562700
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 69,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Main_South_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 185,
+      "offset": 4563996
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 70,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Main_South_Flush_Band",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 186,
+      "offset": 4566588
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 71,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_far_0_0_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 187,
+      "offset": 4567884
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 72,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_far_0_Flush_Band",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 188,
+      "offset": 4570476
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 73,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_far_1_0_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 189,
+      "offset": 4571772
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 74,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_far_1_Flush_Band",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 190,
+      "offset": 4574364
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 75,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_far_Grating",
+      "materialName": "V101 Walkway uniform satin coating",
+      "count": 9288,
+      "group": 191,
+      "offset": 4575660
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 76,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_long_0_0_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 192,
+      "offset": 4631388
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 77,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_long_0_1_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 193,
+      "offset": 4633980
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 78,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_long_0_Flush_Band",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 194,
+      "offset": 4636572
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 79,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_long_1_0_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 195,
+      "offset": 4639164
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 80,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_long_1_1_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 196,
+      "offset": 4641756
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 81,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_long_1_Flush_Band",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 197,
+      "offset": 4644348
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 82,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_long_Grating",
+      "materialName": "V101 Walkway uniform satin coating",
+      "count": 46488,
+      "group": 198,
+      "offset": 4646940
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 83,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_long_Step_Riser",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 199,
+      "offset": 4925868
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 84,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_middle_0_0_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 200,
+      "offset": 4927164
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 85,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_middle_0_Flush_Band",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 201,
+      "offset": 4929756
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 86,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_middle_1_0_Channel",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 432,
+      "group": 202,
+      "offset": 4931052
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 87,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_middle_1_Flush_Band",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 203,
+      "offset": 4933644
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 88,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_middle_Grating",
+      "materialName": "V101 Walkway uniform satin coating",
+      "count": 9288,
+      "group": 204,
+      "offset": 4934940
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 89,
+      "primitiveIndex": 0,
+      "receiver": "native-hero",
+      "sourceObject": "V15_Walkway_Spur_middle_Step_Riser",
+      "materialName": "Screen Shot 2017-08-24 at 11.34.44 AM",
+      "count": 216,
+      "group": 205,
+      "offset": 4990668
+    }
+  ],
+  "excludedOptical": [
+    {
+      "assetId": "architecture",
+      "meshIndex": 119,
+      "primitiveIndex": 2,
+      "material": "V10_Native_Architectural_Glass_01",
+      "object": "PRP_V19_Rear_Door",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 120,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Living_Upper_Center_Right",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 121,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Living_Upper_Outer_Triangle",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 122,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Living_Lower_Outer_Trapezoid",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 123,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Rear_Upper_Awning_Below",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 124,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Rear_Upper_Awning_Above",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 125,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Rear_Upper_Outer_Triangle",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 126,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Rear_Lower_Awning_Below",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 127,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Rear_Lower_Outer_Triangle",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 128,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Living_Upper_Awning_Below",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 129,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Living_Upper_Awning_Above",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 130,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Living_Lower_Awning_Above",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 131,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Internal_Shell_01",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 132,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Internal_Shell_02",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 133,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Internal_Shell_03",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 134,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Internal_Shell_04",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 135,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Internal_Shell_05",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 136,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Internal_Shell_06",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 137,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Internal_Shell_07",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 138,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Internal_Shell_08",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 139,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Loft_Guard_East",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 140,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Loft_Guard_Trimmed_South",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 141,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_01",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 142,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_02",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 143,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_03",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 144,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_04",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 145,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_05",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 146,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_06",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 147,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_07",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 148,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_08",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 149,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_09",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 150,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_10",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 151,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_11",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 152,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_12",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 153,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_13",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 154,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_14",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 155,
+      "primitiveIndex": 0,
+      "material": "V50_Daylight_V10_Native_Architectural_Glass_01",
+      "object": "V27_Glass_Retained_Source_Pane_15",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 157,
+      "primitiveIndex": 0,
+      "material": "V53_Clear_Modern_Crystal",
+      "object": "V5_Whiskey_Decanter_Glass_Stopper",
+      "kind": "stopper"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 215,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_1",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 216,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_2",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 217,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_3",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 218,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_4",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 219,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_5",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 220,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_6",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 221,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_1",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 222,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_2",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 223,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_3",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 224,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_4",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 225,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_5",
+      "kind": "pane"
+    },
+    {
+      "assetId": "architecture",
+      "meshIndex": 226,
+      "primitiveIndex": 0,
+      "material": "V8_Lantern_Clear_Glass",
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_6",
+      "kind": "pane"
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 8,
+      "primitiveIndex": 0,
+      "material": "V110 cocktail 1 liquid shared volume",
+      "object": "V5_Whiskey_Cocktail_1_Amber_Liquid",
+      "kind": "liquid"
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 9,
+      "primitiveIndex": 0,
+      "material": "V53_Clear_Modern_Crystal",
+      "object": "V5_Whiskey_Cocktail_1_Crystal_Tumbler",
+      "kind": "crystal"
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 10,
+      "primitiveIndex": 0,
+      "material": "V5_Clear_Handcut_Ice",
+      "object": "V5_Whiskey_Cocktail_1_Large_Clear_Ice",
+      "kind": "ice"
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 11,
+      "primitiveIndex": 0,
+      "material": "V110 cocktail 2 liquid shared volume",
+      "object": "V5_Whiskey_Cocktail_2_Amber_Liquid",
+      "kind": "liquid"
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 12,
+      "primitiveIndex": 0,
+      "material": "V53_Clear_Modern_Crystal",
+      "object": "V5_Whiskey_Cocktail_2_Crystal_Tumbler",
+      "kind": "crystal"
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 13,
+      "primitiveIndex": 0,
+      "material": "V5_Clear_Handcut_Ice",
+      "object": "V5_Whiskey_Cocktail_2_Large_Clear_Ice",
+      "kind": "ice"
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 14,
+      "primitiveIndex": 0,
+      "material": "V110 decanter liquid shared volume",
+      "object": "V5_Whiskey_Decanter_Amber_Liquid",
+      "kind": "liquid"
+    },
+    {
+      "assetId": "winter-interior",
+      "meshIndex": 15,
+      "primitiveIndex": 0,
+      "material": "V53_Clear_Modern_Crystal",
+      "object": "V5_Whiskey_Decanter_Cut_Crystal",
+      "kind": "crystal"
+    }
+  ],
+  "probes": [
+    {
+      "room": "main",
+      "position": [
+        -15,
+        3.15,
+        2
+      ],
+      "irradiance": [
+        0.06009780243039131,
+        0.02614872343838215,
+        0.012026304379105568,
+        0.016185441985726357,
+        0.008893738500773907,
+        0.005214250180870295,
+        0.032070524990558624,
+        0.010534870438277721,
+        0.004008079878985882,
+        0.07812291383743286,
+        0.041023071855306625,
+        0.02049468271434307,
+        0.04550188407301903,
+        0.018256776034832,
+        0.008259984664618969,
+        0.06332454830408096,
+        0.030077695846557617,
+        0.013943137601017952
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -15,
+        3.15,
+        4.4
+      ],
+      "irradiance": [
+        0.05071435496211052,
+        0.018409058451652527,
+        0.007224736735224724,
+        0.04393075034022331,
+        0.016595056280493736,
+        0.007190576754510403,
+        0.10785923153162003,
+        0.03246098756790161,
+        0.00881359912455082,
+        0.04233558475971222,
+        0.01951163075864315,
+        0.009765188209712505,
+        0.04225636273622513,
+        0.012110290117561817,
+        0.003303289180621505,
+        0.07233238965272903,
+        0.03571506589651108,
+        0.018433764576911926
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -12.3,
+        3.15,
+        2
+      ],
+      "irradiance": [
+        0.02365945279598236,
+        0.01084272563457489,
+        0.00558667816221714,
+        0.0605497732758522,
+        0.026710286736488342,
+        0.012189855799078941,
+        0.021881667897105217,
+        0.006172011606395245,
+        0.0018053894164040685,
+        0.0695924386382103,
+        0.03676949068903923,
+        0.019569821655750275,
+        0.03493133559823036,
+        0.012836521491408348,
+        0.00532132014632225,
+        0.058551620692014694,
+        0.026513507589697838,
+        0.012200362980365753
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -12.3,
+        3.15,
+        4.4
+      ],
+      "irradiance": [
+        0.01584116742014885,
+        0.005504200235009193,
+        0.002786934142932296,
+        0.045747801661491394,
+        0.016932576894760132,
+        0.0067486935295164585,
+        0.029622679576277733,
+        0.007365326397120953,
+        0.0017944724531844258,
+        0.043694403022527695,
+        0.021149275824427605,
+        0.010766791179776192,
+        0.01480232086032629,
+        0.003920863848179579,
+        0.0012938454747200012,
+        0.05378012731671333,
+        0.02356378361582756,
+        0.011015353724360466
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -9.5,
+        1.85,
+        2
+      ],
+      "irradiance": [
+        0.008484593592584133,
+        0.003822621889412403,
+        0.002087842673063278,
+        0.011964162811636925,
+        0.004870184231549501,
+        0.0024897423572838306,
+        0.005564750637859106,
+        0.0010926031973212957,
+        0.00018658132466953248,
+        0.005916688125580549,
+        0.003530967514961958,
+        0.002436006208881736,
+        0.00828130915760994,
+        0.002244591945782304,
+        0.0009652503649704158,
+        0.0048363409005105495,
+        0.0023809128906577826,
+        0.001360962982289493
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -9.5,
+        1.85,
+        4.4
+      ],
+      "irradiance": [
+        0.008077769540250301,
+        0.003894982859492302,
+        0.003431144868955016,
+        0.01690688170492649,
+        0.0069669452495872974,
+        0.004542091395705938,
+        0.008143501356244087,
+        0.0025109234265983105,
+        0.0008649589726701379,
+        0.006158879492431879,
+        0.005732203833758831,
+        0.007752935867756605,
+        0.00400687288492918,
+        0.0024725114926695824,
+        0.002725856378674507,
+        0.009066049940884113,
+        0.004105851985514164,
+        0.0030639630276709795
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -9.5,
+        3.15,
+        2
+      ],
+      "irradiance": [
+        0.015600990504026413,
+        0.006887723691761494,
+        0.0033228034153580666,
+        0.036672353744506836,
+        0.015819262713193893,
+        0.007036402355879545,
+        0.009101190604269505,
+        0.002538287779316306,
+        0.0007457185420207679,
+        0.028233768418431282,
+        0.015407699160277843,
+        0.008330842480063438,
+        0.013367582112550735,
+        0.004655298311263323,
+        0.0018971399404108524,
+        0.03210857883095741,
+        0.015639277175068855,
+        0.007463125046342611
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -9.5,
+        3.15,
+        4.4
+      ],
+      "irradiance": [
+        0.010165567509829998,
+        0.00350257009267807,
+        0.0018110537203028798,
+        0.031869933009147644,
+        0.011944158934056759,
+        0.005195951089262962,
+        0.008498317562043667,
+        0.002114268019795418,
+        0.0005349393468350172,
+        0.01599370315670967,
+        0.00747712841257453,
+        0.005205436144024134,
+        0.005023056175559759,
+        0.0019193380139768124,
+        0.0011072413763031363,
+        0.021453211084008217,
+        0.00833897665143013,
+        0.0035872897133231163
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -6.7,
+        1.85,
+        2
+      ],
+      "irradiance": [
+        0.00008738543692743406,
+        0.00001104809416574426,
+        2.1361938706832007e-7,
+        3.572645539406949e-7,
+        1.1582101677731771e-7,
+        1.4686688309950569e-8,
+        0.000042551437218207866,
+        0.000005252964001556393,
+        5.903539346263642e-8,
+        0.000009658620001573581,
+        0.0000013750801599599072,
+        1.7253589135179936e-7,
+        0.00004795746281160973,
+        0.000006762683369743172,
+        3.957251806241402e-7,
+        1.4449724972109834e-7,
+        1.0264398042636458e-7,
+        8.295020137438769e-8
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -6.7,
+        1.85,
+        4.4
+      ],
+      "irradiance": [
+        0.00008186292689060792,
+        0.000034492328268243,
+        0.000019345101463841274,
+        0.00022863179037813097,
+        0.00008578945562476292,
+        0.000006057995051378384,
+        0.00014352575817611068,
+        0.0000501655122207012,
+        0.000020231260350556113,
+        0.000213362043723464,
+        0.00013013817078899592,
+        0.00009449092613067478,
+        0.00017881942039821297,
+        0.00011552249634405598,
+        0.00009228221460944042,
+        0.00010106383706443012,
+        0.000034643519029486924,
+        0.000009919709555106238
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -6.7,
+        3.15,
+        2
+      ],
+      "irradiance": [
+        0.00003506894063320942,
+        0.000016688074538251385,
+        0.000011169977369718254,
+        0.0000765589065849781,
+        0.000022857926524011418,
+        5.660058377543464e-7,
+        0.000020015846530441195,
+        0.000003654263764474308,
+        1.8869317841563316e-7,
+        0.00004959990837960504,
+        0.000016968408090178855,
+        4.865303253609454e-7,
+        0.0000931763497646898,
+        0.000029997792807989754,
+        0.000012568277270474937,
+        0.000005145150225871475,
+        0.000001952016191353323,
+        5.986312601180543e-8
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -6.7,
+        3.15,
+        4.4
+      ],
+      "irradiance": [
+        0.00010006480442825705,
+        0.00007135984196793288,
+        0.00006836021930212155,
+        0.0001243712322320789,
+        0.00004404740684549324,
+        0.000014958995052438695,
+        0.00004731895023724064,
+        0.00001784124287951272,
+        0.000011016214557457715,
+        0.00011833616008516401,
+        0.00010872447455767542,
+        0.00013658789976034313,
+        0.00011117415851913393,
+        0.0000653389361104928,
+        0.00004749541767523624,
+        0.00007577099313493818,
+        0.00003508702866383828,
+        0.000025113720766967162
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -4.2,
+        1.85,
+        2
+      ],
+      "irradiance": [
+        0.0020370734855532646,
+        0.0006149436230771244,
+        0.00034133149893023074,
+        0.0030412019696086645,
+        0.0010226786835119128,
+        0.0004694451345130801,
+        0.002376432763412595,
+        0.0007036445895209908,
+        0.00024669637787155807,
+        0.0007466553361155093,
+        0.00048038913519121706,
+        0.0005153099191375077,
+        0.00020693328406196088,
+        0.00010213406494585797,
+        0.0000573380348214414,
+        0.004164942540228367,
+        0.0014873790787532926,
+        0.0007645271834917367
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -4.2,
+        3.15,
+        2
+      ],
+      "irradiance": [
+        0.0006234067841432989,
+        0.00023451203014701605,
+        0.00018481553706806153,
+        0.0013488293625414371,
+        0.0005234768614172935,
+        0.0002751902211457491,
+        0.0010065312962979078,
+        0.00032996185473166406,
+        0.00012451110524125397,
+        0.0007588610169477761,
+        0.00059681007405743,
+        0.0007392115658149123,
+        0.00017881818348541856,
+        0.00007422993803629652,
+        0.000057542936701793224,
+        0.0028217006474733353,
+        0.0012763079721480608,
+        0.000883426982909441
+      ]
+    },
+    {
+      "room": "main",
+      "position": [
+        -4.2,
+        3.15,
+        4.4
+      ],
+      "irradiance": [
+        0.00030282349325716496,
+        0.00018309219740331173,
+        0.00013960029173176736,
+        0.00021438351541291922,
+        0.00012164031068095937,
+        0.00010984920663759112,
+        0.00033388822339475155,
+        0.00014050633762963116,
+        0.00006396345270331949,
+        0.00036167658981867135,
+        0.0002601963933557272,
+        0.0002441435935907066,
+        0.0005248457309789956,
+        0.0003063433396164328,
+        0.00021775437926407903,
+        0.00038109085289761424,
+        0.0002007332950597629,
+        0.00018001951684709638
+      ]
+    },
+    {
+      "room": "loft",
+      "position": [
+        -9.4,
+        4.55,
+        2.1
+      ],
+      "irradiance": [
+        0.010893523693084717,
+        0.004349458962678909,
+        0.0019518573535606265,
+        0.033486947417259216,
+        0.014925524592399597,
+        0.0068822745233774185,
+        0.007639819756150246,
+        0.001975021092221141,
+        0.0005876793875358999,
+        0.0382293239235878,
+        0.019731344655156136,
+        0.010261692106723785,
+        0.011169004254043102,
+        0.0033116722479462624,
+        0.001384996809065342,
+        0.03188759833574295,
+        0.013813134282827377,
+        0.006140582729130983
+      ]
+    },
+    {
+      "room": "loft",
+      "position": [
+        -9.4,
+        4.55,
+        4.25
+      ],
+      "irradiance": [
+        0.007560987025499344,
+        0.0020755277946591377,
+        0.0008441031677648425,
+        0.022854605689644814,
+        0.008972246199846268,
+        0.0039446973241865635,
+        0.0077948602847754955,
+        0.0020121312700212,
+        0.0005519957630895078,
+        0.02060258574783802,
+        0.008926752023398876,
+        0.004813974257558584,
+        0.00884704478085041,
+        0.0017791605787351727,
+        0.00036002611159347,
+        0.017776649445295334,
+        0.00817187875509262,
+        0.0038148851599544287
+      ]
+    },
+    {
+      "room": "loft",
+      "position": [
+        -9.4,
+        5.55,
+        2.1
+      ],
+      "irradiance": [
+        0.00871858187019825,
+        0.0031564361415803432,
+        0.0014003965770825744,
+        0.028464360162615776,
+        0.012091039679944515,
+        0.0055051459930837154,
+        0.012061689049005508,
+        0.003170073963701725,
+        0.000861539039760828,
+        0.035023804754018784,
+        0.016888411715626717,
+        0.008465954102575779,
+        0.011747290380299091,
+        0.003149472875520587,
+        0.001073678256943822,
+        0.01920889876782894,
+        0.008578291162848473,
+        0.003941160626709461
+      ]
+    },
+    {
+      "room": "loft",
+      "position": [
+        -6.7,
+        4.55,
+        2.1
+      ],
+      "irradiance": [
+        0.004461043514311314,
+        0.001505448599345982,
+        0.000542921363376081,
+        0.008864867500960827,
+        0.003054829780012369,
+        0.0011799322674050927,
+        0.0037742829881608486,
+        0.0010635224170982838,
+        0.0003325023571960628,
+        0.006186726503074169,
+        0.0023375076707452536,
+        0.000903534353710711,
+        0.004069976974278688,
+        0.0012394675286486745,
+        0.0004352665273472667,
+        0.005604332312941551,
+        0.001909733866341412,
+        0.0007723452290520072
+      ]
+    },
+    {
+      "room": "loft",
+      "position": [
+        -6.7,
+        4.55,
+        4.25
+      ],
+      "irradiance": [
+        0.004324738401919603,
+        0.0013544003013521433,
+        0.0004812474362552166,
+        0.00393944326788187,
+        0.001610574428923428,
+        0.0008134114905260503,
+        0.004340932238847017,
+        0.0011222227476537228,
+        0.0002819491783156991,
+        0.001996042439714074,
+        0.0007108758436515927,
+        0.00032036195625551045,
+        0.0018817611271515489,
+        0.000359327852493152,
+        0.00003546356674632989,
+        0.006240780930966139,
+        0.001990528544411063,
+        0.000711966713424772
+      ]
+    },
+    {
+      "room": "loft",
+      "position": [
+        -6.7,
+        5.55,
+        2.1
+      ],
+      "irradiance": [
+        0.004844268783926964,
+        0.001837901072576642,
+        0.0008901197579689324,
+        0.022660912945866585,
+        0.011081710457801819,
+        0.005256143864244223,
+        0.003848846536129713,
+        0.001033773529343307,
+        0.00028875991120003164,
+        0.020491309463977814,
+        0.010304385796189308,
+        0.004939265549182892,
+        0.005733991041779518,
+        0.0017789158737286925,
+        0.000636578886769712,
+        0.014712278731167316,
+        0.006751340813934803,
+        0.0031075146980583668
+      ]
+    },
+    {
+      "room": "loft",
+      "position": [
+        -4.2,
+        4.55,
+        2.1
+      ],
+      "irradiance": [
+        0.0018080492736771703,
+        0.0005760632338933647,
+        0.00021441021817736328,
+        0.006451540160924196,
+        0.002421590033918619,
+        0.0010399532038718462,
+        0.002331018215045333,
+        0.0006658290512859821,
+        0.0002501689887139946,
+        0.0030002000275999308,
+        0.0013810490490868688,
+        0.0006271164165809751,
+        0.005773790180683136,
+        0.0028319023549556732,
+        0.0013278002152219415,
+        0.0037704643327742815,
+        0.0012942104367539287,
+        0.0005058643873780966
+      ]
+    },
+    {
+      "room": "loft",
+      "position": [
+        -4.2,
+        4.55,
+        4.25
+      ],
+      "irradiance": [
+        0.0011516454396769404,
+        0.00023078070080373436,
+        0.000026754181817523204,
+        0.010875026695430279,
+        0.005527229513972998,
+        0.0026698375586420298,
+        0.002451110864058137,
+        0.0005401926464401186,
+        0.00011176040425198153,
+        0.00488304952159524,
+        0.002680964069440961,
+        0.001313893124461174,
+        0.0013662304263561964,
+        0.00022463654750026762,
+        0.00002806628071994055,
+        0.009179895743727684,
+        0.004956483840942383,
+        0.002411386463791132
+      ]
+    },
+    {
+      "room": "loft",
+      "position": [
+        -4.2,
+        5.55,
+        2.1
+      ],
+      "irradiance": [
+        0.0024709273129701614,
+        0.0007630023756064475,
+        0.0002451753243803978,
+        0.00834814552217722,
+        0.004008673131465912,
+        0.001958351582288742,
+        0.00202522287145257,
+        0.0006403526058420539,
+        0.0002663547929842025,
+        0.009297567419707775,
+        0.004927970468997955,
+        0.002474640030413866,
+        0.005401203874498606,
+        0.0026497598737478256,
+        0.0012374881189316511,
+        0.004505590535700321,
+        0.0020095615182071924,
+        0.0010309601202607155
+      ]
+    }
+  ],
+  "lighting": {
+    "hdr": "winter-sky.hdr",
+    "rotation": 2.96705961227417,
+    "strength": 0.034,
+    "gain": [
+      0.88,
+      1.02,
+      1.22
+    ],
+    "sunDirection": [
+      0,
+      -1,
+      0
+    ],
+    "sunColor": [
+      1,
+      1,
+      1
+    ],
+    "sunIntensity": 0,
+    "localLights": [
+      {
+        "name": "V10_Loft_Reading_Functional_Spot",
+        "type": "spot",
+        "position": [
+          -4.929811477661133,
+          5.051075458526611,
+          4.553741931915283
+        ],
+        "direction": [
+          -0.04257998040227233,
+          -0.4694756939928066,
+          -0.8819180903116313
+        ],
+        "color": [
+          1,
+          0.72,
+          0.46
+        ],
+        "intensity": 0.8978150762075989,
+        "distance": 9,
+        "angle": 0.6108652381980153,
+        "penumbra": 0.41443076173054394,
+        "cosOuter": 0.8191520442889918,
+        "cosInner": 0.9367032155011471,
+        "emitterRadius": 0
+      },
+      {
+        "name": "V8_Loft_Wall_Sconce_Functional_Light",
+        "type": "point",
+        "position": [
+          -14.668986320495605,
+          3.747312545776367,
+          4.770005702972412
+        ],
+        "color": [
+          1,
+          0.72,
+          0.46
+        ],
+        "intensity": 1.3467226143113984,
+        "distance": 9,
+        "emitterRadius": 0
+      },
+      {
+        "name": "V8_Portable_Lantern_Hearth_Warm_Candle_Light",
+        "type": "point",
+        "position": [
+          -15.15439510345459,
+          1.9778717756271362,
+          2.0804061889648438
+        ],
+        "color": [
+          1,
+          0.4910208498384856,
+          0.1878207722902346
+        ],
+        "intensity": 0.28430810746573965,
+        "distance": 9,
+        "emitterRadius": 0
+      },
+      {
+        "name": "V8_Portable_Lantern_Left_Bench_Floor_Warm_Candle_Light",
+        "type": "point",
+        "position": [
+          -12.191544532775879,
+          1.5804319381713867,
+          4.556119441986084
+        ],
+        "color": [
+          1,
+          0.4910208498384856,
+          0.1878207722902346
+        ],
+        "intensity": 0.3740896150864995,
+        "distance": 9,
+        "emitterRadius": 0
+      },
+      {
+        "name": "V8_Tellium_Center_Functional_Light",
+        "type": "spot",
+        "position": [
+          -11.282139778137207,
+          2.6337125301361084,
+          -0.8726648092269897
+        ],
+        "direction": [
+          -0.046240464267415904,
+          -0.7463035650869344,
+          0.6639975965339526
+        ],
+        "color": [
+          1,
+          0.72,
+          0.46
+        ],
+        "intensity": 3.5912603048303957,
+        "distance": 9,
+        "angle": 0.5759586531581288,
+        "penumbra": 0.33434399433332684,
+        "cosOuter": 0.838670567945424,
+        "cosInner": 0.9274017555754408,
+        "emitterRadius": 0
+      },
+      {
+        "name": "V8_Tellium_East_Functional_Light",
+        "type": "spot",
+        "position": [
+          -8.234139442443848,
+          2.6337125301361084,
+          -0.872664749622345
+        ],
+        "direction": [
+          -0.046240464267415904,
+          -0.7463035650869344,
+          0.6639975965339526
+        ],
+        "color": [
+          1,
+          0.72,
+          0.46
+        ],
+        "intensity": 3.5912603048303957,
+        "distance": 9,
+        "angle": 0.5759586531581288,
+        "penumbra": 0.33434399433332684,
+        "cosOuter": 0.838670567945424,
+        "cosInner": 0.9274017555754408,
+        "emitterRadius": 0
+      },
+      {
+        "name": "V8_Tellium_West_Functional_Light",
+        "type": "spot",
+        "position": [
+          -14.328023910522461,
+          2.6214163303375244,
+          -0.8649863004684448
+        ],
+        "direction": [
+          -0.046240464267415904,
+          -0.7463035650869344,
+          0.6639975965339526
+        ],
+        "color": [
+          1,
+          0.72,
+          0.46
+        ],
+        "intensity": 3.5912603048303957,
+        "distance": 9,
+        "angle": 0.7853981633974483,
+        "penumbra": 0.1397957265933134,
+        "cosOuter": 0.7071067811865476,
+        "cosInner": 0.7803300858899107,
+        "emitterRadius": 0
+      },
+      {
+        "name": "V54_Deck_Fireplace_Emissive_Volume_VDB0",
+        "type": "fire-centroid",
+        "position": [
+          -9.075204849243164,
+          1.4092428041622043,
+          11.405375480651855
+        ],
+        "color": [
+          1,
+          0.345,
+          0.074
+        ],
+        "intensity": 4.492501211249298,
+        "distance": 5.5,
+        "emitterRadius": 0.21995999053120613
+      },
+      {
+        "name": "V54_Interior_Fireplace_Emissive_Volume_VDB0",
+        "type": "fire-centroid",
+        "position": [
+          -15.766081099398434,
+          2.0521430326625705,
+          3.2372011030092835
+        ],
+        "color": [
+          1,
+          0.345,
+          0.074
+        ],
+        "intensity": 4.492501211249298,
+        "distance": 5.5,
+        "emitterRadius": 0.21995999053120613
+      }
+    ],
+    "practicalModelVersion": "native-directed-practicals-v2",
+    "livePracticalCodeSha256": "60934e70be7cee9364961b75c86fdd8575558aaba0944775b2e90dcc04a5a402",
+    "liveFireCodeSha256": "8b01a3d63a44f586688094a031739e5d63577e7e11a2e473c31d85fcc51dc3de"
+  },
+  "algorithm": {
+    "transport": "Offline BVH path tracing of textured Lambertian indirect irradiance",
+    "samplesPerProbe": 2048,
+    "maxDiffuseBounces": 3,
+    "rayDistanceMeters": 60,
+    "textureDecode": "256px scene-linear bilinear base-color and metallic channels",
+    "interpolation": "Four nearest visible same-room probes, inverse-square weights; each receiver-probe segment ray tested against opaque geometry",
+    "evaluatedHeroReceivers": true,
+    "directSkyBaked": false,
+    "directSunBaked": false,
+    "directLocalLightsBaked": false,
+    "practicalAndFireBounceBaked": true,
+    "localLightSampling": "Finite emitter shadow segments at each diffuse hit; live Three inverse-square/range attenuation, nominal fire centroid energy/radius, no unoccluded ambient term"
+  },
+  "statistics": {
+    "triangles": 357927,
+    "probes": 24,
+    "tracedRays": 2135882,
+    "uniqueReceivers": 156589,
+    "validReceivers": 73211,
+    "blockedProbeLinks": 1452969,
+    "secondsSinceStart": 33.48826608299999
+  },
+  "limitations": [
+    "Diffuse-only finite-bounce prototype; no glossy/specular transport or caustics.",
+    "Original source vertices interpolate the result; this is not a per-texel lightmap or Cycles-equivalent bake.",
+    "Only the exact assembled architecture and season interior geometry participate; terrain, foliage and glazing are excluded.",
+    "Glass is treated as an open aperture. Direct practical/fire light and animation remain live; only nominal indirect transport is baked.",
+    "Four fixtures use their authored spot directions/cones. Relative native powers share the live renderer intensity budget; no watts-to-candela conversion is claimed. Fire uses its finite-radius centroid approximation, not a VDB emission integral.",
+    "Native glTF albedo/metallic textures are evaluated; runtime stochastic wood variation and normal-map microrelief are not traced.",
+    "Enable only at the baked season/hour with assembly closed; validate visually before replacing SSGI."
+  ],
+  "compression": {
+    "encoding": "gzip",
+    "url": "/ridge/webgpu/diffuse-probes/winter.bin.gz",
+    "bytes": 418678,
+    "sha256": "c32ded9cfa83f6ced0a2ba8bc5531d918c566e9e68f7de195def3c10f6735295"
+  }
+}

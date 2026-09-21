@@ -1,0 +1,30 @@
+{
+  "sourceScripts": [
+    "scripts/blender_prepare_weekender.py:317",
+    "scripts/blender_prepare_weekender.py:650",
+    "scripts/blender_prepare_weekender.py:875"
+  ],
+  "colorSpace": "sRGB images decoded to linear before native HSV node, then encoded to sRGB",
+  "roofOak": {
+    "saturation": 0.78,
+    "value": 0.78,
+    "normalStrength": 0.25
+  },
+  "cedar": {
+    "saturation": 0.65,
+    "value": 0.7,
+    "normalStrength": 0.38
+  },
+  "oak": {
+    "normalStrength": 0.3,
+    "roughness": "native non-color scan"
+  },
+  "stainedOak": {
+    "normalStrength": 0.24,
+    "roughnessRange": [
+      0.62,
+      0.78
+    ]
+  },
+  "nativeSourceImagesUnchanged": true
+}

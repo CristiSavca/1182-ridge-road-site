@@ -1,0 +1,88 @@
+{
+  "id": "architecture",
+  "label": "Architecture",
+  "url": "/ridge/webgpu/architecture.glb",
+  "bytes": 24506568,
+  "triangles": 344240,
+  "instances": 0,
+  "sourceObjects": 153,
+  "nativeModifierMasks": [
+    {
+      "modifier": "V5_Archive_Original_Bench_Pad_Faces",
+      "sourceEnabled": true,
+      "predicate": "v5_archive_original_bench_pad_faces",
+      "selectedSourceFaces": 36,
+      "operation": "mask",
+      "material": null
+    },
+    {
+      "modifier": "V9_Reversible_Entry_Access_Isolation",
+      "sourceEnabled": true,
+      "predicate": "v9_separated_entry_access",
+      "selectedSourceFaces": 8684,
+      "operation": "mask",
+      "material": null
+    },
+    {
+      "modifier": "V10_Hearth_Firewood_Reposition_Mask",
+      "sourceEnabled": true,
+      "predicate": "Native inverted vertex group: V10_Hearth_Firewood_Source_Vertices",
+      "selectedSourceFaces": 1919,
+      "operation": "mask",
+      "material": null
+    },
+    {
+      "modifier": "V10_Firebox_Interior_Material_Override",
+      "sourceEnabled": true,
+      "predicate": "v10_firebox_inside_lining",
+      "selectedSourceFaces": 10,
+      "operation": "setMaterial",
+      "material": "V10_Firebox_Soot_Dark_Refractory"
+    },
+    {
+      "modifier": "V27_Reversible_Glazing_Repair_Mask",
+      "sourceEnabled": true,
+      "predicate": "Native material selection: V10_Native_Architectural_Glass_01",
+      "selectedSourceFaces": 352,
+      "operation": "mask",
+      "material": null
+    },
+    {
+      "modifier": "V29_Roof_Duplicate_Skin_Isolation",
+      "sourceEnabled": true,
+      "predicate": "Native material, area>40m\u00b2, normal.z>.2 predicate",
+      "selectedSourceFaces": 4,
+      "operation": "mask",
+      "material": null
+    },
+    {
+      "modifier": "V65_Reversible_Duplicate_Loft_Back_Skins",
+      "sourceEnabled": true,
+      "predicate": "v65_duplicate_loft_back_skin",
+      "selectedSourceFaces": 276,
+      "operation": "mask",
+      "material": null
+    },
+    {
+      "modifier": "V70_Reversible_Original_South_Guide_Mask",
+      "sourceEnabled": true,
+      "predicate": "v70_original_south_guide_face",
+      "selectedSourceFaces": 887,
+      "operation": "mask",
+      "material": null
+    }
+  ],
+  "maskedSourceFaces": 12146,
+  "materialOverrideFaces": 10,
+  "sha256": "cdabcedf6df78665cb47a97173d3b0e9bf41a17730102a1aed4c1fa26ec71308",
+  "category": "architecture",
+  "sourceRevision": "V115",
+  "variant": "all",
+  "nativeTriangles": 356386,
+  "lod": {
+    "beforeTriangles": 356386,
+    "afterTriangles": 344240,
+    "maxError": 0,
+    "method": "Enabled native FACEattribute/material/vertexgroup masks and10face soot override; retained geometry unchanged"
+  }
+}

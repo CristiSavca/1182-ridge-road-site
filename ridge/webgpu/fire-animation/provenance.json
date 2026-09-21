@@ -1,0 +1,9 @@
+{
+  "source": "output/blender/assets/jangafx_campfire/smallCampfire/smallCampfire.mp4",
+  "author": "JangaFX / EmberGen",
+  "license": "CC0, see LICENSE.txt",
+  "processing": "Seconds 1\u20135; crop 800x800 at (176,826); downsample to 512 square; 24 fps; 0.5-second cyclic crossfade; H.264 CRF18.",
+  "approximation": "Upright camera-facing emissive card, native world-space logs/coals and point-light shadows. Not a VDB volume import.",
+  "sha256": "7f4d57c78a0dba52852c1ad31ee766dd33844aca3245be5a3354a119ba7c4896",
+  "bytes": 841573
+}

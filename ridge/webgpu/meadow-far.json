@@ -1,0 +1,1776 @@
+{
+  "url": "/ridge/webgpu/meadow-far.glb",
+  "bytes": 150584,
+  "sha256": "a1d94c90496664a7933a1b774882a93bd8642f4fb5931d0081db366f34fd2c2d",
+  "source": "public/ridge/webgpu/meadow.glb",
+  "sourceSha256": "64f4d4b503f185d6c0722001e922b79fbfba7ca117c6b051054ecb749f55974a",
+  "prototypes": 52,
+  "targetTrianglesPerPrototype": 32,
+  "sourceTriangles": 380949,
+  "triangles": 1530,
+  "maxPrototypeTriangles": 37,
+  "fullPopulationTriangles": 6859885,
+  "vertexLayout": "SEPARATE",
+  "originalTriangleSubset": true,
+  "texturesAndAlphaUnchanged": true,
+  "method": "Whole source-connected leaf/blade components, with bounded connected original-triangle patches for oversized fused shrubs; no vertex movement, new edges, UV edits, or texture changes",
+  "rows": [
+    {
+      "meshIndex": 0,
+      "name": "bq_Grass_Bromus-carinatus_C_spring",
+      "sourceTriangles": 48430,
+      "lodTriangles": 32,
+      "farTriangles": 32,
+      "instanceCount": 3480,
+      "fullPopulationTriangles": 111360,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 43600,
+          "triangles": 26,
+          "sourceComponents": 218,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            "4:6"
+          ],
+          "connectedTrianglePatches": 1,
+          "retainedVertexCount": 23,
+          "sourceSurfaceArea": 0.31055103381876664,
+          "retainedSurfaceArea": 0.000094038349867475
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 4830,
+          "triangles": 6,
+          "sourceComponents": 2491,
+          "retainedComponents": 6,
+          "retainedComponentIds": [
+            1702,
+            922,
+            2026,
+            65,
+            1593,
+            2349
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 18,
+          "sourceSurfaceArea": 0.02457438716562153,
+          "retainedSurfaceArea": 0.00004671718823029982
+        }
+      ]
+    },
+    {
+      "meshIndex": 1,
+      "name": "bq_Grass_Bromus-carinatus_A_spring",
+      "sourceTriangles": 72920,
+      "lodTriangles": 28,
+      "farTriangles": 28,
+      "instanceCount": 6634,
+      "fullPopulationTriangles": 185752,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 62000,
+          "triangles": 22,
+          "sourceComponents": 310,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            "51:7",
+            "224:7"
+          ],
+          "connectedTrianglePatches": 2,
+          "retainedVertexCount": 22,
+          "sourceSurfaceArea": 0.5812139395763192,
+          "retainedSurfaceArea": 0.00006389017149944142
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 10920,
+          "triangles": 6,
+          "sourceComponents": 5644,
+          "retainedComponents": 6,
+          "retainedComponentIds": [
+            5620,
+            181,
+            290,
+            1151,
+            1483,
+            2788
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 18,
+          "sourceSurfaceArea": 0.057244023816247415,
+          "retainedSurfaceArea": 0.000047211677004442814
+        }
+      ]
+    },
+    {
+      "meshIndex": 2,
+      "name": "bq_Grass_Bromus-carinatus_B_spring",
+      "sourceTriangles": 73110,
+      "lodTriangles": 32,
+      "farTriangles": 32,
+      "instanceCount": 6382,
+      "fullPopulationTriangles": 204224,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 58200,
+          "triangles": 25,
+          "sourceComponents": 291,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            "37:7"
+          ],
+          "connectedTrianglePatches": 1,
+          "retainedVertexCount": 22,
+          "sourceSurfaceArea": 0.6858747932846191,
+          "retainedSurfaceArea": 0.00007591256900093948
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 14910,
+          "triangles": 7,
+          "sourceComponents": 7690,
+          "retainedComponents": 7,
+          "retainedComponentIds": [
+            4081,
+            2020,
+            3085,
+            175,
+            6143,
+            1821,
+            814
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 21,
+          "sourceSurfaceArea": 0.08057431881527397,
+          "retainedSurfaceArea": 0.00004814161379426353
+        }
+      ]
+    },
+    {
+      "meshIndex": 3,
+      "name": "Plane.008",
+      "sourceTriangles": 403,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 39219,
+      "fullPopulationTriangles": 1333446,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 403,
+          "triangles": 34,
+          "sourceComponents": 22,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            2,
+            9,
+            11
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 40,
+          "sourceSurfaceArea": 0.00527366421524737,
+          "retainedSurfaceArea": 0.0005529879197853826
+        }
+      ]
+    },
+    {
+      "meshIndex": 4,
+      "name": "Plane.020",
+      "sourceTriangles": 662,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 19098,
+      "fullPopulationTriangles": 649332,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 662,
+          "triangles": 34,
+          "sourceComponents": 47,
+          "retainedComponents": 4,
+          "retainedComponentIds": [
+            46,
+            45,
+            44,
+            10
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 42,
+          "sourceSurfaceArea": 0.03692646311625606,
+          "retainedSurfaceArea": 0.02909689553926185
+        }
+      ]
+    },
+    {
+      "meshIndex": 5,
+      "name": "Plane.022",
+      "sourceTriangles": 1309,
+      "lodTriangles": 36,
+      "farTriangles": 36,
+      "instanceCount": 22024,
+      "fullPopulationTriangles": 792864,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1309,
+          "triangles": 36,
+          "sourceComponents": 92,
+          "retainedComponents": 5,
+          "retainedComponentIds": [
+            90,
+            91,
+            13,
+            0,
+            89
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 46,
+          "sourceSurfaceArea": 0.056249491555380574,
+          "retainedSurfaceArea": 0.036654590147916125
+        }
+      ]
+    },
+    {
+      "meshIndex": 6,
+      "name": "Plane.002",
+      "sourceTriangles": 661,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 40795,
+      "fullPopulationTriangles": 1387030,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 661,
+          "triangles": 34,
+          "sourceComponents": 30,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            28,
+            12
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 38,
+          "sourceSurfaceArea": 0.008327030735284843,
+          "retainedSurfaceArea": 0.0006231079553567688
+        }
+      ]
+    },
+    {
+      "meshIndex": 7,
+      "name": "Plane.003",
+      "sourceTriangles": 215,
+      "lodTriangles": 32,
+      "farTriangles": 32,
+      "instanceCount": 21485,
+      "fullPopulationTriangles": 687520,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 215,
+          "triangles": 32,
+          "sourceComponents": 16,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            6,
+            10,
+            5
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 38,
+          "sourceSurfaceArea": 0.006671257348606989,
+          "retainedSurfaceArea": 0.0016275195685406605
+        }
+      ]
+    },
+    {
+      "meshIndex": 8,
+      "name": "Plane.006",
+      "sourceTriangles": 163,
+      "lodTriangles": 33,
+      "farTriangles": 33,
+      "instanceCount": 22038,
+      "fullPopulationTriangles": 727254,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 163,
+          "triangles": 33,
+          "sourceComponents": 15,
+          "retainedComponents": 4,
+          "retainedComponentIds": [
+            3,
+            12,
+            0,
+            4
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 40,
+          "sourceSurfaceArea": 0.00627811591787554,
+          "retainedSurfaceArea": 0.0015318529006314724
+        }
+      ]
+    },
+    {
+      "meshIndex": 9,
+      "name": "Plane.011",
+      "sourceTriangles": 20,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 11624,
+      "fullPopulationTriangles": 232480,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 20,
+          "triangles": 20,
+          "sourceComponents": 1,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            0
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 22,
+          "sourceSurfaceArea": 0.00031482062081120756,
+          "retainedSurfaceArea": 0.00031482062081120756
+        }
+      ]
+    },
+    {
+      "meshIndex": 10,
+      "name": "Plane.010",
+      "sourceTriangles": 59,
+      "lodTriangles": 30,
+      "farTriangles": 30,
+      "instanceCount": 11916,
+      "fullPopulationTriangles": 357480,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 59,
+          "triangles": 30,
+          "sourceComponents": 4,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            1,
+            3
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 34,
+          "sourceSurfaceArea": 0.0010323457202784329,
+          "retainedSurfaceArea": 0.0006433119914335591
+        }
+      ]
+    },
+    {
+      "meshIndex": 11,
+      "name": "V77_Thermopsis_Yellow_Golden_Banner_7872_Mesh",
+      "sourceTriangles": 3542,
+      "lodTriangles": 30,
+      "farTriangles": 30,
+      "instanceCount": 20,
+      "fullPopulationTriangles": 600,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 3542,
+          "triangles": 30,
+          "sourceComponents": 139,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            133,
+            1,
+            31
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 30,
+          "sourceSurfaceArea": 0.031248251787408372,
+          "retainedSurfaceArea": 0.00023865524772899384
+        }
+      ]
+    },
+    {
+      "meshIndex": 12,
+      "name": "V77_Oxytropis_Purple_Locoweed_8216_Mesh",
+      "sourceTriangles": 6714,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 35,
+      "fullPopulationTriangles": 1190,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 6714,
+          "triangles": 34,
+          "sourceComponents": 276,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            203,
+            41
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 31,
+          "sourceSurfaceArea": 0.03076833378564246,
+          "retainedSurfaceArea": 0.0001831115714502612
+        }
+      ]
+    },
+    {
+      "meshIndex": 13,
+      "name": "V77_Thermopsis_Yellow_Golden_Banner_7700_Mesh",
+      "sourceTriangles": 10626,
+      "lodTriangles": 30,
+      "farTriangles": 30,
+      "instanceCount": 35,
+      "fullPopulationTriangles": 1050,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 10626,
+          "triangles": 30,
+          "sourceComponents": 417,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            411,
+            1,
+            49
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 30,
+          "sourceSurfaceArea": 0.10179446406390269,
+          "retainedSurfaceArea": 0.00018089788112980528
+        }
+      ]
+    },
+    {
+      "meshIndex": 14,
+      "name": "V77_Oxytropis_Purple_Locoweed_8431_Mesh",
+      "sourceTriangles": 6446,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 38,
+      "fullPopulationTriangles": 1292,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 6446,
+          "triangles": 34,
+          "sourceComponents": 264,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            179,
+            13
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 31,
+          "sourceSurfaceArea": 0.028753379214850983,
+          "retainedSurfaceArea": 0.00017938613953853618
+        }
+      ]
+    },
+    {
+      "meshIndex": 15,
+      "name": "V77_Thermopsis_Yellow_Golden_Banner_7915_Mesh",
+      "sourceTriangles": 2772,
+      "lodTriangles": 30,
+      "farTriangles": 30,
+      "instanceCount": 28,
+      "fullPopulationTriangles": 840,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 2772,
+          "triangles": 30,
+          "sourceComponents": 109,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            103,
+            1,
+            31
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 30,
+          "sourceSurfaceArea": 0.0277740015261911,
+          "retainedSurfaceArea": 0.00023983994159987648
+        }
+      ]
+    },
+    {
+      "meshIndex": 16,
+      "name": "V77_Oxytropis_Purple_Locoweed_8259_Mesh",
+      "sourceTriangles": 6312,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 32,
+      "fullPopulationTriangles": 1088,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 6312,
+          "triangles": 34,
+          "sourceComponents": 258,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            252,
+            55
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 31,
+          "sourceSurfaceArea": 0.028430761998431014,
+          "retainedSurfaceArea": 0.00018025042472770455
+        }
+      ]
+    },
+    {
+      "meshIndex": 17,
+      "name": "V77_Thermopsis_Yellow_Golden_Banner_7786_Mesh",
+      "sourceTriangles": 7392,
+      "lodTriangles": 30,
+      "farTriangles": 30,
+      "instanceCount": 29,
+      "fullPopulationTriangles": 870,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 7392,
+          "triangles": 30,
+          "sourceComponents": 290,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            145,
+            152,
+            31
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 30,
+          "sourceSurfaceArea": 0.06472708857235634,
+          "retainedSurfaceArea": 0.00024514567647227853
+        }
+      ]
+    },
+    {
+      "meshIndex": 18,
+      "name": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.002",
+      "sourceTriangles": 5748,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 27,
+      "fullPopulationTriangles": 540,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 5748,
+          "triangles": 20,
+          "sourceComponents": 210,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            208
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 15,
+          "sourceSurfaceArea": 0.04711500852043776,
+          "retainedSurfaceArea": 0.00013383485272681819
+        }
+      ]
+    },
+    {
+      "meshIndex": 19,
+      "name": "V77_Oxytropis_Purple_Locoweed_8302_Mesh",
+      "sourceTriangles": 4738,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 25,
+      "fullPopulationTriangles": 850,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 4738,
+          "triangles": 34,
+          "sourceComponents": 191,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            185,
+            69
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 31,
+          "sourceSurfaceArea": 0.024953297426683858,
+          "retainedSurfaceArea": 0.00017804573757550902
+        }
+      ]
+    },
+    {
+      "meshIndex": 20,
+      "name": "V77_Thermopsis_Yellow_Golden_Banner_7743_Mesh",
+      "sourceTriangles": 8778,
+      "lodTriangles": 30,
+      "farTriangles": 30,
+      "instanceCount": 27,
+      "fullPopulationTriangles": 810,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8778,
+          "triangles": 30,
+          "sourceComponents": 345,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            339,
+            1,
+            255
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 30,
+          "sourceSurfaceArea": 0.08879626555572115,
+          "retainedSurfaceArea": 0.00024493613005461976
+        }
+      ]
+    },
+    {
+      "meshIndex": 21,
+      "name": "V77_Oxytropis_Purple_Locoweed_8388_Mesh",
+      "sourceTriangles": 5140,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 28,
+      "fullPopulationTriangles": 952,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 5140,
+          "triangles": 34,
+          "sourceComponents": 209,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            203,
+            111
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 31,
+          "sourceSurfaceArea": 0.02540878637708538,
+          "retainedSurfaceArea": 0.00017867619769158428
+        }
+      ]
+    },
+    {
+      "meshIndex": 22,
+      "name": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.001",
+      "sourceTriangles": 3644,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 33,
+      "fullPopulationTriangles": 660,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 3644,
+          "triangles": 20,
+          "sourceComponents": 132,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            59
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 15,
+          "sourceSurfaceArea": 0.03070966923879274,
+          "retainedSurfaceArea": 0.00014379403894102018
+        }
+      ]
+    },
+    {
+      "meshIndex": 23,
+      "name": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.003",
+      "sourceTriangles": 1764,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 20,
+      "fullPopulationTriangles": 400,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1764,
+          "triangles": 20,
+          "sourceComponents": 64,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            60
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 15,
+          "sourceSurfaceArea": 0.014796637316463643,
+          "retainedSurfaceArea": 0.00015455354306077366
+        }
+      ]
+    },
+    {
+      "meshIndex": 24,
+      "name": "V77_Oxytropis_Purple_Locoweed_8345_Mesh",
+      "sourceTriangles": 8422,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 28,
+      "fullPopulationTriangles": 952,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 8422,
+          "triangles": 34,
+          "sourceComponents": 349,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            203,
+            111
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 31,
+          "sourceSurfaceArea": 0.03389955459127412,
+          "retainedSurfaceArea": 0.00017827506615771072
+        }
+      ]
+    },
+    {
+      "meshIndex": 25,
+      "name": "V77_Castilleja_Red_Orange_Paintbrush_Mesh",
+      "sourceTriangles": 1960,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 21,
+      "fullPopulationTriangles": 420,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1960,
+          "triangles": 20,
+          "sourceComponents": 72,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            70
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 15,
+          "sourceSurfaceArea": 0.016367553104221687,
+          "retainedSurfaceArea": 0.00014685382946671654
+        }
+      ]
+    },
+    {
+      "meshIndex": 26,
+      "name": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.004",
+      "sourceTriangles": 5268,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 36,
+      "fullPopulationTriangles": 720,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 5268,
+          "triangles": 20,
+          "sourceComponents": 192,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            49
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 15,
+          "sourceSurfaceArea": 0.044422390612951945,
+          "retainedSurfaceArea": 0.0001449910901743482
+        }
+      ]
+    },
+    {
+      "meshIndex": 27,
+      "name": "V77_Thermopsis_Yellow_Golden_Banner_7829_Mesh",
+      "sourceTriangles": 7392,
+      "lodTriangles": 30,
+      "farTriangles": 30,
+      "instanceCount": 26,
+      "fullPopulationTriangles": 780,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 7392,
+          "triangles": 30,
+          "sourceComponents": 290,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            284,
+            1,
+            133
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 30,
+          "sourceSurfaceArea": 0.06507246213382792,
+          "retainedSurfaceArea": 0.0001813151789554252
+        }
+      ]
+    },
+    {
+      "meshIndex": 28,
+      "name": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.005",
+      "sourceTriangles": 1796,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 27,
+      "fullPopulationTriangles": 540,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1796,
+          "triangles": 20,
+          "sourceComponents": 65,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            61
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 15,
+          "sourceSurfaceArea": 0.015922452862061568,
+          "retainedSurfaceArea": 0.00014259317747053308
+        }
+      ]
+    },
+    {
+      "meshIndex": 29,
+      "name": "V84 Native grass cluster 01",
+      "sourceTriangles": 4634,
+      "lodTriangles": 35,
+      "farTriangles": 35,
+      "instanceCount": 65,
+      "fullPopulationTriangles": 2275,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 4634,
+          "triangles": 35,
+          "sourceComponents": 329,
+          "retainedComponents": 7,
+          "retainedComponentIds": [
+            93,
+            234,
+            281,
+            187,
+            327,
+            139,
+            46
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 49,
+          "sourceSurfaceArea": 8.183808159024956,
+          "retainedSurfaceArea": 3.254236695083015
+        }
+      ]
+    },
+    {
+      "meshIndex": 30,
+      "name": "V84 Native grass cluster 04",
+      "sourceTriangles": 1141,
+      "lodTriangles": 36,
+      "farTriangles": 36,
+      "instanceCount": 47,
+      "fullPopulationTriangles": 1692,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1141,
+          "triangles": 36,
+          "sourceComponents": 105,
+          "retainedComponents": 6,
+          "retainedComponentIds": [
+            33,
+            87,
+            78,
+            42,
+            18,
+            63
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 48,
+          "sourceSurfaceArea": 0.4224186678814545,
+          "retainedSurfaceArea": 0.02174840763416496
+        }
+      ]
+    },
+    {
+      "meshIndex": 31,
+      "name": "V84 Native grass cluster 02",
+      "sourceTriangles": 4627,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 59,
+      "fullPopulationTriangles": 2006,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 4627,
+          "triangles": 34,
+          "sourceComponents": 210,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            208,
+            132
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 38,
+          "sourceSurfaceArea": 2.955382959658187,
+          "retainedSurfaceArea": 0.031598331970318284
+        }
+      ]
+    },
+    {
+      "meshIndex": 32,
+      "name": "V84 Native grass cluster 05",
+      "sourceTriangles": 1505,
+      "lodTriangles": 36,
+      "farTriangles": 36,
+      "instanceCount": 41,
+      "fullPopulationTriangles": 1476,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1505,
+          "triangles": 36,
+          "sourceComponents": 112,
+          "retainedComponents": 4,
+          "retainedComponentIds": [
+            102,
+            58,
+            106,
+            42
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 44,
+          "sourceSurfaceArea": 0.5722657589837068,
+          "retainedSurfaceArea": 0.01595967920082837
+        }
+      ]
+    },
+    {
+      "meshIndex": 33,
+      "name": "V84 Native grass cluster 00",
+      "sourceTriangles": 9163,
+      "lodTriangles": 35,
+      "farTriangles": 35,
+      "instanceCount": 51,
+      "fullPopulationTriangles": 1785,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 9163,
+          "triangles": 35,
+          "sourceComponents": 644,
+          "retainedComponents": 7,
+          "retainedComponentIds": [
+            642,
+            366,
+            182,
+            458,
+            90,
+            550,
+            275
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 49,
+          "sourceSurfaceArea": 8.304683752278487,
+          "retainedSurfaceArea": 2.627857993718005
+        }
+      ]
+    },
+    {
+      "meshIndex": 34,
+      "name": "V84 Native grass cluster 06",
+      "sourceTriangles": 413,
+      "lodTriangles": 29,
+      "farTriangles": 29,
+      "instanceCount": 40,
+      "fullPopulationTriangles": 1160,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 413,
+          "triangles": 29,
+          "sourceComponents": 28,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            13,
+            26
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 33,
+          "sourceSurfaceArea": 0.5670785424421765,
+          "retainedSurfaceArea": 0.050308692058459156
+        }
+      ]
+    },
+    {
+      "meshIndex": 35,
+      "name": "V84 Native grass cluster 03",
+      "sourceTriangles": 2821,
+      "lodTriangles": 30,
+      "farTriangles": 30,
+      "instanceCount": 39,
+      "fullPopulationTriangles": 1170,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 2821,
+          "triangles": 30,
+          "sourceComponents": 154,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            112,
+            53,
+            29
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 36,
+          "sourceSurfaceArea": 3.699309048970252,
+          "retainedSurfaceArea": 0.04239547588114073
+        }
+      ]
+    },
+    {
+      "meshIndex": 36,
+      "name": "V84 Native grass cluster 07",
+      "sourceTriangles": 140,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 57,
+      "fullPopulationTriangles": 1140,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 140,
+          "triangles": 20,
+          "sourceComponents": 7,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            1
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 22,
+          "sourceSurfaceArea": 0.6079192396973734,
+          "retainedSurfaceArea": 0.08684561357594188
+        }
+      ]
+    },
+    {
+      "meshIndex": 37,
+      "name": "V88 Granite pebble 1",
+      "sourceTriangles": 20,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 194,
+      "fullPopulationTriangles": 3880,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 20,
+          "triangles": 20,
+          "sourceComponents": 20,
+          "retainedComponents": 20,
+          "retainedComponentIds": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 60,
+          "sourceSurfaceArea": 5.737832118224865,
+          "retainedSurfaceArea": 5.737832118224865
+        }
+      ]
+    },
+    {
+      "meshIndex": 38,
+      "name": "V88 Granite pebble 4",
+      "sourceTriangles": 20,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 187,
+      "fullPopulationTriangles": 3740,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 20,
+          "triangles": 20,
+          "sourceComponents": 20,
+          "retainedComponents": 20,
+          "retainedComponentIds": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 60,
+          "sourceSurfaceArea": 5.840409281862676,
+          "retainedSurfaceArea": 5.840409281862676
+        }
+      ]
+    },
+    {
+      "meshIndex": 39,
+      "name": "V88 Granite pebble 0",
+      "sourceTriangles": 20,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 212,
+      "fullPopulationTriangles": 4240,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 20,
+          "triangles": 20,
+          "sourceComponents": 20,
+          "retainedComponents": 20,
+          "retainedComponentIds": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 60,
+          "sourceSurfaceArea": 5.197038005191363,
+          "retainedSurfaceArea": 5.197038005191363
+        }
+      ]
+    },
+    {
+      "meshIndex": 40,
+      "name": "V88 Granite pebble 2",
+      "sourceTriangles": 20,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 189,
+      "fullPopulationTriangles": 3780,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 20,
+          "triangles": 20,
+          "sourceComponents": 20,
+          "retainedComponents": 20,
+          "retainedComponentIds": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 60,
+          "sourceSurfaceArea": 5.623872849624394,
+          "retainedSurfaceArea": 5.623872849624394
+        }
+      ]
+    },
+    {
+      "meshIndex": 41,
+      "name": "V88 Granite pebble 5",
+      "sourceTriangles": 20,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 158,
+      "fullPopulationTriangles": 3160,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 20,
+          "triangles": 20,
+          "sourceComponents": 20,
+          "retainedComponents": 20,
+          "retainedComponentIds": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 60,
+          "sourceSurfaceArea": 5.3465097569674285,
+          "retainedSurfaceArea": 5.3465097569674285
+        }
+      ]
+    },
+    {
+      "meshIndex": 42,
+      "name": "V88 Granite pebble 3",
+      "sourceTriangles": 20,
+      "lodTriangles": 20,
+      "farTriangles": 20,
+      "instanceCount": 178,
+      "fullPopulationTriangles": 3560,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 20,
+          "triangles": 20,
+          "sourceComponents": 20,
+          "retainedComponents": 20,
+          "retainedComponentIds": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 60,
+          "sourceSurfaceArea": 5.737460992168679,
+          "retainedSurfaceArea": 5.737460992168679
+        }
+      ]
+    },
+    {
+      "meshIndex": 43,
+      "name": "bq_Shrub_Rhus-Aromatica_B_spring-summer-autumn",
+      "sourceTriangles": 27908,
+      "lodTriangles": 32,
+      "farTriangles": 32,
+      "instanceCount": 324,
+      "fullPopulationTriangles": 10368,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 12524,
+          "triangles": 12,
+          "sourceComponents": 716,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            540,
+            371
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 16,
+          "sourceSurfaceArea": 4.559322293867093,
+          "retainedSurfaceArea": 0.0025970663888609264
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 15384,
+          "triangles": 20,
+          "sourceComponents": 3846,
+          "retainedComponents": 5,
+          "retainedComponentIds": [
+            3524,
+            3819,
+            2993,
+            2025,
+            2792
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 25,
+          "sourceSurfaceArea": 17.67402135161414,
+          "retainedSurfaceArea": 0.029564041788857805
+        }
+      ]
+    },
+    {
+      "meshIndex": 44,
+      "name": "bq_Shrub_Rhus-Aromatica_A_spring-summer-autumn",
+      "sourceTriangles": 26347,
+      "lodTriangles": 32,
+      "farTriangles": 32,
+      "instanceCount": 258,
+      "fullPopulationTriangles": 8256,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 11411,
+          "triangles": 12,
+          "sourceComponents": 621,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            330,
+            571
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 16,
+          "sourceSurfaceArea": 1.2106574110586041,
+          "retainedSurfaceArea": 0.0007723674095757242
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 14936,
+          "triangles": 20,
+          "sourceComponents": 3734,
+          "retainedComponents": 5,
+          "retainedComponentIds": [
+            1387,
+            2749,
+            848,
+            2127,
+            3641
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 25,
+          "sourceSurfaceArea": 17.203506155820076,
+          "retainedSurfaceArea": 0.026776858217189725
+        }
+      ]
+    },
+    {
+      "meshIndex": 45,
+      "name": "bq_Flower_Achillea-millefolium_A_spring-summer",
+      "sourceTriangles": 1061,
+      "lodTriangles": 36,
+      "farTriangles": 36,
+      "instanceCount": 212,
+      "fullPopulationTriangles": 7632,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 62,
+          "triangles": 6,
+          "sourceComponents": 9,
+          "retainedComponents": 2,
+          "retainedComponentIds": [
+            6,
+            1
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 9,
+          "sourceSurfaceArea": 0.0034647290339927107,
+          "retainedSurfaceArea": 0.00022240798786466934
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 177,
+          "triangles": 5,
+          "sourceComponents": 2,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            "1:14",
+            "0:11",
+            "1:17"
+          ],
+          "connectedTrianglePatches": 3,
+          "retainedVertexCount": 12,
+          "sourceSurfaceArea": 0.01321406336383341,
+          "retainedSurfaceArea": 0.00026232630112070347
+        },
+        {
+          "primitiveIndex": 2,
+          "sourceTriangles": 822,
+          "triangles": 25,
+          "sourceComponents": 85,
+          "retainedComponents": 24,
+          "retainedComponentIds": [
+            50,
+            35,
+            73,
+            11,
+            62,
+            40,
+            22,
+            56,
+            80,
+            4,
+            47,
+            70,
+            28,
+            6,
+            83,
+            74,
+            68,
+            29,
+            25,
+            9,
+            54,
+            72,
+            19,
+            64
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 73,
+          "sourceSurfaceArea": 0.0037906918501698994,
+          "retainedSurfaceArea": 0.000044322581002204653
+        }
+      ]
+    },
+    {
+      "meshIndex": 46,
+      "name": "bq_Flower_Campanula-scheuchzeri_C_spring-summer",
+      "sourceTriangles": 240,
+      "lodTriangles": 31,
+      "farTriangles": 31,
+      "instanceCount": 144,
+      "fullPopulationTriangles": 4464,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 84,
+          "triangles": 9,
+          "sourceComponents": 6,
+          "retainedComponents": 3,
+          "retainedComponentIds": [
+            3,
+            5,
+            1
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 15,
+          "sourceSurfaceArea": 0.005233094930578132,
+          "retainedSurfaceArea": 0.00008797692970231416
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 156,
+          "triangles": 22,
+          "sourceComponents": 30,
+          "retainedComponents": 19,
+          "retainedComponentIds": [
+            14,
+            11,
+            24,
+            2,
+            10,
+            27,
+            5,
+            16,
+            17,
+            18,
+            26,
+            4,
+            28,
+            6,
+            15,
+            3,
+            25,
+            7,
+            9
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 60,
+          "sourceSurfaceArea": 0.0027462989451017446,
+          "retainedSurfaceArea": 0.00041895938530345976
+        }
+      ]
+    },
+    {
+      "meshIndex": 47,
+      "name": "bq_Flower_Achillea-millefolium_B_spring-summer",
+      "sourceTriangles": 1058,
+      "lodTriangles": 37,
+      "farTriangles": 37,
+      "instanceCount": 219,
+      "fullPopulationTriangles": 8103,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 95,
+          "triangles": 6,
+          "sourceComponents": 13,
+          "retainedComponents": 4,
+          "retainedComponentIds": [
+            10,
+            8,
+            6,
+            11
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 14,
+          "sourceSurfaceArea": 0.00979256741886406,
+          "retainedSurfaceArea": 0.0004804595086191919
+        },
+        {
+          "primitiveIndex": 1,
+          "sourceTriangles": 152,
+          "triangles": 6,
+          "sourceComponents": 6,
+          "retainedComponents": 1,
+          "retainedComponentIds": [
+            3
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 8,
+          "sourceSurfaceArea": 0.01416563688984746,
+          "retainedSurfaceArea": 0.0006991155672077012
+        },
+        {
+          "primitiveIndex": 2,
+          "sourceTriangles": 811,
+          "triangles": 25,
+          "sourceComponents": 80,
+          "retainedComponents": 24,
+          "retainedComponentIds": [
+            52,
+            30,
+            70,
+            41,
+            17,
+            53,
+            10,
+            78,
+            47,
+            23,
+            69,
+            66,
+            13,
+            31,
+            79,
+            5,
+            32,
+            22,
+            29,
+            72,
+            16,
+            59,
+            77,
+            4
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 73,
+          "sourceSurfaceArea": 0.006212908471600711,
+          "retainedSurfaceArea": 0.00004399777754998442
+        }
+      ]
+    },
+    {
+      "meshIndex": 48,
+      "name": "bq_Pinecone_Pinus-ponderosa_C_spring-summer-autumn",
+      "sourceTriangles": 989,
+      "lodTriangles": 36,
+      "farTriangles": 36,
+      "instanceCount": 197,
+      "fullPopulationTriangles": 7092,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 989,
+          "triangles": 36,
+          "sourceComponents": 79,
+          "retainedComponents": 4,
+          "retainedComponentIds": [
+            20,
+            77,
+            12,
+            23
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 38,
+          "sourceSurfaceArea": 0.054504906185258974,
+          "retainedSurfaceArea": 0.0022468252203853762
+        }
+      ]
+    },
+    {
+      "meshIndex": 49,
+      "name": "bq_Needles_Pinus-ponderosa_A_spring-summer-autumn",
+      "sourceTriangles": 50,
+      "lodTriangles": 32,
+      "farTriangles": 32,
+      "instanceCount": 1013,
+      "fullPopulationTriangles": 32416,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 50,
+          "triangles": 32,
+          "sourceComponents": 50,
+          "retainedComponents": 32,
+          "retainedComponentIds": [
+            28,
+            40,
+            10,
+            0,
+            21,
+            30,
+            16,
+            20,
+            8,
+            46,
+            38,
+            5,
+            36,
+            32,
+            1,
+            22,
+            2,
+            44,
+            11,
+            34,
+            9,
+            14,
+            31,
+            26,
+            48,
+            41,
+            24,
+            12,
+            29,
+            39,
+            6,
+            42
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 96,
+          "sourceSurfaceArea": 0.0018435160215091286,
+          "retainedSurfaceArea": 0.0013993216302349808
+        }
+      ]
+    },
+    {
+      "meshIndex": 50,
+      "name": "Plane.004",
+      "sourceTriangles": 1183,
+      "lodTriangles": 36,
+      "farTriangles": 36,
+      "instanceCount": 912,
+      "fullPopulationTriangles": 32832,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1183,
+          "triangles": 36,
+          "sourceComponents": 36,
+          "retainedComponents": 6,
+          "retainedComponentIds": [
+            17,
+            3,
+            35,
+            10,
+            6,
+            16
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 40,
+          "sourceSurfaceArea": 0.24093096217430335,
+          "retainedSurfaceArea": 0.007624476551746769
+        }
+      ]
+    },
+    {
+      "meshIndex": 51,
+      "name": "Plane.001",
+      "sourceTriangles": 1143,
+      "lodTriangles": 34,
+      "farTriangles": 34,
+      "instanceCount": 893,
+      "fullPopulationTriangles": 30362,
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 1143,
+          "triangles": 34,
+          "sourceComponents": 56,
+          "retainedComponents": 8,
+          "retainedComponentIds": [
+            15,
+            40,
+            29,
+            33,
+            53,
+            45,
+            9,
+            42
+          ],
+          "connectedTrianglePatches": 0,
+          "retainedVertexCount": 45,
+          "sourceSurfaceArea": 0.2509626158094106,
+          "retainedSurfaceArea": 0.006964188754606549
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "codec": "EXT_meshopt_compression",
+  "lossless": true,
+  "quantization": false,
+  "generatedAt": "2026-09-18T22:27:33.253Z",
+  "assets": [
+    {
+      "id": "architecture",
+      "sourceBytes": 43466748,
+      "bytes": 24199404,
+      "ratio": 0.5567337128602305,
+      "sha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b",
+      "verified": {
+        "meshes": 227,
+        "nodes": 227,
+        "materials": 95,
+        "instancedNodes": 0
+      },
+      "compressedViews": 254,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "interior",
+      "sourceBytes": 1032888,
+      "bytes": 434988,
+      "ratio": 0.4211376257638776,
+      "sha256": "92c8893b0f11de8ba41596526628313ff7ce73881e47939122eca039223a42ed",
+      "verified": {
+        "meshes": 32,
+        "nodes": 32,
+        "materials": 14,
+        "instancedNodes": 0
+      },
+      "compressedViews": 126,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "details",
+      "sourceBytes": 59124,
+      "bytes": 41088,
+      "ratio": 0.694946214735133,
+      "sha256": "89d67766e8fe04ccc85d0709ce2b9e2e4c366944a1f107f8cf7c743b90fb3c4d",
+      "verified": {
+        "meshes": 14,
+        "nodes": 14,
+        "materials": 1,
+        "instancedNodes": 0
+      },
+      "compressedViews": 4,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "landscape",
+      "sourceBytes": 27176640,
+      "bytes": 13946344,
+      "ratio": 0.513173961166649,
+      "sha256": "88f179caadb1b6e39d04949232aff0984ed7a20f8beedcb9e0b72c053c0315dc",
+      "verified": {
+        "meshes": 30,
+        "nodes": 30,
+        "materials": 22,
+        "instancedNodes": 0
+      },
+      "compressedViews": 164,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "vegetation",
+      "sourceBytes": 48769972,
+      "bytes": 32710052,
+      "ratio": 0.6707006516222728,
+      "sha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+      "verified": {
+        "meshes": 46,
+        "nodes": 46,
+        "materials": 14,
+        "instancedNodes": 46
+      },
+      "compressedViews": 256,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "meadow",
+      "sourceBytes": 10446848,
+      "bytes": 17528296,
+      "ratio": 1.6778549855420506,
+      "sha256": "b32adb7547bb5efa873e58e3a892fc0b6c6714ae3260c96f9e1eab6c05b3b504",
+      "verified": {
+        "meshes": 52,
+        "nodes": 52,
+        "materials": 22,
+        "instancedNodes": 52
+      },
+      "compressedViews": 270,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "regional-forest",
+      "sourceBytes": 1543244,
+      "bytes": 1227072,
+      "ratio": 0.7951250741943594,
+      "sha256": "9d30c5e3a7310db9bff524582a36bd1dc274cd90feb6a433e8356864b8fbb778",
+      "verified": {
+        "meshes": 51,
+        "nodes": 51,
+        "materials": 7,
+        "instancedNodes": 51
+      },
+      "compressedViews": 277,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "winter-vegetation",
+      "sourceBytes": 57071812,
+      "bytes": 36968124,
+      "ratio": 0.6477475079992203,
+      "sha256": "edef38d11d5f71b33a009f2d4ba35ad2251d8153cbc00815e7d850e18fb91245",
+      "verified": {
+        "meshes": 46,
+        "nodes": 46,
+        "materials": 8,
+        "instancedNodes": 46
+      },
+      "compressedViews": 301,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "winter-interior",
+      "sourceBytes": 1065924,
+      "bytes": 477916,
+      "ratio": 0.4483584195496114,
+      "sha256": "068f52027cc10dbb7d19d3b4b8a72588c8e2749c479ef6b2b5c876f46deb8938",
+      "verified": {
+        "meshes": 32,
+        "nodes": 32,
+        "materials": 17,
+        "instancedNodes": 0
+      },
+      "compressedViews": 118,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "complete-terrain",
+      "sourceBytes": 105235808,
+      "bytes": 44403472,
+      "ratio": 0.4219426148179525,
+      "sha256": "0286cc77baef4fb1b838ecf7b2cd27f3c1ebd57b9975001e8392fa784a0d7edf",
+      "verified": {
+        "meshes": 16,
+        "nodes": 16,
+        "materials": 2,
+        "instancedNodes": 0
+      },
+      "compressedViews": 96,
+      "alreadyCompressed": false
+    },
+    {
+      "id": "meadow-lod",
+      "sourceBytes": 448504,
+      "bytes": 384940,
+      "ratio": 0.8582755114781585,
+      "sha256": "45d3594a98e07b75867001f62cfee5accfba06f2ce34b6fb90dd25d168e30cdf",
+      "verified": {
+        "meshes": 52,
+        "nodes": 52,
+        "materials": 22,
+        "instancedNodes": 0
+      },
+      "compressedViews": 143,
+      "alreadyCompressed": false
+    }
+  ],
+  "sourceBytes": 296317512,
+  "bytes": 163639912,
+  "finalReleaseGeometryBytesIncludingOptionalLods": 201368532
+}

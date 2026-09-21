@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "url": "/ridge/webgpu/opening.glb.gz",
+  "bytes": 11166461,
+  "decodedBytes": 17540052,
+  "sha256": "89fadb8c6c939f0c0e3f5f7e749706090726dedeb40c2c19ae9934453bf97b2d",
+  "instances": 21797,
+  "triangles": 2632339,
+  "offscreenTriangles": 444149,
+  "canopySourceTriangles": 169566,
+  "canopyRetainedTriangles": 169566,
+  "materials": 127,
+  "textures": 41,
+  "source": "Native geometry and placements for the initial walkway, with conservative off-screen triangle removal across portrait and landscape views. Source preview canopy geometry is retained; compact vertex storage, coverage-preserving foliage mips and the native ground-color graph keep the opening close to the full scene."
+}

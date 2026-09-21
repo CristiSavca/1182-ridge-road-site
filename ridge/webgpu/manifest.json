@@ -1,0 +1,1559 @@
+{
+  "schemaVersion": 1,
+  "title": "The Weekender · Native WebGPU",
+  "coordinateSystem": "Y_UP",
+  "units": "meters",
+  "assets": [
+    {
+      "id": "architecture",
+      "label": "Architecture",
+      "url": "/ridge/webgpu/architecture.glb",
+      "bytes": 24199404,
+      "triangles": 344260,
+      "instances": 0,
+      "sourceObjects": 153,
+      "nativeModifierMasks": [
+        {
+          "modifier": "V5_Archive_Original_Bench_Pad_Faces",
+          "sourceEnabled": true,
+          "predicate": "v5_archive_original_bench_pad_faces",
+          "selectedSourceFaces": 36,
+          "operation": "mask",
+          "material": null
+        },
+        {
+          "modifier": "V9_Reversible_Entry_Access_Isolation",
+          "sourceEnabled": true,
+          "predicate": "v9_separated_entry_access",
+          "selectedSourceFaces": 8684,
+          "operation": "mask",
+          "material": null
+        },
+        {
+          "modifier": "V10_Hearth_Firewood_Reposition_Mask",
+          "sourceEnabled": true,
+          "predicate": "Native inverted vertex group: V10_Hearth_Firewood_Source_Vertices",
+          "selectedSourceFaces": 1919,
+          "operation": "mask",
+          "material": null
+        },
+        {
+          "modifier": "V10_Firebox_Interior_Material_Override",
+          "sourceEnabled": true,
+          "predicate": "v10_firebox_inside_lining",
+          "selectedSourceFaces": 10,
+          "operation": "setMaterial",
+          "material": "V10_Firebox_Soot_Dark_Refractory"
+        },
+        {
+          "modifier": "V27_Reversible_Glazing_Repair_Mask",
+          "sourceEnabled": true,
+          "predicate": "Native material selection: V10_Native_Architectural_Glass_01",
+          "selectedSourceFaces": 352,
+          "operation": "mask",
+          "material": null
+        },
+        {
+          "modifier": "V29_Roof_Duplicate_Skin_Isolation",
+          "sourceEnabled": true,
+          "predicate": "Native material, area>40m², normal.z>.2 predicate",
+          "selectedSourceFaces": 4,
+          "operation": "mask",
+          "material": null
+        },
+        {
+          "modifier": "V65_Reversible_Duplicate_Loft_Back_Skins",
+          "sourceEnabled": true,
+          "predicate": "v65_duplicate_loft_back_skin",
+          "selectedSourceFaces": 276,
+          "operation": "mask",
+          "material": null
+        },
+        {
+          "modifier": "V70_Reversible_Original_South_Guide_Mask",
+          "sourceEnabled": true,
+          "predicate": "v70_original_south_guide_face",
+          "selectedSourceFaces": 887,
+          "operation": "mask",
+          "material": null
+        }
+      ],
+      "maskedSourceFaces": 12146,
+      "materialOverrideFaces": 10,
+      "sha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b",
+      "category": "architecture",
+      "sourceRevision": "V115",
+      "variant": "all",
+      "nativeTriangles": 356386,
+      "lod": {
+        "beforeTriangles": 356386,
+        "afterTriangles": 344240,
+        "maxError": 0,
+        "method": "Enabled native FACEattribute/material/vertexgroup masks and10face soot override; retained geometry unchanged"
+      },
+      "nativeArchitectureSurfaces": {
+        "revision": "native-roof-sides-pv-and-calibrated-concrete-v2",
+        "sourceRawSha256": "cdabcedf6df78665cb47a97173d3b0e9bf41a17730102a1aed4c1fa26ec71308",
+        "preservedOriginalBufferSha256": "b6732a23c73a38990d82c82bc4fb7a2127de16e69612572cc253e029b82e062a",
+        "originalBufferBytes": 24240576,
+        "sourceGeometryUnchanged": true,
+        "oppositeSidedRoofTriangles": 20,
+        "steelPrimitivesWorldMapped": 12,
+        "solarMaterial": "V68_PV_Glass_Restrained_Highlight",
+        "concreteTrianglesByNativeSurface": {
+          "wall": 532,
+          "floor": 423
+        },
+        "sourceRecipes": [
+          "scripts/blender_prepare_weekender.py",
+          "scripts/v67_exterior_surfaces.py",
+          "scripts/v68_surface_refinement.py",
+          "scripts/v80_surface_finish.py",
+          "scripts/v94_surface_finish.py",
+          "scripts/v69_concrete_materials.py",
+          "scripts/v86_concrete_alignment.py",
+          "scripts/v106_material_refinement.py"
+        ],
+        "textures": [
+          {
+            "url": "/ridge/webgpu/textures/native-v68-steel-tone-2k.png",
+            "bytes": 697098,
+            "sha256": "69e4ea104145aadf1a46d3d8de58f953005d500fd8e6e631ec61a25136f12438"
+          },
+          {
+            "url": "/ridge/webgpu/textures/native-v94-steel-metallic-roughness-2k.png",
+            "bytes": 779512,
+            "sha256": "b1d6b48f3c60227dbbd2150da34e46a12ccdcc43dced5a289b34edc38faad47d"
+          },
+          {
+            "url": "/ridge/webgpu/textures/native-v69-honed-floor-color-2k.jpg",
+            "bytes": 778106,
+            "sha256": "d416ff18be19b8db1ef41ec689aea607ba2e217a543477c88e49d3839cd3b048"
+          },
+          {
+            "url": "/ridge/webgpu/textures/native-v69-honed-floor-normal-2k.jpg",
+            "bytes": 890277,
+            "sha256": "03eccccaf7966cd73e337cc9719cbe1fdb6357523bab6741504639ee118a3f76"
+          },
+          {
+            "url": "/ridge/webgpu/textures/native-v69-honed-floor-roughness-2k.jpg",
+            "bytes": 2141583,
+            "sha256": "6d9bff7d355fba9038412de7f551f9b36e9908fc1678d03775f8307e96235b2e"
+          },
+          {
+            "url": "/ridge/webgpu/textures/native-v106-cast-concrete-color-4k.jpg",
+            "bytes": 4449541,
+            "sha256": "c4e01d32810aee52298a35381f9caff971102d42caf9469fe8db438e65741bc8"
+          },
+          {
+            "url": "/ridge/webgpu/textures/native-v106-cast-concrete-normal-4k.jpg",
+            "bytes": 2971162,
+            "sha256": "c8a8b22e148ae092a509701458054e28b13fb677357679e28aebaedcc65d580e"
+          },
+          {
+            "url": "/ridge/webgpu/textures/native-v106-cast-concrete-roughness-4k.jpg",
+            "bytes": 8605108,
+            "sha256": "b470900c214eb82fad42071ce0fa6ef6a574b29028c3e1932ab72ff0c388b3e1"
+          }
+        ],
+        "sourceScanSha256": "5da4c3d958657b404e1d5ab1284662fe2000fabc8025030c805a5e1906f2f2b2",
+        "bytes": 43465700,
+        "sha256": "373a3e434f4620db9ce7883b7f77d4d7bab49efa068ee8cbf25937073bcddfe7"
+      },
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 43466748,
+        "sourceSha256": "97e1ea6ef8da849f2495091ecc44bd9452a8e8636b0edc3d885ac7b9a7b1066b"
+      }
+    },
+    {
+      "id": "interior",
+      "label": "Interior",
+      "url": "/ridge/webgpu/interior.glb",
+      "bytes": 434988,
+      "triangles": 27703,
+      "instances": 0,
+      "sourceObjects": 32,
+      "category": "interior",
+      "sourceRevision": "V115",
+      "variant": "all",
+      "nativeTriangles": 27703,
+      "lod": {
+        "beforeTriangles": 27703,
+        "afterTriangles": 27703,
+        "maxError": 0,
+        "method": "meshoptimizer topology LOD, 3% relative error"
+      },
+      "sha256": "92c8893b0f11de8ba41596526628313ff7ce73881e47939122eca039223a42ed",
+      "excludeVariants": [
+        "winter"
+      ],
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 1032888,
+        "sourceSha256": "1c50206232845f646510fcc72361db0400ea9592e273b4f0a9dfc816d920c109"
+      }
+    },
+    {
+      "id": "details",
+      "label": "Details",
+      "url": "/ridge/webgpu/details.glb",
+      "bytes": 41088,
+      "triangles": 1728,
+      "instances": 0,
+      "sourceObjects": 14,
+      "category": "interior",
+      "sourceRevision": "V115",
+      "variant": "all",
+      "omittedSubmillimeterFibers": [
+        "V5_Ground_Floor_Bench_Pad_1_Tailored_Seam",
+        "V5_Ground_Floor_Bench_Pad_2_Tailored_Seam",
+        "V5_Ground_Floor_Bench_Pad_3_Tailored_Seam",
+        "V8_Ivory_Rug_North_Long_Fringed_End",
+        "V8_Ivory_Rug_South_Long_Fringed_End",
+        "V8_Ivory_Rug_Square_Corner_Selvedges"
+      ],
+      "sha256": "89d67766e8fe04ccc85d0709ce2b9e2e4c366944a1f107f8cf7c743b90fb3c4d",
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 59124,
+        "sourceSha256": "e8565739f44e61a5806f580127a1cd467e5ef2378d9d800052fd589d37980679"
+      }
+    },
+    {
+      "id": "landscape",
+      "label": "Landscape",
+      "url": "/ridge/webgpu/landscape.glb",
+      "bytes": 13946344,
+      "triangles": 632513,
+      "instances": 0,
+      "sourceObjects": 30,
+      "category": "landscape",
+      "sourceRevision": "V115",
+      "variant": "all",
+      "nativeTriangles": 1646033,
+      "lod": {
+        "beforeTriangles": 1646033,
+        "afterTriangles": 632513,
+        "maxError": 0.17996960878372192,
+        "method": "meshoptimizer terrain, borders locked, 0.18m error"
+      },
+      "sha256": "88f179caadb1b6e39d04949232aff0984ed7a20f8beedcb9e0b72c053c0315dc",
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 27176640,
+        "sourceSha256": "fe746c3328c4b284eb67af989e2d9f6902b6f37a504ad6ad28ba256afaf2474d"
+      }
+    },
+    {
+      "id": "vegetation",
+      "label": "Vegetation",
+      "url": "/ridge/webgpu/vegetation.glb",
+      "bytes": 32710052,
+      "triangles": 1126640,
+      "instances": 657,
+      "sourceObjects": 657,
+      "category": "vegetation",
+      "sourceRevision": "V115",
+      "variant": "all",
+      "nativeTriangles": 2128992,
+      "lod": {
+        "beforeTriangles": 2128992,
+        "afterTriangles": 1126640,
+        "maxError": 0.03134610503911972,
+        "method": "meshoptimizer topology LOD, 3% relative error"
+      },
+      "sha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+      "excludeVariants": [
+        "winter"
+      ],
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 48769972,
+        "sourceSha256": "9bb3a64f2e40a4208786818b17cc471b4f90267b125d83e10aedc48523afb211"
+      }
+    },
+    {
+      "id": "meadow",
+      "label": "Meadow",
+      "url": "/ridge/webgpu/meadow.glb",
+      "bytes": 21014996,
+      "triangles": 380949,
+      "instances": 210899,
+      "sourceObjects": 210899,
+      "category": "vegetation",
+      "sourceRevision": "V115",
+      "variant": "all",
+      "density": {
+        "source": 279313,
+        "exported": 210899,
+        "culled": 68414
+      },
+      "nativeTriangles": 397929,
+      "lod": {
+        "beforeTriangles": 397929,
+        "afterTriangles": 42475,
+        "maxError": 0.043430715799331665,
+        "method": "meshoptimizer topology LOD, 3% relative error"
+      },
+      "sha256": "64f4d4b503f185d6c0722001e922b79fbfba7ca117c6b051054ecb749f55974a",
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 27906060,
+        "sourceSha256": "6e654a70c2e40b090d93487233c01470c93451c4e7b02b0066b1ee2870e39b31"
+      },
+      "nativeTopologyRecovery": "/ridge/webgpu/plant-topology-recovery.json",
+      "flowerRecovery": "/ridge/webgpu/flower-color-recovery.json"
+    },
+    {
+      "id": "regional-forest",
+      "label": "Regional Forest",
+      "url": "/ridge/webgpu/regional-forest.glb",
+      "bytes": 1227072,
+      "triangles": 33482,
+      "instances": 3115,
+      "sourceObjects": 3115,
+      "category": "vegetation",
+      "sourceRevision": "V115",
+      "variant": "all",
+      "density": {
+        "source": 41102,
+        "exported": 3115,
+        "culled": 37987
+      },
+      "nativeTriangles": 1182403,
+      "lod": {
+        "beforeTriangles": 1182403,
+        "afterTriangles": 33482,
+        "maxError": 0.07508943229913712,
+        "method": "meshoptimizer topology LOD, 3% relative error"
+      },
+      "sha256": "9d30c5e3a7310db9bff524582a36bd1dc274cd90feb6a433e8356864b8fbb778",
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 1543244,
+        "sourceSha256": "10524b763d95b0b2506d82e8f11ff732832d5f3a83657bf84120e80c5acc8539"
+      }
+    },
+    {
+      "id": "winter-vegetation",
+      "label": "Winter Vegetation",
+      "url": "/ridge/webgpu/winter-vegetation.glb",
+      "bytes": 36968124,
+      "triangles": 1420909,
+      "instances": 296,
+      "sourceObjects": 296,
+      "category": "vegetation",
+      "sourceRevision": "V116",
+      "variant": "winter",
+      "nativeTriangles": 3169188,
+      "lod": {
+        "beforeTriangles": 3169188,
+        "afterTriangles": 1420909,
+        "maxError": 0.035523537546396255,
+        "method": "meshoptimizer topology LOD, 3% relative error"
+      },
+      "sha256": "edef38d11d5f71b33a009f2d4ba35ad2251d8153cbc00815e7d850e18fb91245",
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 57071812,
+        "sourceSha256": "f45f42cb793c2904ea6e8ccabdc03739c1a96bc9b28af08c0cda5d07db11a156"
+      }
+    },
+    {
+      "id": "winter-interior",
+      "label": "Winter Interior",
+      "url": "/ridge/webgpu/winter-interior.glb",
+      "bytes": 477916,
+      "triangles": 28763,
+      "instances": 0,
+      "sourceObjects": 32,
+      "category": "interior",
+      "sourceRevision": "V116",
+      "variant": "winter",
+      "sha256": "068f52027cc10dbb7d19d3b4b8a72588c8e2749c479ef6b2b5c876f46deb8938",
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 1065924,
+        "sourceSha256": "f7a3b42bf090df9b7d7bc709d0c9a3f60dad5498476a97d5430683b1cd6281b0"
+      }
+    },
+    {
+      "id": "complete-terrain",
+      "label": "Complete Terrain",
+      "url": "/ridge/webgpu/complete-terrain.glb",
+      "bytes": 44403472,
+      "triangles": 3478459,
+      "instances": 0,
+      "sourceObjects": 16,
+      "category": "terrain",
+      "variant": "all",
+      "sourceRevision": "V107",
+      "source": "output/blender/Weekender_V107_4K_Approved_Details.blend",
+      "sourceSha256": "1022a4ff6d6d738042b247a6af46a0a44b9df52430307bab1a8befa98769d848",
+      "completeNativeTerrain": true,
+      "replacesLandscapeNodeNamePrefixes": [
+        "V19_Preview_ENV_V9_USGS_Terrain_",
+        "V19_Preview_ENV_V10_USGS_Outer_"
+      ],
+      "cameraIndependent": true,
+      "bounds": {
+        "min": [
+          -46403.03125,
+          -1097.7347392293188,
+          -46402.69922389361
+        ],
+        "max": [
+          46392.390625,
+          1737.8875590113698,
+          46405.58597642594
+        ]
+      },
+      "nativeAttributes": {
+        "_HABITAT": "V86_Habitat.red: forest confidence",
+        "_SEAM": "TerrainMasks.alpha: V98 site edge feather",
+        "_SNOW": "V87_Perennial_Snow: registered perennial ice confidence"
+      },
+      "sha256": "0286cc77baef4fb1b838ecf7b2cd27f3c1ebd57b9975001e8392fa784a0d7edf",
+      "compression": {
+        "codec": "EXT_meshopt_compression",
+        "lossless": true,
+        "maximumPositionErrorMeters": 0,
+        "sourceBytes": 105235808,
+        "sourceSha256": "1fe77608d8dcda11a34acfa9c270ec0cb8a634b2f43efbb27e70e00bec66f699"
+      }
+    },
+    {
+      "id": "authored-assembly",
+      "label": "Authored Blender assembly",
+      "url": "/ridge/webgpu/authored-assembly.glb",
+      "category": "assembly",
+      "variant": "all",
+      "sourceRevision": "V115",
+      "bytes": 30075128,
+      "sha256": "aa4ba817ecbab01c2e6e01e7c7ccdb0943a494ed1bcd20f482e725e4f107f7d9",
+      "triangles": 1294973,
+      "sourceObjects": 143
+    }
+  ],
+  "cameras": [
+    {
+      "id": "view-01",
+      "label": "Walkway",
+      "position": [
+        10.266783714294434,
+        2.9942994117736816,
+        -12.9888277053833
+      ],
+      "target": [
+        9.223359107971191,
+        2.9942991733551025,
+        -7.080251693725586
+      ],
+      "quaternion": [
+        -1.9076775714665928e-9,
+        0.9961833953857422,
+        2.0374569587033875e-8,
+        0.08728515356779099
+      ],
+      "fov": 45.74732987946888,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "perspective",
+      "orthoScale": 48,
+      "variant": "summer",
+      "sourceCamera": "VIEW 01 Walkway"
+    },
+    {
+      "id": "view-02",
+      "label": "Living room",
+      "position": [
+        -8.408437728881836,
+        2.99429988861084,
+        2.577636957168579
+      ],
+      "target": [
+        -14.408438682556152,
+        2.99429988861084,
+        2.577636957168579
+      ],
+      "quaternion": [
+        -1.5454311608209537e-8,
+        0.7071068286895752,
+        -1.5454311608209537e-8,
+        0.7071068286895752
+      ],
+      "fov": 45.74732987946888,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "perspective",
+      "orthoScale": 48,
+      "variant": "summer",
+      "sourceCamera": "VIEW 02 Living room"
+    },
+    {
+      "id": "view-03",
+      "label": "Kitchen",
+      "position": [
+        -13.273099899291992,
+        2.994300127029419,
+        2.999999761581421
+      ],
+      "target": [
+        -7.273098945617676,
+        2.994300127029419,
+        2.999999761581421
+      ],
+      "quaternion": [
+        -1.5454311608209537e-8,
+        -0.7071068286895752,
+        1.5454311608209537e-8,
+        0.7071068286895752
+      ],
+      "fov": 49.426353114947915,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "perspective",
+      "orthoScale": 48,
+      "variant": "summer",
+      "sourceCamera": "VIEW 03 Kitchen"
+    },
+    {
+      "id": "view-04",
+      "label": "Loft",
+      "position": [
+        -9.399999618530273,
+        5.300000190734863,
+        2.4499998092651367
+      ],
+      "target": [
+        -3.458390712738037,
+        4.46496057510376,
+        2.449998378753662
+      ],
+      "quaternion": [
+        -0.049325358122587204,
+        -0.7053842544555664,
+        -0.04932529106736183,
+        0.7053844332695007
+      ],
+      "fov": 45.74732987946888,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "perspective",
+      "orthoScale": 48,
+      "variant": "summer",
+      "sourceCamera": "VIEW 04 Loft"
+    },
+    {
+      "id": "view-05",
+      "label": "Deck",
+      "position": [
+        -7.699999809265137,
+        3.180000066757202,
+        6.300000190734863
+      ],
+      "target": [
+        -11.0046968460083,
+        2.228893518447876,
+        11.216745376586914
+      ],
+      "quaternion": [
+        -0.023184441030025482,
+        0.9535151720046997,
+        0.0760553628206253,
+        0.2906663119792938
+      ],
+      "fov": 45.74732987946888,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "perspective",
+      "orthoScale": 6,
+      "variant": "summer",
+      "sourceCamera": "VIEW 05 Deck"
+    },
+    {
+      "id": "view-06",
+      "label": "Aerial architecture",
+      "position": [
+        -33.86751174926758,
+        27.86751365661621,
+        31.867511749267578
+      ],
+      "target": [
+        -7.239320755004883,
+        4.307416915893555,
+        4.283794403076172
+      ],
+      "quaternion": [
+        -0.25223827362060547,
+        -0.3604027330875397,
+        -0.10188589990139008,
+        0.892247200012207
+      ],
+      "fov": 29.154735983940085,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "perspective",
+      "orthoScale": 66,
+      "variant": "summer",
+      "sourceCamera": "VIEW 06 Aerial architecture"
+    },
+    {
+      "id": "view-07",
+      "label": "Exploded view",
+      "position": [
+        -33.86751174926758,
+        32.86751174926758,
+        31.867511749267578
+      ],
+      "target": [
+        -9.095630645751953,
+        5.42889404296875,
+        6.206716537475586
+      ],
+      "quaternion": [
+        -0.2985893189907074,
+        -0.3545764982700348,
+        -0.12060829252004623,
+        0.8778232336044312
+      ],
+      "fov": 22.89519204617112,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "orthographic",
+      "orthoScale": 66,
+      "variant": "summer",
+      "sourceCamera": "VIEW 07 Exploded view"
+    },
+    {
+      "id": "view-08",
+      "label": "High-altitude top-down",
+      "position": [
+        -6.849999904632568,
+        165,
+        -32.00000762939453
+      ],
+      "target": [
+        -6.849999904632568,
+        0,
+        -32.00000762939453
+      ],
+      "quaternion": [
+        -0.6644298434257507,
+        -0.24193590879440308,
+        -0.24193590879440308,
+        0.6644298434257507
+      ],
+      "fov": 32.32029366814045,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "perspective",
+      "orthoScale": 170,
+      "variant": "summer",
+      "sourceCamera": "VIEW 08 High-altitude top-down"
+    },
+    {
+      "id": "view-09",
+      "label": "Final mountain and reservoir",
+      "position": [
+        -6.849999904632568,
+        165,
+        -32.00000762939453
+      ],
+      "target": [
+        -693.0784301757812,
+        79.69146728515625,
+        76.68785095214844
+      ],
+      "quaternion": [
+        -0.03964788466691971,
+        0.7589876651763916,
+        0.046421635895967484,
+        0.6482367515563965
+      ],
+      "fov": 39.76070325000613,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "perspective",
+      "orthoScale": 170,
+      "variant": "summer",
+      "sourceCamera": "VIEW 09 Final mountain and reservoir"
+    },
+    {
+      "id": "view-10",
+      "label": "Reassembled axonometric",
+      "position": [
+        -33.867210388183594,
+        32.86898422241211,
+        31.86680030822754
+      ],
+      "target": [
+        -9.095905303955078,
+        5.4293365478515625,
+        6.2065582275390625
+      ],
+      "quaternion": [
+        -0.29860207438468933,
+        -0.3545743525028229,
+        -0.12061329931020737,
+        0.8778190016746521
+      ],
+      "fov": 22.89519204617112,
+      "near": 0.05,
+      "far": 100000,
+      "projection": "orthographic",
+      "orthoScale": 66,
+      "variant": "summer",
+      "sourceCamera": "VIEW 10 Reassembled axonometric"
+    }
+  ],
+  "defaultCamera": "view-06",
+  "bounds": {
+    "min": [
+      -45,
+      -12,
+      -40
+    ],
+    "max": [
+      30,
+      35,
+      45
+    ]
+  },
+  "buildingBounds": {
+    "min": [
+      -20,
+      0,
+      -15
+    ],
+    "max": [
+      15,
+      10,
+      15
+    ]
+  },
+  "environment": {
+    "url": "/ridge/webgpu/summer-sky.hdr",
+    "variants": {
+      "summer": {
+        "url": "/ridge/webgpu/summer-sky.hdr",
+        "source": "output/blender/assets/render_cache_v67/3061c00a16ecae74_2048.exr",
+        "bytes": 1365830,
+        "sha256": "d96facaec6a4e4a59a23f053463b4aa4c0bf01570ef6ec6daba6ce70161a1d1a",
+        "lightingUrl": "/ridge/webgpu/summer-light.hdr",
+        "lightingBytes": 1379584,
+        "lightingSha256": "60490b420bd301719f2d20132abd6d1b819889579d06a984ef06cd99a216a014",
+        "rotation": -1.6709865655985765
+      },
+      "winter": {
+        "url": "/ridge/webgpu/winter-sky.hdr",
+        "rotation": 2.96705961227417
+      },
+      "autumn": {
+        "url": "/ridge/webgpu/autumn-sky.hdr",
+        "rotation": 2.530727415391778,
+        "sourceGrade": [
+          1.08,
+          0.98,
+          1
+        ]
+      }
+    },
+    "source": "output/blender/assets/render_cache_v67/3061c00a16ecae74_2048.exr",
+    "rotation": -1.6709865655985765,
+    "bytes": 1365830,
+    "sha256": "d96facaec6a4e4a59a23f053463b4aa4c0bf01570ef6ec6daba6ce70161a1d1a",
+    "lightingUrl": "/ridge/webgpu/summer-light.hdr",
+    "lightingBytes": 1379584,
+    "lightingSha256": "60490b420bd301719f2d20132abd6d1b819889579d06a984ef06cd99a216a014",
+    "nativeRecipe": {
+      "url": "/ridge/webgpu/summer-environment.json",
+      "bytes": 3410,
+      "sha256": "ce9a0bd4c05a6734a9492e15b98f768033fe9e22a6a7340b231b31f00fa3a0bf"
+    },
+    "nativeSummerLighting": true
+  },
+  "lighting": {
+    "sunDirection": [
+      -0.5451147556304932,
+      0.5299193263053894,
+      0.6496425867080688
+    ],
+    "sunIntensity": 5,
+    "practicals": [
+      {
+        "name": "V10_Loft_Reading_Functional_Spot",
+        "position": [
+          -4.929811477661133,
+          5.051075458526611,
+          4.553741931915283
+        ],
+        "color": "#ffe4c2",
+        "intensity": 1,
+        "distance": 9,
+        "nativePower": 2.1600000858306885
+      },
+      {
+        "name": "V8_Loft_Wall_Sconce_Functional_Light",
+        "position": [
+          -14.668986320495605,
+          3.747312545776367,
+          4.770005702972412
+        ],
+        "color": "#ffdcb3",
+        "intensity": 1,
+        "distance": 9,
+        "nativePower": 2.880000114440918
+      },
+      {
+        "name": "V8_Portable_Lantern_Hearth_Warm_Candle_Light",
+        "position": [
+          -15.15439510345459,
+          1.9778717756271362,
+          2.0804061889648438
+        ],
+        "color": "#ffba78",
+        "intensity": 1,
+        "distance": 9,
+        "nativePower": 0.4994046092033386
+      },
+      {
+        "name": "V8_Portable_Lantern_Left_Bench_Floor_Warm_Candle_Light",
+        "position": [
+          -12.191544532775879,
+          1.5804319381713867,
+          4.556119441986084
+        ],
+        "color": "#ffba78",
+        "intensity": 1,
+        "distance": 9,
+        "nativePower": 0.657111406326294
+      },
+      {
+        "name": "V8_Tellium_Center_Functional_Light",
+        "position": [
+          -11.282139778137207,
+          2.6337125301361084,
+          -0.8726648092269897
+        ],
+        "color": "#ffdcb3",
+        "intensity": 1,
+        "distance": 9,
+        "nativePower": 5.760000228881836
+      },
+      {
+        "name": "V8_Tellium_East_Functional_Light",
+        "position": [
+          -8.234139442443848,
+          2.6337125301361084,
+          -0.872664749622345
+        ],
+        "color": "#ffdcb3",
+        "intensity": 1,
+        "distance": 9,
+        "nativePower": 5.760000228881836
+      },
+      {
+        "name": "V8_Tellium_West_Functional_Light",
+        "position": [
+          -14.328023910522461,
+          2.6214163303375244,
+          -0.8649863004684448
+        ],
+        "color": "#ffdcb3",
+        "intensity": 1,
+        "distance": 9,
+        "nativePower": 5.760000228881836
+      },
+      {
+        "name": "V17_Deck_Fire_Glow",
+        "position": [
+          -9.023004531860352,
+          1.5000004768371582,
+          11.384988784790039
+        ],
+        "color": "#ffac6c",
+        "intensity": 1,
+        "distance": 9,
+        "nativePower": 0
+      }
+    ],
+    "fireplaces": [
+      {
+        "name": "V54_Deck_Fireplace_Emissive_Volume_VDB0",
+        "position": [
+          -9.075204849243164,
+          1.1797428140416741,
+          11.405375480651855
+        ],
+        "positionAnchor": "bottom",
+        "width": 0.422999981790781,
+        "height": 0.33749998547136784,
+        "depth": 0.3824999835342169,
+        "nativeVolumeBounds": {
+          "min": [
+            -9.327204704284668,
+            1.1459929943084717,
+            11.117375373840332
+          ],
+          "max": [
+            -8.82320499420166,
+            1.937993049621582,
+            11.693375587463379
+          ]
+        },
+        "calibration": {
+          "source": "output/blender/verification/v110/flame_emitter/emission_analysis.json",
+          "sha256": "ac72f253752c280a28f6684bf037f5ac7c3d7ba496c634b798d86c2c998a9c58",
+          "method": "Interior positive flame voxel support transferred to deck domain center"
+        }
+      },
+      {
+        "name": "V54_Interior_Fireplace_Emissive_Volume_VDB0",
+        "position": [
+          -15.766081099398434,
+          1.8226430425420403,
+          3.2372011030092835
+        ],
+        "positionAnchor": "bottom",
+        "width": 0.422999981790781,
+        "height": 0.33749998547136784,
+        "depth": 0.3824999835342169,
+        "nativeVolumeBounds": {
+          "min": [
+            -16.02933120727539,
+            1.788893222808838,
+            2.9357011318206787
+          ],
+          "max": [
+            -15.525331497192383,
+            2.5808932781219482,
+            3.5117011070251465
+          ]
+        },
+        "calibration": {
+          "source": "output/blender/verification/v110/flame_emitter/emission_analysis.json",
+          "sha256": "ac72f253752c280a28f6684bf037f5ac7c3d7ba496c634b798d86c2c998a9c58",
+          "method": "Union of calibrated positive flame voxel support"
+        }
+      }
+    ],
+    "nativeExposure": 1.399999976158142,
+    "views": {
+      "view-01": {
+        "sunDirection": [
+          -0.382076,
+          0.920091,
+          0.086318
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.95,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_01.json"
+      },
+      "view-02": {
+        "sunDirection": [
+          -0.545115,
+          0.529919,
+          0.649643
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.5,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_02.json"
+      },
+      "view-03": {
+        "sunDirection": [
+          -0.545115,
+          0.529919,
+          0.649643
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.5,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_03.json"
+      },
+      "view-04": {
+        "sunDirection": [
+          -0.545115,
+          0.529919,
+          0.649643
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.9,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_04.json"
+      },
+      "view-05": {
+        "sunDirection": [
+          -0.545115,
+          0.529919,
+          0.649643
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.95,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_05.json"
+      },
+      "view-06": {
+        "sunDirection": [
+          -0.545115,
+          0.529919,
+          0.649643
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.95,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_06.json"
+      },
+      "view-07": {
+        "sunDirection": [
+          -0.545115,
+          0.529919,
+          0.649643
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.65,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_07.json"
+      },
+      "view-08": {
+        "sunDirection": [
+          -0.382076,
+          0.920091,
+          0.086318
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.95,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_08.json"
+      },
+      "view-09": {
+        "sunDirection": [
+          -0.545115,
+          0.529919,
+          0.649643
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.95,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_09.json"
+      },
+      "view-10": {
+        "sunDirection": [
+          -0.545115,
+          0.529919,
+          0.649643
+        ],
+        "sunIntensity": 5,
+        "exposureEV": 1.95,
+        "source": "output/blender/renders/Weekender_Summer_4K_V107/prepared_scenes/view_10.json"
+      }
+    }
+  },
+  "provenance": {
+    "sources": [
+      {
+        "revision": "V115",
+        "path": "output/blender/renders/Weekender_Black_Oak_4K_V115/regular_06/prepared_scenes/view_06.blend",
+        "sha256": "f80290fb58a0256ea744607224ae222aa8902550a0db3153c37d20502c3415f3",
+        "baseRevision": "V107",
+        "baseSource": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/Weekender_V107_4K_Approved_Details.blend"
+      },
+      {
+        "revision": "V116",
+        "path": "output/blender/renders/Weekender_Cozy_Winter_4K_V116/cozy_winter/prepared_scenes/view_02.blend",
+        "sha256": "86edd306806214a1052ec31dcdd2b944110905989fee70f6e24556f4e3630c6f",
+        "baseRevision": "V114",
+        "scope": "Cozy winter snow geometry, environment, and practical-light metadata"
+      },
+      {
+        "revision": "V112",
+        "path": "output/blender/renders/Weekender_Living_4K_V112_Fast/orange_fall/prepared_scenes/view_02.blend",
+        "sha256": "2befd6e892dbe60fa73547326cdb67c7ce4ea432313df4b9fcdd7e26c48f01df",
+        "scope": "Accepted rose autumn environment and source scene authority"
+      },
+      {
+        "revision": "V107",
+        "path": "output/blender/Weekender_V107_4K_Approved_Details.blend",
+        "sha256": "1022a4ff6d6d738042b247a6af46a0a44b9df52430307bab1a8befa98769d848",
+        "scope": "Complete untrimmed USGS terrain, original V86/V98 habitat and edge attributes; authoritative parent of V115 preparation"
+      }
+    ],
+    "exporter": "scripts/blender_webgpu_export.py",
+    "sourceModified": false,
+    "rendered": false,
+    "sourceObjectCount": 1790,
+    "coordinateTransform": "Blender [x,y,z] → Three.js [x,z,-y]; meters, no recentering",
+    "limitations": [
+      "Cycles procedural shaders approximated as glTF metallic/roughness; native bitmap textures and oak stain ramps retained.",
+      "Native volumetric fire/air and submillimeter textile fibers omitted; source files retain them.",
+      "Vegetation density and mesh complexity reduced deterministically for interactive rendering; instance locations/species come from native source.",
+      "Real-time glass alpha approximates Cycles refraction and caustics."
+    ]
+  },
+  "statistics": {
+    "geometryBytes": 201368532,
+    "textures": 86,
+    "textureBytes": 59393870,
+    "instances": 214967,
+    "uncompressedGeometryBytes": 349336008,
+    "meadowLodBytes": 269580,
+    "terrainTextureBytes": 23811868,
+    "environmentBytes": 12224244,
+    "previewGeometryBytes": 72126248
+  },
+  "meadowLod": {
+    "url": "/ridge/webgpu/meadow-lod.glb",
+    "bytes": 240780,
+    "sha256": "8c69de7457c8d4439cb028d93a383d830beb4077df17e1fb0a45ef800cba58da",
+    "source": "public/ridge/webgpu/meadow.glb",
+    "sourceSha256": "64f4d4b503f185d6c0722001e922b79fbfba7ca117c6b051054ecb749f55974a",
+    "prototypes": 52,
+    "targetTrianglesPerPrototype": 80,
+    "sourceTriangles": 380949,
+    "triangles": 3834,
+    "maxPrototypeTriangles": 92,
+    "fullPopulationTriangles": 16995579,
+    "vertexLayout": "SEPARATE",
+    "originalTriangleSubset": true,
+    "texturesAndAlphaUnchanged": true,
+    "method": "Whole source-connected leaf/blade components, with bounded connected original-triangle patches for oversized fused shrubs; no vertex movement, new edges, UV edits, or texture changes",
+    "distance": 20
+  },
+  "completeTerrain": {
+    "assetId": "complete-terrain",
+    "url": "/ridge/webgpu/complete-terrain.glb",
+    "replacesLandscapeNodeNamePrefixes": [
+      "V19_Preview_ENV_V9_USGS_Terrain_",
+      "V19_Preview_ENV_V10_USGS_Outer_"
+    ],
+    "cameraIndependent": true,
+    "bounds": {
+      "min": [
+        -46403.03125,
+        -1097.7347392293188,
+        -46402.69922389361
+      ],
+      "max": [
+        46392.390625,
+        1737.8875590113698,
+        46405.58597642594
+      ]
+    }
+  },
+  "terrainSurface": {
+    "url": "/ridge/webgpu/terrain-surface.json",
+    "bytes": 13610,
+    "sha256": "5249c70ba3499fa12510504b215503afc97952b1c9e7085e22bf84d431cdef9d",
+    "textureBytes": 23811868
+  },
+  "cameraFar": 100000,
+  "meadowFarLod": {
+    "url": "/ridge/webgpu/meadow-far.glb",
+    "bytes": 150584,
+    "sha256": "a1d94c90496664a7933a1b774882a93bd8642f4fb5931d0081db366f34fd2c2d",
+    "source": "public/ridge/webgpu/meadow.glb",
+    "sourceSha256": "64f4d4b503f185d6c0722001e922b79fbfba7ca117c6b051054ecb749f55974a",
+    "prototypes": 52,
+    "targetTrianglesPerPrototype": 32,
+    "sourceTriangles": 380949,
+    "triangles": 1530,
+    "maxPrototypeTriangles": 37,
+    "fullPopulationTriangles": 6859885,
+    "vertexLayout": "SEPARATE",
+    "originalTriangleSubset": true,
+    "texturesAndAlphaUnchanged": true,
+    "method": "Whole source-connected leaf/blade components, with bounded connected original-triangle patches for oversized fused shrubs; no vertex movement, new edges, UV edits, or texture changes"
+  },
+  "vegetationLod": {
+    "url": "/ridge/webgpu/vegetation-lod.glb",
+    "bytes": 17308308,
+    "sha256": "b76ed2707a7a13090f1438f7e0c170a31e60cee671531b1923fe933c1b8bf6f4",
+    "source": "public/ridge/webgpu/vegetation.glb",
+    "sourceSha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+    "targetTrianglesPerMesh": 6000,
+    "method": "Meshopt simplifyWithAttributes; NORMAL weight .5, TEXCOORD_0 weight 1.5; no canopy component pruning; canopy keeps >=60% surface and each-axis projected area; trunk-only budget1500; original surviving vertex data preserved; separate Float32 vertex layout",
+    "geometryOnly": true,
+    "runtimeMatch": "Exact source mesh/node order and names; exact primitive order; native materials and instance transforms retained by renderer",
+    "minimumCanopyCoverage": 0.6
+  },
+  "surfaceCorrections": {
+    "architecture": "/ridge/webgpu/architecture.surfaces.json",
+    "heroTextures": "/ridge/webgpu/hero-surfaces.json",
+    "foliageAlpha": "/ridge/webgpu/foliage-alpha-repair.json"
+  },
+  "terrainLod": {
+    "url": "/ridge/webgpu/terrain-lod.glb",
+    "bytes": 9730352,
+    "sha256": "6b2343eeb68254f1a5e59a0059040a94eced34b9b703fe36dee10225c8876ebd",
+    "source": "public/ridge/webgpu/complete-terrain.glb",
+    "sourceSha256": "0286cc77baef4fb1b838ecf7b2cd27f3c1ebd57b9975001e8392fa784a0d7edf",
+    "geometryOnly": true,
+    "vertexLayout": "SEPARATE",
+    "targetRatio": 0.15,
+    "maximumErrorMeters": 20,
+    "maximumMeasuredSourceVertexDistanceMeters": 19.779053562850756,
+    "compression": {
+      "codec": "EXT_meshopt_compression",
+      "lossless": true,
+      "sourceBytes": 21516060,
+      "sourceSha256": "79294022c17cfdac26ef2cf6ef4939b423fb290be1357c46bd30f8e578aadd78",
+      "maximumPositionErrorMeters": 0
+    },
+    "angularErrorRadians": 0.001,
+    "maximumMeasuredAngularErrorRadians": 0.0009957574071624842,
+    "useNearSiteOnly": true,
+    "protectedRadiusMeters": 250,
+    "sourceTriangles": 3478459,
+    "triangles": 696763,
+    "sourceVertices": 1762970,
+    "vertices": 364786,
+    "method": "Attribute-aware meshopt simplification in distance bands, at most 1mrad source-vertex screen error from site origin and 20m absolute error, locked native boundary edges and every source triangle touching the 250m site radius. Surviving attribute values copied exactly; lossless vertex/index reordering and compression, no quantization. Every source vertex checked against LOD surface; this is not a formal continuous Hausdorff bound.",
+    "attributeWeights": {
+      "NORMAL": 1,
+      "TEXCOORD": 1,
+      "nativeMasks": 10
+    },
+    "runtimeMatch": "Exact source mesh/node/primitive order and names; renderer reuses native materials.",
+    "cameraDistanceLimitMeters": 250,
+    "siteCenter": [
+      0,
+      0,
+      0
+    ]
+  },
+  "skyOcclusion": {
+    "url": "/ridge/webgpu/native-sky-occlusion.json",
+    "bytes": 61930,
+    "sha256": "4caedce150a54da493414e75acfc236883d12dd2bcb7708f72ee0f3165ec0b7d",
+    "dataBytes": 639330
+  },
+  "canopyOcclusion": {
+    "url": "/ridge/webgpu/native-canopy-occlusion.json",
+    "bytes": 48307,
+    "sha256": "50ea7f2c4bba5156f5f0c0a50854b1d4d7df4e23b7a4e6e2d13c6555adcc01de",
+    "dataBytes": 1535325
+  },
+  "meadowCloseLod": {
+    "url": "/ridge/webgpu/meadow-close.glb",
+    "bytes": 4137016,
+    "sha256": "403946718f8b0fe3a1766da6296689616a0f949d407b5c3aa41fc03fd032b4d1",
+    "source": "public/ridge/webgpu/meadow.glb",
+    "sourceSha256": "64f4d4b503f185d6c0722001e922b79fbfba7ca117c6b051054ecb749f55974a",
+    "geometryOnly": true,
+    "vertexLayout": "SEPARATE",
+    "targetTrianglesPerPrototype": 512,
+    "maximumTrianglesPerPrototype": 2048,
+    "minimumCoverage": 0.75,
+    "relativeHeightError": 0.02,
+    "coverageResolution": 256,
+    "sourceTriangles": 302871,
+    "triangles": 41213,
+    "maxPrototypeTriangles": 2048,
+    "fullPopulationTriangles": 103546119,
+    "coverageTargetPassed": 46,
+    "prototypeCount": 52,
+    "method": "Compare 512/1024/2048 triangle candidates using native MASK-texture alpha-tested XY/XZ/YZ union at256px. Material-isolated Meshopt simplifyWithAttributes compares absolute0.25%,0.5%,1%,2%height error, normal weights.02height and UV.1height; compare original-component alternative. Greedy union coverage selects whole components when <=128tri, connected original-index patches otherwise. Triangle budget is hard;75%intersection/reference is a measured target, exceptions are reported. Error bound applies to attribute simplification before component omission, not omitted source surfaces. Surviving positions/normals/UV exact; separate Float32attributes; native source unchanged.",
+    "id": "meadow-close",
+    "label": "Native grass close silhouette"
+  },
+  "previews": {
+    "vegetation": {
+      "id": "vegetation-preview",
+      "sourceAssetId": "vegetation",
+      "url": "/ridge/webgpu/vegetation-preview.glb",
+      "bytes": 14820992,
+      "sha256": "999ca41152c0cfaac383640a82b5567a61f5b9c750a125963533ba43aff942a5",
+      "source": "/ridge/webgpu/vegetation.glb",
+      "sourceSha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+      "sourceBytes": 32710052,
+      "geometrySource": "/ridge/webgpu/vegetation-lod.glb",
+      "geometrySha256": "b76ed2707a7a13090f1438f7e0c170a31e60cee671531b1923fe933c1b8bf6f4",
+      "geometryBytes": 17308308,
+      "triangles": 268526,
+      "materialImagesUnchanged": true,
+      "nativeInstancesUnchanged": true,
+      "nativeSourceUnchanged": true,
+      "exactGeometry": false,
+      "droppedUnusedBuffers": true,
+      "occlusionAssetId": "vegetation-lod"
+    },
+    "meadow": {
+      "id": "meadow-preview",
+      "sourceAssetId": "meadow",
+      "url": "/ridge/webgpu/meadow-preview.glb",
+      "bytes": 11605628,
+      "sha256": "a5708a1c9bd3393a2428628fffacd11145abeba1731619bf856291a1050355e7",
+      "source": "/ridge/webgpu/meadow.glb",
+      "sourceSha256": "64f4d4b503f185d6c0722001e922b79fbfba7ca117c6b051054ecb749f55974a",
+      "sourceBytes": 21014996,
+      "geometrySource": "/ridge/webgpu/meadow-close.glb",
+      "geometrySha256": "403946718f8b0fe3a1766da6296689616a0f949d407b5c3aa41fc03fd032b4d1",
+      "geometryBytes": 4137016,
+      "triangles": 124393,
+      "materialImagesUnchanged": true,
+      "nativeInstancesUnchanged": true,
+      "nativeSourceUnchanged": true,
+      "exactGeometry": false,
+      "droppedUnusedBuffers": true
+    },
+    "architecture": {
+      "id": "architecture-preview",
+      "sourceAssetId": "architecture",
+      "url": "/ridge/webgpu/architecture-preview.glb",
+      "bytes": 14444312,
+      "sha256": "6f68b8c2e6764c4eed347b13de14c8e38088a36dc4d4b83ad124dd0e6d601cf9",
+      "source": "/ridge/webgpu/architecture.glb",
+      "sourceSha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b",
+      "sourceBytes": 24199404,
+      "geometrySource": "/ridge/webgpu/architecture.glb",
+      "geometrySha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b",
+      "geometryBytes": 24199404,
+      "triangles": 344260,
+      "materialImagesUnchanged": true,
+      "nativeInstancesUnchanged": false,
+      "nativeSourceUnchanged": true,
+      "exactGeometry": false,
+      "droppedUnusedBuffers": true,
+      "vertexOrderUnchanged": true,
+      "topologyUnchanged": true,
+      "quantization": {
+        "position": "SNORM16",
+        "normal": "SNORM16",
+        "unitUV": "UNORM16",
+        "tiledUV": "Float32",
+        "decodeScale": 32,
+        "maximumPositionErrorMeters": 0.0008361745919755367,
+        "maximumNormalComponentVectorError": 0.000026115295373397223,
+        "quantizedAccessors": 308,
+        "sharedAccessors": 72
+      },
+      "authoredPlacementsPreserved": true
+    },
+    "landscape": {
+      "id": "landscape-preview",
+      "sourceAssetId": "landscape",
+      "url": "/ridge/webgpu/landscape-preview.glb",
+      "bytes": 9966716,
+      "sha256": "1644647837122f8b684ce505a2f995cbb0831c26b0010b0b973bb813c72ca5bb",
+      "source": "/ridge/webgpu/landscape.glb",
+      "sourceSha256": "88f179caadb1b6e39d04949232aff0984ed7a20f8beedcb9e0b72c053c0315dc",
+      "sourceBytes": 13946344,
+      "geometrySource": "/ridge/webgpu/landscape.glb",
+      "geometrySha256": "88f179caadb1b6e39d04949232aff0984ed7a20f8beedcb9e0b72c053c0315dc",
+      "geometryBytes": 13946344,
+      "triangles": 381661,
+      "materialImagesUnchanged": true,
+      "nativeInstancesUnchanged": true,
+      "nativeSourceUnchanged": true,
+      "exactGeometry": true,
+      "droppedUnusedBuffers": true,
+      "method": "Exact retained geometry; omit only replaced terrain nodes with the same prefixes used by the renderer",
+      "omittedReplacedTerrainNodes": 11,
+      "exactRetainedGeometry": true
+    },
+    "complete-terrain": {
+      "id": "complete-terrain-preview",
+      "sourceAssetId": "complete-terrain",
+      "url": "/ridge/webgpu/complete-terrain-preview.glb",
+      "bytes": 9735576,
+      "sha256": "ba9bea18c33b16e98d937f5c7aa6694b2cc692ffc17a4eae5426fba7a3d9e470",
+      "source": "/ridge/webgpu/complete-terrain.glb",
+      "sourceSha256": "0286cc77baef4fb1b838ecf7b2cd27f3c1ebd57b9975001e8392fa784a0d7edf",
+      "sourceBytes": 44403472,
+      "geometrySource": "/ridge/webgpu/terrain-lod.glb",
+      "geometrySha256": "6b2343eeb68254f1a5e59a0059040a94eced34b9b703fe36dee10225c8876ebd",
+      "geometryBytes": 9730352,
+      "triangles": 696763,
+      "materialImagesUnchanged": true,
+      "nativeInstancesUnchanged": true,
+      "nativeSourceUnchanged": true,
+      "exactGeometry": false,
+      "droppedUnusedBuffers": true,
+      "cameraDistanceLimitMeters": 250,
+      "siteCenter": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "gpuTextures": {
+    "url": "/ridge/webgpu/gpu-textures.json",
+    "bytes": 131554,
+    "sha256": "a9cb9f4b5acbe75f747ff70fcf0f79c038ed856ccb1f6e3215917faa0d9ac37f",
+    "textures": 11,
+    "sourceBytes": 7696719,
+    "downloadBytes": 5668368,
+    "originalRgba8MipBytes": 80390820,
+    "estimatedGpuBytesBC7orASTC4x4": 20098032,
+    "seconds": 101.445
+  },
+  "regionalTrim": {
+    "complete-terrain": {
+      "id": "complete-terrain",
+      "url": "/ridge/webgpu/complete-terrain-trimmed.glb",
+      "sourceSha256": "0286cc77baef4fb1b838ecf7b2cd27f3c1ebd57b9975001e8392fa784a0d7edf",
+      "sha256": "3cf46caeacefbe1f031d60af29ceb8675f7198d8cb8ec56066cc2b0ddfa84266",
+      "sourceBytes": 44403472,
+      "bytes": 23637076,
+      "beforeTriangles": 3478459,
+      "afterTriangles": 1854157,
+      "beforeVertices": 1762970,
+      "afterVertices": 939843,
+      "beforeInstances": 0,
+      "afterInstances": 0,
+      "protectedTriangles": 52215
+    },
+    "terrain-lod": {
+      "id": "terrain-lod",
+      "url": "/ridge/webgpu/terrain-lod-trimmed.glb",
+      "sourceSha256": "6b2343eeb68254f1a5e59a0059040a94eced34b9b703fe36dee10225c8876ebd",
+      "sha256": "4d8687dc64b38f0a772da940a2aa4de15ba38606957024eef4aeea6aa2431282",
+      "sourceBytes": 9730352,
+      "bytes": 5523308,
+      "beforeTriangles": 696763,
+      "afterTriangles": 394349,
+      "beforeVertices": 364786,
+      "afterVertices": 209332,
+      "beforeInstances": 0,
+      "afterInstances": 0,
+      "protectedTriangles": 52215
+    },
+    "regional-forest": {
+      "id": "regional-forest",
+      "url": "/ridge/webgpu/regional-forest-trimmed.glb",
+      "sourceSha256": "9d30c5e3a7310db9bff524582a36bd1dc274cd90feb6a433e8356864b8fbb778",
+      "sha256": "456c929036f07f8d42105149d7559a4a357bbaf0641caaa34e9abd1def830456",
+      "sourceBytes": 1227072,
+      "bytes": 1201824,
+      "beforeTriangles": 0,
+      "afterTriangles": 0,
+      "beforeVertices": 0,
+      "afterVertices": 0,
+      "beforeInstances": 3115,
+      "afterInstances": 2894,
+      "protectedTriangles": 0
+    }
+  },
+  "cameraPath": {
+    "url": "/ridge/webgpu/camera-path.json",
+    "sha256": "1e79b2f68936d3796af3b6e13f879dc0df6746a684bf2306dc8acf22206afca5"
+  },
+  "heroGeometry": {
+    "url": "/ridge/webgpu/native-hero-geometry.glb",
+    "sha256": "4cb84740eed5bc6d96290991a4f179ccfdd961fd9c859d3c8cd0bc47ed103db7",
+    "bytes": 4908428,
+    "sourceAssets": [
+      {
+        "id": "architecture",
+        "url": "/ridge/webgpu/architecture.glb",
+        "bytes": 24199404,
+        "sha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b"
+      },
+      {
+        "id": "interior",
+        "url": "/ridge/webgpu/interior.glb",
+        "bytes": 434988,
+        "sha256": "92c8893b0f11de8ba41596526628313ff7ce73881e47939122eca039223a42ed"
+      }
+    ],
+    "metadata": "/ridge/webgpu/native-hero-geometry.json"
+  },
+  "nativeTreeGeometry": {
+    "url": "/ridge/webgpu/native-tree-geometry.glb",
+    "sha256": "35547011835fba3205db38aa6dbc31e39fc64c2e4f6cebf927c5976443e54b2c",
+    "bytes": 45503136,
+    "sourceAsset": "vegetation",
+    "sourceSha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+    "nativeExportSha256": "d2deb7908cf2232132ff54825ed68c0c8840762e2a47136eb1790c6798ddad25",
+    "triangles": 1100342,
+    "records": [
+      {
+        "sourceMeshIndex": 0,
+        "sourceObject": "ENV_V21_Adjacent_002",
+        "sourceMesh": "ENV_V21_full_LOD_1",
+        "beforeTriangles": 9562,
+        "nativeTriangles": 83290
+      },
+      {
+        "sourceMeshIndex": 1,
+        "sourceObject": "ENV_V21_Adjacent_003",
+        "sourceMesh": "ENV_V21_full_LOD_2",
+        "beforeTriangles": 9794,
+        "nativeTriangles": 53468
+      },
+      {
+        "sourceMeshIndex": 2,
+        "sourceObject": "ENV_V21_Adjacent_007",
+        "sourceMesh": "ENV_V21_full_LOD_3",
+        "beforeTriangles": 9221,
+        "nativeTriangles": 69598
+      },
+      {
+        "sourceMeshIndex": 4,
+        "sourceObject": "ENV_V23_Forest_0002",
+        "sourceMesh": "bq_Tree_Pinus-ponderosa_D_spring-summer-autumn",
+        "beforeTriangles": 11418,
+        "nativeTriangles": 35561
+      },
+      {
+        "sourceMeshIndex": 5,
+        "sourceObject": "ENV_V23_Forest_0003",
+        "sourceMesh": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+        "beforeTriangles": 8014,
+        "nativeTriangles": 169500
+      },
+      {
+        "sourceMeshIndex": 9,
+        "sourceObject": "ENV_V23_Forest_0009",
+        "sourceMesh": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+        "beforeTriangles": 7595,
+        "nativeTriangles": 159891
+      },
+      {
+        "sourceMeshIndex": 10,
+        "sourceObject": "ENV_V23_Forest_0014",
+        "sourceMesh": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+        "beforeTriangles": 9230,
+        "nativeTriangles": 112974
+      },
+      {
+        "sourceMeshIndex": 11,
+        "sourceObject": "ENV_V23_Forest_0015",
+        "sourceMesh": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+        "beforeTriangles": 11098,
+        "nativeTriangles": 37412
+      },
+      {
+        "sourceMeshIndex": 12,
+        "sourceObject": "ENV_V23_Forest_0022",
+        "sourceMesh": "bq_Tree_Populus-tremuloides_B_summer",
+        "beforeTriangles": 11059,
+        "nativeTriangles": 167858
+      },
+      {
+        "sourceMeshIndex": 13,
+        "sourceObject": "ENV_V23_Forest_0213",
+        "sourceMesh": "bq_Tree_Populus-tremuloides_A_summer",
+        "beforeTriangles": 10999,
+        "nativeTriangles": 210790
+      }
+    ],
+    "visibilityTransfer": {
+      "primitives": 26,
+      "method": "Offline nearest-surface barycentric transfer of source canopy visibility; full native positions, normals and UVs"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "source": "output/blender/assets/hdri/kloofendal_48d_partly_cloudy_puresky/kloofendal_48d_partly_cloudy_puresky_4k.hdr",
+  "sourceSha256": "3061c00a16ecae748e84fd6c44c04804f539c118bb66325db858bad87b11bf88",
+  "url": "/ridge/webgpu/cloud-field.png",
+  "dimensions": [
+    4096,
+    2048
+  ],
+  "channels": {
+    "r": "cloud coverage",
+    "g": "relative photographed self-shading"
+  },
+  "sourceUrl": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+  "license": "CC0",
+  "approximation": "Photographic distant-cloud silhouette and shading, relit with the realtime sun; not a simulated weather volume."
+}

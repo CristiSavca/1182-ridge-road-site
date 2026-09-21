@@ -1,0 +1,797 @@
+[
+  {
+    "url": "/ridge/webgpu/textures/6a885ce97deaefde8f86.jpg",
+    "bytes": 1771691,
+    "sha256": "7348ae2a7a71900b7c0ac9dc952a040f3820c540861c43a5f925969762dce2c4",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/japanese_cedar_planks/japanese_cedar_planks_diff_2k.jpg",
+    "sourceSha256": "92fd3742f4744e6262e8093c5dfb919a6bbabac48fe672734d4cba7bc5a4aea3",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/0eb66e3604d579a55fe0.jpg",
+    "bytes": 2497471,
+    "sha256": "42bef08a7fd70b542228eb15df32cc69c6edc2e094244d6c4c1f7bfc0d39d2a3",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/japanese_cedar_planks/japanese_cedar_planks_nor_gl_2k.jpg",
+    "sourceSha256": "8f9d6194b9345b9a89702a0a146edf70728a2dc2d23050b60260a1442a2df526",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/19d09cd6917e99927e17.jpg",
+    "bytes": 407627,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0ca5245ba70777d3_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/92ad66bae434298b765f.jpg",
+    "bytes": 296683,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/083579b03a8f31ec_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/24ec5f5e130c051276dd.jpg",
+    "bytes": 2016350,
+    "sha256": "2be58841566c8b1044f72379e3f00b93084eb194d53249f0c665e96d35b105a5",
+    "dimensions": [
+      2043,
+      2048
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/terlenka/terlenka_diff_2k.jpg",
+    "sourceSha256": "9528ce33df474c01f938b3afafe895b79a7b66f5706e4c735e8362e61b5bfb84",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/1439f0a10a4945a807d5.jpg",
+    "bytes": 2870635,
+    "sha256": "ccfb4178084c042b2b49d4f29dbad8bb6bf5ef2b771b8b22334141eb1c98985c",
+    "dimensions": [
+      2043,
+      2048
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/terlenka/terlenka_nor_gl_2k.jpg",
+    "sourceSha256": "7fd916e6d897dfe003dac3400c81dd919e11e3441558bac04c26e07be380e6a0",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/5e01c20700f158a5d547.jpg",
+    "bytes": 1732363,
+    "sha256": "ef2693ef97b02506192e74811f19d730ef910082e9b725c397daf211e1d8400c",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/oak_wood_planks/oak_wood_planks_diff_2k.jpg",
+    "sourceSha256": "ec3d2deb1fe21150ede5f987b48c691b3c7dbffe4183850a9b8717e904917a46",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/c4ffe08ac8608d6d109e.jpg",
+    "bytes": 1099133,
+    "sha256": "b2f4f2d74f955f8c65d0e5719b72b19faba855d6afde73e9eb2db3236b18c7d3",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/oak_wood_planks/oak_wood_planks_nor_gl_2k.jpg",
+    "sourceSha256": "340a51d81e5ec2ead28a1c864637375becb00a1e11861e47a72dde4c03950968",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/45d91881c98bb788f426.jpg",
+    "bytes": 172251,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/dcec10eaa0649164803f.jpg",
+    "bytes": 356655,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/0bd2b3195db9b54d_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/16feb881c8627094ff1d.jpg",
+    "bytes": 309497,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/b75cb1e989407e44_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/8b2613a54a31d941bf46.jpg",
+    "bytes": 318360,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/741f333ab9f8a099_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/e80e667ee5691e358769.jpg",
+    "bytes": 498049,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/e91d024441a69852_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/6618878c2afa4f2bcd70.jpg",
+    "bytes": 224818,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/86a2c9e5111ef035_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/b0c9c4b8432a93f22e93.jpg",
+    "bytes": 437445,
+    "sha256": "73ed730dd5a3027b91669b8b6b19969c76372f456937c420ec226b0b00e5669f",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/oak_wood_planks/oak_wood_planks_diff_2k.jpg",
+    "sourceSha256": "ec3d2deb1fe21150ede5f987b48c691b3c7dbffe4183850a9b8717e904917a46",
+    "bakedStainRamp": true
+  },
+  {
+    "url": "/ridge/webgpu/textures/bdb6450f9cb087174837.jpg",
+    "bytes": 44939,
+    "dimensions": [
+      650,
+      325
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/original_skp_ipe/ipe.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/e314b3152eb47dcbcad4.jpg",
+    "bytes": 497811,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/24b8aaf4c8547305_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/08717d4c0f720b3cda1e.jpg",
+    "bytes": 592807,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/b37ac799ed410976_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/fb6da67166a3511769ce.jpg",
+    "bytes": 420562,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/84bf24b80d097c1a_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/4e35e05d1232b374b8e2.jpg",
+    "bytes": 365945,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/5eb5eec5af1fb33a_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/5de86d43658d1929ac80.jpg",
+    "bytes": 291563,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_bark_diff_1k.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/ff5ecb374a65cb21bdd0.jpg",
+    "bytes": 404253,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_bark_nor_gl_1k.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/2f74e615b1f54d188f3b.jpg",
+    "bytes": 331937,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_trunk_a_diff_1k.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/06d9f11a42105ea1b90e.jpg",
+    "bytes": 348646,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_twig_nor_gl_1k.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/eb41386a6bf9f096b02d.jpg",
+    "bytes": 274678,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_trunk_b_diff_1k.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/80aa09dc45a13c55782b.jpg",
+    "bytes": 406748,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_trunk_b_nor_gl_1k.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/1bd9310bc6de263d3bb8.png",
+    "bytes": 1299519,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/pine_tree_01_twig_diff_1k.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/b6658006c5bd62d530d3.jpg",
+    "bytes": 327922,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/pine_tree_01_twig_nor_gl_1k.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/e48bee9cef1a8b47dfc6.jpg",
+    "bytes": 390820,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Moss_Diffuse.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/7e583d3083c3c3c75183.jpg",
+    "bytes": 69506,
+    "dimensions": [
+      128,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Bark_Pinus-ponderosa_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/be589050268e9b5967f3.png",
+    "bytes": 443829,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Pinus-ponderosa_Diffuse.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/c28be559431346a6da43.jpg",
+    "bytes": 131553,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Pinus-ponderosa_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/a89f91ff0d0855b45582.jpg",
+    "bytes": 77580,
+    "dimensions": [
+      256,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/a00c5e3f45a2ce09_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/12a0cbc0341be145e6ec.png",
+    "bytes": 18845,
+    "dimensions": [
+      256,
+      256
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Populus-tremuloides_Diffuse.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/a0bffc2a8a3e93378d0a.jpg",
+    "bytes": 3486,
+    "dimensions": [
+      256,
+      256
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Populus-tremuloides_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/70116212645f02571c22.jpg",
+    "bytes": 70802,
+    "dimensions": [
+      128,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/d92e1472e0211f0f_2048.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/780f191f5ad4f20b710b.jpg",
+    "bytes": 45852,
+    "dimensions": [
+      278,
+      438
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/webgpu/packed-d274ea4b4077881e.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/9d9ee14ce10fe10e9e42.png",
+    "bytes": 1076835,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_twig_diff_1k.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/1929fd1da2e0d39c7012.jpg",
+    "bytes": 332005,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/pine_tree_01/native/textures/pine_tree_01_trunk_c_diff_1k.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/590427492c77f5d85cb1.jpg",
+    "bytes": 202670,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Rock_Granite-Photoscan_E_Diffuse.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/651b33d168bb2cfc254d.jpg",
+    "bytes": 233652,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Rock_Granite-Photoscan_E_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/5cde71793aff5355ff1d.jpg",
+    "bytes": 249790,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Rock_Granite-Photoscan_C_Diffuse.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/e67aa9de52e1bd54e513.jpg",
+    "bytes": 236349,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Rock_Granite-Photoscan_C_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/7ed1d70fa8ad2ce80135.jpg",
+    "bytes": 727736,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/a6d6155ed388c458_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/f4594a7dd96d89f3c81a.jpg",
+    "bytes": 18589,
+    "dimensions": [
+      128,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Stem_Diffuse.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/e3c5f0c4f44e04088af7.jpg",
+    "bytes": 15841,
+    "dimensions": [
+      128,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Stem_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/c775036e062ab956b151.png",
+    "bytes": 58321,
+    "dimensions": [
+      256,
+      256
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Flower_Bromus-carinatus_Diffuse.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/c7b4eb174f15ac54f1ed.jpg",
+    "bytes": 18486,
+    "dimensions": [
+      128,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/b96fd19a7c8a72d2_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/7c66de56add6b3cea9c1.jpg",
+    "bytes": 15745,
+    "dimensions": [
+      128,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/7366b81d4793b5c5_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/55cec5e467fc2db2e10a.png",
+    "bytes": 840009,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_diff_1k.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/50139c10ca6748174ebc.jpg",
+    "bytes": 425436,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_nor_gl_1k.exr",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/ee94ee6ec659e6089a58.png",
+    "bytes": 934821,
+    "dimensions": [
+      512,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Flower_Achillea-millefolium_Diffuse.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/574254c3724afe2c81b2.jpg",
+    "bytes": 188378,
+    "dimensions": [
+      512,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Flower_Achillea-millefolium_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/944d5d58d30a5ea92d9c.png",
+    "bytes": 911226,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Flowers_Diffuse.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/6805da61ad55be06e9b0.jpg",
+    "bytes": 197779,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Flowers_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/66777eeb070809d2b962.jpg",
+    "bytes": 228586,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Grass_Diffuse.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/4292c1ce242503700c1f.jpg",
+    "bytes": 139108,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Grass_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/d497a1812bafc2de5840.jpg",
+    "bytes": 113150,
+    "dimensions": [
+      256,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Bark_Tilia-europaea_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/c4b4f108b2fe5aadbff3.png",
+    "bytes": 680488,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Rhus-Aromatica_Diffuse.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/6067d08c282ef4d2a8fb.jpg",
+    "bytes": 153226,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Leaf_Rhus-Aromatica_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/6c39bbb4f09badbaf84d.jpg",
+    "bytes": 114838,
+    "dimensions": [
+      256,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/960751f0d9dc9507_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/6ae4eb7505cf8c54f893.png",
+    "bytes": 702073,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/7ed28af982fac238_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/2ad3373cab477576d1fe.jpg",
+    "bytes": 153255,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/cf6c88482c3f3adc_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/6623f380ced9e6997b78.png",
+    "bytes": 1024940,
+    "dimensions": [
+      512,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/9a510fcdd1a4d312_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/bc09fe0c658c4cf2d908.jpg",
+    "bytes": 188443,
+    "dimensions": [
+      512,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/05146183af74d500_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/3ce9711e1eacca99a578.jpg",
+    "bytes": 74559,
+    "dimensions": [
+      512,
+      512
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Misc_Forest-debris_Diffuse.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/412290819f076053fb8b.jpg",
+    "bytes": 74320,
+    "dimensions": [
+      512,
+      512
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Misc_Forest-debris_Normal.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/eaa82b5b155c0e2a5519.png",
+    "bytes": 1010114,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ac1f0a16eef67a6e_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/f4ff9d40c3c5b89731dd.jpg",
+    "bytes": 188422,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/2700ab1641f18605_1024.exr",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/9ac971736242e3c060c4.jpg",
+    "bytes": 112727,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/7523d077dc6d99de_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/377ee88d1a432b0999ae.jpg",
+    "bytes": 90051,
+    "dimensions": [
+      541,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/webgpu/packed-e3c3f6e82f4109b6.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/94807299ff052cdc14d5.jpg",
+    "bytes": 88434,
+    "dimensions": [
+      900,
+      900
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/webgpu/packed-69bc4a2acd44c3e0.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/dce6ccf08b368d3539be.jpg",
+    "bytes": 50432,
+    "dimensions": [
+      128,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/3b9308ad20300f23_2048.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/7fcbf75e9e58bf4fa979.png",
+    "bytes": 533905,
+    "dimensions": [
+      256,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/facd49c24ada9488_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/86d526ad829fe31d8e10.jpg",
+    "bytes": 115524,
+    "dimensions": [
+      256,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Bark_Tilia-europaea_Diffuse.jpg",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/bee843524c2069c8aa94.jpg",
+    "bytes": 117645,
+    "dimensions": [
+      256,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/render_cache_v67/ba18e54137f52073_1024.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/526c2868a8a1be9a5d4b.jpg",
+    "bytes": 49358,
+    "dimensions": [
+      128,
+      1024
+    ],
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/user_packs/botaniq_full/textures/bq_Bark_Pinus-ponderosa_Diffuse.png",
+    "bakedStainRamp": false
+  },
+  {
+    "url": "/ridge/webgpu/textures/native-v69-couch-metallic-roughness-2k.png",
+    "bytes": 3525586,
+    "dimensions": [
+      2048,
+      2053
+    ],
+    "sha256": "dc342ae1e8c4c374036e144cb71904518380e2908b632f322e2b6b8e47afeb2c",
+    "source": "/Users/cristisavca/Documents/ChatGPT/1182 Ridge Rd/output/blender/assets/polyhaven/terlenka/terlenka_rough_2k.jpg",
+    "roughnessFormula": ".54 + .34 * source Non-Color luminance"
+  }
+]

@@ -1,0 +1,771 @@
+{
+  "previousMeadowSha256": "b32adb7547bb5efa873e58e3a892fc0b6c6714ae3260c96f9e1eab6c05b3b504",
+  "asset": {
+    "url": "/ridge/webgpu/meadow.glb",
+    "bytes": 21014996,
+    "sha256": "64f4d4b503f185d6c0722001e922b79fbfba7ca117c6b051054ecb749f55974a"
+  },
+  "source": "scripts/v77_wildflowers.py",
+  "nativeMaterial": {
+    "baseColorFactor": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "roughness": 0.64,
+    "vertexColor": "BotanicalColor",
+    "petalTranslucency": 0.3
+  },
+  "retained": [
+    "All original instance positions, scales, rotations and counts",
+    "Every unrelated plant mesh and texture",
+    "Original material assignment; only missing BotanicalColor material multiplier corrected"
+  ],
+  "rows": [
+    {
+      "meshName": "V77_Thermopsis_Yellow_Golden_Banner_7700_Mesh",
+      "seed": 7700,
+      "role": "yellow",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 3.4789104226087795,
+        "bendMeters": 0.1404002278783897,
+        "verifiedCheckpointBend": 0.1404002278783897
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 9102,
+      "polygons": 5313,
+      "triangles": 10626,
+      "cornerVertices": 9102,
+      "morphology": {
+        "form": "Thermopsis golden banner",
+        "species_group_confirmed_by_user": true,
+        "pea_flowers": 51,
+        "trifoliate_leaflets": 54,
+        "features": [
+          "Upright yellow pea-flower racemes",
+          "Three broad leaflets per leaf",
+          "Green calyces and leafy upright stems"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Thermopsis_Yellow_Golden_Banner_7700_Mesh.glb",
+      "bytes": 567220,
+      "sha256": "ee4a1c7a84311c761d09f33463884719ea341c5362e2284b1a59a0b51f490b03",
+      "meshIndex": 13,
+      "instances": 35,
+      "previousTriangles": 1108,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.3527612686157227e-8
+    },
+    {
+      "meshName": "V77_Thermopsis_Yellow_Golden_Banner_7743_Mesh",
+      "seed": 7743,
+      "role": "yellow",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 3.1463965457068803,
+        "bendMeters": 0.11121289228467075,
+        "verifiedCheckpointBend": 0.11121289228467075
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 7506,
+      "polygons": 4389,
+      "triangles": 8778,
+      "cornerVertices": 7506,
+      "morphology": {
+        "form": "Thermopsis golden banner",
+        "species_group_confirmed_by_user": true,
+        "pea_flowers": 39,
+        "trifoliate_leaflets": 54,
+        "features": [
+          "Upright yellow pea-flower racemes",
+          "Three broad leaflets per leaf",
+          "Green calyces and leafy upright stems"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Thermopsis_Yellow_Golden_Banner_7743_Mesh.glb",
+      "bytes": 468436,
+      "sha256": "c10db56858fc7fd456aedb88338201d6f84c5c25cf8b4a289086b8c4a1a4cd11",
+      "meshIndex": 20,
+      "instances": 27,
+      "previousTriangles": 1115,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.332000937312528e-8
+    },
+    {
+      "meshName": "V77_Thermopsis_Yellow_Golden_Banner_7786_Mesh",
+      "seed": 7786,
+      "role": "yellow",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 5.360618973952833,
+        "bendMeters": 0.09430986132124904,
+        "verifiedCheckpointBend": 0.09430986132124904
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 6334,
+      "polygons": 3696,
+      "triangles": 7392,
+      "cornerVertices": 6334,
+      "morphology": {
+        "form": "Thermopsis golden banner",
+        "species_group_confirmed_by_user": true,
+        "pea_flowers": 36,
+        "trifoliate_leaflets": 36,
+        "features": [
+          "Upright yellow pea-flower racemes",
+          "Three broad leaflets per leaf",
+          "Green calyces and leafy upright stems"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Thermopsis_Yellow_Golden_Banner_7786_Mesh.glb",
+      "bytes": 395548,
+      "sha256": "336480868b2c36d1b7700ac518a9457b4dc8140ad93ce71156f21b9cc5026829",
+      "meshIndex": 17,
+      "instances": 29,
+      "previousTriangles": 1099,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 1.4901161193847656e-8
+    },
+    {
+      "meshName": "V77_Thermopsis_Yellow_Golden_Banner_7829_Mesh",
+      "seed": 7829,
+      "role": "yellow",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 3.098385532120042,
+        "bendMeters": 0.09314291008619109,
+        "verifiedCheckpointBend": 0.09314291008619109
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 6334,
+      "polygons": 3696,
+      "triangles": 7392,
+      "cornerVertices": 6334,
+      "morphology": {
+        "form": "Thermopsis golden banner",
+        "species_group_confirmed_by_user": true,
+        "pea_flowers": 36,
+        "trifoliate_leaflets": 36,
+        "features": [
+          "Upright yellow pea-flower racemes",
+          "Three broad leaflets per leaf",
+          "Green calyces and leafy upright stems"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Thermopsis_Yellow_Golden_Banner_7829_Mesh.glb",
+      "bytes": 395548,
+      "sha256": "0f32e230e1f5a7cdd2760de097db757e232b871c94cb68c70ac00e4474092073",
+      "meshIndex": 27,
+      "instances": 26,
+      "previousTriangles": 1112,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.0719530773294423e-8
+    },
+    {
+      "meshName": "V77_Thermopsis_Yellow_Golden_Banner_7872_Mesh",
+      "seed": 7872,
+      "role": "yellow",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 2.122928702387018,
+        "bendMeters": 0.08374648934670653,
+        "verifiedCheckpointBend": 0.08374648934670653
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 3034,
+      "polygons": 1771,
+      "triangles": 3542,
+      "cornerVertices": 3034,
+      "morphology": {
+        "form": "Thermopsis golden banner",
+        "species_group_confirmed_by_user": true,
+        "pea_flowers": 17,
+        "trifoliate_leaflets": 18,
+        "features": [
+          "Upright yellow pea-flower racemes",
+          "Three broad leaflets per leaf",
+          "Green calyces and leafy upright stems"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Thermopsis_Yellow_Golden_Banner_7872_Mesh.glb",
+      "bytes": 190944,
+      "sha256": "c0f9078ac06ac96d1157bd8904e6511a6a9c71a7f03e956b960b2cad331a2abf",
+      "meshIndex": 11,
+      "instances": 20,
+      "previousTriangles": 1140,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.1842516730127406e-8
+    },
+    {
+      "meshName": "V77_Thermopsis_Yellow_Golden_Banner_7915_Mesh",
+      "seed": 7915,
+      "role": "yellow",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 2.0350687805144636,
+        "bendMeters": 0.06167392859001107,
+        "verifiedCheckpointBend": 0.06167392859001107
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 2369,
+      "polygons": 1386,
+      "triangles": 2772,
+      "cornerVertices": 2369,
+      "morphology": {
+        "form": "Thermopsis golden banner",
+        "species_group_confirmed_by_user": true,
+        "pea_flowers": 12,
+        "trifoliate_leaflets": 18,
+        "features": [
+          "Upright yellow pea-flower racemes",
+          "Three broad leaflets per leaf",
+          "Green calyces and leafy upright stems"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Thermopsis_Yellow_Golden_Banner_7915_Mesh.glb",
+      "bytes": 149780,
+      "sha256": "4d61c423abad5993fc09a226491c6e42a0d0fb7548a85dd999bad03e75de6a14",
+      "meshIndex": 15,
+      "instances": 28,
+      "previousTriangles": 1122,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 1.4901161193847656e-8
+    },
+    {
+      "meshName": "V77_Castilleja_Red_Orange_Paintbrush_Mesh",
+      "seed": 7958,
+      "role": "red-orange",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 2.63331765738906,
+        "bendMeters": 0.0853473708321409,
+        "verifiedCheckpointBend": 0.0853473708321409
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 1628,
+      "polygons": 980,
+      "triangles": 1960,
+      "cornerVertices": 1628,
+      "morphology": {
+        "form": "Castilleja paintbrush",
+        "stems": 1,
+        "bracts": 23,
+        "features": [
+          "Tapered spikes of upright red-orange bracts",
+          "Green tubular flowers within bracts",
+          "Alternate narrow lance-shaped stem leaves"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Castilleja_Red_Orange_Paintbrush_Mesh.glb",
+      "bytes": 104416,
+      "sha256": "7723e8e01ab062a1fa1a81b98c77580e39b15a31a76bdf10b0239e007bd6babe",
+      "meshIndex": 25,
+      "instances": 21,
+      "previousTriangles": 1189,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.268928970170067e-8
+    },
+    {
+      "meshName": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.001",
+      "seed": 8001,
+      "role": "red-orange",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 1.0777068705054589,
+        "bendMeters": 0.07531392111884957,
+        "verifiedCheckpointBend": 0.07531392111884957
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 3016,
+      "polygons": 1822,
+      "triangles": 3644,
+      "cornerVertices": 3016,
+      "morphology": {
+        "form": "Castilleja paintbrush",
+        "stems": 2,
+        "bracts": 43,
+        "features": [
+          "Tapered spikes of upright red-orange bracts",
+          "Green tubular flowers within bracts",
+          "Alternate narrow lance-shaped stem leaves"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Castilleja_Red_Orange_Paintbrush_Mesh.001.glb",
+      "bytes": 191268,
+      "sha256": "34d0522d1d991c10f201f2074e0f9ea9d68581556132864757f7401970b290bb",
+      "meshIndex": 22,
+      "instances": 33,
+      "previousTriangles": 1172,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.161013638317052e-8
+    },
+    {
+      "meshName": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.002",
+      "seed": 8044,
+      "role": "red-orange",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 4.545712918639633,
+        "bendMeters": 0.08591180290617016,
+        "verifiedCheckpointBend": 0.08591180290617016
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 4770,
+      "polygons": 2874,
+      "triangles": 5748,
+      "cornerVertices": 4770,
+      "morphology": {
+        "form": "Castilleja paintbrush",
+        "stems": 3,
+        "bracts": 68,
+        "features": [
+          "Tapered spikes of upright red-orange bracts",
+          "Green tubular flowers within bracts",
+          "Alternate narrow lance-shaped stem leaves"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Castilleja_Red_Orange_Paintbrush_Mesh.002.glb",
+      "bytes": 300708,
+      "sha256": "60b5468b3f4cd92d6004d1379f73f673ecfd34992f892efbcdebfa869176143b",
+      "meshIndex": 18,
+      "instances": 27,
+      "previousTriangles": 1137,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.191393928729079e-8
+    },
+    {
+      "meshName": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.003",
+      "seed": 8087,
+      "role": "red-orange",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 0.8316451172226883,
+        "bendMeters": 0.10902642206053571,
+        "verifiedCheckpointBend": 0.10902642206053571
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 1460,
+      "polygons": 882,
+      "triangles": 1764,
+      "cornerVertices": 1460,
+      "morphology": {
+        "form": "Castilleja paintbrush",
+        "stems": 1,
+        "bracts": 20,
+        "features": [
+          "Tapered spikes of upright red-orange bracts",
+          "Green tubular flowers within bracts",
+          "Alternate narrow lance-shaped stem leaves"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Castilleja_Red_Orange_Paintbrush_Mesh.003.glb",
+      "bytes": 94016,
+      "sha256": "b9692b6a6c4651c580b41ebcd8f9f1ec64e6500a95d9e7e9ea76ae108ec84639",
+      "meshIndex": 23,
+      "instances": 20,
+      "previousTriangles": 1193,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.414284955677271e-8
+    },
+    {
+      "meshName": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.004",
+      "seed": 8130,
+      "role": "red-orange",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 2.063671299226636,
+        "bendMeters": 0.07425485306096656,
+        "verifiedCheckpointBend": 0.07425485306096656
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 4368,
+      "polygons": 2634,
+      "triangles": 5268,
+      "cornerVertices": 4368,
+      "morphology": {
+        "form": "Castilleja paintbrush",
+        "stems": 3,
+        "bracts": 58,
+        "features": [
+          "Tapered spikes of upright red-orange bracts",
+          "Green tubular flowers within bracts",
+          "Alternate narrow lance-shaped stem leaves"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Castilleja_Red_Orange_Paintbrush_Mesh.004.glb",
+      "bytes": 275652,
+      "sha256": "14b0b4bf2c9eaa3a881a2f0ab5c55a00720b7aa299bc8af603d7fd5c9112d2c5",
+      "meshIndex": 26,
+      "instances": 36,
+      "previousTriangles": 1083,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.026440145312235e-8
+    },
+    {
+      "meshName": "V77_Castilleja_Red_Orange_Paintbrush_Mesh.005",
+      "seed": 8173,
+      "role": "red-orange",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 5.8784256881290835,
+        "bendMeters": 0.07106871312009856,
+        "verifiedCheckpointBend": 0.07106871312009856
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 1487,
+      "polygons": 898,
+      "triangles": 1796,
+      "cornerVertices": 1487,
+      "morphology": {
+        "form": "Castilleja paintbrush",
+        "stems": 1,
+        "bracts": 21,
+        "features": [
+          "Tapered spikes of upright red-orange bracts",
+          "Green tubular flowers within bracts",
+          "Alternate narrow lance-shaped stem leaves"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Castilleja_Red_Orange_Paintbrush_Mesh.005.glb",
+      "bytes": 95696,
+      "sha256": "f98d19ae753b2b1d382f6a4afd1be4df67287064e949705ca5c16c0f4787eb71",
+      "meshIndex": 28,
+      "instances": 27,
+      "previousTriangles": 1185,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.077594869184923e-8
+    },
+    {
+      "meshName": "V77_Oxytropis_Purple_Locoweed_8216_Mesh",
+      "seed": 8216,
+      "role": "purple",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 2.9694829854278537,
+        "bendMeters": 0.08580578141604592,
+        "verifiedCheckpointBend": 0.08580578141604592
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 5720,
+      "polygons": 3357,
+      "triangles": 6714,
+      "cornerVertices": 5720,
+      "morphology": {
+        "form": "Oxytropis locoweed",
+        "basal_leaflets": 104,
+        "pea_flowers": 27,
+        "features": [
+          "Basal pinnate silver-green foliage",
+          "Leafless flower stalks",
+          "Magenta-purple pea-flower racemes with banner, wings and pointed keel"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Oxytropis_Purple_Locoweed_8216_Mesh.glb",
+      "bytes": 357896,
+      "sha256": "211c100f27d1e052f0c741bb1bbb25291088c0dbd254066339d993d4778f3970",
+      "meshIndex": 12,
+      "instances": 35,
+      "previousTriangles": 1113,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.189402720592057e-8
+    },
+    {
+      "meshName": "V77_Oxytropis_Purple_Locoweed_8259_Mesh",
+      "seed": 8259,
+      "role": "purple",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 5.318120865795056,
+        "bendMeters": 0.04655831658781703,
+        "verifiedCheckpointBend": 0.04655831658781703
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 5366,
+      "polygons": 3156,
+      "triangles": 6312,
+      "cornerVertices": 5366,
+      "morphology": {
+        "form": "Oxytropis locoweed",
+        "basal_leaflets": 104,
+        "pea_flowers": 24,
+        "features": [
+          "Basal pinnate silver-green foliage",
+          "Leafless flower stalks",
+          "Magenta-purple pea-flower racemes with banner, wings and pointed keel"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Oxytropis_Purple_Locoweed_8259_Mesh.glb",
+      "bytes": 336080,
+      "sha256": "08102bedf938bc713baa1c0e12762e70de5e868e706f495d69f0f268b87958e9",
+      "meshIndex": 16,
+      "instances": 32,
+      "previousTriangles": 1058,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.026440145312235e-8
+    },
+    {
+      "meshName": "V77_Oxytropis_Purple_Locoweed_8302_Mesh",
+      "seed": 8302,
+      "role": "purple",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 6.266055328732481,
+        "bendMeters": 0.08304899277054521,
+        "verifiedCheckpointBend": 0.08304899277054521
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 4013,
+      "polygons": 2369,
+      "triangles": 4738,
+      "cornerVertices": 4013,
+      "morphology": {
+        "form": "Oxytropis locoweed",
+        "basal_leaflets": 104,
+        "pea_flowers": 13,
+        "features": [
+          "Basal pinnate silver-green foliage",
+          "Leafless flower stalks",
+          "Magenta-purple pea-flower racemes with banner, wings and pointed keel"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Oxytropis_Purple_Locoweed_8302_Mesh.glb",
+      "bytes": 252244,
+      "sha256": "a61dc054c44b9d966743524887d4141b7423c9c8ec2ee1d39d5c133e9a86146e",
+      "meshIndex": 19,
+      "instances": 25,
+      "previousTriangles": 1124,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 1.666000468656264e-8
+    },
+    {
+      "meshName": "V77_Oxytropis_Purple_Locoweed_8345_Mesh",
+      "seed": 8345,
+      "role": "purple",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 2.378995003736395,
+        "bendMeters": 0.058264610663570165,
+        "verifiedCheckpointBend": 0.058264610663570165
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 7191,
+      "polygons": 4211,
+      "triangles": 8422,
+      "cornerVertices": 7191,
+      "morphology": {
+        "form": "Oxytropis locoweed",
+        "basal_leaflets": 104,
+        "pea_flowers": 39,
+        "features": [
+          "Basal pinnate silver-green foliage",
+          "Leafless flower stalks",
+          "Magenta-purple pea-flower racemes with banner, wings and pointed keel"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Oxytropis_Purple_Locoweed_8345_Mesh.glb",
+      "bytes": 449004,
+      "sha256": "66f3b05a04640f53eadc7df296aec86f086d56c3f86ea60b2ce44f5595528c5f",
+      "meshIndex": 24,
+      "instances": 28,
+      "previousTriangles": 1126,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.0549651881413025e-8
+    },
+    {
+      "meshName": "V77_Oxytropis_Purple_Locoweed_8388_Mesh",
+      "seed": 8388,
+      "role": "purple",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 2.400935756427243,
+        "bendMeters": 0.09254062327860081,
+        "verifiedCheckpointBend": 0.09254062327860081
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 4367,
+      "polygons": 2570,
+      "triangles": 5140,
+      "cornerVertices": 4367,
+      "morphology": {
+        "form": "Oxytropis locoweed",
+        "basal_leaflets": 104,
+        "pea_flowers": 16,
+        "features": [
+          "Basal pinnate silver-green foliage",
+          "Leafless flower stalks",
+          "Magenta-purple pea-flower racemes with banner, wings and pointed keel"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Oxytropis_Purple_Locoweed_8388_Mesh.glb",
+      "bytes": 274064,
+      "sha256": "7edabfdb7fc741194846a185c3d490bf0ac42a2e66e2a140b04204a97b610634",
+      "meshIndex": 21,
+      "instances": 28,
+      "previousTriangles": 1169,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 1.0700081748027408e-8
+    },
+    {
+      "meshName": "V77_Oxytropis_Purple_Locoweed_8431_Mesh",
+      "seed": 8431,
+      "role": "purple",
+      "v80Bend": {
+        "script": "scripts/v80_botanical_finish.py",
+        "seed": 801182,
+        "angle": 3.0901652719317267,
+        "bendMeters": 0.061531378362309035,
+        "verifiedCheckpointBend": 0.061531378362309035
+      },
+      "source": "scripts/v77_wildflowers.py",
+      "sourceSha256": "579437acb6c8a0b864f87beca29ad46ae897068f771701271409ab2f9d7695b4",
+      "placementRecipe": "scripts/v77_restore_grass.py",
+      "vertices": 5484,
+      "polygons": 3223,
+      "triangles": 6446,
+      "cornerVertices": 5484,
+      "morphology": {
+        "form": "Oxytropis locoweed",
+        "basal_leaflets": 104,
+        "pea_flowers": 25,
+        "features": [
+          "Basal pinnate silver-green foliage",
+          "Leafless flower stalks",
+          "Magenta-purple pea-flower racemes with banner, wings and pointed keel"
+        ],
+        "exact_species_identification": false
+      },
+      "colors": "Exact linear BotanicalColor vertex pigments from the native procedural recipe",
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "method": "Original trusted project recipe with Float32 Vector arithmetic; authored polygons triangulated without simplification; angle-weighted smooth normals reconstructed; source Blender files are not opened or modified",
+      "url": "output/blender/webgpu/native-flower-recovery/V77_Oxytropis_Purple_Locoweed_8431_Mesh.glb",
+      "bytes": 343352,
+      "sha256": "3623f3dd0636115121ea4bbfd85bbb1d6855738675ab4a915b1d2d90f28acf00",
+      "meshIndex": 14,
+      "instances": 38,
+      "previousTriangles": 1131,
+      "verifiedEveryPreviousPosition": true,
+      "maximumRecipePositionErrorMeters": 3.183230042590313e-8
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "sourceSha256": "aa4ba817ecbab01c2e6e01e7c7ccdb0943a494ed1bcd20f482e725e4f107f7d9",
+  "records": [
+    {
+      "object": "V30_Tour_ground_slab",
+      "materials": [
+        "V69_Honed_Concrete_Floor_Photo / native floor"
+      ],
+      "url": "/ridge/webgpu/assembly-lighting/V30_Tour_ground_slab.png",
+      "bounds": [
+        -15.418222427368164,
+        -1.3623168468475342,
+        12.173131942749023,
+        6.330950975418091
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -4.371138828673793e-8,
+        -1,
+        0,
+        0,
+        1,
+        -4.371138828673793e-8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "algorithm": {
+    "ambientRays": 16,
+    "ambientRadius": 2,
+    "sunlight": [
+      -0.35,
+      0.82,
+      0.45
+    ],
+    "coordinates": "World XZ at assembly amount zero",
+    "visibility": "Only components sharing the complete motion track occlude. Shadows travel with their floor.",
+    "bakedChannels": [
+      "ambient visibility",
+      "direct sunlight visibility"
+    ]
+  }
+}

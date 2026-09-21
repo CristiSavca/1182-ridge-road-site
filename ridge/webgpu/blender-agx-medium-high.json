@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "url": "/ridge/webgpu/blender-agx-medium-high.bin",
+  "bytes": 2197016,
+  "sha256": "1523cac8b6fca3ea7a62eb6d667f0d9f65d2013874df179d5c73b1f5f8d14c24",
+  "edge": 65,
+  "format": "RGBA16F_LE",
+  "input": "scene-linear Rec.709 RGB after linear exposure",
+  "inputLog2Range": [
+    -12.47393,
+    12.5260688117
+  ],
+  "output": "display-sRGB, decoded to linear by the shader",
+  "display": "sRGB",
+  "view": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "sourceConfig": "/Applications/Blender.app/Contents/Resources/5.2/datafiles/colormanagement/config.ocio",
+  "sourceConfigSha256": "47a7d83e79c1d21f49ba6c505efe311da723471688c614b5c366e1da7eb8ea3a",
+  "sourceLuts": [
+    {
+      "name": "AgX_Base_sRGB.cube",
+      "sha256": "e707a36f3e90ee79bc342332febf91334c02ce3974cac700ece00ca9d4507491"
+    },
+    {
+      "name": "luminance_compensation_bt2020.cube",
+      "sha256": "e3f5adcd8c08f77a96be141e8d504d58125cc80216a7a641abc970c85840cfd2"
+    }
+  ],
+  "validation": {
+    "randomSamples": 4096,
+    "randomMeanDisplayError": 0.0005781278397911638,
+    "randomP99DisplayError": 0.006069894528250664,
+    "randomMaximumDisplayError": 0.038270457760555654,
+    "representativeSurfaceMaximumDisplayError": 0.0012998248629824127,
+    "samples": [
+      {
+        "input": [
+          0.017,
+          0.034,
+          0.0102
+        ],
+        "nativeDisplay": [
+          0.07877866178750992,
+          0.1334799826145172,
+          0.03512084111571312
+        ]
+      },
+      {
+        "input": [
+          0.051,
+          0.102,
+          0.034
+        ],
+        "nativeDisplay": [
+          0.20222973823547363,
+          0.3051612973213196,
+          0.13301712274551392
+        ]
+      },
+      {
+        "input": [
+          0.17,
+          0.255,
+          0.068
+        ],
+        "nativeDisplay": [
+          0.4530637860298157,
+          0.5321024656295776,
+          0.237050861120224
+        ]
+      },
+      {
+        "input": [
+          0.204,
+          0.119,
+          0.042
+        ],
+        "nativeDisplay": [
+          0.4877862334251404,
+          0.3459700047969818,
+          0.14272397756576538
+        ]
+      },
+      {
+        "input": [
+          0.51,
+          0.238,
+          0.102
+        ],
+        "nativeDisplay": [
+          0.723484992980957,
+          0.5170973539352417,
+          0.34838542342185974
+        ]
+      },
+      {
+        "input": [
+          0.306,
+          0.306,
+          0.306
+        ],
+        "nativeDisplay": [
+          0.5945513844490051,
+          0.5945500135421753,
+          0.594582200050354
+        ]
+      },
+      {
+        "input": [
+          0.85,
+          0.85,
+          0.85
+        ],
+        "nativeDisplay": [
+          0.7896865010261536,
+          0.7896850109100342,
+          0.7897064685821533
+        ]
+      },
+      {
+        "input": [
+          1.7,
+          1.7,
+          1.7
+        ],
+        "nativeDisplay": [
+          0.8795173168182373,
+          0.8795172572135925,
+          0.8795316815376282
+        ]
+      },
+      {
+        "input": [
+          3.4,
+          3.4,
+          3.4
+        ],
+        "nativeDisplay": [
+          0.9445494413375854,
+          0.9445490837097168,
+          0.9445601105690002
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Trilinear interpolation of a 65-cube lattice, not a bit-exact OCIO processor.",
+    "Inputs outside the declared per-channel HDR range are clamped; negative radiance is clamped."
+  ]
+}

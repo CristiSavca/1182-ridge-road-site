@@ -1,0 +1,35 @@
+[
+  {
+    "asset": "meadow-lod.glb",
+    "bytes": 385012,
+    "sha256": "263d0ea74989fd41c23211442e6d3ca05954ec37ce4939570cc2cbca2c99940c",
+    "geometryBinaryUnchanged": true,
+    "changes": [
+      {
+        "material": "shrub_02",
+        "nativeAlphaImage": "textures/eaa82b5b155c0e2a5519.png"
+      }
+    ]
+  },
+  {
+    "asset": "meadow.glb",
+    "bytes": 8848812,
+    "sha256": "82acba87c864e9b2c69fc153fae9d3d515ba1ea213abe8c919b4ef6d3032bb57",
+    "geometryBinaryUnchanged": true,
+    "changes": [
+      {
+        "material": "shrub_02",
+        "nativeAlphaImage": "textures/eaa82b5b155c0e2a5519.png"
+      }
+    ]
+  },
+  {
+    "asset": "meadow-lod.glb",
+    "bytes": 385012,
+    "sha256": "6897546e61160eccb9c1fd5b5f8ec3a1fa490a7fc3a3a84266209de3b6130419",
+    "geometryBinaryUnchanged": true,
+    "changes": {
+      "sourceSha256": "82acba87c864e9b2c69fc153fae9d3d515ba1ea213abe8c919b4ef6d3032bb57"
+    }
+  }
+]

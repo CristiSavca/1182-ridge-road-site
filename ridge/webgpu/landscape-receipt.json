@@ -1,0 +1,19 @@
+{
+  "id": "landscape",
+  "label": "Landscape",
+  "url": "/ridge/webgpu/landscape.glb",
+  "bytes": 27176572,
+  "triangles": 632513,
+  "instances": 0,
+  "sourceObjects": 30,
+  "category": "landscape",
+  "sourceRevision": "V115",
+  "variant": "all",
+  "nativeTriangles": 1646033,
+  "lod": {
+    "beforeTriangles": 1646033,
+    "afterTriangles": 632513,
+    "maxError": 0.17996960878372192,
+    "method": "meshoptimizer terrain, borders locked, 0.18m error"
+  }
+}

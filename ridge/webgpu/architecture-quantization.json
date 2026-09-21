@@ -1,0 +1,33 @@
+{
+  "id": "architecture-preview",
+  "sourceAssetId": "architecture",
+  "url": "/ridge/webgpu/architecture-preview.glb",
+  "bytes": 14444312,
+  "sha256": "6f68b8c2e6764c4eed347b13de14c8e38088a36dc4d4b83ad124dd0e6d601cf9",
+  "source": "/ridge/webgpu/architecture.glb",
+  "sourceSha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b",
+  "sourceBytes": 24199404,
+  "geometrySource": "/ridge/webgpu/architecture.glb",
+  "geometrySha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b",
+  "geometryBytes": 24199404,
+  "triangles": 344260,
+  "materialImagesUnchanged": true,
+  "nativeInstancesUnchanged": false,
+  "nativeSourceUnchanged": true,
+  "exactGeometry": false,
+  "droppedUnusedBuffers": true,
+  "vertexOrderUnchanged": true,
+  "topologyUnchanged": true,
+  "quantization": {
+    "position": "SNORM16",
+    "normal": "SNORM16",
+    "unitUV": "UNORM16",
+    "tiledUV": "Float32",
+    "decodeScale": 32,
+    "maximumPositionErrorMeters": 0.0008361745919755367,
+    "maximumNormalComponentVectorError": 0.000026115295373397223,
+    "quantizedAccessors": 308,
+    "sharedAccessors": 72
+  },
+  "authoredPlacementsPreserved": true
+}

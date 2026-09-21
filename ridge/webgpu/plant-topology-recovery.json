@@ -1,0 +1,1457 @@
+{
+  "sourceExportSha256": "82acba87c864e9b2c69fc153fae9d3d515ba1ea213abe8c919b4ef6d3032bb57",
+  "previousExportSha256": "ce0be8f9c91db40a117e829d2596ce51b9aa222eb535599ddb9fdc52ef2c636e",
+  "asset": {
+    "url": "/ridge/webgpu/meadow.glb",
+    "bytes": 21014996,
+    "sha256": "64f4d4b503f185d6c0722001e922b79fbfba7ca117c6b051054ecb749f55974a"
+  },
+  "unchanged": [
+    "Every native instance transform and count",
+    "Every material/image/texture definition",
+    "Every unrelated prototype geometry"
+  ],
+  "rows": [
+    {
+      "name": "bq_Shrub_Rhus-Aromatica_A_spring-summer-autumn",
+      "meshIndex": 44,
+      "source": "output/blender/assets/user_packs/botaniq_full/blends/models/shrubs/bq_Shrub_Rhus-Aromatica_A_spring-summer-autumn.blend",
+      "sourceSha256": "78a58a9d08149e250a213d12663668b6a5710ec774815923ea59b05ad1009d5d",
+      "blenderVersion": "402",
+      "meshName": "bq_Shrub_Rhus-Aromatica_A_spring-summer-autumn",
+      "vertices": 26265,
+      "polygons": 23049,
+      "loops": 72445,
+      "triangles": 26347,
+      "cornerVertices": 28662,
+      "materialSlots": [
+        "bq_Bark_Rhus-aromatica",
+        "bq_Leaf_Rhus-aromatica"
+      ],
+      "trianglesByMaterial": {
+        "bq_Bark_Rhus-aromatica": 11411,
+        "bq_Leaf_Rhus-aromatica": 14936
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvMethod": "Exact native active UVMap, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "output": "output/blender/webgpu/native-plant-recovery/bq_Shrub_Rhus-Aromatica_A_spring-summer-autumn.glb",
+      "bytes": 1236060,
+      "sha256": "96034691fddbc9599b9ca56248375c99a50f6da0407187d3a1f0997f63b36be7",
+      "previousTrianglesByPrimitive": [
+        462,
+        805
+      ],
+      "recoveredTrianglesByPrimitive": [
+        11411,
+        14936
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "sourcePrimitiveGeometrySha256": [
+        "762e1faa99fba105b208a8355ec3a51d510929b0ea91d97513357e15a391ea2c",
+        "29195af91b56f6d15805afefccd7169b10cb83f6c7684a05714702c089fea8d3"
+      ]
+    },
+    {
+      "name": "bq_Shrub_Rhus-Aromatica_B_spring-summer-autumn",
+      "meshIndex": 43,
+      "source": "output/blender/assets/user_packs/botaniq_full/blends/models/shrubs/bq_Shrub_Rhus-Aromatica_B_spring-summer-autumn.blend",
+      "sourceSha256": "6aaad3dbca8d3b9a4b95cdc9f5999c3fbeb0d467ce71da764c29879e5faa1f00",
+      "blenderVersion": "402",
+      "meshName": "bq_Shrub_Rhus-Aromatica_B_spring-summer-autumn",
+      "vertices": 27648,
+      "polygons": 27908,
+      "loops": 83724,
+      "triangles": 27908,
+      "cornerVertices": 30595,
+      "materialSlots": [
+        "bq_Bark_Rhus-aromatica",
+        "bq_Leaf_Rhus-aromatica"
+      ],
+      "trianglesByMaterial": {
+        "bq_Bark_Rhus-aromatica": 12524,
+        "bq_Leaf_Rhus-aromatica": 15384
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvMethod": "Exact native active UVMap, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "output": "output/blender/webgpu/native-plant-recovery/bq_Shrub_Rhus-Aromatica_B_spring-summer-autumn.glb",
+      "bytes": 1316644,
+      "sha256": "bc047a5aa1c60d83c72263ddedd54d83a0aff9e557481eb3e3fde3a3b11f05f6",
+      "previousTrianglesByPrimitive": [
+        466,
+        407
+      ],
+      "recoveredTrianglesByPrimitive": [
+        12524,
+        15384
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "sourcePrimitiveGeometrySha256": [
+        "7863660bd9a4bbbd2db6a3089f8a4db1877443c0e9d22e250b2a7334f7041967",
+        "e7681b416b9488be614fa16ef7e7d0638478bf229ca8373e7cbf6df2c0a47183"
+      ]
+    },
+    {
+      "name": "Plane.022",
+      "meshIndex": 5,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "Plane.022",
+      "sourceMeshName": "Plane.022",
+      "sourceObjectName": "grass_medium_01_geonodes_mid_a_LOD1",
+      "vertices": 1493,
+      "polygons": 664,
+      "loops": 2637,
+      "triangles": 1309,
+      "cornerVertices": 1485,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 1309
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "output": "output/blender/webgpu/native-plant-recovery/Plane.022.glb",
+      "bytes": 65660,
+      "sha256": "05f596420bd4f5b2a5d472728e4168fa87d4c53fcb85dacd56d9713400a581d8",
+      "previousTrianglesByPrimitive": [
+        1176
+      ],
+      "recoveredTrianglesByPrimitive": [
+        1309
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "e5d944620e5c0cfeabf2810e6296079f9f2645c510296a3533b843f87b782371"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 22024
+    },
+    {
+      "name": "Plane.020",
+      "meshIndex": 4,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "Plane.020",
+      "sourceMeshName": "Plane.020",
+      "sourceObjectName": "grass_medium_01_geonodes_mid_b_LOD1",
+      "vertices": 755,
+      "polygons": 342,
+      "loops": 1346,
+      "triangles": 662,
+      "cornerVertices": 755,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 662
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "output": "output/blender/webgpu/native-plant-recovery/Plane.020.glb",
+      "bytes": 34520,
+      "sha256": "6fb349509fdfb30bcac296af69ab8da6b53252b1c5efef9b8c9edefeb231de5a",
+      "previousTrianglesByPrimitive": [
+        662
+      ],
+      "recoveredTrianglesByPrimitive": [
+        662
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "2352ff41cce7aa2ff8a9c0c2b415941eab9afd9548ec68ce4b52417ddc2d6a18"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 19098
+    },
+    {
+      "name": "Plane.002",
+      "meshIndex": 6,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "Plane.002",
+      "sourceMeshName": "Plane.002",
+      "sourceObjectName": "grass_medium_01_geonodes_small_a_LOD1",
+      "vertices": 716,
+      "polygons": 347,
+      "loops": 1355,
+      "triangles": 661,
+      "cornerVertices": 716,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 661
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "output": "output/blender/webgpu/native-plant-recovery/Plane.002.glb",
+      "bytes": 33300,
+      "sha256": "3c7b8c11134a99e7cb952db47e239ebd237ca33a1f5a9c59e60e743ed3d9178a",
+      "previousTrianglesByPrimitive": [
+        661
+      ],
+      "recoveredTrianglesByPrimitive": [
+        661
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "4ffd77d85005dfa381de242f6f352383a61858f9c40539b3278f257bb7f3b36d"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 40795
+    },
+    {
+      "name": "Plane.008",
+      "meshIndex": 3,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "Plane.008",
+      "sourceMeshName": "Plane.008",
+      "sourceObjectName": "grass_medium_01_geonodes_small_b_LOD1",
+      "vertices": 444,
+      "polygons": 211,
+      "loops": 825,
+      "triangles": 403,
+      "cornerVertices": 444,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 403
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "output": "output/blender/webgpu/native-plant-recovery/Plane.008.glb",
+      "bytes": 21500,
+      "sha256": "c65372e9a3e30c9448e4310bdd5554dd941d1fc12150524baa8ce27386982224",
+      "previousTrianglesByPrimitive": [
+        403
+      ],
+      "recoveredTrianglesByPrimitive": [
+        403
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "260c63fe1f26aaee628cb46abcafc72fee426129fea9bf587b3d8ec6df978498"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 39219
+    },
+    {
+      "name": "Plane.006",
+      "meshIndex": 8,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "Plane.006",
+      "sourceMeshName": "Plane.006",
+      "sourceObjectName": "grass_medium_01_geonodes_tall_a_LOD1",
+      "vertices": 192,
+      "polygons": 82,
+      "loops": 327,
+      "triangles": 163,
+      "cornerVertices": 192,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 163
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "output": "output/blender/webgpu/native-plant-recovery/Plane.006.glb",
+      "bytes": 10548,
+      "sha256": "9d785139b05dff974e9bd31371960d3a97aeff7c4df3be7bee1ea392b9bdb9fe",
+      "previousTrianglesByPrimitive": [
+        163
+      ],
+      "recoveredTrianglesByPrimitive": [
+        163
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "4fee6db865422c8189f34b6a91cfbe1c64479293e8642817233fde4db31f12f5"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 22038
+    },
+    {
+      "name": "Plane.003",
+      "meshIndex": 7,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "Plane.003",
+      "sourceMeshName": "Plane.003",
+      "sourceObjectName": "grass_medium_01_geonodes_tall_b_LOD1",
+      "vertices": 247,
+      "polygons": 113,
+      "loops": 441,
+      "triangles": 215,
+      "cornerVertices": 247,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 215
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "output": "output/blender/webgpu/native-plant-recovery/Plane.003.glb",
+      "bytes": 12932,
+      "sha256": "02f788fd4de57c80ba919ec1b00cd66897579233c8926084c64df017344caa87",
+      "previousTrianglesByPrimitive": [
+        215
+      ],
+      "recoveredTrianglesByPrimitive": [
+        215
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "3bf9d0b957f87a2c8d913dd5cfd5cde4db8294eaddc8fa766c997bca4364c680"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 21485
+    },
+    {
+      "name": "Plane.010",
+      "meshIndex": 10,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "Plane.010",
+      "sourceMeshName": "Plane.010",
+      "sourceObjectName": "grass_medium_01_geonodes_tiny_a_LOD1",
+      "vertices": 67,
+      "polygons": 30,
+      "loops": 119,
+      "triangles": 59,
+      "cornerVertices": 67,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 59
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "output": "output/blender/webgpu/native-plant-recovery/Plane.010.glb",
+      "bytes": 5288,
+      "sha256": "882b4623926fec74eb8472d3be21e5cc7a971a855f5351eac3fb0bc97dbf649a",
+      "previousTrianglesByPrimitive": [
+        59
+      ],
+      "recoveredTrianglesByPrimitive": [
+        59
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "f742461802c30e1dc4755ea26382856134f5750eab91705077bc9afdddfd605f"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 11916
+    },
+    {
+      "name": "Plane.011",
+      "meshIndex": 9,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "Plane.011",
+      "sourceMeshName": "Plane.011",
+      "sourceObjectName": "grass_medium_01_geonodes_tiny_b_LOD1",
+      "vertices": 22,
+      "polygons": 11,
+      "loops": 42,
+      "triangles": 20,
+      "cornerVertices": 22,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 20
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "output": "output/blender/webgpu/native-plant-recovery/Plane.011.glb",
+      "bytes": 3380,
+      "sha256": "c30d762b9961a23f71e2ab5c7222f665c6f0aff18f6d83de9ffe7b585cdfa3f6",
+      "previousTrianglesByPrimitive": [
+        20
+      ],
+      "recoveredTrianglesByPrimitive": [
+        20
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "962a7893fd86234b351bd3e4598b8a145290c5202678cff0a2a142188681dce8"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 11624
+    },
+    {
+      "name": "V84 Native grass cluster 00",
+      "meshIndex": 33,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "V84 Native grass cluster 00",
+      "sourceMeshName": "Plane.022",
+      "sourceObjectName": "grass_medium_01_geonodes_mid_a_LOD1",
+      "vertices": 10451,
+      "polygons": 4648,
+      "loops": 18459,
+      "triangles": 9163,
+      "cornerVertices": 10395,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 9163
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "aggregateEvidence": {
+        "script": "scripts/blender_v84_groundcover_and_air.py",
+        "seed": 841182,
+        "tufts": 7,
+        "variant": 0,
+        "sourceHeightMeters": 0.21774429082870483,
+        "method": "Replayed exact Float32 normalization/rotation/translation recipe over recovered source polygons and UVs"
+      },
+      "output": "output/blender/webgpu/native-plant-recovery/V84 Native grass cluster 00.glb",
+      "bytes": 445340,
+      "sha256": "b09a1ae613bf73c77a0f86aee4696c5e2ca12f1d8c4d155ba6c87bcf4aaf2773",
+      "previousTrianglesByPrimitive": [
+        1149
+      ],
+      "recoveredTrianglesByPrimitive": [
+        9163
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "27faaaa2ec8ad459b8965f5250f6dfd6acb80b650d1e0bf0127bb79faf18d523"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 51
+    },
+    {
+      "name": "V84 Native grass cluster 01",
+      "meshIndex": 29,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "V84 Native grass cluster 01",
+      "sourceMeshName": "Plane.020",
+      "sourceObjectName": "grass_medium_01_geonodes_mid_b_LOD1",
+      "vertices": 5285,
+      "polygons": 2394,
+      "loops": 9422,
+      "triangles": 4634,
+      "cornerVertices": 5285,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 4634
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "aggregateEvidence": {
+        "script": "scripts/blender_v84_groundcover_and_air.py",
+        "seed": 841182,
+        "tufts": 7,
+        "variant": 1,
+        "sourceHeightMeters": 0.17772157490253448,
+        "method": "Replayed exact Float32 normalization/rotation/translation recipe over recovered source polygons and UVs"
+      },
+      "output": "output/blender/webgpu/native-plant-recovery/V84 Native grass cluster 01.glb",
+      "bytes": 227460,
+      "sha256": "7c506c9332c4c23fc9e9585a6a6c1c01d851a8b41d83bfb642823d1c3d444145",
+      "previousTrianglesByPrimitive": [
+        1101
+      ],
+      "recoveredTrianglesByPrimitive": [
+        4634
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "686f2f9d99383ca2c2b7e7feeae3251b55bd16ad0edbbd7282a89bad3de68558"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 65
+    },
+    {
+      "name": "V84 Native grass cluster 02",
+      "meshIndex": 31,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "V84 Native grass cluster 02",
+      "sourceMeshName": "Plane.002",
+      "sourceObjectName": "grass_medium_01_geonodes_small_a_LOD1",
+      "vertices": 5012,
+      "polygons": 2429,
+      "loops": 9485,
+      "triangles": 4627,
+      "cornerVertices": 5012,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 4627
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "aggregateEvidence": {
+        "script": "scripts/blender_v84_groundcover_and_air.py",
+        "seed": 841182,
+        "tufts": 7,
+        "variant": 2,
+        "sourceHeightMeters": 0.14042668044567108,
+        "method": "Replayed exact Float32 normalization/rotation/translation recipe over recovered source polygons and UVs"
+      },
+      "output": "output/blender/webgpu/native-plant-recovery/V84 Native grass cluster 02.glb",
+      "bytes": 218648,
+      "sha256": "ab8d9c3133264356db7b640b33eabfa9ed50a8417061b1c44ffec9322acdb4c9",
+      "previousTrianglesByPrimitive": [
+        1046
+      ],
+      "recoveredTrianglesByPrimitive": [
+        4627
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "a24d427a1425859bd8a9ac7343e95d004fda095b3563767aa3431bb3848ded97"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 59
+    },
+    {
+      "name": "V84 Native grass cluster 03",
+      "meshIndex": 35,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "V84 Native grass cluster 03",
+      "sourceMeshName": "Plane.008",
+      "sourceObjectName": "grass_medium_01_geonodes_small_b_LOD1",
+      "vertices": 3108,
+      "polygons": 1477,
+      "loops": 5775,
+      "triangles": 2821,
+      "cornerVertices": 3108,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 2821
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "aggregateEvidence": {
+        "script": "scripts/blender_v84_groundcover_and_air.py",
+        "seed": 841182,
+        "tufts": 7,
+        "variant": 3,
+        "sourceHeightMeters": 0.09989527612924576,
+        "method": "Replayed exact Float32 normalization/rotation/translation recipe over recovered source polygons and UVs"
+      },
+      "output": "output/blender/webgpu/native-plant-recovery/V84 Native grass cluster 03.glb",
+      "bytes": 136044,
+      "sha256": "4cebdd854dc44a31f47544349557c3694d56525142c4b959987e49588c7540c8",
+      "previousTrianglesByPrimitive": [
+        1196
+      ],
+      "recoveredTrianglesByPrimitive": [
+        2821
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "a76e7da2d402ebb5a5c2e542b30a85dc0951cc4006a5f6fe4f5eb59c8060a243"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 39
+    },
+    {
+      "name": "V84 Native grass cluster 04",
+      "meshIndex": 30,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "V84 Native grass cluster 04",
+      "sourceMeshName": "Plane.006",
+      "sourceObjectName": "grass_medium_01_geonodes_tall_a_LOD1",
+      "vertices": 1344,
+      "polygons": 574,
+      "loops": 2289,
+      "triangles": 1141,
+      "cornerVertices": 1344,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 1141
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "aggregateEvidence": {
+        "script": "scripts/blender_v84_groundcover_and_air.py",
+        "seed": 841182,
+        "tufts": 7,
+        "variant": 4,
+        "sourceHeightMeters": 0.3225463926792145,
+        "method": "Replayed exact Float32 normalization/rotation/translation recipe over recovered source polygons and UVs"
+      },
+      "output": "output/blender/webgpu/native-plant-recovery/V84 Native grass cluster 04.glb",
+      "bytes": 59432,
+      "sha256": "7e7bafcdbf38bbdd51ce0fda7ec283ef27f1a86aaf3fab782cbd4ffb756d5357",
+      "previousTrianglesByPrimitive": [
+        1141
+      ],
+      "recoveredTrianglesByPrimitive": [
+        1141
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "3a81a3a42a025b13978d38b170549524eba67d5547bd35c5c6ea457dbb5ab9fa"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 47
+    },
+    {
+      "name": "V84 Native grass cluster 05",
+      "meshIndex": 32,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "V84 Native grass cluster 05",
+      "sourceMeshName": "Plane.003",
+      "sourceObjectName": "grass_medium_01_geonodes_tall_b_LOD1",
+      "vertices": 1729,
+      "polygons": 791,
+      "loops": 3087,
+      "triangles": 1505,
+      "cornerVertices": 1729,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 1505
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "aggregateEvidence": {
+        "script": "scripts/blender_v84_groundcover_and_air.py",
+        "seed": 841182,
+        "tufts": 7,
+        "variant": 5,
+        "sourceHeightMeters": 0.28566300868988037,
+        "method": "Replayed exact Float32 normalization/rotation/translation recipe over recovered source polygons and UVs"
+      },
+      "output": "output/blender/webgpu/native-plant-recovery/V84 Native grass cluster 05.glb",
+      "bytes": 76116,
+      "sha256": "54717cf90f14b91394c7c9dd2b391f43f4ca32431b27f0e55e0cfc157bf3b223",
+      "previousTrianglesByPrimitive": [
+        1179
+      ],
+      "recoveredTrianglesByPrimitive": [
+        1505
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "5d1e328cd8427a2e2c60f8ee5abd840a71e240d6a899c78625aa092cfdf5123f"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 41
+    },
+    {
+      "name": "V84 Native grass cluster 06",
+      "meshIndex": 34,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "V84 Native grass cluster 06",
+      "sourceMeshName": "Plane.010",
+      "sourceObjectName": "grass_medium_01_geonodes_tiny_a_LOD1",
+      "vertices": 469,
+      "polygons": 210,
+      "loops": 833,
+      "triangles": 413,
+      "cornerVertices": 469,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 413
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "aggregateEvidence": {
+        "script": "scripts/blender_v84_groundcover_and_air.py",
+        "seed": 841182,
+        "tufts": 7,
+        "variant": 6,
+        "sourceHeightMeters": 0.1128859743475914,
+        "method": "Replayed exact Float32 normalization/rotation/translation recipe over recovered source polygons and UVs"
+      },
+      "output": "output/blender/webgpu/native-plant-recovery/V84 Native grass cluster 06.glb",
+      "bytes": 22684,
+      "sha256": "b3816d28cb116117a703890a34a185316626131eb23311e2e959e2dcce141f7e",
+      "previousTrianglesByPrimitive": [
+        413
+      ],
+      "recoveredTrianglesByPrimitive": [
+        413
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "91d6ad8fe148a2e29a5316f96f4a80f977c3c22dc628d58d55f45dff43c12aaa"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 40
+    },
+    {
+      "name": "V84 Native grass cluster 07",
+      "meshIndex": 36,
+      "source": "output/blender/assets/polyhaven/grass_medium_01/grass_medium_01_1k.blend",
+      "sourceSha256": "5bbeaf7161508c1de66f137e7fcaec6fdea9c4ac0faa134c384c89c97271bec2",
+      "blenderVersion": "404",
+      "meshName": "V84 Native grass cluster 07",
+      "sourceMeshName": "Plane.011",
+      "sourceObjectName": "grass_medium_01_geonodes_tiny_b_LOD1",
+      "vertices": 154,
+      "polygons": 77,
+      "loops": 294,
+      "triangles": 140,
+      "cornerVertices": 154,
+      "materialSlots": [
+        "grass_medium_01"
+      ],
+      "trianglesByMaterial": {
+        "grass_medium_01": 140
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "UVMap",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "locationResetEvidence": "scripts/blender_v50_groundcover.py resets imported prototype locations to zero; local geometry unchanged",
+      "aggregateEvidence": {
+        "script": "scripts/blender_v84_groundcover_and_air.py",
+        "seed": 841182,
+        "tufts": 7,
+        "variant": 7,
+        "sourceHeightMeters": 0.060208480805158615,
+        "method": "Replayed exact Float32 normalization/rotation/translation recipe over recovered source polygons and UVs"
+      },
+      "output": "output/blender/webgpu/native-plant-recovery/V84 Native grass cluster 07.glb",
+      "bytes": 9324,
+      "sha256": "69d76a86b71a576a6fd501e9b735a179943718eb5b0d70ccbf0a8f0f9c9f545a",
+      "previousTrianglesByPrimitive": [
+        140
+      ],
+      "recoveredTrianglesByPrimitive": [
+        140
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "3aa6fd1152caaa0d659705a89d1273d5fbef96071b88860f6d10be1f23c18d59"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 57
+    },
+    {
+      "name": "bq_Grass_Bromus-carinatus_A_spring",
+      "meshIndex": 1,
+      "source": "output/blender/assets/user_packs/botaniq_full/blends/models/grass/bq_Grass_Bromus-carinatus_A_spring.blend",
+      "sourceSha256": "bcc010ff603472226819ecfeba4aff714cc523579e18d2a7de9861bb6aa5efe0",
+      "blenderVersion": "402",
+      "meshName": "bq_Grass_Bromus-carinatus_A_spring",
+      "sourceMeshName": "bq_Grass_Bromus-carinatus_A_spring",
+      "sourceObjectName": "bq_Grass_Bromus-carinatus_A_spring",
+      "vertices": 58246,
+      "polygons": 36668,
+      "loops": 146256,
+      "triangles": 72920,
+      "cornerVertices": 69642,
+      "materialSlots": [
+        "bq_Grass_Bromus-carinatus",
+        "bq_Flower_Bromus-carinatus"
+      ],
+      "trianglesByMaterial": {
+        "bq_Grass_Bromus-carinatus": 62000,
+        "bq_Flower_Bromus-carinatus": 10920
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "bq_branches_top_down",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "output": "output/blender/webgpu/native-plant-recovery/bq_Grass_Bromus-carinatus_A_spring.glb",
+      "bytes": 3106416,
+      "sha256": "e985f37f3c95f7de21791bec156cbabbe0a5e03b7bbc2f0fae20d6912e09c5c3",
+      "previousTrianglesByPrimitive": [
+        982,
+        154
+      ],
+      "recoveredTrianglesByPrimitive": [
+        62000,
+        10920
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "0bd21cb8e4e474b51aba1f47affa11cf9434b8c2f8d01f986ac01a320969dc7d",
+        "c5e3554c7a8f0e2b8a6c4453409be6656e80ebeba7db69d329fbd20b33df1721"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 6634
+    },
+    {
+      "name": "bq_Grass_Bromus-carinatus_B_spring",
+      "meshIndex": 2,
+      "source": "output/blender/assets/user_packs/botaniq_full/blends/models/grass/bq_Grass_Bromus-carinatus_B_spring.blend",
+      "sourceSha256": "4231c0a4b52fbe354d565c8bb36c9dcf7f0579815e5dc0ede050941f79fc900f",
+      "blenderVersion": "402",
+      "meshName": "bq_Grass_Bromus-carinatus_B_spring",
+      "sourceMeshName": "bq_Grass_Bromus-carinatus_B_spring",
+      "sourceObjectName": "bq_Grass_Bromus-carinatus_B_spring",
+      "vertices": 59291,
+      "polygons": 36839,
+      "loops": 146788,
+      "triangles": 73110,
+      "cornerVertices": 74816,
+      "materialSlots": [
+        "bq_Grass_Bromus-carinatus",
+        "bq_Flower_Bromus-carinatus"
+      ],
+      "trianglesByMaterial": {
+        "bq_Grass_Bromus-carinatus": 58200,
+        "bq_Flower_Bromus-carinatus": 14910
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "bq_branches_top_down",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "output": "output/blender/webgpu/native-plant-recovery/bq_Grass_Bromus-carinatus_B_spring.glb",
+      "bytes": 3274264,
+      "sha256": "ab90442c5901fef001971aa8e083a619254dac53efdd25bf0a89912a1e8fd2cc",
+      "previousTrianglesByPrimitive": [
+        895,
+        204
+      ],
+      "recoveredTrianglesByPrimitive": [
+        58200,
+        14910
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "f3cab0b477333dd671cd7bb77d2c5ce6a3cecd1ea02b0b7116221825ba55e44a",
+        "d22bcceac9b028e35fbf885ac0961ce51a2af03a19da5b0adbd3a1cbb72989f9"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 6382
+    },
+    {
+      "name": "bq_Grass_Bromus-carinatus_C_spring",
+      "meshIndex": 0,
+      "source": "output/blender/assets/user_packs/botaniq_full/blends/models/grass/bq_Grass_Bromus-carinatus_C_spring.blend",
+      "sourceSha256": "dba82e9d0dfee9e6b1d2c3996e7952cbb8072929d923ad960b97aa84e845d9eb",
+      "blenderVersion": "402",
+      "meshName": "bq_Grass_Bromus-carinatus_C_spring",
+      "sourceMeshName": "bq_Grass_Bromus-carinatus_C_spring",
+      "sourceObjectName": "bq_Grass_Bromus-carinatus_C_spring",
+      "vertices": 38138,
+      "polygons": 24307,
+      "loops": 97044,
+      "triangles": 48430,
+      "cornerVertices": 43168,
+      "materialSlots": [
+        "bq_Grass_Bromus-carinatus",
+        "bq_Flower_Bromus-carinatus"
+      ],
+      "trianglesByMaterial": {
+        "bq_Grass_Bromus-carinatus": 43600,
+        "bq_Flower_Bromus-carinatus": 4830
+      },
+      "objectTransform": {
+        "loc": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "quat": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "rotmode": 1
+      },
+      "geometryBasis": "Original Blender local coordinates; shipping instance transforms apply the Y-up conversion",
+      "normalMethod": "Angle-weighted source polygon vertex normals, with native sharp-face override; no Blender evaluation",
+      "uvLayer": "bq_branches_top_down",
+      "uvMethod": "Exact native active UV layer, glTF V flip and same6-decimal rounding as existing native exporter",
+      "topologyMethod": "Native triangle faces preserved; larger native polygons triangulated by projected ear clipping; no simplification",
+      "output": "output/blender/webgpu/native-plant-recovery/bq_Grass_Bromus-carinatus_C_spring.glb",
+      "bytes": 1965368,
+      "sha256": "fdca85258f2ab9228c4dc140c4dc501b19cb2ecc217293af0a8b5a93ebf0924b",
+      "previousTrianglesByPrimitive": [
+        1048,
+        108
+      ],
+      "recoveredTrianglesByPrimitive": [
+        43600,
+        4830
+      ],
+      "sourcePrimitiveGeometrySha256": [
+        "f4093016b5922ee829c6f3587ad9215ac0949f76f487b429869657eb52414559",
+        "c45d02229cb61e6123d9ef5a0b52a14d36c5df4f18812952303a7ce57b12c9c4"
+      ],
+      "verifiedAllPreviousPositionsAndUvs": true,
+      "instanceCount": 3480
+    }
+  ]
+}

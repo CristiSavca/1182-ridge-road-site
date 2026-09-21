@@ -1,0 +1,20 @@
+{
+  "id": "details",
+  "label": "Details",
+  "url": "/ridge/webgpu/details.glb",
+  "bytes": 59124,
+  "triangles": 1728,
+  "instances": 0,
+  "sourceObjects": 14,
+  "category": "interior",
+  "sourceRevision": "V115",
+  "variant": "all",
+  "omittedSubmillimeterFibers": [
+    "V5_Ground_Floor_Bench_Pad_1_Tailored_Seam",
+    "V5_Ground_Floor_Bench_Pad_2_Tailored_Seam",
+    "V5_Ground_Floor_Bench_Pad_3_Tailored_Seam",
+    "V8_Ivory_Rug_North_Long_Fringed_End",
+    "V8_Ivory_Rug_South_Long_Fringed_End",
+    "V8_Ivory_Rug_Square_Corner_Selvedges"
+  ]
+}

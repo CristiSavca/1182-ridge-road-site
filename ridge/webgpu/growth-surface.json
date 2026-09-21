@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "minX": -8192,
+  "minZ": -8192,
+  "width": 2049,
+  "height": 2049,
+  "step": 8,
+  "stride": 2,
+  "url": "/ridge/webgpu/growth-surface.bin",
+  "bytes": 33587208
+}

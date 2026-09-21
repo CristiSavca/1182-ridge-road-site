@@ -1,0 +1,1112 @@
+{
+  "url": "/ridge/webgpu/terrain-lod.glb",
+  "bytes": 9730352,
+  "sha256": "6b2343eeb68254f1a5e59a0059040a94eced34b9b703fe36dee10225c8876ebd",
+  "source": "public/ridge/webgpu/complete-terrain.glb",
+  "sourceSha256": "0286cc77baef4fb1b838ecf7b2cd27f3c1ebd57b9975001e8392fa784a0d7edf",
+  "geometryOnly": true,
+  "vertexLayout": "SEPARATE",
+  "targetRatio": 0.15,
+  "maximumErrorMeters": 20,
+  "maximumMeasuredSourceVertexDistanceMeters": 19.779053562850756,
+  "compression": {
+    "codec": "EXT_meshopt_compression",
+    "lossless": true,
+    "sourceBytes": 21516060,
+    "sourceSha256": "79294022c17cfdac26ef2cf6ef4939b423fb290be1357c46bd30f8e578aadd78",
+    "maximumPositionErrorMeters": 0
+  },
+  "angularErrorRadians": 0.001,
+  "maximumMeasuredAngularErrorRadians": 0.0009957574071624842,
+  "useNearSiteOnly": true,
+  "protectedRadiusMeters": 250,
+  "sourceTriangles": 3478459,
+  "triangles": 696763,
+  "sourceVertices": 1762970,
+  "vertices": 364786,
+  "method": "Attribute-aware meshopt simplification in distance bands, at most 1mrad source-vertex screen error from site origin and 20m absolute error, locked native boundary edges and every source triangle touching the 250m site radius. Surviving attribute values copied exactly; lossless vertex/index reordering and compression, no quantization. Every source vertex checked against LOD surface; this is not a formal continuous Hausdorff bound.",
+  "attributeWeights": {
+    "NORMAL": 1,
+    "TEXCOORD": 1,
+    "nativeMasks": 10
+  },
+  "runtimeMatch": "Exact source mesh/node/primitive order and names; renderer reuses native materials.",
+  "rows": [
+    {
+      "meshIndex": 0,
+      "name": "ENV_V10_USGS_Outer_Peaks_01_Mesh",
+      "nodeName": "V19_Preview_ENV_V10_USGS_Outer_Peaks_01",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 293656,
+          "triangles": 46764,
+          "sourceVertices": 147630,
+          "vertices": 24184,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 3196,
+              "triangles": 3196
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 5.557784557342529,
+              "sourceTriangles": 31145,
+              "triangles": 4671
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 20,
+              "errorMeters": 9.161537170410156,
+              "sourceTriangles": 259315,
+              "triangles": 38897
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 19.47302514501399,
+          "maxAngularErrorRadians": 0.0007387440418085599,
+          "verifiedSourceVertices": 147630,
+          "lockedBoundaryEdges": 1602,
+          "protectedTriangles": 0,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo"
+        }
+      ]
+    },
+    {
+      "meshIndex": 1,
+      "name": "ENV_V10_USGS_Outer_Peaks_02_Mesh",
+      "nodeName": "V19_Preview_ENV_V10_USGS_Outer_Peaks_02",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 294224,
+          "triangles": 46852,
+          "sourceVertices": 147915,
+          "vertices": 24229,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 3200,
+              "triangles": 3200
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 6.772244930267334,
+              "sourceTriangles": 56392,
+              "triangles": 8458
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 20,
+              "errorMeters": 12.315442085266113,
+              "sourceTriangles": 234632,
+              "triangles": 35194
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 19.631430549983833,
+          "maxAngularErrorRadians": 0.0008724417528574327,
+          "verifiedSourceVertices": 147915,
+          "lockedBoundaryEdges": 1604,
+          "protectedTriangles": 0,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo"
+        }
+      ]
+    },
+    {
+      "meshIndex": 2,
+      "name": "ENV_V10_USGS_Outer_Peaks_03_Mesh",
+      "nodeName": "V19_Preview_ENV_V10_USGS_Outer_Peaks_03",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 293656,
+          "triangles": 47448,
+          "sourceVertices": 147630,
+          "vertices": 24526,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 3196,
+              "triangles": 3196
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 7.89108419418335,
+              "sourceTriangles": 31745,
+              "triangles": 5445
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 20,
+              "errorMeters": 4.560214042663574,
+              "sourceTriangles": 258715,
+              "triangles": 38807
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 13.300244308906704,
+          "maxAngularErrorRadians": 0.0007696224063494209,
+          "verifiedSourceVertices": 147630,
+          "lockedBoundaryEdges": 1602,
+          "protectedTriangles": 0,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo"
+        }
+      ]
+    },
+    {
+      "meshIndex": 3,
+      "name": "ENV_V10_USGS_Outer_Peaks_04_Mesh",
+      "nodeName": "V19_Preview_ENV_V10_USGS_Outer_Peaks_04",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 294224,
+          "triangles": 46852,
+          "sourceVertices": 147915,
+          "vertices": 24229,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 3200,
+              "triangles": 3200
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 6.887007236480713,
+              "sourceTriangles": 55376,
+              "triangles": 8306
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 20,
+              "errorMeters": 1.919321894645691,
+              "sourceTriangles": 235648,
+              "triangles": 35346
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 14.35145833401195,
+          "maxAngularErrorRadians": 0.0008126908398984237,
+          "verifiedSourceVertices": 147915,
+          "lockedBoundaryEdges": 1604,
+          "protectedTriangles": 0,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo"
+        }
+      ]
+    },
+    {
+      "meshIndex": 4,
+      "name": "ENV_V10_USGS_Outer_Peaks_05_Mesh",
+      "nodeName": "V19_Preview_ENV_V10_USGS_Outer_Peaks_05",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 293656,
+          "triangles": 47256,
+          "sourceVertices": 147630,
+          "vertices": 24430,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 3196,
+              "triangles": 3196
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 7.878367900848389,
+              "sourceTriangles": 33084,
+              "triangles": 5454
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 20,
+              "errorMeters": 7.911739826202393,
+              "sourceTriangles": 257376,
+              "triangles": 38606
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 18.181412435988424,
+          "maxAngularErrorRadians": 0.0007180139815107936,
+          "verifiedSourceVertices": 147630,
+          "lockedBoundaryEdges": 1602,
+          "protectedTriangles": 0,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo"
+        }
+      ]
+    },
+    {
+      "meshIndex": 5,
+      "name": "ENV_V10_USGS_Outer_Peaks_06_Mesh",
+      "nodeName": "V19_Preview_ENV_V10_USGS_Outer_Peaks_06",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 294224,
+          "triangles": 46852,
+          "sourceVertices": 147915,
+          "vertices": 24229,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 3200,
+              "triangles": 3200
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 6.1361775398254395,
+              "sourceTriangles": 56693,
+              "triangles": 8503
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 20,
+              "errorMeters": 10.754073143005371,
+              "sourceTriangles": 234331,
+              "triangles": 35149
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 19.779053562850756,
+          "maxAngularErrorRadians": 0.0008410198167830887,
+          "verifiedSourceVertices": 147915,
+          "lockedBoundaryEdges": 1604,
+          "protectedTriangles": 0,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo"
+        }
+      ]
+    },
+    {
+      "meshIndex": 6,
+      "name": "ENV_V10_USGS_Outer_Peaks_07_Mesh",
+      "nodeName": "V19_Preview_ENV_V10_USGS_Outer_Peaks_07",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 293656,
+          "triangles": 47756,
+          "sourceVertices": 147630,
+          "vertices": 24680,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 3196,
+              "triangles": 3196
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 7.952912330627441,
+              "sourceTriangles": 31547,
+              "triangles": 5725
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 20,
+              "errorMeters": 8.491063117980957,
+              "sourceTriangles": 258913,
+              "triangles": 38835
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 19.097214176056898,
+          "maxAngularErrorRadians": 0.0009026859042989664,
+          "verifiedSourceVertices": 147630,
+          "lockedBoundaryEdges": 1602,
+          "protectedTriangles": 0,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo"
+        }
+      ]
+    },
+    {
+      "meshIndex": 7,
+      "name": "ENV_V10_USGS_Outer_Peaks_08_Mesh",
+      "nodeName": "V19_Preview_ENV_V10_USGS_Outer_Peaks_08",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 294224,
+          "triangles": 46852,
+          "sourceVertices": 147915,
+          "vertices": 24229,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 3200,
+              "triangles": 3200
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 7.849766731262207,
+              "sourceTriangles": 57024,
+              "triangles": 8552
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 20,
+              "errorMeters": 7.901833534240723,
+              "sourceTriangles": 234000,
+              "triangles": 35100
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 17.731981922296725,
+          "maxAngularErrorRadians": 0.0008779176432689692,
+          "verifiedSourceVertices": 147915,
+          "lockedBoundaryEdges": 1604,
+          "protectedTriangles": 0,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_USGS_66km_Geographic_Albedo"
+        }
+      ]
+    },
+    {
+      "meshIndex": 8,
+      "name": "ENV_V9_USGS_Terrain_Sector_01_Mesh",
+      "nodeName": "V19_Preview_ENV_V9_USGS_Terrain_Sector_01",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 140936,
+          "triangles": 49314,
+          "sourceVertices": 71008,
+          "vertices": 25197,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 8183,
+              "triangles": 8183
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 250,
+              "distanceMaxMeters": 1000,
+              "toleranceMeters": 0.2,
+              "errorMeters": 0.19893969595432281,
+              "sourceTriangles": 13278,
+              "triangles": 3330
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 1000,
+              "distanceMaxMeters": 3000,
+              "toleranceMeters": 0.8,
+              "errorMeters": 0.7999200820922852,
+              "sourceTriangles": 19951,
+              "triangles": 4839
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 3000,
+              "distanceMaxMeters": 8000,
+              "toleranceMeters": 2.4000000000000004,
+              "errorMeters": 2.387112855911255,
+              "sourceTriangles": 35475,
+              "triangles": 11753
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 6.4,
+              "errorMeters": 6.317254066467285,
+              "sourceTriangles": 63685,
+              "triangles": 21037
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 16,
+              "errorMeters": 15.911177635192871,
+              "sourceTriangles": 364,
+              "triangles": 172
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 17.90508222530946,
+          "maxAngularErrorRadians": 0.0009757527725651677,
+          "verifiedSourceVertices": 71008,
+          "lockedBoundaryEdges": 1078,
+          "protectedTriangles": 6535,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam"
+        }
+      ]
+    },
+    {
+      "meshIndex": 9,
+      "name": "ENV_V9_USGS_Terrain_Sector_02_Mesh",
+      "nodeName": "V19_Preview_ENV_V9_USGS_Terrain_Sector_02",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 146624,
+          "triangles": 30084,
+          "sourceVertices": 73861,
+          "vertices": 15591,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 7981,
+              "triangles": 7981
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 250,
+              "distanceMaxMeters": 1000,
+              "toleranceMeters": 0.25,
+              "errorMeters": 0.21168848872184753,
+              "sourceTriangles": 13684,
+              "triangles": 2052
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 1000,
+              "distanceMaxMeters": 3000,
+              "toleranceMeters": 1,
+              "errorMeters": 0.9870858788490295,
+              "sourceTriangles": 21946,
+              "triangles": 4078
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 3000,
+              "distanceMaxMeters": 8000,
+              "toleranceMeters": 3,
+              "errorMeters": 2.9858145713806152,
+              "sourceTriangles": 39991,
+              "triangles": 6521
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 5.623136520385742,
+              "sourceTriangles": 63022,
+              "triangles": 9452
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 11.88607550595024,
+          "maxAngularErrorRadians": 0.000995112035428544,
+          "verifiedSourceVertices": 73861,
+          "lockedBoundaryEdges": 1096,
+          "protectedTriangles": 6311,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam"
+        }
+      ]
+    },
+    {
+      "meshIndex": 10,
+      "name": "ENV_V9_USGS_Terrain_Sector_03_Mesh",
+      "nodeName": "V19_Preview_ENV_V9_USGS_Terrain_Sector_03",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 145992,
+          "triangles": 43938,
+          "sourceVertices": 73544,
+          "vertices": 22517,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 8006,
+              "triangles": 8006
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 250,
+              "distanceMaxMeters": 1000,
+              "toleranceMeters": 0.2,
+              "errorMeters": 0.1979902684688568,
+              "sourceTriangles": 13582,
+              "triangles": 2578
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 1000,
+              "distanceMaxMeters": 3000,
+              "toleranceMeters": 0.8,
+              "errorMeters": 0.794052004814148,
+              "sourceTriangles": 21112,
+              "triangles": 4368
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 3000,
+              "distanceMaxMeters": 8000,
+              "toleranceMeters": 2.4000000000000004,
+              "errorMeters": 2.3943569660186768,
+              "sourceTriangles": 37008,
+              "triangles": 9756
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 6.4,
+              "errorMeters": 6.305819034576416,
+              "sourceTriangles": 65958,
+              "triangles": 19018
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 16,
+              "errorMeters": 15.716899871826172,
+              "sourceTriangles": 326,
+              "triangles": 212
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 11.245326736724211,
+          "maxAngularErrorRadians": 0.0009366110275182842,
+          "verifiedSourceVertices": 73544,
+          "lockedBoundaryEdges": 1094,
+          "protectedTriangles": 6338,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam"
+        }
+      ]
+    },
+    {
+      "meshIndex": 11,
+      "name": "ENV_V10_ENV_V9_USGS_Terrain_Sector_04_Shoreline_Conforming",
+      "nodeName": "V19_Preview_ENV_V9_USGS_Terrain_Sector_04",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 140107,
+          "triangles": 34049,
+          "sourceVertices": 71186,
+          "vertices": 17974,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 8293,
+              "triangles": 8293
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 250,
+              "distanceMaxMeters": 1000,
+              "toleranceMeters": 0.2,
+              "errorMeters": 0.19964741170406342,
+              "sourceTriangles": 13232,
+              "triangles": 3346
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 1000,
+              "distanceMaxMeters": 3000,
+              "toleranceMeters": 0.8,
+              "errorMeters": 0.7996695637702942,
+              "sourceTriangles": 20182,
+              "triangles": 3858
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 3000,
+              "distanceMaxMeters": 8000,
+              "toleranceMeters": 2.4000000000000004,
+              "errorMeters": 2.3945603370666504,
+              "sourceTriangles": 38028,
+              "triangles": 9498
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 6.4,
+              "errorMeters": 6.313365459442139,
+              "sourceTriangles": 60372,
+              "triangles": 9054
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 11.202020068142684,
+          "maxAngularErrorRadians": 0.000993107946739488,
+          "verifiedSourceVertices": 71003,
+          "lockedBoundaryEdges": 1631,
+          "protectedTriangles": 6308,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam"
+        }
+      ]
+    },
+    {
+      "meshIndex": 12,
+      "name": "ENV_V10_ENV_V9_USGS_Terrain_Sector_05_Shoreline_Conforming",
+      "nodeName": "V19_Preview_ENV_V9_USGS_Terrain_Sector_05",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 129064,
+          "triangles": 37630,
+          "sourceVertices": 73387,
+          "vertices": 22688,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 10789,
+              "triangles": 10789
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 250,
+              "distanceMaxMeters": 1000,
+              "toleranceMeters": 0.2,
+              "errorMeters": 0.19945462048053741,
+              "sourceTriangles": 8399,
+              "triangles": 2615
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 1000,
+              "distanceMaxMeters": 3000,
+              "toleranceMeters": 0.8,
+              "errorMeters": 0.7936562895774841,
+              "sourceTriangles": 12456,
+              "triangles": 3832
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 3000,
+              "distanceMaxMeters": 8000,
+              "toleranceMeters": 2.4000000000000004,
+              "errorMeters": 2.394221305847168,
+              "sourceTriangles": 34247,
+              "triangles": 9033
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 6.4,
+              "errorMeters": 6.387077808380127,
+              "sourceTriangles": 62777,
+              "triangles": 11271
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 16,
+              "errorMeters": 15.606059074401855,
+              "sourceTriangles": 396,
+              "triangles": 90
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 15.945928716582502,
+          "maxAngularErrorRadians": 0.0009922933414168343,
+          "verifiedSourceVertices": 68405,
+          "lockedBoundaryEdges": 5552,
+          "protectedTriangles": 6413,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam"
+        }
+      ]
+    },
+    {
+      "meshIndex": 13,
+      "name": "ENV_V10_ENV_V9_USGS_Terrain_Sector_06_Shoreline_Conforming",
+      "nodeName": "V19_Preview_ENV_V9_USGS_Terrain_Sector_06",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 142976,
+          "triangles": 36120,
+          "sourceVertices": 76105,
+          "vertices": 20506,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 10198,
+              "triangles": 10198
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 250,
+              "distanceMaxMeters": 1000,
+              "toleranceMeters": 0.2,
+              "errorMeters": 0.19983865320682526,
+              "sourceTriangles": 9452,
+              "triangles": 2974
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 1000,
+              "distanceMaxMeters": 3000,
+              "toleranceMeters": 0.8,
+              "errorMeters": 0.7889263033866882,
+              "sourceTriangles": 20667,
+              "triangles": 4041
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 3000,
+              "distanceMaxMeters": 8000,
+              "toleranceMeters": 2.4000000000000004,
+              "errorMeters": 2.3954107761383057,
+              "sourceTriangles": 39729,
+              "triangles": 9469
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 6.4,
+              "errorMeters": 6.3304338455200195,
+              "sourceTriangles": 62930,
+              "triangles": 9438
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 11.79379423621544,
+          "maxAngularErrorRadians": 0.0009916322497818782,
+          "verifiedSourceVertices": 73934,
+          "lockedBoundaryEdges": 3640,
+          "protectedTriangles": 6960,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam"
+        }
+      ]
+    },
+    {
+      "meshIndex": 14,
+      "name": "ENV_V9_USGS_Terrain_Sector_07_Mesh",
+      "nodeName": "V19_Preview_ENV_V9_USGS_Terrain_Sector_07",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 143464,
+          "triangles": 51174,
+          "sourceVertices": 72276,
+          "vertices": 26131,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 8464,
+              "triangles": 8464
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 250,
+              "distanceMaxMeters": 1000,
+              "toleranceMeters": 0.2,
+              "errorMeters": 0.19744044542312622,
+              "sourceTriangles": 13500,
+              "triangles": 5362
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 1000,
+              "distanceMaxMeters": 3000,
+              "toleranceMeters": 0.8,
+              "errorMeters": 0.7893727421760559,
+              "sourceTriangles": 20288,
+              "triangles": 5822
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 3000,
+              "distanceMaxMeters": 8000,
+              "toleranceMeters": 2.4000000000000004,
+              "errorMeters": 2.3940043449401855,
+              "sourceTriangles": 36149,
+              "triangles": 10765
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 6.4,
+              "errorMeters": 6.38095760345459,
+              "sourceTriangles": 64751,
+              "triangles": 20651
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 20000,
+              "distanceMaxMeters": null,
+              "toleranceMeters": 16,
+              "errorMeters": 15.636093139648438,
+              "sourceTriangles": 312,
+              "triangles": 110
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 17.934985612731225,
+          "maxAngularErrorRadians": 0.0009860696457210322,
+          "verifiedSourceVertices": 72276,
+          "lockedBoundaryEdges": 1086,
+          "protectedTriangles": 6810,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam"
+        }
+      ]
+    },
+    {
+      "meshIndex": 15,
+      "name": "ENV_V9_USGS_Terrain_Sector_08_Mesh",
+      "nodeName": "V19_Preview_ENV_V9_USGS_Terrain_Sector_08",
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "sourceTriangles": 137776,
+          "triangles": 37822,
+          "sourceVertices": 69423,
+          "vertices": 19446,
+          "bands": [
+            {
+              "kind": "exact native boundary rim and site",
+              "distanceMinMeters": 0,
+              "distanceMaxMeters": 250,
+              "toleranceMeters": 0,
+              "errorMeters": 0,
+              "sourceTriangles": 8176,
+              "triangles": 8176
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 250,
+              "distanceMaxMeters": 1000,
+              "toleranceMeters": 0.25,
+              "errorMeters": 0.24852728843688965,
+              "sourceTriangles": 12960,
+              "triangles": 2534
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 1000,
+              "distanceMaxMeters": 3000,
+              "toleranceMeters": 1,
+              "errorMeters": 0.999502420425415,
+              "sourceTriangles": 20169,
+              "triangles": 5701
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 3000,
+              "distanceMaxMeters": 8000,
+              "toleranceMeters": 3,
+              "errorMeters": 2.9694976806640625,
+              "sourceTriangles": 37033,
+              "triangles": 9641
+            },
+            {
+              "kind": "distance band",
+              "distanceMinMeters": 8000,
+              "distanceMaxMeters": 20000,
+              "toleranceMeters": 8,
+              "errorMeters": 7.969968795776367,
+              "sourceTriangles": 59438,
+              "triangles": 11770
+            }
+          ],
+          "maxSourceVertexDistanceMeters": 12.729422230423694,
+          "maxAngularErrorRadians": 0.0009957574071624842,
+          "verifiedSourceVertices": 69423,
+          "lockedBoundaryEdges": 1068,
+          "protectedTriangles": 6540,
+          "attributes": [
+            "POSITION",
+            "NORMAL",
+            "_HABITAT",
+            "_SEAM",
+            "_SNOW"
+          ],
+          "sourceMaterial": "V98 Seamless V70_Forest_Depth_ENV_V30_Depth_ENV_V12_Distant_ENV_V10_Forest_Rock_Landscape_Meadow_Seam"
+        }
+      ]
+    }
+  ]
+}

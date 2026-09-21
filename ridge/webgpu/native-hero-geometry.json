@@ -1,0 +1,3993 @@
+{
+  "id": "native-hero-geometry",
+  "label": "Native Hero Geometry",
+  "url": "/ridge/webgpu/native-hero-geometry.glb",
+  "bytes": 4908428,
+  "triangles": 137024,
+  "instances": 0,
+  "sourceObjects": 105,
+  "version": 1,
+  "source": "output/blender/renders/Weekender_Black_Oak_4K_V115/regular_06/prepared_scenes/view_06.blend",
+  "sourceSha256": "f80290fb58a0256ea744607224ae222aa8902550a0db3153c37d20502c3415f3",
+  "category": "geometry-patch",
+  "sourceRevision": "V115",
+  "replacesSourceObjects": [
+    "SITE_V5_HotTub_Floor_Drain",
+    "SITE_V5_HotTub_Jet_01_Escutcheon",
+    "SITE_V5_HotTub_Jet_01_Orifice",
+    "SITE_V5_HotTub_Jet_02_Escutcheon",
+    "SITE_V5_HotTub_Jet_02_Orifice",
+    "SITE_V5_HotTub_Jet_03_Escutcheon",
+    "SITE_V5_HotTub_Jet_03_Orifice",
+    "SITE_V5_HotTub_Jet_04_Escutcheon",
+    "SITE_V5_HotTub_Jet_04_Orifice",
+    "SITE_V5_HotTub_Jet_05_Escutcheon",
+    "SITE_V5_HotTub_Jet_05_Orifice",
+    "SITE_V5_HotTub_Jet_06_Escutcheon",
+    "SITE_V5_HotTub_Jet_06_Orifice",
+    "SITE_V5_HotTub_Jet_07_Escutcheon",
+    "SITE_V5_HotTub_Jet_07_Orifice",
+    "SITE_V5_HotTub_Jet_08_Escutcheon",
+    "SITE_V5_HotTub_Jet_08_Orifice",
+    "SITE_V5_HotTub_Rim_Control_1",
+    "SITE_V5_HotTub_Rim_Control_2",
+    "SITE_V5_Solar_Mounting_Rail_1",
+    "SITE_V5_Solar_Mounting_Rail_2",
+    "SITE_V5_Solar_Panel_01_Backsheet",
+    "SITE_V5_Solar_Panel_01_Cells",
+    "SITE_V5_Solar_Panel_01_Frame",
+    "SITE_V5_Solar_Panel_02_Backsheet",
+    "SITE_V5_Solar_Panel_02_Cells",
+    "SITE_V5_Solar_Panel_02_Frame",
+    "SITE_V5_Solar_Panel_03_Backsheet",
+    "SITE_V5_Solar_Panel_03_Cells",
+    "SITE_V5_Solar_Panel_03_Frame",
+    "SITE_V5_Solar_Panel_04_Backsheet",
+    "SITE_V5_Solar_Panel_04_Cells",
+    "SITE_V5_Solar_Panel_04_Frame",
+    "SITE_V5_Solar_Panel_05_Backsheet",
+    "SITE_V5_Solar_Panel_05_Cells",
+    "SITE_V5_Solar_Panel_05_Frame",
+    "SITE_V5_Solar_Panel_06_Backsheet",
+    "SITE_V5_Solar_Panel_06_Cells",
+    "SITE_V5_Solar_Panel_06_Frame",
+    "SITE_V5_Solar_Panel_07_Backsheet",
+    "SITE_V5_Solar_Panel_07_Cells",
+    "SITE_V5_Solar_Panel_07_Frame",
+    "V10_Loft_Reading_Adjustable_Body",
+    "V10_Loft_Reading_Backplate",
+    "V10_Loft_Reading_Luminous_Lens",
+    "V10_Loft_Reading_Support_Arm",
+    "V15_Walkway_Guard_Posts",
+    "V15_Walkway_Handrail_00_0",
+    "V15_Walkway_Handrail_01_0",
+    "V15_Walkway_Handrail_01_1",
+    "V15_Walkway_Handrail_02_0",
+    "V15_Walkway_Handrail_03_0",
+    "V15_Walkway_Handrail_03_1",
+    "V15_Walkway_Handrail_04_0",
+    "V15_Walkway_Handrail_05_0",
+    "V15_Walkway_Handrail_06_0",
+    "V15_Walkway_Handrail_07_0",
+    "V15_Walkway_Handrail_07_1",
+    "V15_Walkway_Handrail_07_2",
+    "V15_Walkway_Handrail_07_3",
+    "V15_Walkway_Handrail_09_0",
+    "V15_Walkway_Handrail_09_1",
+    "V15_Walkway_Handrail_09_2",
+    "V15_Walkway_Handrail_09_3",
+    "V15_Walkway_Handrail_10_0",
+    "V15_Walkway_Main_End_Bands",
+    "V15_Walkway_Main_Grating",
+    "V15_Walkway_Main_North_Channel",
+    "V15_Walkway_Main_North_Flush_Band",
+    "V15_Walkway_Main_South_Channel",
+    "V15_Walkway_Main_South_Flush_Band",
+    "V15_Walkway_Spur_far_0_0_Channel",
+    "V15_Walkway_Spur_far_0_Flush_Band",
+    "V15_Walkway_Spur_far_1_0_Channel",
+    "V15_Walkway_Spur_far_1_Flush_Band",
+    "V15_Walkway_Spur_far_Grating",
+    "V15_Walkway_Spur_long_0_0_Channel",
+    "V15_Walkway_Spur_long_0_1_Channel",
+    "V15_Walkway_Spur_long_0_Flush_Band",
+    "V15_Walkway_Spur_long_1_0_Channel",
+    "V15_Walkway_Spur_long_1_1_Channel",
+    "V15_Walkway_Spur_long_1_Flush_Band",
+    "V15_Walkway_Spur_long_Grating",
+    "V15_Walkway_Spur_long_Step_Riser",
+    "V15_Walkway_Spur_middle_0_0_Channel",
+    "V15_Walkway_Spur_middle_0_Flush_Band",
+    "V15_Walkway_Spur_middle_1_0_Channel",
+    "V15_Walkway_Spur_middle_1_Flush_Band",
+    "V15_Walkway_Spur_middle_Grating",
+    "V15_Walkway_Spur_middle_Step_Riser",
+    "V5_Whiskey_Cocktail_1_Large_Clear_Ice",
+    "V5_Whiskey_Cocktail_2_Large_Clear_Ice",
+    "V73_Loft_Soft_Draped_Throw",
+    "V8_Portable_Lantern_Hearth_Glass_Pane_1",
+    "V8_Portable_Lantern_Hearth_Glass_Pane_2",
+    "V8_Portable_Lantern_Hearth_Glass_Pane_3",
+    "V8_Portable_Lantern_Hearth_Glass_Pane_4",
+    "V8_Portable_Lantern_Hearth_Glass_Pane_5",
+    "V8_Portable_Lantern_Hearth_Glass_Pane_6",
+    "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_1",
+    "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_2",
+    "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_3",
+    "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_4",
+    "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_5",
+    "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_6"
+  ],
+  "geometryOnly": true,
+  "sourceUnchanged": true,
+  "rendered": false,
+  "sourceTriangles": 31240,
+  "rows": [
+    {
+      "object": "SITE_V5_HotTub_Floor_Drain",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -15.184999465942383,
+          -13.385000228881836,
+          -0.9014999866485596
+        ],
+        "max": [
+          -15.114999771118164,
+          -13.315000534057617,
+          -0.8984999656677246
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_01_Escutcheon",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -14.46242618560791,
+          -13.236589431762695,
+          -0.3251346945762634
+        ],
+        "max": [
+          -14.444859504699707,
+          -13.186382293701172,
+          -0.2748653292655945
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_01_Orifice",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Dark_Orifice"
+      ],
+      "bounds": {
+        "min": [
+          -14.464194297790527,
+          -13.224715232849121,
+          -0.31170889735221863
+        ],
+        "max": [
+          -14.454839706420898,
+          -13.200592994689941,
+          -0.2875724136829376
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_02_Escutcheon",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -14.778087615966797,
+          -12.77651309967041,
+          -0.3250662088394165
+        ],
+        "max": [
+          -14.733001708984375,
+          -12.742801666259766,
+          -0.2749338150024414
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_02_Orifice",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Dark_Orifice"
+      ],
+      "bounds": {
+        "min": [
+          -14.76980209350586,
+          -12.772998809814453,
+          -0.3116760551929474
+        ],
+        "max": [
+          -14.747941970825195,
+          -12.756275177001953,
+          -0.28760525584220886
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_03_Escutcheon",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -15.313619613647461,
+          -12.662428855895996,
+          -0.3251321315765381
+        ],
+        "max": [
+          -15.263408660888672,
+          -12.644855499267578,
+          -0.2748678922653198
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_03_Orifice",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Dark_Orifice"
+      ],
+      "bounds": {
+        "min": [
+          -15.299407958984375,
+          -12.66419506072998,
+          -0.31170764565467834
+        ],
+        "max": [
+          -15.275283813476562,
+          -12.654837608337402,
+          -0.2875736653804779
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_04_Escutcheon",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -15.757198333740234,
+          -12.97808837890625,
+          -0.3250662088394165
+        ],
+        "max": [
+          -15.72348690032959,
+          -12.933002471923828,
+          -0.2749338150024414
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_04_Orifice",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Dark_Orifice"
+      ],
+      "bounds": {
+        "min": [
+          -15.743724822998047,
+          -12.969802856445312,
+          -0.3116760551929474
+        ],
+        "max": [
+          -15.727001190185547,
+          -12.947942733764648,
+          -0.28760525584220886
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_05_Escutcheon",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -15.855144500732422,
+          -13.513619422912598,
+          -0.3251321315765381
+        ],
+        "max": [
+          -15.837571144104004,
+          -13.463408470153809,
+          -0.2748678922653198
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_05_Orifice",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Dark_Orifice"
+      ],
+      "bounds": {
+        "min": [
+          -15.845162391662598,
+          -13.499407768249512,
+          -0.31170764565467834
+        ],
+        "max": [
+          -15.83580493927002,
+          -13.4752836227417,
+          -0.2875736653804779
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_06_Escutcheon",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -15.567022323608398,
+          -13.95720100402832,
+          -0.3250351548194885
+        ],
+        "max": [
+          -15.521886825561523,
+          -13.923486709594727,
+          -0.2749648690223694
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_06_Orifice",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Dark_Orifice"
+      ],
+      "bounds": {
+        "min": [
+          -15.552070617675781,
+          -13.9437255859375,
+          -0.31166112422943115
+        ],
+        "max": [
+          -15.530183792114258,
+          -13.927001953125,
+          -0.2876201868057251
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_07_Escutcheon",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -15.036589622497559,
+          -14.055140495300293,
+          -0.3251346945762634
+        ],
+        "max": [
+          -14.986382484436035,
+          -14.03757381439209,
+          -0.2748653292655945
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_07_Orifice",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Dark_Orifice"
+      ],
+      "bounds": {
+        "min": [
+          -15.024715423583984,
+          -14.045160293579102,
+          -0.31170889735221863
+        ],
+        "max": [
+          -15.000593185424805,
+          -14.035805702209473,
+          -0.2875724136829376
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_08_Escutcheon",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -14.576513290405273,
+          -13.767023086547852,
+          -0.3250351548194885
+        ],
+        "max": [
+          -14.54279899597168,
+          -13.721887588500977,
+          -0.2749648690223694
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Jet_08_Orifice",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Dark_Orifice"
+      ],
+      "bounds": {
+        "min": [
+          -14.572998046875,
+          -13.752071380615234,
+          -0.31166112422943115
+        ],
+        "max": [
+          -14.5562744140625,
+          -13.730184555053711,
+          -0.2876201868057251
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Rim_Control_1",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -15.597433090209961,
+          -13.961329460144043,
+          -0.07999999821186066
+        ],
+        "max": [
+          -15.57943344116211,
+          -13.943329811096191,
+          -0.07400000095367432
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_HotTub_Rim_Control_2",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 64,
+      "evaluatedVertices": 192,
+      "nativeTriangles": 124,
+      "evaluatedTriangles": 380,
+      "modifiers": [
+        {
+          "name": "Rounded metal edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0010000000474974513,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_HotTub_Jet_Stainless"
+      ],
+      "bounds": {
+        "min": [
+          -15.522173881530762,
+          -14.00948429107666,
+          -0.07999999821186066
+        ],
+        "max": [
+          -15.50417423248291,
+          -13.991484642028809,
+          -0.07400000095367432
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Mounting_Rail_1",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Soft manufactured edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.003000000026077032,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Anodized_Frame"
+      ],
+      "bounds": {
+        "min": [
+          -15.196649551391602,
+          -2.5496468544006348,
+          6.512679100036621
+        ],
+        "max": [
+          -3.7186503410339355,
+          -2.494044780731201,
+          6.57131290435791
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Mounting_Rail_2",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Soft manufactured edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.003000000026077032,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Anodized_Frame"
+      ],
+      "bounds": {
+        "min": [
+          -15.196649551391602,
+          -1.855703592300415,
+          6.822587966918945
+        ],
+        "max": [
+          -3.7186503410339355,
+          -1.8001019954681396,
+          6.881219863891602
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_01_Backsheet",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 8,
+      "evaluatedVertices": 8,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 12,
+      "modifiers": [],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Backplate"
+      ],
+      "bounds": {
+        "min": [
+          -15.30264949798584,
+          -2.687978506088257,
+          6.528694152832031
+        ],
+        "max": [
+          -13.680649757385254,
+          -1.707930326461792,
+          6.96856689453125
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_01_Cells",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 480,
+      "evaluatedVertices": 480,
+      "nativeTriangles": 360,
+      "evaluatedTriangles": 360,
+      "modifiers": [],
+      "materials": [
+        "V68_PV_Glass_Restrained_Highlight"
+      ],
+      "bounds": {
+        "min": [
+          -15.286649703979492,
+          -2.673736333847046,
+          6.538778781890869
+        ],
+        "max": [
+          -13.696649551391602,
+          -1.7241300344467163,
+          6.962864398956299
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_01_Frame",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Soft manufactured edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0020000000949949026,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Anodized_Frame"
+      ],
+      "bounds": {
+        "min": [
+          -15.316649436950684,
+          -2.699131727218628,
+          6.491709232330322
+        ],
+        "max": [
+          -13.66664981842041,
+          -1.6816080808639526,
+          6.971583843231201
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_02_Backsheet",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 8,
+      "evaluatedVertices": 8,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 12,
+      "modifiers": [],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Backplate"
+      ],
+      "bounds": {
+        "min": [
+          -13.624650001525879,
+          -2.687978506088257,
+          6.528694152832031
+        ],
+        "max": [
+          -12.002650260925293,
+          -1.707930326461792,
+          6.96856689453125
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_02_Cells",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 480,
+      "evaluatedVertices": 480,
+      "nativeTriangles": 360,
+      "evaluatedTriangles": 360,
+      "modifiers": [],
+      "materials": [
+        "V68_PV_Glass_Restrained_Highlight"
+      ],
+      "bounds": {
+        "min": [
+          -13.608650207519531,
+          -2.673736333847046,
+          6.538778781890869
+        ],
+        "max": [
+          -12.01865005493164,
+          -1.7241300344467163,
+          6.962864398956299
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_02_Frame",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Soft manufactured edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0020000000949949026,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Anodized_Frame"
+      ],
+      "bounds": {
+        "min": [
+          -13.638649940490723,
+          -2.699131727218628,
+          6.491709232330322
+        ],
+        "max": [
+          -11.98865032196045,
+          -1.6816080808639526,
+          6.971583843231201
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_03_Backsheet",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 8,
+      "evaluatedVertices": 8,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 12,
+      "modifiers": [],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Backplate"
+      ],
+      "bounds": {
+        "min": [
+          -11.946650505065918,
+          -2.687978506088257,
+          6.528694152832031
+        ],
+        "max": [
+          -10.324650764465332,
+          -1.707930326461792,
+          6.96856689453125
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_03_Cells",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 480,
+      "evaluatedVertices": 480,
+      "nativeTriangles": 360,
+      "evaluatedTriangles": 360,
+      "modifiers": [],
+      "materials": [
+        "V68_PV_Glass_Restrained_Highlight"
+      ],
+      "bounds": {
+        "min": [
+          -11.93065071105957,
+          -2.673736333847046,
+          6.538778781890869
+        ],
+        "max": [
+          -10.34065055847168,
+          -1.7241300344467163,
+          6.962864398956299
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_03_Frame",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Soft manufactured edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0020000000949949026,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Anodized_Frame"
+      ],
+      "bounds": {
+        "min": [
+          -11.960650444030762,
+          -2.699131727218628,
+          6.491709232330322
+        ],
+        "max": [
+          -10.310650825500488,
+          -1.6816080808639526,
+          6.971583843231201
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_04_Backsheet",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 8,
+      "evaluatedVertices": 8,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 12,
+      "modifiers": [],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Backplate"
+      ],
+      "bounds": {
+        "min": [
+          -10.26865005493164,
+          -2.687978506088257,
+          6.528694152832031
+        ],
+        "max": [
+          -8.646650314331055,
+          -1.707930326461792,
+          6.96856689453125
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_04_Cells",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 480,
+      "evaluatedVertices": 480,
+      "nativeTriangles": 360,
+      "evaluatedTriangles": 360,
+      "modifiers": [],
+      "materials": [
+        "V68_PV_Glass_Restrained_Highlight"
+      ],
+      "bounds": {
+        "min": [
+          -10.252650260925293,
+          -2.673736333847046,
+          6.538778781890869
+        ],
+        "max": [
+          -8.662650108337402,
+          -1.7241300344467163,
+          6.962864398956299
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_04_Frame",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Soft manufactured edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0020000000949949026,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Anodized_Frame"
+      ],
+      "bounds": {
+        "min": [
+          -10.282649993896484,
+          -2.699131727218628,
+          6.491709232330322
+        ],
+        "max": [
+          -8.632650375366211,
+          -1.6816080808639526,
+          6.971583843231201
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_05_Backsheet",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 8,
+      "evaluatedVertices": 8,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 12,
+      "modifiers": [],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Backplate"
+      ],
+      "bounds": {
+        "min": [
+          -8.59065055847168,
+          -2.687978506088257,
+          6.528694152832031
+        ],
+        "max": [
+          -6.9686503410339355,
+          -1.707930326461792,
+          6.96856689453125
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_05_Cells",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 480,
+      "evaluatedVertices": 480,
+      "nativeTriangles": 360,
+      "evaluatedTriangles": 360,
+      "modifiers": [],
+      "materials": [
+        "V68_PV_Glass_Restrained_Highlight"
+      ],
+      "bounds": {
+        "min": [
+          -8.574649810791016,
+          -2.673736333847046,
+          6.538778781890869
+        ],
+        "max": [
+          -6.984650135040283,
+          -1.7241300344467163,
+          6.962864398956299
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_05_Frame",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Soft manufactured edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0020000000949949026,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Anodized_Frame"
+      ],
+      "bounds": {
+        "min": [
+          -8.604650497436523,
+          -2.699131727218628,
+          6.491709232330322
+        ],
+        "max": [
+          -6.954650402069092,
+          -1.6816080808639526,
+          6.971583843231201
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_06_Backsheet",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 8,
+      "evaluatedVertices": 8,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 12,
+      "modifiers": [],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Backplate"
+      ],
+      "bounds": {
+        "min": [
+          -6.912650108337402,
+          -2.687978506088257,
+          6.528694152832031
+        ],
+        "max": [
+          -5.290650367736816,
+          -1.707930326461792,
+          6.96856689453125
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_06_Cells",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 480,
+      "evaluatedVertices": 480,
+      "nativeTriangles": 360,
+      "evaluatedTriangles": 360,
+      "modifiers": [],
+      "materials": [
+        "V68_PV_Glass_Restrained_Highlight"
+      ],
+      "bounds": {
+        "min": [
+          -6.896650314331055,
+          -2.673736333847046,
+          6.538778781890869
+        ],
+        "max": [
+          -5.306650161743164,
+          -1.7241300344467163,
+          6.962864398956299
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_06_Frame",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Soft manufactured edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0020000000949949026,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Anodized_Frame"
+      ],
+      "bounds": {
+        "min": [
+          -6.926650047302246,
+          -2.699131727218628,
+          6.491709232330322
+        ],
+        "max": [
+          -5.276650428771973,
+          -1.6816080808639526,
+          6.971583843231201
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_07_Backsheet",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 8,
+      "evaluatedVertices": 8,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 12,
+      "modifiers": [],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Backplate"
+      ],
+      "bounds": {
+        "min": [
+          -5.234650135040283,
+          -2.687978506088257,
+          6.528694152832031
+        ],
+        "max": [
+          -3.6126503944396973,
+          -1.707930326461792,
+          6.96856689453125
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_07_Cells",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-float32-clearance",
+      "nativeVertices": 480,
+      "evaluatedVertices": 480,
+      "nativeTriangles": 360,
+      "evaluatedTriangles": 360,
+      "modifiers": [],
+      "materials": [
+        "V68_PV_Glass_Restrained_Highlight"
+      ],
+      "bounds": {
+        "min": [
+          -5.2186503410339355,
+          -2.673736333847046,
+          6.538778781890869
+        ],
+        "max": [
+          -3.628650188446045,
+          -1.7241300344467163,
+          6.962864398956299
+        ]
+      }
+    },
+    {
+      "object": "SITE_V5_Solar_Panel_07_Frame",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Soft manufactured edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.0020000000949949026,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "LOOKDEV_V5_Solar_Black_Anodized_Frame"
+      ],
+      "bounds": {
+        "min": [
+          -5.248650074005127,
+          -2.699131727218628,
+          6.491709232330322
+        ],
+        "max": [
+          -3.5986502170562744,
+          -1.6816080808639526,
+          6.971583843231201
+        ]
+      }
+    },
+    {
+      "object": "V10_Loft_Reading_Adjustable_Body",
+      "sourceAsset": "interior",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 96,
+      "evaluatedVertices": 384,
+      "nativeTriangles": 188,
+      "evaluatedTriangles": 764,
+      "modifiers": [
+        {
+          "name": "Small manufactured edge radii",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 3,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V10_Reading_Fixture_Blackened_Steel"
+      ],
+      "bounds": {
+        "min": [
+          -4.977279186248779,
+          -4.675490379333496,
+          5.013030052185059
+        ],
+        "max": [
+          -4.87719202041626,
+          -4.5387067794799805,
+          5.145927429199219
+        ]
+      }
+    },
+    {
+      "object": "V10_Loft_Reading_Backplate",
+      "sourceAsset": "interior",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 96,
+      "evaluatedVertices": 384,
+      "nativeTriangles": 188,
+      "evaluatedTriangles": 764,
+      "modifiers": [
+        {
+          "name": "Small manufactured edge radii",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 3,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V10_Reading_Fixture_Blackened_Steel"
+      ],
+      "bounds": {
+        "min": [
+          -4.980942249298096,
+          -4.744358062744141,
+          5.164891242980957
+        ],
+        "max": [
+          -4.869058132171631,
+          -4.63991641998291,
+          5.216845989227295
+        ]
+      }
+    },
+    {
+      "object": "V10_Loft_Reading_Luminous_Lens",
+      "sourceAsset": "interior",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 96,
+      "evaluatedVertices": 384,
+      "nativeTriangles": 188,
+      "evaluatedTriangles": 764,
+      "modifiers": [
+        {
+          "name": "Small manufactured edge radii",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 3,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V10_Reading_Fixture_3000K_Diffuser"
+      ],
+      "bounds": {
+        "min": [
+          -4.971412658691406,
+          -4.579888343811035,
+          5.017119407653809
+        ],
+        "max": [
+          -4.887636184692383,
+          -4.539501190185547,
+          5.09136962890625
+        ]
+      }
+    },
+    {
+      "object": "V10_Loft_Reading_Support_Arm",
+      "sourceAsset": "interior",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 96,
+      "evaluatedVertices": 384,
+      "nativeTriangles": 188,
+      "evaluatedTriangles": 764,
+      "modifiers": [
+        {
+          "name": "Small manufactured edge radii",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 3,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V10_Reading_Fixture_Blackened_Steel"
+      ],
+      "bounds": {
+        "min": [
+          -4.934989929199219,
+          -4.699138641357422,
+          5.100542068481445
+        ],
+        "max": [
+          -4.915010452270508,
+          -4.644765853881836,
+          5.190800666809082
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Guard_Posts",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 352,
+      "evaluatedVertices": 2464,
+      "nativeTriangles": 528,
+      "evaluatedTriangles": 4752,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          -3.12270188331604,
+          -2.459012985229492,
+          0.7671785354614258
+        ],
+        "max": [
+          9.87563705444336,
+          7.16836404800415,
+          2.208625078201294
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_00_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          -3.116352081298828,
+          -1.3146278858184814,
+          2.208625078201294
+        ],
+        "max": [
+          7.1455769538879395,
+          -1.2611624002456665,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_01_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          7.014806747436523,
+          -1.8936958312988281,
+          2.208625078201294
+        ],
+        "max": [
+          7.170323371887207,
+          -1.285071849822998,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_01_1",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          6.955084800720215,
+          -2.2318828105926514,
+          2.208625078201294
+        ],
+        "max": [
+          7.0643110275268555,
+          -1.885383129119873,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_02_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          6.975680828094482,
+          -2.4579086303710938,
+          2.208625078201294
+        ],
+        "max": [
+          8.147276878356934,
+          -2.202974319458008,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_03_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.118369102478027,
+          -2.4373128414154053,
+          2.208625078201294
+        ],
+        "max": [
+          8.26381778717041,
+          -1.8856947422027588,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_03_1",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.214314460754395,
+          -1.8940074443817139,
+          2.208625078201294
+        ],
+        "max": [
+          8.369829177856445,
+          -1.2853834629058838,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_04_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.345070838928223,
+          -1.3153305053710938,
+          2.208625078201294
+        ],
+        "max": [
+          9.849982261657715,
+          -1.264140248298645,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_05_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          9.824575424194336,
+          -1.2899370193481445,
+          2.208625078201294
+        ],
+        "max": [
+          9.875635147094727,
+          -0.29258251190185547,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_06_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.521188735961914,
+          -0.3179883360862732,
+          2.208625078201294
+        ],
+        "max": [
+          9.850241661071777,
+          -0.2668438255786896,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_07_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.496443748474121,
+          -0.2963997423648834,
+          2.208625078201294
+        ],
+        "max": [
+          8.651958465576172,
+          0.3122241497039795,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_07_1",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.602455139160156,
+          0.30391156673431396,
+          2.208625078201294
+        ],
+        "max": [
+          9.446365356445312,
+          4.810691833496094,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_07_2",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          9.39686107635498,
+          4.802379131317139,
+          1.9549708366394043
+        ],
+        "max": [
+          9.633893966674805,
+          5.8726091384887695,
+          2.2209813594818115
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_07_3",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          9.584390640258789,
+          5.8642964363098145,
+          1.7009657621383667
+        ],
+        "max": [
+          9.825336456298828,
+          6.956680774688721,
+          1.9669898748397827
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_09_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.421107292175293,
+          6.069726467132568,
+          1.7009657621383667
+        ],
+        "max": [
+          8.662053108215332,
+          7.162110805511475,
+          1.9669898748397827
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_09_1",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.233576774597168,
+          5.007809162139893,
+          1.9549708366394043
+        ],
+        "max": [
+          8.470610618591309,
+          6.078039169311523,
+          2.2209813594818115
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_09_2",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          7.402948379516602,
+          0.3042232096195221,
+          2.208625078201294
+        ],
+        "max": [
+          8.2830810546875,
+          5.016121864318848,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_09_3",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          7.296936511993408,
+          -0.2960880994796753,
+          2.208625078201294
+        ],
+        "max": [
+          7.452452659606934,
+          0.3125357925891876,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Handrail_10_0",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          -2.2132415771484375,
+          -0.3173314034938812,
+          2.208625078201294
+        ],
+        "max": [
+          7.321694374084473,
+          -0.26405489444732666,
+          2.221325159072876
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Main_End_Bands",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 24,
+      "evaluatedTriangles": 216,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          -3.14172625541687,
+          -1.2167116403579712,
+          1.2751750946044922
+        ],
+        "max": [
+          9.875601768493652,
+          -0.41546201705932617,
+          1.3069250583648682
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Main_Grating",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 3456,
+      "evaluatedVertices": 24192,
+      "nativeTriangles": 5184,
+      "evaluatedTriangles": 46656,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V101 Walkway uniform satin coating"
+      ],
+      "bounds": {
+        "min": [
+          -3.1336309909820557,
+          -1.2167103290557861,
+          1.2751750946044922
+        ],
+        "max": [
+          9.87083625793457,
+          -0.4154641330242157,
+          1.3069250583648682
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Main_North_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          -3.141519069671631,
+          -0.41884323954582214,
+          1.0589250326156616
+        ],
+        "max": [
+          9.875641822814941,
+          -0.26381373405456543,
+          1.2751750946044922
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Main_North_Flush_Band",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          -3.141519069671631,
+          -0.41884323954582214,
+          1.2751750946044922
+        ],
+        "max": [
+          9.875641822814941,
+          -0.26381373405456543,
+          1.3069250583648682
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Main_South_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          -3.141752004623413,
+          -1.315337061882019,
+          1.0589250326156616
+        ],
+        "max": [
+          9.875394821166992,
+          -1.2133303880691528,
+          1.2751750946044922
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Main_South_Flush_Band",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          -3.141752004623413,
+          -1.315337061882019,
+          1.2751750946044922
+        ],
+        "max": [
+          9.875394821166992,
+          -1.2133303880691528,
+          1.3069250583648682
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_far_0_0_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          9.348599433898926,
+          5.167489051818848,
+          0.55092853307724
+        ],
+        "max": [
+          9.829752922058105,
+          7.001602649688721,
+          0.7671785354614258
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_far_0_Flush_Band",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          9.423639297485352,
+          5.167489051818848,
+          0.7671785354614258
+        ],
+        "max": [
+          9.829752922058105,
+          6.988350868225098,
+          0.7989285588264465
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_far_1_0_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.298054695129395,
+          5.3530097007751465,
+          0.55092853307724
+        ],
+        "max": [
+          8.779208183288574,
+          7.187123775482178,
+          0.7671785354614258
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_far_1_Flush_Band",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.298054695129395,
+          5.3662614822387695,
+          0.7671785354614258
+        ],
+        "max": [
+          8.704167366027832,
+          7.187123775482178,
+          0.7989285588264465
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_far_Grating",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 344,
+      "evaluatedVertices": 2408,
+      "nativeTriangles": 516,
+      "evaluatedTriangles": 4644,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V101 Walkway uniform satin coating"
+      ],
+      "bounds": {
+        "min": [
+          8.479920387268066,
+          5.71606969833374,
+          0.7671785354614258
+        ],
+        "max": [
+          9.738391876220703,
+          7.151040554046631,
+          0.7989285588264465
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_long_0_0_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.001213073730469,
+          -2.4623258113861084,
+          1.0589250326156616
+        ],
+        "max": [
+          8.366122245788574,
+          -1.3149020671844482,
+          1.2751750946044922
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_long_0_1_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.38390064239502,
+          -0.26685091853141785,
+          1.0589250326156616
+        ],
+        "max": [
+          9.445307731628418,
+          4.824615001678467,
+          1.2751750946044922
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_long_0_Flush_Band",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 24,
+      "evaluatedTriangles": 216,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.076252937316895,
+          -2.4623258113861084,
+          1.2751750946044922
+        ],
+        "max": [
+          9.445307731628418,
+          4.811363697052002,
+          1.3069250583648682
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_long_1_0_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          6.950667858123779,
+          -2.2768046855926514,
+          1.0589250326156616
+        ],
+        "max": [
+          7.28286600112915,
+          -1.3146207332611084,
+          1.2751750946044922
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_long_1_1_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          7.300642967224121,
+          -0.26656946539878845,
+          1.0589250326156616
+        ],
+        "max": [
+          8.394762992858887,
+          5.010136127471924,
+          1.2751750946044922
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_long_1_Flush_Band",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 24,
+      "evaluatedTriangles": 216,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          6.950667858123779,
+          -2.2635531425476074,
+          1.2751750946044922
+        ],
+        "max": [
+          8.319723129272461,
+          5.010136127471924,
+          1.3069250583648682
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_long_Grating",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 1736,
+      "evaluatedVertices": 12056,
+      "nativeTriangles": 2604,
+      "evaluatedTriangles": 23244,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V101 Walkway uniform satin coating"
+      ],
+      "bounds": {
+        "min": [
+          7.04060173034668,
+          -2.4343271255493164,
+          1.2751750946044922
+        ],
+        "max": [
+          9.35863971710205,
+          5.000629425048828,
+          1.3069250583648682
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_long_Step_Riser",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.232473373413086,
+          4.796125888824463,
+          1.052927017211914
+        ],
+        "max": [
+          9.446365356445312,
+          5.016121864318848,
+          1.2751750946044922
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_middle_0_0_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          9.156376838684082,
+          4.078995227813721,
+          0.8049270510673523
+        ],
+        "max": [
+          9.637530326843262,
+          5.913108825683594,
+          1.021177053451538
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_middle_0_Flush_Band",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          9.231416702270508,
+          4.078995227813721,
+          1.021177053451538
+        ],
+        "max": [
+          9.637530326843262,
+          5.899857521057129,
+          1.052927017211914
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_middle_1_0_Channel",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 16,
+      "evaluatedVertices": 112,
+      "nativeTriangles": 28,
+      "evaluatedTriangles": 220,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.10583209991455,
+          4.264516353607178,
+          0.8049270510673523
+        ],
+        "max": [
+          8.58698558807373,
+          6.098629951477051,
+          1.021177053451538
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_middle_1_Flush_Band",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.10583209991455,
+          4.277768135070801,
+          1.021177053451538
+        ],
+        "max": [
+          8.511945724487305,
+          6.098629951477051,
+          1.052927017211914
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_middle_Grating",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 344,
+      "evaluatedVertices": 2408,
+      "nativeTriangles": 516,
+      "evaluatedTriangles": 4644,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V101 Walkway uniform satin coating"
+      ],
+      "bounds": {
+        "min": [
+          8.287697792053223,
+          4.6275763511657715,
+          1.021177053451538
+        ],
+        "max": [
+          9.546168327331543,
+          6.062546730041504,
+          1.052927017211914
+        ]
+      }
+    },
+    {
+      "object": "V15_Walkway_Spur_middle_Step_Riser",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "V52 Millimetre steel edge radius",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.001500000013038516,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "Screen Shot 2017-08-24 at 11.34.44 AM"
+      ],
+      "bounds": {
+        "min": [
+          8.420002937316895,
+          5.858043193817139,
+          0.7989285588264465
+        ],
+        "max": [
+          9.633893966674805,
+          6.078039169311523,
+          1.021177053451538
+        ]
+      }
+    },
+    {
+      "object": "V5_Whiskey_Cocktail_1_Large_Clear_Ice",
+      "sourceAsset": "interior",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 216,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 428,
+      "modifiers": [
+        {
+          "name": "Soft polished edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.006000000052154064,
+          "segments": 5,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        },
+        {
+          "name": "Weighted broad-face normals",
+          "type": "WEIGHTED_NORMAL",
+          "renderEnabled": true,
+          "keep_sharp": true,
+          "weight": 50
+        }
+      ],
+      "materials": [
+        "V5_Clear_Handcut_Ice"
+      ],
+      "bounds": {
+        "min": [
+          -0.019500000402331352,
+          -0.017500000074505806,
+          -0.017500000074505806
+        ],
+        "max": [
+          0.019500000402331352,
+          0.017500000074505806,
+          0.017500000074505806
+        ]
+      }
+    },
+    {
+      "object": "V5_Whiskey_Cocktail_2_Large_Clear_Ice",
+      "sourceAsset": "interior",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 8,
+      "evaluatedVertices": 216,
+      "nativeTriangles": 12,
+      "evaluatedTriangles": 428,
+      "modifiers": [
+        {
+          "name": "Soft polished edges",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.006000000052154064,
+          "segments": 5,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        },
+        {
+          "name": "Weighted broad-face normals",
+          "type": "WEIGHTED_NORMAL",
+          "renderEnabled": true,
+          "keep_sharp": true,
+          "weight": 50
+        }
+      ],
+      "materials": [
+        "V5_Clear_Handcut_Ice"
+      ],
+      "bounds": {
+        "min": [
+          -0.019500000402331352,
+          -0.017500000074505806,
+          -0.017500000074505806
+        ],
+        "max": [
+          0.019500000402331352,
+          0.017500000074505806,
+          0.017500000074505806
+        ]
+      }
+    },
+    {
+      "object": "V73_Loft_Soft_Draped_Throw",
+      "sourceAsset": "interior",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 7857,
+      "evaluatedVertices": 15714,
+      "nativeTriangles": 15360,
+      "evaluatedTriangles": 31424,
+      "modifiers": [
+        {
+          "name": "Original woven fabric thickness",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.0031752586364746094,
+          "offset": 0,
+          "use_even_offset": false,
+          "use_rim": true
+        }
+      ],
+      "materials": [
+        "V74_Striped_Throw_Continuous_UV"
+      ],
+      "bounds": {
+        "min": [
+          -5.573617935180664,
+          -3.8188226222991943,
+          4.123230457305908
+        ],
+        "max": [
+          -5.191736698150635,
+          -2.46893048286438,
+          4.298736572265625
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_1",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.0011399999493733048,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          0.036324746906757355,
+          -0.0004979827790521085,
+          0.04179999977350235
+        ],
+        "max": [
+          0.07440797984600067,
+          0.06442955136299133,
+          0.21583999693393707
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_2",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.0011399999493733048,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          -0.03723999857902527,
+          0.06336157023906708,
+          0.04179999977350235
+        ],
+        "max": [
+          0.03723999857902527,
+          0.0645015686750412,
+          0.21583999693393707
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_3",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.0011399999493733048,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          -0.07440797984600067,
+          -0.0004979827790521085,
+          0.04179999977350235
+        ],
+        "max": [
+          -0.036324743181467056,
+          0.06442955136299133,
+          0.21583999693393707
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_4",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.0011399999493733048,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          -0.07440797984600067,
+          -0.06442955136299133,
+          0.04179999977350235
+        ],
+        "max": [
+          -0.036324746906757355,
+          0.0004979827790521085,
+          0.21583999693393707
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_5",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.0011399999493733048,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          -0.03723999857902527,
+          -0.0645015686750412,
+          0.04179999977350235
+        ],
+        "max": [
+          0.03723999857902527,
+          -0.06336157023906708,
+          0.21583999693393707
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Hearth_Glass_Pane_6",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.0011399999493733048,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          0.036324743181467056,
+          -0.06442955136299133,
+          0.04179999977350235
+        ],
+        "max": [
+          0.07440797984600067,
+          0.0004979827790521085,
+          0.21583999693393707
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_1",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.001500000013038516,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          0.047772981226444244,
+          -0.0006779827526770532,
+          0.054999999701976776
+        ],
+        "max": [
+          0.097927987575531,
+          0.08479847013950348,
+          0.2840000092983246
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_2",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.001500000013038516,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          -0.04899999871850014,
+          0.08337048441171646,
+          0.054999999701976776
+        ],
+        "max": [
+          0.04899999871850014,
+          0.08487048745155334,
+          0.2840000092983246
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_3",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.001500000013038516,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          -0.097927987575531,
+          -0.0006779827526770532,
+          0.054999999701976776
+        ],
+        "max": [
+          -0.047772981226444244,
+          0.08479847013950348,
+          0.2840000092983246
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_4",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.001500000013038516,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          -0.097927987575531,
+          -0.08479847013950348,
+          0.054999999701976776
+        ],
+        "max": [
+          -0.047772981226444244,
+          0.0006779827526770532,
+          0.2840000092983246
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_5",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.001500000013038516,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          -0.04899999871850014,
+          -0.08487048745155334,
+          0.054999999701976776
+        ],
+        "max": [
+          0.04899999871850014,
+          -0.08337048441171646,
+          0.2840000092983246
+        ]
+      }
+    },
+    {
+      "object": "V8_Portable_Lantern_Left_Bench_Floor_Glass_Pane_6",
+      "sourceAsset": "architecture",
+      "geometryPolicy": "native-modifiers",
+      "nativeVertices": 4,
+      "evaluatedVertices": 56,
+      "nativeTriangles": 2,
+      "evaluatedTriangles": 108,
+      "modifiers": [
+        {
+          "name": "Thin clear lantern glass",
+          "type": "SOLIDIFY",
+          "renderEnabled": true,
+          "thickness": 0.001500000013038516,
+          "offset": -1,
+          "use_even_offset": false,
+          "use_rim": true
+        },
+        {
+          "name": "V55 Polished glass edge",
+          "type": "BEVEL",
+          "renderEnabled": true,
+          "width": 0.00018000000272877514,
+          "segments": 2,
+          "limit_method": "ANGLE",
+          "angle_limit": 0.5235987901687622,
+          "affect": "EDGES",
+          "harden_normals": false
+        }
+      ],
+      "materials": [
+        "V8_Lantern_Clear_Glass"
+      ],
+      "bounds": {
+        "min": [
+          0.047772981226444244,
+          -0.08479847013950348,
+          0.054999999701976776
+        ],
+        "max": [
+          0.097927987575531,
+          0.0006779827526770532,
+          0.2840000092983246
+        ]
+      }
+    }
+  ],
+  "seconds": 5.457,
+  "sha256": "4cb84740eed5bc6d96290991a4f179ccfdd961fd9c859d3c8cd0bc47ed103db7",
+  "unpackedBytes": 9559140,
+  "visibilityTransfer": {
+    "attribute": "nativeSkyOcclusion",
+    "primitiveCount": 83,
+    "maximumDistanceMeters": 0.0015878677368172944,
+    "method": "Barycentric interpolation at the nearest triangle of the same native object and material; evaluated normals/UVs preserved",
+    "sourceSha256": "133a4da86db05a4fafb29e90ac6ccebca4b3b9894ae2af3c0fd629bbc6671cd0"
+  },
+  "sourceAssets": [
+    {
+      "id": "architecture",
+      "url": "/ridge/webgpu/architecture.glb",
+      "bytes": 24199404,
+      "sha256": "5021e9e8141a6a8266caa22f5a0b52c4e699c56ff85979cc8d9639ee8bced01b"
+    },
+    {
+      "id": "interior",
+      "url": "/ridge/webgpu/interior.glb",
+      "bytes": 434988,
+      "sha256": "92c8893b0f11de8ba41596526628313ff7ce73881e47939122eca039223a42ed"
+    }
+  ],
+  "compression": {
+    "codec": "EXT_meshopt_compression",
+    "lossless": true,
+    "sourceSha256": "91e4958b9f3afda0e75d3a7f231db212c50bd7e969063efe1b2ff025cb2a80b7"
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "removedDerivedDuplicateTextures": [
+    {
+      "file": "public/ridge/webgpu/textures/96a65ebde2c5e95e7a18.jpg",
+      "bytes": 324011
+    },
+    {
+      "file": "public/ridge/webgpu/textures/96a65ebde2c5e95e7a18.png",
+      "bytes": 924227
+    },
+    {
+      "file": "public/ridge/webgpu/textures/45d91881c98bb788f426.png",
+      "bytes": 1034690
+    },
+    {
+      "file": "public/ridge/webgpu/textures/1bd9310bc6de263d3bb8.png",
+      "bytes": 1083295
+    },
+    {
+      "file": "public/ridge/webgpu/textures/3ce9711e1eacca99a578.png",
+      "bytes": 375216
+    },
+    {
+      "file": "public/ridge/webgpu/textures/19d09cd6917e99927e17.png",
+      "bytes": 2188203
+    },
+    {
+      "file": "public/ridge/webgpu/textures/92ad66bae434298b765f.png",
+      "bytes": 1969276
+    },
+    {
+      "file": "public/ridge/webgpu/textures/f3afbb910a6eac4eb963.jpg",
+      "bytes": 44939
+    },
+    {
+      "file": "public/ridge/webgpu/textures/1f219e2742974aa88aac.png",
+      "bytes": 263724
+    },
+    {
+      "file": "public/ridge/webgpu/textures/7c66de56add6b3cea9c1.png",
+      "bytes": 123424
+    },
+    {
+      "file": "public/ridge/webgpu/textures/f3afbb910a6eac4eb963.png",
+      "bytes": 204082
+    },
+    {
+      "file": "public/ridge/webgpu/textures/1f219e2742974aa88aac.jpg",
+      "bytes": 45852
+    },
+    {
+      "file": "public/ridge/webgpu/textures/4292c1ce242503700c1f.png",
+      "bytes": 851237
+    },
+    {
+      "file": "public/ridge/webgpu/textures/e80e667ee5691e358769.png",
+      "bytes": 2165447
+    },
+    {
+      "file": "public/ridge/webgpu/textures/b6658006c5bd62d530d3.png",
+      "bytes": 1622488
+    },
+    {
+      "file": "public/ridge/webgpu/textures/8b2613a54a31d941bf46.png",
+      "bytes": 1806402
+    },
+    {
+      "file": "public/ridge/webgpu/textures/6805da61ad55be06e9b0.png",
+      "bytes": 942709
+    },
+    {
+      "file": "public/ridge/webgpu/textures/12a0cbc0341be145e6ec.jpg",
+      "bytes": 5300
+    },
+    {
+      "file": "public/ridge/webgpu/textures/55cec5e467fc2db2e10a.jpg",
+      "bytes": 173476
+    },
+    {
+      "file": "public/ridge/webgpu/textures/50139c10ca6748174ebc.png",
+      "bytes": 1961178
+    },
+    {
+      "file": "public/ridge/webgpu/textures/94807299ff052cdc14d5.png",
+      "bytes": 403850
+    },
+    {
+      "file": "public/ridge/webgpu/textures/eaa82b5b155c0e2a5519.png",
+      "bytes": 847186
+    },
+    {
+      "file": "public/ridge/webgpu/textures/6618878c2afa4f2bcd70.png",
+      "bytes": 1618157
+    },
+    {
+      "file": "public/ridge/webgpu/textures/412290819f076053fb8b.png",
+      "bytes": 485733
+    },
+    {
+      "file": "public/ridge/webgpu/textures/bdb6450f9cb087174837.png",
+      "bytes": 204082
+    },
+    {
+      "file": "public/ridge/webgpu/textures/be589050268e9b5967f3.jpg",
+      "bytes": 107513
+    },
+    {
+      "file": "public/ridge/webgpu/textures/e48bee9cef1a8b47dfc6.png",
+      "bytes": 2171723
+    },
+    {
+      "file": "public/ridge/webgpu/textures/08717d4c0f720b3cda1e.png",
+      "bytes": 2391903
+    },
+    {
+      "file": "public/ridge/webgpu/textures/66777eeb070809d2b962.png",
+      "bytes": 1202808
+    },
+    {
+      "file": "public/ridge/webgpu/textures/eb41386a6bf9f096b02d.png",
+      "bytes": 1462777
+    },
+    {
+      "file": "public/ridge/webgpu/textures/7e583d3083c3c3c75183.png",
+      "bytes": 286708
+    },
+    {
+      "file": "public/ridge/webgpu/textures/dcec10eaa0649164803f.png",
+      "bytes": 1906346
+    },
+    {
+      "file": "public/ridge/webgpu/textures/5de86d43658d1929ac80.png",
+      "bytes": 1579883
+    },
+    {
+      "file": "public/ridge/webgpu/textures/7ed1d70fa8ad2ce80135.png",
+      "bytes": 2626224
+    },
+    {
+      "file": "public/ridge/webgpu/textures/c4ffe08ac8608d6d109e.png",
+      "bytes": 993391
+    },
+    {
+      "file": "public/ridge/webgpu/textures/6a885ce97deaefde8f86.png",
+      "bytes": 1553813
+    },
+    {
+      "file": "public/ridge/webgpu/textures/a0bffc2a8a3e93378d0a.png",
+      "bytes": 22318
+    },
+    {
+      "file": "public/ridge/webgpu/textures/ff5ecb374a65cb21bdd0.png",
+      "bytes": 1956131
+    },
+    {
+      "file": "public/ridge/webgpu/textures/70116212645f02571c22.png",
+      "bytes": 290111
+    },
+    {
+      "file": "public/ridge/webgpu/textures/e3c5f0c4f44e04088af7.png",
+      "bytes": 122665
+    },
+    {
+      "file": "public/ridge/webgpu/textures/574254c3724afe2c81b2.png",
+      "bytes": 817811
+    },
+    {
+      "file": "public/ridge/webgpu/textures/780f191f5ad4f20b710b.png",
+      "bytes": 263724
+    },
+    {
+      "file": "public/ridge/webgpu/textures/16feb881c8627094ff1d.png",
+      "bytes": 1921437
+    },
+    {
+      "file": "public/ridge/webgpu/textures/c775036e062ab956b151.jpg",
+      "bytes": 23136
+    },
+    {
+      "file": "public/ridge/webgpu/textures/79bde2eb3769468f75b7.png",
+      "bytes": 609390
+    },
+    {
+      "file": "public/ridge/webgpu/textures/79bde2eb3769468f75b7.jpg",
+      "bytes": 166885
+    },
+    {
+      "file": "public/ridge/webgpu/textures/0eb66e3604d579a55fe0.png",
+      "bytes": 1690265
+    },
+    {
+      "file": "public/ridge/webgpu/textures/f4594a7dd96d89f3c81a.png",
+      "bytes": 120125
+    },
+    {
+      "file": "public/ridge/webgpu/textures/590427492c77f5d85cb1.png",
+      "bytes": 1121232
+    },
+    {
+      "file": "public/ridge/webgpu/textures/a89f91ff0d0855b45582.png",
+      "bytes": 423163
+    },
+    {
+      "file": "public/ridge/webgpu/textures/e314b3152eb47dcbcad4.png",
+      "bytes": 2398595
+    },
+    {
+      "file": "public/ridge/webgpu/textures/1439f0a10a4945a807d5.png",
+      "bytes": 2311140
+    },
+    {
+      "file": "public/ridge/webgpu/textures/d497a1812bafc2de5840.png",
+      "bytes": 511256
+    },
+    {
+      "file": "public/ridge/webgpu/textures/1929fd1da2e0d39c7012.png",
+      "bytes": 1689807
+    },
+    {
+      "file": "public/ridge/webgpu/textures/e67aa9de52e1bd54e513.png",
+      "bytes": 1150274
+    },
+    {
+      "file": "public/ridge/webgpu/textures/6c39bbb4f09badbaf84d.png",
+      "bytes": 516658
+    },
+    {
+      "file": "public/ridge/webgpu/textures/377ee88d1a432b0999ae.png",
+      "bytes": 708053
+    },
+    {
+      "file": "public/ridge/webgpu/textures/b0c9c4b8432a93f22e93.png",
+      "bytes": 270169
+    },
+    {
+      "file": "public/ridge/webgpu/textures/9ac971736242e3c060c4.png",
+      "bytes": 1189424
+    },
+    {
+      "file": "public/ridge/webgpu/textures/2f74e615b1f54d188f3b.png",
+      "bytes": 1703394
+    },
+    {
+      "file": "public/ridge/webgpu/textures/6067d08c282ef4d2a8fb.png",
+      "bytes": 764111
+    },
+    {
+      "file": "public/ridge/webgpu/textures/2ad3373cab477576d1fe.png",
+      "bytes": 764304
+    },
+    {
+      "file": "public/ridge/webgpu/textures/651b33d168bb2cfc254d.png",
+      "bytes": 1085735
+    },
+    {
+      "file": "public/ridge/webgpu/textures/fc684ce8f39baea47d3f.png",
+      "bytes": 1722443
+    },
+    {
+      "file": "public/ridge/webgpu/textures/fc684ce8f39baea47d3f.jpg",
+      "bytes": 442376
+    },
+    {
+      "file": "public/ridge/webgpu/textures/5cde71793aff5355ff1d.png",
+      "bytes": 1308528
+    },
+    {
+      "file": "public/ridge/webgpu/textures/c28be559431346a6da43.png",
+      "bytes": 640250
+    },
+    {
+      "file": "public/ridge/webgpu/textures/fb6da67166a3511769ce.png",
+      "bytes": 2145653
+    },
+    {
+      "file": "public/ridge/webgpu/textures/0e1d9ed34e198a066ce3.png",
+      "bytes": 105395
+    },
+    {
+      "file": "public/ridge/webgpu/textures/0e1d9ed34e198a066ce3.jpg",
+      "bytes": 62175
+    },
+    {
+      "file": "public/ridge/webgpu/textures/c4b4f108b2fe5aadbff3.jpg",
+      "bytes": 77125
+    },
+    {
+      "file": "public/ridge/webgpu/textures/bc09fe0c658c4cf2d908.png",
+      "bytes": 817733
+    },
+    {
+      "file": "public/ridge/webgpu/textures/06d9f11a42105ea1b90e.png",
+      "bytes": 1213746
+    },
+    {
+      "file": "public/ridge/webgpu/textures/4e35e05d1232b374b8e2.png",
+      "bytes": 1928593
+    },
+    {
+      "file": "public/ridge/webgpu/textures/c7b4eb174f15ac54f1ed.png",
+      "bytes": 116884
+    },
+    {
+      "file": "public/ridge/webgpu/textures/5e01c20700f158a5d547.png",
+      "bytes": 1505426
+    },
+    {
+      "file": "public/ridge/webgpu/textures/8cd4a056c98525d38de9.png",
+      "bytes": 1513591
+    },
+    {
+      "file": "public/ridge/webgpu/textures/8cd4a056c98525d38de9.jpg",
+      "bytes": 150898
+    },
+    {
+      "file": "public/ridge/webgpu/textures/24ec5f5e130c051276dd.png",
+      "bytes": 2067461
+    },
+    {
+      "file": "public/ridge/webgpu/textures/80aa09dc45a13c55782b.png",
+      "bytes": 1632542
+    },
+    {
+      "file": "public/ridge/webgpu/textures/f4ff9d40c3c5b89731dd.png",
+      "bytes": 1026684
+    }
+  ]
+}

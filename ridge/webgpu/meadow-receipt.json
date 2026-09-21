@@ -1,0 +1,24 @@
+{
+  "id": "meadow",
+  "label": "Meadow",
+  "url": "/ridge/webgpu/meadow.glb",
+  "bytes": 10446864,
+  "triangles": 42475,
+  "instances": 210899,
+  "sourceObjects": 210899,
+  "category": "vegetation",
+  "sourceRevision": "V115",
+  "variant": "all",
+  "density": {
+    "source": 279313,
+    "exported": 210899,
+    "culled": 68414
+  },
+  "nativeTriangles": 397929,
+  "lod": {
+    "beforeTriangles": 397929,
+    "afterTriangles": 42475,
+    "maxError": 0.043430715799331665,
+    "method": "meshoptimizer topology LOD, 3% relative error"
+  }
+}
