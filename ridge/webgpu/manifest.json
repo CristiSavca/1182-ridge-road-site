@@ -1391,14 +1391,14 @@
   },
   "gpuTextures": {
     "url": "/ridge/webgpu/gpu-textures.json",
-    "bytes": 131554,
-    "sha256": "a9cb9f4b5acbe75f747ff70fcf0f79c038ed856ccb1f6e3215917faa0d9ac37f",
+    "bytes": 135275,
+    "sha256": "9be9b108dd81736a40330c7b4e5b88cf820f880207e2ee31ae6415e388e470bd",
     "textures": 11,
     "sourceBytes": 7696719,
     "downloadBytes": 5668368,
     "originalRgba8MipBytes": 80390820,
     "estimatedGpuBytesBC7orASTC4x4": 20098032,
-    "seconds": 101.445
+    "seconds": 27.406
   },
   "regionalTrim": {
     "complete-terrain": {

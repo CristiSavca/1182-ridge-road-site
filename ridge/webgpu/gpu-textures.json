@@ -3005,6 +3005,139 @@
       ],
       "estimatedGpuBytesBC7orASTC4x4": 5592432,
       "originalRgba8MipBytes": 22369620
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/concrete-wall-008/concrete_wall_008_diff_2k.jpg",
+      "sourceBytes": 2666189,
+      "sourceSha256": "a3eb7b24c5cf6f113ec9b3be8ab1715360ef3cbf4b1699979414e44341f54846",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/a3eb7b24c5cf6f113ec9-srgb-uastc.ktx2",
+      "bytes": 3007357,
+      "sha256": "0f303e79e181ccf402c07a6ac000362186f3e14ec86d03a006f09d9b8293ab04",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 51.09373011516609,
+        "meanAbsoluteRgbError255": 0.4326411783695221,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/concrete-wall-008/concrete_wall_008_nor_gl_2k.jpg",
+      "sourceBytes": 2342650,
+      "sourceSha256": "58ce9b818772d37fe16e1154ea0278f3ab423ed34073357e786ef44f9ceef052",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/58ce9b818772d37fe16e-linear-uastc.ktx2",
+      "bytes": 2867394,
+      "sha256": "3b3a7b3bbfbb5b6ac689a34059f6ed137b64dac866fd23626d37d7ed1438e5d0",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 47.774146201481514,
+        "meanAbsoluteRgbError255": 0.5535176396369934,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 0.4577328562736511,
+          "p99": 2.622788190841675
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/concrete-wall-008/concrete_wall_008_rough_2k.jpg",
+      "sourceBytes": 1458273,
+      "sourceSha256": "f88aab6f11e0cbe3d366a2beb4ea1e50468e8e31da32bf1ea4a098b3be2f984e",
+      "role": "data",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/f88aab6f11e0cbe3d366-linear-uastc.ktx2",
+      "bytes": 1892066,
+      "sha256": "20626482dbf4258b2b3007f2f4d60d95b2b31562e3583daec692f466c44c291f",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 58.877642611198,
+        "meanAbsoluteRgbError255": 0.08220060914754868,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620
     }
   ],
   "preserved": [
@@ -4686,7 +4819,7 @@
     "downloadBytes": 5668368,
     "originalRgba8MipBytes": 80390820,
     "estimatedGpuBytesBC7orASTC4x4": 20098032,
-    "seconds": 101.445
+    "seconds": 27.406
   },
   "policy": {
     "originalImagesRewritten": false,
