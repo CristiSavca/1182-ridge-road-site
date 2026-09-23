@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "trial": true,
+  "source": {
+    "path": "output/blender/assets/usgs_naip/nederland_middle_8km_2000.jpg",
+    "sha256": "5a7486ac6257485661553242e5b5b29d6b8f7c48cb5b53a3db5c27edea08f5ad",
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "classifier": "clamp((G/max(R,0.02)-1)/0.11,0,1)*clamp((G/max(B,0.02)-1)/0.18,0,1)",
+    "inputColorSpace": "Raw JPEG RGB / 255; do not linearize classifier inputs"
+  },
+  "registration": {
+    "crs": "EPSG:26913",
+    "worldToUtmMatrix": [
+      [
+        0.7693581765250624,
+        0,
+        0.6388176549016402
+      ],
+      [
+        0.6388176549016402,
+        0,
+        -0.7693581765250624
+      ]
+    ],
+    "worldToUtmTranslationMeters": [
+      458517.2714476108,
+      4424958.880997516
+    ],
+    "originUtmMeters": [
+      454518.6442766578,
+      4420947.022872338
+    ],
+    "spanMeters": 8000
+  },
+  "mask": {
+    "url": "/ridge/webgpu/mid-canopy/occupancy-r8.bin.gz",
+    "width": 1000,
+    "height": 1000,
+    "metersPerTexel": 8,
+    "format": "R8_UNORM",
+    "rawBytes": 1000000,
+    "rawSha256": "e8cacf2303443c1add4574947dbc5b5c49ffd4b2e5689723f1b9fc7ea1e97db9",
+    "gzipBytes": 643363,
+    "gzipSha256": "36a7f7437725e60fa7990a453dd85bdb7e476f8f60d56697ea7503a9366b3137",
+    "gpuBytesWithMipmaps": 1333214,
+    "semantics": "Per-pixel native V86 habitat classification, 2x2 area mean. Apply only on regional terrain beyond local-site distance, gated by original habitat and rock exposure."
+  }
+}

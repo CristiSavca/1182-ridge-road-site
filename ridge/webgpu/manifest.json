@@ -352,28 +352,31 @@
     {
       "id": "winter-vegetation",
       "label": "Winter Vegetation",
-      "url": "/ridge/webgpu/winter-vegetation.glb",
-      "bytes": 36968124,
-      "triangles": 1420909,
-      "instances": 296,
-      "sourceObjects": 296,
+      "url": "/ridge/webgpu/winter-vegetation-aspen-229d5a217c56.glb",
+      "bytes": 661452,
+      "triangles": 22058,
+      "instances": 7,
+      "sourceObjects": 7,
       "category": "vegetation",
       "sourceRevision": "V116",
       "variant": "winter",
-      "nativeTriangles": 3169188,
-      "lod": {
-        "beforeTriangles": 3169188,
-        "afterTriangles": 1420909,
-        "maxError": 0.035523537546396255,
-        "method": "meshoptimizer topology LOD, 3% relative error"
-      },
-      "sha256": "edef38d11d5f71b33a009f2d4ba35ad2251d8153cbc00815e7d850e18fb91245",
+      "sha256": "229d5a217c568ec2a56481cb4273a7307b69b53b8a2e17c0a7681033488933ed",
       "compression": {
         "codec": "EXT_meshopt_compression",
         "lossless": true,
         "maximumPositionErrorMeters": 0,
-        "sourceBytes": 57071812,
-        "sourceSha256": "f45f42cb793c2904ea6e8ccabdc03739c1a96bc9b28af08c0cda5d07db11a156"
+        "sourceBytes": 938408,
+        "sourceSha256": "d55eead5b0e0d9cb14c9a25f9ccc0df143324cc6bc536c4cea3975f624a04908",
+        "copiedCompressedViews": 16
+      },
+      "deliverySubset": {
+        "sourceUrl": "/ridge/webgpu/winter-vegetation.glb",
+        "sourceBytes": 36968124,
+        "sourceSha256": "edef38d11d5f71b33a009f2d4ba35ad2251d8153cbc00815e7d850e18fb91245",
+        "sourceRoots": 46,
+        "retainedRoots": 2,
+        "drawnTriangles": 77173,
+        "receiptUrl": "/ridge/webgpu/winter-vegetation-aspen-229d5a217c56.glb.receipt.json"
       }
     },
     {
@@ -1103,11 +1106,11 @@
     ]
   },
   "statistics": {
-    "geometryBytes": 201368532,
+    "geometryBytes": 200758952,
     "textures": 86,
     "textureBytes": 59393870,
-    "instances": 214967,
-    "uncompressedGeometryBytes": 349336008,
+    "instances": 214678,
+    "uncompressedGeometryBytes": 330622692,
     "meadowLodBytes": 269580,
     "terrainTextureBytes": 23811868,
     "environmentBytes": 12224244,
@@ -1154,8 +1157,8 @@
   },
   "terrainSurface": {
     "url": "/ridge/webgpu/terrain-surface.json",
-    "bytes": 13610,
-    "sha256": "5249c70ba3499fa12510504b215503afc97952b1c9e7085e22bf84d431cdef9d",
+    "bytes": 13620,
+    "sha256": "5cc7e0235672c482c06fa3769285e511271b9693189f93fb332d20dd8b6a3786",
     "textureBytes": 23811868
   },
   "cameraFar": 100000,
@@ -1241,8 +1244,8 @@
   },
   "canopyOcclusion": {
     "url": "/ridge/webgpu/native-canopy-occlusion.json",
-    "bytes": 48307,
-    "sha256": "50ea7f2c4bba5156f5f0c0a50854b1d4d7df4e23b7a4e6e2d13c6555adcc01de",
+    "bytes": 65635,
+    "sha256": "931b210055dd573327e563b560e448fc48cd49e75e5c468e2d03fed7e255f013",
     "dataBytes": 1535325
   },
   "meadowCloseLod": {
@@ -1391,14 +1394,14 @@
   },
   "gpuTextures": {
     "url": "/ridge/webgpu/gpu-textures.json",
-    "bytes": 135275,
-    "sha256": "9be9b108dd81736a40330c7b4e5b88cf820f880207e2ee31ae6415e388e470bd",
+    "bytes": 144609,
+    "sha256": "3bc27f573d8d11c619b280801e1b976f7afc02ecdc1fc1500cc176fddc5993fe",
     "textures": 11,
     "sourceBytes": 7696719,
-    "downloadBytes": 5668368,
+    "downloadBytes": 5651308,
     "originalRgba8MipBytes": 80390820,
     "estimatedGpuBytesBC7orASTC4x4": 20098032,
-    "seconds": 27.406
+    "seconds": 23.036
   },
   "regionalTrim": {
     "complete-terrain": {
@@ -1554,6 +1557,28 @@
     "visibilityTransfer": {
       "primitives": 26,
       "method": "Offline nearest-surface barycentric transfer of source canopy visibility; full native positions, normals and UVs"
+    }
+  },
+  "nativeTreeDelta": {
+    "url": "/ridge/webgpu/native-tree-delta/native-tree-delta-74dc26fc4e1e.json",
+    "sha256": "74dc26fc4e1e0b5b29adcb66b45cbdca20ad7808afd99c43c3db77f939660092",
+    "bytes": 18987,
+    "sourceSha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+    "patchSha256": "35547011835fba3205db38aa6dbc31e39fc64c2e4f6cebf927c5976443e54b2c",
+    "unique": {
+      "url": "/ridge/webgpu/native-tree-delta/native-tree-unique-e0e6e022380c.glb",
+      "sha256": "e0e6e022380c95e24feb60b2f5222d014c96dc655a0005651c25d7a1e9ac3cad",
+      "bytes": 27623300,
+      "gzipSha256": "54ea4a6f3c9ffadae8b50f465853a1e370033c2d93fa74d59c59ed2a7daa2b73",
+      "gzipBytes": 21082552,
+      "decodedViews": 39603060
+    },
+    "coverage": {
+      "url": "/ridge/webgpu/native-tree-delta/native-tree-reuse-ao-811fe24f1d23.bin",
+      "sha256": "811fe24f1d238670e8a99fb2c16d27b6695e1b6afaa622719d8a395d6f04251b",
+      "bytes": 2253360,
+      "gzipSha256": "07f4cc6ef6417d2131a97fcc1bf47ca8ee5c1275456898455004f1b301b3eb54",
+      "gzipBytes": 1616108
     }
   }
 }

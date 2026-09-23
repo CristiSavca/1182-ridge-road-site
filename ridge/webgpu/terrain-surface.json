@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "coordinateSystem": "Y_UP",
   "units": "meters",
-  "revision": "Native V86 terrain with V95 albedo balance and V98 surveyed seam",
+  "revision": "V98 surveyed terrain with real-site pine-floor calibration",
   "textures": {
     "grass": {
       "asset": "aerial_grass_rock",
@@ -78,19 +78,19 @@
       }
     },
     "forest": {
-      "asset": "forest_ground_04",
+      "asset": "forrest_ground_03",
       "diffuse": {
-        "url": "/ridge/webgpu/terrain-surface/forest_ground_04_diff_2k.jpg",
-        "bytes": 4529321,
-        "sha256": "24b8aaf4c8547305d80b0e029ec365219ab1b90748d4ca5651bdc9e75bfde5e6",
+        "url": "/ridge/webgpu/terrain-surface/forrest_ground_03_diff_2k.jpg",
+        "bytes": 3522953,
+        "sha256": "187a8e33773473939c0e85b5e10ae94eb9e8d91463ab8b74e122d833d2d84dc6",
         "dimensions": [
           2048,
           2048
         ],
         "colorSpace": "srgb",
         "source": {
-          "path": "output/blender/assets/polyhaven/forest_ground_04/forest_ground_04_diff_2k.jpg",
-          "sha256": "24b8aaf4c8547305d80b0e029ec365219ab1b90748d4ca5651bdc9e75bfde5e6"
+          "path": "output/blender/assets/polyhaven/forrest_ground_03/forrest_ground_03_diff_2k.jpg",
+          "sha256": "187a8e33773473939c0e85b5e10ae94eb9e8d91463ab8b74e122d833d2d84dc6"
         },
         "sourceDimensions": [
           2048,
@@ -100,17 +100,17 @@
         "flipY": false
       },
       "roughness": {
-        "url": "/ridge/webgpu/terrain-surface/forest_ground_04_rough_2k.jpg",
-        "bytes": 2509805,
-        "sha256": "24194662948424c323c75e0918461ad9d38bc0a275022000144f248b3efb4119",
+        "url": "/ridge/webgpu/terrain-surface/forrest_ground_03_rough_2k.jpg",
+        "bytes": 1877319,
+        "sha256": "b3b04dddd8ed6f441dc0271c3e6e4ac4d6ba882ab9c1028d13b08ddd39f091fa",
         "dimensions": [
           2048,
           2048
         ],
         "colorSpace": "linear",
         "source": {
-          "path": "output/blender/assets/polyhaven/forest_ground_04/forest_ground_04_rough_2k.jpg",
-          "sha256": "24194662948424c323c75e0918461ad9d38bc0a275022000144f248b3efb4119"
+          "path": "output/blender/assets/polyhaven/forrest_ground_03/forrest_ground_03_rough_2k.jpg",
+          "sha256": "b3b04dddd8ed6f441dc0271c3e6e4ac4d6ba882ab9c1028d13b08ddd39f091fa"
         },
         "sourceDimensions": [
           2048,
@@ -119,14 +119,14 @@
         "wrap": "repeat",
         "flipY": false
       },
-      "repeatMeters": 3,
+      "repeatMeters": 2,
       "pigmentLinear": [
         0.085,
         0.11,
         0.05
       ],
       "license": "CC0",
-      "sourceUrl": "https://polyhaven.com/a/forest_ground_04"
+      "sourceUrl": "https://polyhaven.com/a/forrest_ground_03"
     },
     "rock": {
       "asset": "rock_face_03",
@@ -375,11 +375,11 @@
     "threeAttribute": "_snow",
     "sourceAttribute": "V87_Perennial_Snow",
     "colorLinear": [
-      0.76,
-      0.8,
-      0.85
+      0.9,
+      0.93,
+      0.96
     ],
-    "roughness": 0.79
+    "roughness": 0.86
   },
   "siteMeadow": {
     "scan": "textures.grass",
@@ -424,7 +424,7 @@
     },
     "litter": {
       "scan": "textures.forest",
-      "coordinateScale": 0.325,
+      "coordinateScale": 0.5,
       "noiseScale": 0.26,
       "noiseDetail": 3,
       "colorRamp": [
@@ -453,7 +453,7 @@
           ]
         }
       ],
-      "multiplyFactor": 0.72
+      "multiplyFactor": 0.32
     },
     "patchNoise": {
       "scale": 0.19,
@@ -463,15 +463,15 @@
     "scanFactorRamp": [
       [
         0.24,
-        0.55
+        0.45
       ],
       [
         0.5,
-        0.83
+        0.6
       ],
       [
         0.76,
-        0.96
+        0.75
       ]
     ],
     "pigmentLinear": [
@@ -479,7 +479,7 @@
       0.34,
       0.12
     ],
-    "pigmentMultiplyFactor": 0.88,
+    "pigmentMultiplyFactor": 0.5,
     "specularIorLevel": 0.18,
     "bump": {
       "distanceMeters": 0.06,

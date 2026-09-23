@@ -150,9 +150,9 @@
       "alphaCutoffs": [
         0.35
       ],
-      "url": "/ridge/webgpu/gpu-textures/2032d52cea9650f763c9-srgb-uastc.ktx2",
-      "bytes": 600678,
-      "sha256": "e51c5969bf5c933909410cd9de63ba5f7ccf0e054aa17233158db85c971f00b0",
+      "url": "/ridge/webgpu/gpu-textures/2032d52cea9650f763c9-photo-pigment-3ddc85fe1086.ktx2",
+      "bytes": 583618,
+      "sha256": "3ddc85fe1086038650519b7b222d16c93faa3530ff9ce6e815ffb340a0b00aa2",
       "encoding": "UASTC",
       "dimensions": [
         1024,
@@ -162,14 +162,14 @@
       "quality": {
         "width": 1024,
         "height": 1024,
-        "rgbPsnrDb": 39.84583076473753,
-        "meanAbsoluteRgbError255": 1.1802209615707397,
+        "rgbPsnrDb": 39.08375455336088,
+        "meanAbsoluteRgbError255": 1.2846781015396118,
         "alphaCoverage": [
           {
             "cutoff": 0.35,
             "sourcePixels": 475742,
-            "decodedPixels": 475603,
-            "intersectionOverUnion": 0.9995649213075061
+            "decodedPixels": 475528,
+            "intersectionOverUnion": 0.9987897201858283
           }
         ]
       },
@@ -178,9 +178,7 @@
         "uastc",
         "--threads",
         "2",
-        "--genmipmap",
-        "--filter",
-        "box",
+        "--mipmap",
         "--assign_oetf",
         "srgb",
         "--assign_primaries",
@@ -191,7 +189,143 @@
         "18"
       ],
       "estimatedGpuBytesBC7orASTC4x4": 1398128,
-      "originalRgba8MipBytes": 5592404
+      "originalRgba8MipBytes": 5592404,
+      "photoPigment": {
+        "version": 1,
+        "builder": "scripts/build_weekender_grass_photo_pigment.mjs",
+        "sourceUrl": "/ridge/webgpu/textures/55cec5e467fc2db2e10a.png",
+        "sourceSha256": "2032d52cea9650f763c98bd14841f2fa51e3358843a3e24420fec4e1732608f2",
+        "drySource": "scripts/source-assets/polyhaven/grass_medium_01_dry_diff_1k.png",
+        "drySourceSha256": "da85639d6eb8f029b50e7920aaf7e649940541bb24fe6ad239dbae7400af2eb2",
+        "priorEncodedSha256": "7fd75941ce051ee55a71a040982a0eda055d138c182c225f6ab09fb2dc6c07c5",
+        "priorEncodedBytes": 598464,
+        "method": "Linear-light source/dead diffuse mix: 3% baseline, rising to 35% where dry-map sRGB red-minus-blue chroma smoothsteps from 8 to 30. Full-resolution alpha and pre-existing decoded alpha-mip input retained.",
+        "compressedQualityReference": "Generated level-0 hybrid pigment PNG, not the unchanged authored source URL",
+        "alphaMetrics": [
+          {
+            "level": 0,
+            "width": 1024,
+            "height": 1024,
+            "alphaMeanDelta": 0.000010288462930163611,
+            "alphaMeanAbsoluteError": 0.0005199918559952831,
+            "alphaMaxError": 0.34117647058823525,
+            "alphaCutoffIou": 0.9990352988156664,
+            "currentEnergy": 0.0158422983035459,
+            "candidateEnergy": 0.04549108095940301
+          },
+          {
+            "level": 1,
+            "width": 512,
+            "height": 512,
+            "alphaMeanDelta": 0.00006492465149926518,
+            "alphaMeanAbsoluteError": 0.002458998736213095,
+            "alphaMaxError": 0.2549019607843137,
+            "alphaCutoffIou": 0.9955527422051257,
+            "currentEnergy": 0.015822073160953153,
+            "candidateEnergy": 0.04544793212055963
+          },
+          {
+            "level": 2,
+            "width": 256,
+            "height": 256,
+            "alphaMeanDelta": 0.00007778990502538274,
+            "alphaMeanAbsoluteError": 0.0055580288756127,
+            "alphaMaxError": 0.23921568627450984,
+            "alphaCutoffIou": 0.9895510100690267,
+            "currentEnergy": 0.01580034674540393,
+            "candidateEnergy": 0.04530018681360245
+          },
+          {
+            "level": 3,
+            "width": 128,
+            "height": 128,
+            "alphaMeanDelta": -0.0000653435202210284,
+            "alphaMeanAbsoluteError": 0.007284246706495224,
+            "alphaMaxError": 0.2196078431372549,
+            "alphaCutoffIou": 0.9836045515722501,
+            "currentEnergy": 0.015694340962746908,
+            "candidateEnergy": 0.04525587635971653
+          },
+          {
+            "level": 4,
+            "width": 64,
+            "height": 64,
+            "alphaMeanDelta": -0.000014361213235614123,
+            "alphaMeanAbsoluteError": 0.007407513786764683,
+            "alphaMaxError": 0.1843137254901961,
+            "alphaCutoffIou": 0.9832011199253383,
+            "currentEnergy": 0.01571900325317831,
+            "candidateEnergy": 0.0448802037474888
+          },
+          {
+            "level": 5,
+            "width": 32,
+            "height": 32,
+            "alphaMeanDelta": -0.0008233762254902799,
+            "alphaMeanAbsoluteError": 0.006123621323529403,
+            "alphaMaxError": 0.15294117647058825,
+            "alphaCutoffIou": 0.9842105263157894,
+            "currentEnergy": 0.01556797601340548,
+            "candidateEnergy": 0.04491472135759715
+          },
+          {
+            "level": 6,
+            "width": 16,
+            "height": 16,
+            "alphaMeanDelta": -0.00022977941176488548,
+            "alphaMeanAbsoluteError": 0.002558210784313726,
+            "alphaMaxError": 0.06666666666666667,
+            "alphaCutoffIou": 1,
+            "currentEnergy": 0.015500085724150646,
+            "candidateEnergy": 0.045510125694834896
+          },
+          {
+            "level": 7,
+            "width": 8,
+            "height": 8,
+            "alphaMeanDelta": -0.00036764705882369464,
+            "alphaMeanAbsoluteError": 0.001225490196078439,
+            "alphaMaxError": 0.01176470588235301,
+            "alphaCutoffIou": 1,
+            "currentEnergy": 0.015988035698379924,
+            "candidateEnergy": 0.04509571579338901
+          },
+          {
+            "level": 8,
+            "width": 4,
+            "height": 4,
+            "alphaMeanDelta": 0,
+            "alphaMeanAbsoluteError": 0,
+            "alphaMaxError": 0,
+            "alphaCutoffIou": 1,
+            "currentEnergy": 0.01597606411689604,
+            "candidateEnergy": 0.04475381068922948
+          },
+          {
+            "level": 9,
+            "width": 2,
+            "height": 2,
+            "alphaMeanDelta": 0,
+            "alphaMeanAbsoluteError": 0,
+            "alphaMaxError": 0,
+            "alphaCutoffIou": 1,
+            "currentEnergy": 0.015573177218195304,
+            "candidateEnergy": 0.04539450376633503
+          },
+          {
+            "level": 10,
+            "width": 1,
+            "height": 1,
+            "alphaMeanDelta": 0,
+            "alphaMeanAbsoluteError": 0,
+            "alphaMaxError": 0,
+            "alphaCutoffIou": 1,
+            "currentEnergy": 0.015813373181072878,
+            "candidateEnergy": 0.04540379442740844
+          }
+        ],
+        "liveValidation": "docs/weekender-grass-photo-pigment-2026-09-23.md"
+      }
     },
     {
       "sourceUrl": "/ridge/webgpu/textures/c4b4f108b2fe5aadbff3.png",
@@ -2577,178 +2711,6 @@
       "originalRgba8MipBytes": 699068
     },
     {
-      "sourceUrl": "/ridge/webgpu/terrain-surface/aerial_grass_rock_diff_2k.jpg",
-      "sourceBytes": 2278776,
-      "sourceSha256": "757943ae78706df4a77e5e52552c23e90ed590fa2d0d8b1471b0057261223da2",
-      "role": "color",
-      "colorSpace": "srgb",
-      "alphaCutoffs": [],
-      "url": "/ridge/webgpu/gpu-textures/757943ae78706df4a77e-srgb-uastc.ktx2",
-      "bytes": 5099556,
-      "sha256": "6035e0f6a89a83d85795bf9e5b261f3fc7440c2f0944cc33084b810aabd69736",
-      "encoding": "UASTC",
-      "dimensions": [
-        2048,
-        2048
-      ],
-      "levels": 12,
-      "quality": {
-        "width": 2048,
-        "height": 2048,
-        "rgbPsnrDb": 41.39500585112764,
-        "meanAbsoluteRgbError255": 1.5659478902816772,
-        "alphaCoverage": []
-      },
-      "encoderSettings": [
-        "--encode",
-        "uastc",
-        "--threads",
-        "2",
-        "--genmipmap",
-        "--filter",
-        "box",
-        "--assign_oetf",
-        "srgb",
-        "--assign_primaries",
-        "bt709",
-        "--uastc_quality",
-        "3",
-        "--zcmp",
-        "18"
-      ],
-      "estimatedGpuBytesBC7orASTC4x4": 5592432,
-      "originalRgba8MipBytes": 22369620
-    },
-    {
-      "sourceUrl": "/ridge/webgpu/terrain-surface/aerial_grass_rock_rough_2k.jpg",
-      "sourceBytes": 1730645,
-      "sourceSha256": "c43dba443372db2fad5fb3a7b8bc9db5551421cb24b6ba37ad4d2a92376bdac6",
-      "role": "data",
-      "colorSpace": "linear",
-      "alphaCutoffs": [],
-      "url": "/ridge/webgpu/gpu-textures/c43dba443372db2fad5f-linear-uastc.ktx2",
-      "bytes": 3823825,
-      "sha256": "9ef16737d31d8ffaff349ed8227cc0fe5195e2bca9aa5368224fe2860a8fb2c2",
-      "encoding": "UASTC",
-      "dimensions": [
-        2048,
-        2048
-      ],
-      "levels": 12,
-      "quality": {
-        "width": 2048,
-        "height": 2048,
-        "rgbPsnrDb": 51.794076877362585,
-        "meanAbsoluteRgbError255": 0.37717732787132263,
-        "alphaCoverage": []
-      },
-      "encoderSettings": [
-        "--encode",
-        "uastc",
-        "--threads",
-        "2",
-        "--genmipmap",
-        "--filter",
-        "box",
-        "--assign_oetf",
-        "linear",
-        "--assign_primaries",
-        "bt709",
-        "--uastc_quality",
-        "3",
-        "--zcmp",
-        "18"
-      ],
-      "estimatedGpuBytesBC7orASTC4x4": 5592432,
-      "originalRgba8MipBytes": 22369620
-    },
-    {
-      "sourceUrl": "/ridge/webgpu/terrain-surface/forest_ground_04_diff_2k.jpg",
-      "sourceBytes": 4529321,
-      "sourceSha256": "24b8aaf4c8547305d80b0e029ec365219ab1b90748d4ca5651bdc9e75bfde5e6",
-      "role": "color",
-      "colorSpace": "srgb",
-      "alphaCutoffs": [],
-      "url": "/ridge/webgpu/gpu-textures/24b8aaf4c8547305d80b-srgb-uastc.ktx2",
-      "bytes": 4867507,
-      "sha256": "fdb43fc6aef57c9b8b561930295fb4a35bb3501a16669066ca119cf5a7a9a175",
-      "encoding": "UASTC",
-      "dimensions": [
-        2048,
-        2048
-      ],
-      "levels": 12,
-      "quality": {
-        "width": 2048,
-        "height": 2048,
-        "rgbPsnrDb": 42.904156417305344,
-        "meanAbsoluteRgbError255": 1.3409322500228882,
-        "alphaCoverage": []
-      },
-      "encoderSettings": [
-        "--encode",
-        "uastc",
-        "--threads",
-        "2",
-        "--genmipmap",
-        "--filter",
-        "box",
-        "--assign_oetf",
-        "srgb",
-        "--assign_primaries",
-        "bt709",
-        "--uastc_quality",
-        "3",
-        "--zcmp",
-        "18"
-      ],
-      "estimatedGpuBytesBC7orASTC4x4": 5592432,
-      "originalRgba8MipBytes": 22369620
-    },
-    {
-      "sourceUrl": "/ridge/webgpu/terrain-surface/rock_face_03_diff_2k.jpg",
-      "sourceBytes": 3814362,
-      "sourceSha256": "644ee79df7ffbf5f6afc330b64dd3f33794bab8820915fe61ffe0c88ecfd7ece",
-      "role": "color",
-      "colorSpace": "srgb",
-      "alphaCutoffs": [],
-      "url": "/ridge/webgpu/gpu-textures/644ee79df7ffbf5f6afc-srgb-uastc.ktx2",
-      "bytes": 4897732,
-      "sha256": "0d167e6b1b83b916a97866950135b67f76a03f4ada3b714153f0a44249a5dbc2",
-      "encoding": "UASTC",
-      "dimensions": [
-        2048,
-        2048
-      ],
-      "levels": 12,
-      "quality": {
-        "width": 2048,
-        "height": 2048,
-        "rgbPsnrDb": 44.301689350941665,
-        "meanAbsoluteRgbError255": 1.117451786994934,
-        "alphaCoverage": []
-      },
-      "encoderSettings": [
-        "--encode",
-        "uastc",
-        "--threads",
-        "2",
-        "--genmipmap",
-        "--filter",
-        "box",
-        "--assign_oetf",
-        "srgb",
-        "--assign_primaries",
-        "bt709",
-        "--uastc_quality",
-        "3",
-        "--zcmp",
-        "18"
-      ],
-      "estimatedGpuBytesBC7orASTC4x4": 5592432,
-      "originalRgba8MipBytes": 22369620
-    },
-    {
       "sourceUrl": "/ridge/webgpu/wood-surfaces/cedar-roughness.jpg",
       "sourceBytes": 1852389,
       "sourceSha256": "d604b810623cc84ecfe7e833a6da2e1732e2644a9f91db6fecaee543e53a056a",
@@ -3129,6 +3091,178 @@
         "box",
         "--assign_oetf",
         "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-surface/aerial_grass_rock_diff_2k.jpg",
+      "sourceBytes": 2278776,
+      "sourceSha256": "757943ae78706df4a77e5e52552c23e90ed590fa2d0d8b1471b0057261223da2",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/757943ae78706df4a77e-srgb-uastc.ktx2",
+      "bytes": 5099556,
+      "sha256": "6035e0f6a89a83d85795bf9e5b261f3fc7440c2f0944cc33084b810aabd69736",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 41.39500585112764,
+        "meanAbsoluteRgbError255": 1.5659478902816772,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-surface/aerial_grass_rock_rough_2k.jpg",
+      "sourceBytes": 1730645,
+      "sourceSha256": "c43dba443372db2fad5fb3a7b8bc9db5551421cb24b6ba37ad4d2a92376bdac6",
+      "role": "data",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/c43dba443372db2fad5f-linear-uastc.ktx2",
+      "bytes": 3823825,
+      "sha256": "9ef16737d31d8ffaff349ed8227cc0fe5195e2bca9aa5368224fe2860a8fb2c2",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 51.794076877362585,
+        "meanAbsoluteRgbError255": 0.37717732787132263,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-surface/forrest_ground_03_diff_2k.jpg",
+      "sourceBytes": 3522953,
+      "sourceSha256": "187a8e33773473939c0e85b5e10ae94eb9e8d91463ab8b74e122d833d2d84dc6",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/187a8e33773473939c0e-srgb-uastc.ktx2",
+      "bytes": 5110249,
+      "sha256": "533b4fd3b122d878b0d0fea4b44d7e5d55211b47e014f1981ae9a17fa3c8da5c",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 39.44597258939443,
+        "meanAbsoluteRgbError255": 2.034952402114868,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-surface/rock_face_03_diff_2k.jpg",
+      "sourceBytes": 3814362,
+      "sourceSha256": "644ee79df7ffbf5f6afc330b64dd3f33794bab8820915fe61ffe0c88ecfd7ece",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/644ee79df7ffbf5f6afc-srgb-uastc.ktx2",
+      "bytes": 4897732,
+      "sha256": "0d167e6b1b83b916a97866950135b67f76a03f4ada3b714153f0a44249a5dbc2",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 44.301689350941665,
+        "meanAbsoluteRgbError255": 1.117451786994934,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
         "--assign_primaries",
         "bt709",
         "--uastc_quality",
@@ -4588,94 +4722,6 @@
       "reason": "Decoded quality threshold failed; runtime keeps original"
     },
     {
-      "sourceUrl": "/ridge/webgpu/terrain-surface/forest_ground_04_rough_2k.jpg",
-      "sourceBytes": 2509805,
-      "sourceSha256": "24194662948424c323c75e0918461ad9d38bc0a275022000144f248b3efb4119",
-      "role": "data",
-      "colorSpace": "linear",
-      "alphaCutoffs": [],
-      "url": "/ridge/webgpu/gpu-textures/24194662948424c323c7-linear-uastc.ktx2",
-      "bytes": 3594836,
-      "sha256": "4aaf754a6b250722aa9800a8d826871e4ef67363891c59c19ada7e58519820d6",
-      "encoding": "UASTC",
-      "dimensions": [
-        2048,
-        2048
-      ],
-      "levels": 12,
-      "quality": {
-        "width": 2048,
-        "height": 2048,
-        "rgbPsnrDb": 2.661338667958317,
-        "meanAbsoluteRgbError255": 153.23036193847656,
-        "alphaCoverage": []
-      },
-      "encoderSettings": [
-        "--encode",
-        "uastc",
-        "--threads",
-        "2",
-        "--genmipmap",
-        "--filter",
-        "box",
-        "--assign_oetf",
-        "linear",
-        "--assign_primaries",
-        "bt709",
-        "--uastc_quality",
-        "3",
-        "--zcmp",
-        "18"
-      ],
-      "estimatedGpuBytesBC7orASTC4x4": 5592432,
-      "originalRgba8MipBytes": 22369620,
-      "reason": "Decoded quality threshold failed; runtime keeps original"
-    },
-    {
-      "sourceUrl": "/ridge/webgpu/terrain-surface/rock_face_03_rough_2k.jpg",
-      "sourceBytes": 2601552,
-      "sourceSha256": "9ca3e9e196685f702328f24d66f039b72f5330fc35cf2a2c265cfa50a7916301",
-      "role": "data",
-      "colorSpace": "linear",
-      "alphaCutoffs": [],
-      "url": "/ridge/webgpu/gpu-textures/9ca3e9e196685f702328-linear-uastc.ktx2",
-      "bytes": 3767664,
-      "sha256": "282d05aa41e3544f2793ad9276314b7c9f4a8b26e568e3aaaf00ea85a1c75faa",
-      "encoding": "UASTC",
-      "dimensions": [
-        2048,
-        2048
-      ],
-      "levels": 12,
-      "quality": {
-        "width": 2048,
-        "height": 2048,
-        "rgbPsnrDb": 3.488367945076119,
-        "meanAbsoluteRgbError255": 139.2022705078125,
-        "alphaCoverage": []
-      },
-      "encoderSettings": [
-        "--encode",
-        "uastc",
-        "--threads",
-        "2",
-        "--genmipmap",
-        "--filter",
-        "box",
-        "--assign_oetf",
-        "linear",
-        "--assign_primaries",
-        "bt709",
-        "--uastc_quality",
-        "3",
-        "--zcmp",
-        "18"
-      ],
-      "estimatedGpuBytesBC7orASTC4x4": 5592432,
-      "originalRgba8MipBytes": 22369620,
-      "reason": "Decoded quality threshold failed; runtime keeps original"
-    },
-    {
       "sourceUrl": "/ridge/webgpu/wood-surfaces/ipe-roughness.jpg",
       "sourceBytes": 42396,
       "sourceSha256": "d7eb2b5b9a506665fbbb2d7edaff5dec3df7ce044c24f3f645e107fd65ed2119",
@@ -4810,16 +4856,243 @@
       "estimatedGpuBytesBC7orASTC4x4": 5592432,
       "originalRgba8MipBytes": 22369620,
       "reason": "Decoded quality threshold failed; runtime keeps original"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-surface/forrest_ground_03_rough_2k.jpg",
+      "sourceBytes": 1877319,
+      "sourceSha256": "b3b04dddd8ed6f441dc0271c3e6e4ac4d6ba882ab9c1028d13b08ddd39f091fa",
+      "role": "data",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/b3b04dddd8ed6f441dc0-linear-uastc.ktx2",
+      "bytes": 3756107,
+      "sha256": "d88a7004c854cce3446afb38f6710c85a1bb8cac5cdb797de3a8f680ccc9a103",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 2.8107560933475573,
+        "meanAbsoluteRgbError255": 150.57752990722656,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620,
+      "reason": "Decoded quality threshold failed; runtime keeps original"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-surface/rock_face_03_rough_2k.jpg",
+      "sourceBytes": 2601552,
+      "sourceSha256": "9ca3e9e196685f702328f24d66f039b72f5330fc35cf2a2c265cfa50a7916301",
+      "role": "data",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/9ca3e9e196685f702328-linear-uastc.ktx2",
+      "bytes": 3767664,
+      "sha256": "282d05aa41e3544f2793ad9276314b7c9f4a8b26e568e3aaaf00ea85a1c75faa",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 3.488367945076119,
+        "meanAbsoluteRgbError255": 139.2022705078125,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620,
+      "reason": "Decoded quality threshold failed; runtime keeps original"
     }
   ],
-  "trials": [],
+  "trials": [
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-surface/aerial_grass_rock_diff_2k.jpg",
+      "sourceBytes": 2278776,
+      "sourceSha256": "757943ae78706df4a77e5e52552c23e90ed590fa2d0d8b1471b0057261223da2",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/757943ae78706df4a77e-srgb-etc1s.ktx2",
+      "bytes": 1001325,
+      "sha256": "e90f3ddad8c20789273da2636351a1240df88ab394d0bac853530d3fd05ae332",
+      "encoding": "ETC1S",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 31.49217942455932,
+        "meanAbsoluteRgbError255": 4.9946417808532715,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "etc1s",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--qlevel",
+        "255",
+        "--clevel",
+        "3",
+        "--no_endpoint_rdo",
+        "--no_selector_rdo"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620,
+      "reason": "ETC1S quality gate failed"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-surface/forrest_ground_03_diff_2k.jpg",
+      "sourceBytes": 3522953,
+      "sourceSha256": "187a8e33773473939c0e85b5e10ae94eb9e8d91463ab8b74e122d833d2d84dc6",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/187a8e33773473939c0e-srgb-etc1s.ktx2",
+      "bytes": 1005889,
+      "sha256": "295d21b15f158bdabcb7c62cf7bbf145501a9a15d67b1afa43780ee52cfa310d",
+      "encoding": "ETC1S",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 25.183715671029617,
+        "meanAbsoluteRgbError255": 10.559619903564453,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "etc1s",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--qlevel",
+        "255",
+        "--clevel",
+        "3",
+        "--no_endpoint_rdo",
+        "--no_selector_rdo"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620,
+      "reason": "ETC1S quality gate failed"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/terrain-surface/rock_face_03_diff_2k.jpg",
+      "sourceBytes": 3814362,
+      "sourceSha256": "644ee79df7ffbf5f6afc330b64dd3f33794bab8820915fe61ffe0c88ecfd7ece",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/644ee79df7ffbf5f6afc-srgb-etc1s.ktx2",
+      "bytes": 928191,
+      "sha256": "76bf7d5a1ee2f05d5297f523109b145f71e1fbc0b993e057b552e6789c50f5ac",
+      "encoding": "ETC1S",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 33.118558936524586,
+        "meanAbsoluteRgbError255": 4.296762466430664,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "etc1s",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--qlevel",
+        "255",
+        "--clevel",
+        "3",
+        "--no_endpoint_rdo",
+        "--no_selector_rdo"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620,
+      "reason": "ETC1S quality gate failed"
+    }
+  ],
   "statistics": {
     "textures": 11,
     "sourceBytes": 7696719,
-    "downloadBytes": 5668368,
+    "downloadBytes": 5651308,
     "originalRgba8MipBytes": 80390820,
     "estimatedGpuBytesBC7orASTC4x4": 20098032,
-    "seconds": 27.406
+    "seconds": 23.036
   },
   "policy": {
     "originalImagesRewritten": false,
@@ -4828,7 +5101,7 @@
     "normalChannels": "Original RGB, no RG swizzle",
     "defaultDownloadLimit": "No larger than original; MASK foliage allows at most10% increase",
     "optionalAlternativesAutoLoaded": false,
-    "mipFilter": "Box, linear-light color mips and linear data/alpha; no invented alpha dilation",
+    "mipFilter": "Box, linear-light color mips and linear data/alpha. Scanned summer grass uses its photo-graded alpha-weighted RGB mip chain with unchanged input alpha; see record.photoPigment.",
     "uastcRdo": false,
     "qualityThresholds": {
       "colorPsnrDb": 38,

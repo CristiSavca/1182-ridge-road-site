@@ -11,8 +11,8 @@
       "id": "lighting-definition",
       "url": "/ridge/webgpu/manifest.json",
       "kind": "lighting",
-      "sha256": "02d905742cd1449b28685c473949f74429ad3b94d27cac415f3f7975b27713e4",
-      "bytes": 51794
+      "sha256": "46d0a3c5470981bcaf6088b9dc6bb4b077cb195669789aac9032c200f968a965",
+      "bytes": 53087
     },
     {
       "id": "architecture",

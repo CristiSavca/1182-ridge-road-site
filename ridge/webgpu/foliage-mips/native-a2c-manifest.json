@@ -1,0 +1,287 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "sourceUrl": "/ridge/webgpu/textures/be589050268e9b5967f3.png",
+      "sourceSha256": "3e83af957a33d9530b835e5bde7460f6a79b332335ed0d3a808eb5d59f5963ff",
+      "url": "/ridge/webgpu/foliage-mips/be589050268e9b5967f3-native-a2c.rgba.gz",
+      "sha256": "856102f57c23130005b9827a40386501857cf50382e1d6d1ac247ffc976681cd",
+      "bytes": 5592404,
+      "encodedBytes": 481257,
+      "cutoff": 0.35,
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "offset": 0,
+          "bytes": 4194304,
+          "coverage": 0.15911006927490234,
+          "alphaScale": 1
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 4194304,
+          "bytes": 1048576,
+          "coverage": 0.15981674194335938,
+          "alphaScale": 1.049234390258789
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 5242880,
+          "bytes": 262144,
+          "coverage": 0.1588134765625,
+          "alphaScale": 1.0031604766845703
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 5505024,
+          "bytes": 65536,
+          "coverage": 0.16204833984375,
+          "alphaScale": 1.0450153350830078
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 5570560,
+          "bytes": 16384,
+          "coverage": 0.163818359375,
+          "alphaScale": 1.048257827758789
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 5586944,
+          "bytes": 4096,
+          "coverage": 0.1591796875,
+          "alphaScale": 1.011575698852539
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 5591040,
+          "bytes": 1024,
+          "coverage": 0.171875,
+          "alphaScale": 1.125295639038086
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "offset": 5592064,
+          "bytes": 256,
+          "coverage": 0.171875,
+          "alphaScale": 1.1928997039794922
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "offset": 5592320,
+          "bytes": 64,
+          "coverage": 0.125,
+          "alphaScale": 1.2
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 5592384,
+          "bytes": 16,
+          "coverage": 0,
+          "alphaScale": 1
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 5592400,
+          "bytes": 4,
+          "coverage": 0,
+          "alphaScale": 1
+        }
+      ],
+      "alphaMethod": "Native 4xMSAA centered alpha-to-coverage: bilinear-filtered 16px/8px coverage, conservative 4px tail, source RGBA at mip0 and all RGB unchanged"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/9d9ee14ce10fe10e9e42.png",
+      "sourceSha256": "9d12226523ee6aa3e0309f0f2e71ed0828b919a7e448419f3bc2bc7dc17abc81",
+      "url": "/ridge/webgpu/foliage-mips/9d9ee14ce10fe10e9e42.rgba.gz",
+      "sha256": "3597c2b60a1a04518cfe2638ac8f47fe34724bfecacd454f876dca0f035c52ca",
+      "bytes": 5592404,
+      "encodedBytes": 1683733,
+      "cutoff": 0.35,
+      "levels": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "offset": 0,
+          "bytes": 4194304,
+          "coverage": 0.6905040740966797
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "offset": 4194304,
+          "bytes": 1048576,
+          "coverage": 0.6902885437011719,
+          "alphaScale": 0.9394707679748535
+        },
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 5242880,
+          "bytes": 262144,
+          "coverage": 0.69024658203125,
+          "alphaScale": 0.9201016426086426
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 5505024,
+          "bytes": 65536,
+          "coverage": 0.68951416015625,
+          "alphaScale": 0.9296860694885254
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 5570560,
+          "bytes": 16384,
+          "coverage": 0.68994140625,
+          "alphaScale": 1.1018481254577637
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 5586944,
+          "bytes": 4096,
+          "coverage": 0.6904296875,
+          "alphaScale": 1.0028138160705566
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 5591040,
+          "bytes": 1024,
+          "coverage": 0.6875,
+          "alphaScale": 1.0624947547912598
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "offset": 5592064,
+          "bytes": 256,
+          "coverage": 0.6875,
+          "alphaScale": 1.0884156227111816
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "offset": 5592320,
+          "bytes": 64,
+          "coverage": 0.75,
+          "alphaScale": 1
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 5592384,
+          "bytes": 16,
+          "coverage": 0.75,
+          "alphaScale": 1
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 5592400,
+          "bytes": 4,
+          "coverage": 1,
+          "alphaScale": 1
+        }
+      ]
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/12a0cbc0341be145e6ec.png",
+      "sourceSha256": "1426abc12e8d4a9cb384e856628afaab37ac82450e7d70d7f73a6406e9aaf1ee",
+      "url": "/ridge/webgpu/foliage-mips/12a0cbc0341be145e6ec.rgba.gz",
+      "sha256": "a72643079ad4c2b322b81bf3587f2c217da352e3e7238adc56e13fba6ed6941f",
+      "bytes": 349524,
+      "encodedBytes": 21461,
+      "cutoff": 0.35,
+      "levels": [
+        {
+          "width": 256,
+          "height": 256,
+          "offset": 0,
+          "bytes": 262144,
+          "coverage": 0.1965789794921875
+        },
+        {
+          "width": 128,
+          "height": 128,
+          "offset": 262144,
+          "bytes": 65536,
+          "coverage": 0.19647216796875,
+          "alphaScale": 0.7563509941101074
+        },
+        {
+          "width": 64,
+          "height": 64,
+          "offset": 327680,
+          "bytes": 16384,
+          "coverage": 0.1962890625,
+          "alphaScale": 0.959683895111084
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "offset": 344064,
+          "bytes": 4096,
+          "coverage": 0.1962890625,
+          "alphaScale": 1.2570443153381348
+        },
+        {
+          "width": 16,
+          "height": 16,
+          "offset": 348160,
+          "bytes": 1024,
+          "coverage": 0.1953125,
+          "alphaScale": 0.8500065803527832
+        },
+        {
+          "width": 8,
+          "height": 8,
+          "offset": 349184,
+          "bytes": 256,
+          "coverage": 0.1875,
+          "alphaScale": 0.949470043182373
+        },
+        {
+          "width": 4,
+          "height": 4,
+          "offset": 349440,
+          "bytes": 64,
+          "coverage": 0.1875,
+          "alphaScale": 1
+        },
+        {
+          "width": 2,
+          "height": 2,
+          "offset": 349504,
+          "bytes": 16,
+          "coverage": 0,
+          "alphaScale": 1
+        },
+        {
+          "width": 1,
+          "height": 1,
+          "offset": 349520,
+          "bytes": 4,
+          "coverage": 0,
+          "alphaScale": 1
+        }
+      ]
+    }
+  ],
+  "profile": "native4xMsaaA2c",
+  "baselineManifestSha256": "7f0b016b1ccd74c1b915d314c45368f92fa23249251d27382030f4f10bc0cffb"
+}

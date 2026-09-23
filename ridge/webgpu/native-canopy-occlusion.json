@@ -3,7 +3,7 @@
   "attribute": "nativeCanopyOcclusion",
   "url": "/ridge/webgpu/native-canopy-occlusion.bin",
   "bytes": 1535325,
-  "sha256": "9ef8709e7d46b441c6fa1a369cccb9b867323e96ba37318bfbd4e7283a825cf7",
+  "sha256": "72d6a083d38b3ffa4e242160874b0900368db7d723a9926d8e1bc11034ac0d74",
   "format": "UNORM8",
   "sources": [
     {
@@ -1119,11 +1119,20 @@
     "spatialApproximation": "Adaptive position bins plus quantized source-normal bins; sample original midpoint-index vertex, broadcast visibility to members",
     "alphaFilter": "Bilinear source PNG alpha with material cutoff and UV transform; rejected hits continue",
     "transparentHitLimit": "Fail open",
-    "sourceVerticesMoved": false
+    "sourceVerticesMoved": false,
+    "surveyedTrunkOverride": {
+      "name": "Assembled alpha-aware tree and soil cosine visibility",
+      "samples": 64,
+      "maxDistance": 32,
+      "bias": 0.006,
+      "maximumAlphaHits": 32,
+      "sampling": "Every unique source position and normal; exact coincident-vertex sharing only",
+      "deadlineSeconds": 300
+    }
   },
   "statistics": {
     "prototypes": 46,
-    "tracedUniqueSamples": 180176,
+    "tracedUniqueSamples": 238934,
     "exactLodMatches": 438271,
     "alphaPassed": 598372,
     "alphaRejected": 1174211,
@@ -1316,390 +1325,420 @@
         "name": "V60_Render_Fitted_Roots_SITE_TREE_01_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.461785150664346,
-        "tracedSpatialNormalBins": 2390,
-        "cellMeters": 0.1207951964895652,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9637851462244065,
-        "maximum": 1,
-        "seconds": 0.05830183299999953
+        "mean": 0.27774005317251144,
+        "maximum": 0.5019607843137255,
+        "seconds": 0.05830183299999953,
+        "assembled": true
       },
       {
         "meshIndex": 15,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_02_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.400540169355324,
-        "tracedSpatialNormalBins": 2395,
-        "cellMeters": 0.12031672007308847,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9646698201879069,
-        "maximum": 1,
-        "seconds": 0.05693416599999909
+        "mean": 0.2107342486985011,
+        "maximum": 0.5764705882352941,
+        "seconds": 0.05693416599999909,
+        "assembled": true
       },
       {
         "meshIndex": 16,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_03_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.247942182079107,
-        "tracedSpatialNormalBins": 4279,
-        "cellMeters": 0.08787454829749303,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.867409902725804,
-        "maximum": 1,
-        "seconds": 0.11689058300000034
+        "mean": 0.216308144736535,
+        "maximum": 0.5607843137254902,
+        "seconds": 0.11689058300000034,
+        "assembled": true
       },
       {
         "meshIndex": 17,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_04_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.40138159833061,
-        "tracedSpatialNormalBins": 2397,
-        "cellMeters": 0.1203232937369579,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9646053686589094,
-        "maximum": 1,
-        "seconds": 0.05712254099999882
+        "mean": 0.2141325322929015,
+        "maximum": 0.4549019607843137,
+        "seconds": 0.05712254099999882,
+        "assembled": true
       },
       {
         "meshIndex": 18,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_05_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.455639859334942,
-        "tracedSpatialNormalBins": 2393,
-        "cellMeters": 0.12074718640105424,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9643652099853833,
-        "maximum": 1,
-        "seconds": 0.05876516699999956
+        "mean": 0.15869194087339494,
+        "maximum": 0.5019607843137255,
+        "seconds": 0.05876516699999956,
+        "assembled": true
       },
       {
         "meshIndex": 19,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_06_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.24144271757661,
-        "tracedSpatialNormalBins": 4290,
-        "cellMeters": 0.08782377123106727,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.8667703981473558,
-        "maximum": 1,
-        "seconds": 0.11558012500000041
+        "mean": 0.27349271675341214,
+        "maximum": 0.6549019607843137,
+        "seconds": 0.11558012500000041,
+        "assembled": true
       },
       {
         "meshIndex": 20,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_07_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.401371177806496,
-        "tracedSpatialNormalBins": 2394,
-        "cellMeters": 0.12032321232661325,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9646859330701562,
-        "maximum": 1,
-        "seconds": 0.05576787499999955
+        "mean": 0.2005240523131577,
+        "maximum": 0.5607843137254902,
+        "seconds": 0.05576787499999955,
+        "assembled": true
       },
       {
         "meshIndex": 21,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_08_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.417017509156517,
-        "tracedSpatialNormalBins": 2392,
-        "cellMeters": 0.12044544929028529,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9643314496606704,
-        "maximum": 1,
-        "seconds": 0.05690070899999955
+        "mean": 0.18870793866362823,
+        "maximum": 0.47058823529411764,
+        "seconds": 0.05690070899999955,
+        "assembled": true
       },
       {
         "meshIndex": 22,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_09_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.269457706971933,
-        "tracedSpatialNormalBins": 4293,
-        "cellMeters": 0.08804263833571822,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.8672734958286978,
-        "maximum": 1,
-        "seconds": 0.11651345900000161
+        "mean": 0.22725337192144415,
+        "maximum": 0.5764705882352941,
+        "seconds": 0.11651345900000161,
+        "assembled": true
       },
       {
         "meshIndex": 23,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_10_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.499991567262606,
-        "tracedSpatialNormalBins": 2402,
-        "cellMeters": 0.12109368411923911,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9635940934777354,
-        "maximum": 1,
-        "seconds": 0.05862695800000074
+        "mean": 0.2381545378863735,
+        "maximum": 0.48627450980392156,
+        "seconds": 0.05862695800000074,
+        "assembled": true
       },
       {
         "meshIndex": 24,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_11_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.573880111029885,
-        "tracedSpatialNormalBins": 2405,
-        "cellMeters": 0.12167093836742097,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9633984370504218,
-        "maximum": 1,
-        "seconds": 0.05710470800000075
+        "mean": 0.20179390089042856,
+        "maximum": 0.5137254901960784,
+        "seconds": 0.05710470800000075,
+        "assembled": true
       },
       {
         "meshIndex": 25,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_12_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.248258299671212,
-        "tracedSpatialNormalBins": 4277,
-        "cellMeters": 0.08787701796618134,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.8672890555508012,
-        "maximum": 1,
-        "seconds": 0.11365166599999975
+        "mean": 0.15352570336427127,
+        "maximum": 0.5137254901960784,
+        "seconds": 0.11365166599999975,
+        "assembled": true
       },
       {
         "meshIndex": 26,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_13_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.421492554121885,
-        "tracedSpatialNormalBins": 2397,
-        "cellMeters": 0.12048041057907723,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9642370742074955,
-        "maximum": 1,
-        "seconds": 0.06327270800000043
+        "mean": 0.1903844456976686,
+        "maximum": 0.5137254901960784,
+        "seconds": 0.06327270800000043,
+        "assembled": true
       },
       {
         "meshIndex": 27,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_14_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.443643003554557,
-        "tracedSpatialNormalBins": 2393,
-        "cellMeters": 0.12065346096526998,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9643007584563859,
-        "maximum": 1,
-        "seconds": 0.05851179200000115
+        "mean": 0.16829675325422674,
+        "maximum": 0.592156862745098,
+        "seconds": 0.05851179200000115,
+        "assembled": true
       },
       {
         "meshIndex": 28,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_15_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.284876823786965,
-        "tracedSpatialNormalBins": 4284,
-        "cellMeters": 0.08816310018583566,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.867486664021514,
-        "maximum": 1,
-        "seconds": 0.11519924999999967
+        "mean": 0.2610309353208285,
+        "maximum": 0.5607843137254902,
+        "seconds": 0.11519924999999967,
+        "assembled": true
       },
       {
         "meshIndex": 29,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_16_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.738830032986476,
-        "tracedSpatialNormalBins": 2358,
-        "cellMeters": 0.12295960963270684,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9621938072822556,
-        "maximum": 1,
-        "seconds": 0.05809758300000067
+        "mean": 0.23428744614652747,
+        "maximum": 0.5019607843137255,
+        "seconds": 0.05809758300000067,
+        "assembled": true
       },
       {
         "meshIndex": 30,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_17_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.635834889467366,
-        "tracedSpatialNormalBins": 2371,
-        "cellMeters": 0.1221549600739638,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9632795086338195,
-        "maximum": 1,
-        "seconds": 0.05713100000000122
+        "mean": 0.2943861950963128,
+        "maximum": 0.5607843137254902,
+        "seconds": 0.05713100000000122,
+        "assembled": true
       },
       {
         "meshIndex": 31,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_18_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.36792511052516,
-        "tracedSpatialNormalBins": 4258,
-        "cellMeters": 0.08881191492597781,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.8667859578694591,
-        "maximum": 1,
-        "seconds": 0.11772858400000041
+        "mean": 0.2720767820420061,
+        "maximum": 0.6862745098039216,
+        "seconds": 0.11772858400000041,
+        "assembled": true
       },
       {
         "meshIndex": 32,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_19_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.48274733724951,
-        "tracedSpatialNormalBins": 2392,
-        "cellMeters": 0.1209589635722618,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9635917916374142,
-        "maximum": 1,
-        "seconds": 0.058964041999999606
+        "mean": 0.27285017704988473,
+        "maximum": 0.6235294117647059,
+        "seconds": 0.058964041999999606,
+        "assembled": true
       },
       {
         "meshIndex": 33,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_20_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.498520483754568,
-        "tracedSpatialNormalBins": 2393,
-        "cellMeters": 0.12108219127933256,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9636585450067329,
-        "maximum": 1,
-        "seconds": 0.05800212500000089
+        "mean": 0.25084995453865366,
+        "maximum": 0.6392156862745098,
+        "seconds": 0.05800212500000089,
+        "assembled": true
       },
       {
         "meshIndex": 34,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_21_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.376226873624113,
-        "tracedSpatialNormalBins": 4253,
-        "cellMeters": 0.08887677245018838,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.8662755989844687,
-        "maximum": 1,
-        "seconds": 0.1143726659999993
+        "mean": 0.228671381262464,
+        "maximum": 0.6705882352941176,
+        "seconds": 0.1143726659999993,
+        "assembled": true
       },
       {
         "meshIndex": 35,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_22_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.380963278588116,
-        "tracedSpatialNormalBins": 2405,
-        "cellMeters": 0.12016377561396965,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9619636232501217,
-        "maximum": 1,
-        "seconds": 0.058351916999999955
+        "mean": 0.3438243542378799,
+        "maximum": 0.6078431372549019,
+        "seconds": 0.058351916999999955,
+        "assembled": true
       },
       {
         "meshIndex": 36,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_23_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.54380059291816,
-        "tracedSpatialNormalBins": 2404,
-        "cellMeters": 0.12143594213217312,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9645777465750535,
-        "maximum": 1,
-        "seconds": 0.05900983399999859
+        "mean": 0.23406723675578625,
+        "maximum": 0.6705882352941176,
+        "seconds": 0.05900983399999859,
+        "assembled": true
       },
       {
         "meshIndex": 37,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_24_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.322043796153874,
-        "tracedSpatialNormalBins": 4284,
-        "cellMeters": 0.08845346715745214,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.8673295108282699,
-        "maximum": 1,
-        "seconds": 0.11305041700000037
+        "mean": 0.19773398580434687,
+        "maximum": 0.7333333333333333,
+        "seconds": 0.11305041700000037,
+        "assembled": true
       },
       {
         "meshIndex": 38,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_25_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.428248587796167,
-        "tracedSpatialNormalBins": 2394,
-        "cellMeters": 0.12053319209215756,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9647373408373328,
-        "maximum": 1,
-        "seconds": 0.057411958000000596
+        "mean": 0.21940144478844167,
+        "maximum": 0.5294117647058824,
+        "seconds": 0.057411958000000596,
+        "assembled": true
       },
       {
         "meshIndex": 39,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_26_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.3901967841658,
-        "tracedSpatialNormalBins": 2397,
-        "cellMeters": 0.12023591237629531,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9644419379960946,
-        "maximum": 1,
-        "seconds": 0.06021383400000013
+        "mean": 0.20835030940570318,
+        "maximum": 0.4549019607843137,
+        "seconds": 0.06021383400000013,
+        "assembled": true
       },
       {
         "meshIndex": 40,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_27_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.260645119330919,
-        "tracedSpatialNormalBins": 4288,
-        "cellMeters": 0.0879737899947728,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.8656822549149272,
-        "maximum": 1,
-        "seconds": 0.11700712500000009
+        "mean": 0.2117667805119667,
+        "maximum": 0.6235294117647059,
+        "seconds": 0.11700712500000009,
+        "assembled": true
       },
       {
         "meshIndex": 41,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_28_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.452290740638855,
-        "tracedSpatialNormalBins": 2399,
-        "cellMeters": 0.12072102141124105,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9640598325027526,
-        "maximum": 1,
-        "seconds": 0.05723270800000137
+        "mean": 0.2181676583762051,
+        "maximum": 0.592156862745098,
+        "seconds": 0.05723270800000137,
+        "assembled": true
       },
       {
         "meshIndex": 42,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_29_TRUNK_SURVEY_DBH",
         "triangles": 8717,
         "vertices": 5111,
-        "radius": 15.407492654041327,
-        "tracedSpatialNormalBins": 2401,
-        "cellMeters": 0.12037103635969787,
+        "radius": 32,
+        "tracedSpatialNormalBins": 4381,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.9644281269541666,
-        "maximum": 1,
-        "seconds": 0.056640583000000334
+        "mean": 0.2264243596088406,
+        "maximum": 0.47058823529411764,
+        "seconds": 0.056640583000000334,
+        "assembled": true
       },
       {
         "meshIndex": 43,
         "name": "V60_Render_Fitted_Roots_SITE_TREE_30_TRUNK_SURVEY_DBH",
         "triangles": 12265,
         "vertices": 7561,
-        "radius": 11.226666089123501,
-        "tracedSpatialNormalBins": 4294,
-        "cellMeters": 0.08770832882127735,
+        "radius": 32,
+        "tracedSpatialNormalBins": 6181,
+        "cellMeters": 0,
         "minimum": 0,
-        "mean": 0.8664773567144091,
-        "maximum": 1,
-        "seconds": 0.11365137499999946
+        "mean": 0.23798594957094066,
+        "maximum": 0.5450980392156862,
+        "seconds": 0.11365137499999946,
+        "assembled": true
       },
       {
         "meshIndex": 44,
@@ -1727,12 +1766,536 @@
         "maximum": 1,
         "seconds": 2.0130020000000006
       }
-    ]
+    ],
+    "assembledTrunkBakeSeconds": 143.513723333
   },
   "limitations": [
-    "Local canopy geometric visibility, not Cycles GI, translucency, terrain shadow or occlusion between different trees.",
+    "Except the 30 assembled surveyed trunks identified by assembledTrunkCorrection, receivers contain local prototype visibility, not terrain or inter-tree occlusion. No receiver contains Cycles GI or translucency.",
     "Twelve deterministic cosine rays with at most8192 spatial/normal samples per prototype are a bounded approximation. Visibility is shared locally; vertex interpolation and fixed prototype-space radius remain approximations.",
     "Native and LOD normals/positions match exactly; nonuniform instance scales can change true angular visibility.",
     "No albedo, source geometry, plant placement or source PNG was changed."
-  ]
+  ],
+  "assembledTrunkCorrection": {
+    "sourceSidecarSha256": "9ef8709e7d46b441c6fa1a369cccb9b867323e96ba37318bfbd4e7283a825cf7",
+    "sources": [
+      {
+        "url": "/ridge/webgpu/vegetation.glb",
+        "sha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+        "bytes": 32710052
+      },
+      {
+        "url": "/ridge/webgpu/vegetation-lod.glb",
+        "sha256": "b76ed2707a7a13090f1438f7e0c170a31e60cee671531b1923fe933c1b8bf6f4",
+        "bytes": 17308308
+      },
+      {
+        "url": "/ridge/webgpu/native-tree-geometry.glb",
+        "sha256": "35547011835fba3205db38aa6dbc31e39fc64c2e4f6cebf927c5976443e54b2c",
+        "bytes": 45503136
+      },
+      {
+        "url": "/ridge/webgpu/landscape.glb",
+        "sha256": "88f179caadb1b6e39d04949232aff0984ed7a20f8beedcb9e0b72c053c0315dc",
+        "bytes": 13946344
+      }
+    ],
+    "options": {
+      "samples": 64,
+      "maxDistance": 32,
+      "bias": 0.006,
+      "maximumAlphaHits": 32,
+      "sampling": "Every unique source position and normal; exact coincident-vertex sharing only",
+      "deadlineSeconds": 300
+    },
+    "changedBytes": 216159,
+    "targetMeshes": 30,
+    "targetRecords": 60,
+    "unaffectedRecordsByteIdentical": true,
+    "layoutUnchanged": true,
+    "exactLodTransfer": true,
+    "statistics": {
+      "rays": 9563520,
+      "boxTests": 1412510222,
+      "triangleQueries": 62099789,
+      "alphaRejected": 9212677,
+      "alphaExhausted": 11,
+      "prototypes": 57,
+      "instances": 405
+    },
+    "rows": [
+      {
+        "meshIndex": 14,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_01_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 177,
+        "before": 0.9637851462244065,
+        "after": 0.27774005317251144,
+        "minimum": 0,
+        "seconds": 6.453457375
+      },
+      {
+        "meshIndex": 15,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_02_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 196,
+        "before": 0.9646698201879069,
+        "after": 0.2107342486985011,
+        "minimum": 0,
+        "seconds": 11.032784958
+      },
+      {
+        "meshIndex": 16,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_03_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 185,
+        "before": 0.867409902725804,
+        "after": 0.216308144736535,
+        "minimum": 0,
+        "seconds": 17.125589458
+      },
+      {
+        "meshIndex": 17,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_04_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 185,
+        "before": 0.9646053686589094,
+        "after": 0.2141325322929015,
+        "minimum": 0,
+        "seconds": 21.620620041
+      },
+      {
+        "meshIndex": 18,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_05_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 195,
+        "before": 0.9643652099853833,
+        "after": 0.15869194087339494,
+        "minimum": 0,
+        "seconds": 26.507965999999996
+      },
+      {
+        "meshIndex": 19,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_06_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 178,
+        "before": 0.8667703981473558,
+        "after": 0.27349271675341214,
+        "minimum": 0,
+        "seconds": 32.004345291
+      },
+      {
+        "meshIndex": 20,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_07_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 188,
+        "before": 0.9646859330701562,
+        "after": 0.2005240523131577,
+        "minimum": 0,
+        "seconds": 36.285660875000005
+      },
+      {
+        "meshIndex": 21,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_08_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 190,
+        "before": 0.9643314496606704,
+        "after": 0.18870793866362823,
+        "minimum": 0,
+        "seconds": 40.752916041
+      },
+      {
+        "meshIndex": 22,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_09_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 188,
+        "before": 0.8672734958286978,
+        "after": 0.22725337192144415,
+        "minimum": 0,
+        "seconds": 46.660036958
+      },
+      {
+        "meshIndex": 23,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_10_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 189,
+        "before": 0.9635940934777354,
+        "after": 0.2381545378863735,
+        "minimum": 0,
+        "seconds": 50.6835985
+      },
+      {
+        "meshIndex": 24,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_11_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 182,
+        "before": 0.9633984370504218,
+        "after": 0.20179390089042856,
+        "minimum": 0,
+        "seconds": 54.801905583
+      },
+      {
+        "meshIndex": 25,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_12_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 181,
+        "before": 0.8672890555508012,
+        "after": 0.15352570336427127,
+        "minimum": 0,
+        "seconds": 61.461933583
+      },
+      {
+        "meshIndex": 26,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_13_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 192,
+        "before": 0.9642370742074955,
+        "after": 0.1903844456976686,
+        "minimum": 0,
+        "seconds": 65.81224791599999
+      },
+      {
+        "meshIndex": 27,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_14_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 193,
+        "before": 0.9643007584563859,
+        "after": 0.16829675325422674,
+        "minimum": 0,
+        "seconds": 70.520795333
+      },
+      {
+        "meshIndex": 28,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_15_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 164,
+        "before": 0.867486664021514,
+        "after": 0.2610309353208285,
+        "minimum": 0,
+        "seconds": 76.091015375
+      },
+      {
+        "meshIndex": 29,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_16_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 170,
+        "before": 0.9621938072822556,
+        "after": 0.23428744614652747,
+        "minimum": 0,
+        "seconds": 79.685865416
+      },
+      {
+        "meshIndex": 30,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_17_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 163,
+        "before": 0.9632795086338195,
+        "after": 0.2943861950963128,
+        "minimum": 0,
+        "seconds": 83.030713875
+      },
+      {
+        "meshIndex": 31,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_18_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 150,
+        "before": 0.8667859578694591,
+        "after": 0.2720767820420061,
+        "minimum": 0,
+        "seconds": 87.85473229099999
+      },
+      {
+        "meshIndex": 32,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_19_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 150,
+        "before": 0.9635917916374142,
+        "after": 0.27285017704988473,
+        "minimum": 0,
+        "seconds": 91.058729333
+      },
+      {
+        "meshIndex": 33,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_20_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 132,
+        "before": 0.9636585450067329,
+        "after": 0.25084995453865366,
+        "minimum": 0,
+        "seconds": 94.11146512500001
+      },
+      {
+        "meshIndex": 34,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_21_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 122,
+        "before": 0.8662755989844687,
+        "after": 0.228671381262464,
+        "minimum": 0,
+        "seconds": 98.810740333
+      },
+      {
+        "meshIndex": 35,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_22_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 188,
+        "before": 0.9619636232501217,
+        "after": 0.3438243542378799,
+        "minimum": 0,
+        "seconds": 102.435100333
+      },
+      {
+        "meshIndex": 36,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_23_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 179,
+        "before": 0.9645777465750535,
+        "after": 0.23406723675578625,
+        "minimum": 0,
+        "seconds": 106.72860116599999
+      },
+      {
+        "meshIndex": 37,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_24_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 178,
+        "before": 0.8673295108282699,
+        "after": 0.19773398580434687,
+        "minimum": 0,
+        "seconds": 113.580701416
+      },
+      {
+        "meshIndex": 38,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_25_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 181,
+        "before": 0.9647373408373328,
+        "after": 0.21940144478844167,
+        "minimum": 0,
+        "seconds": 117.895923208
+      },
+      {
+        "meshIndex": 39,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_26_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 185,
+        "before": 0.9644419379960946,
+        "after": 0.20835030940570318,
+        "minimum": 0,
+        "seconds": 122.22334625
+      },
+      {
+        "meshIndex": 40,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_27_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 178,
+        "before": 0.8656822549149272,
+        "after": 0.2117667805119667,
+        "minimum": 0,
+        "seconds": 128.315611916
+      },
+      {
+        "meshIndex": 41,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_28_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 172,
+        "before": 0.9640598325027526,
+        "after": 0.2181676583762051,
+        "minimum": 0,
+        "seconds": 132.63950562500003
+      },
+      {
+        "meshIndex": 42,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_29_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 4381,
+        "candidates": 177,
+        "before": 0.9644281269541666,
+        "after": 0.2264243596088406,
+        "minimum": 0,
+        "seconds": 137.059904875
+      },
+      {
+        "meshIndex": 43,
+        "name": "V60_Render_Fitted_Roots_SITE_TREE_30_TRUNK_SURVEY_DBH",
+        "uniqueSamples": 6181,
+        "candidates": 186,
+        "before": 0.8664773567144091,
+        "after": 0.23798594957094066,
+        "minimum": 0,
+        "seconds": 143.513723333
+      }
+    ],
+    "limitations": [
+      "Cosine ambient visibility only: no direct-light change, GI, color bleeding or bent normal.",
+      "Finite 32m reach and 64 deterministic rays per unique position/normal approximate visibility; actual alpha-tested tree geometry and close physical soil relief.",
+      "Exact coincident-vertex sample sharing; original per-vertex interpolation remains unchanged. No geometry or runtime shader changes."
+    ],
+    "visualQa": {
+      "accepted": true,
+      "candidateSha256": "72d6a083d38b3ffa4e242160874b0900368db7d723a9926d8e1bc11034ac0d74",
+      "method": "Paired frozen-source native WebGPU frames,1512x850,reduced motion; only canopy sidecar substituted",
+      "screenshots": [
+        "tmp/realism-fps/trunk-baseline-view-01.png",
+        "tmp/realism-fps/trunk-candidate-view-01.png",
+        "tmp/realism-fps/trunk-baseline-view-05.png",
+        "tmp/realism-fps/trunk-candidate-view-05.png"
+      ],
+      "reference": "public/ridge/tour/walkway.webp",
+      "review": "Foreground surveyed trunks have stronger shaded form, retained bark texture, no broad patches or overdarkening. Deck is visually stable. Parent independently inspected and accepted the entrance comparison.",
+      "crops": {
+        "baseline": {
+          "leftForeground": {
+            "boundsNormalized": [
+              0.331,
+              0.4,
+              0.343,
+              0.66
+            ],
+            "median": 0.0496379423804737,
+            "mean": 0.05514435899276102,
+            "p10": 0.02399809373700811,
+            "p90": 0.0930902271490857,
+            "rms": 0.027856220971915126,
+            "blackPixelFraction": 0,
+            "relativeContrast": 0.505150870927195
+          },
+          "rightForeground": {
+            "boundsNormalized": [
+              0.863,
+              0.43,
+              0.875,
+              0.72
+            ],
+            "median": 0.05517536811889362,
+            "mean": 0.05896438571608769,
+            "p10": 0.020525686458370492,
+            "p90": 0.1031843976501718,
+            "rms": 0.03214843383117379,
+            "blackPixelFraction": 0,
+            "relativeContrast": 0.545217819888226
+          }
+        },
+        "candidate": {
+          "leftForeground": {
+            "boundsNormalized": [
+              0.331,
+              0.4,
+              0.343,
+              0.66
+            ],
+            "median": 0.01755473641984115,
+            "mean": 0.019734607858906333,
+            "p10": 0.008787911050422212,
+            "p90": 0.033538551508600654,
+            "rms": 0.010320217478475701,
+            "blackPixelFraction": 0,
+            "referenceMedianErrorReduction": 0.8613115058261988,
+            "relativeContrast": 0.5229502178234635
+          },
+          "rightForeground": {
+            "boundsNormalized": [
+              0.863,
+              0.43,
+              0.875,
+              0.72
+            ],
+            "median": 0.01999410432734024,
+            "mean": 0.021345681053153362,
+            "p10": 0.007299283468843262,
+            "p90": 0.03752985049453428,
+            "rms": 0.011807762854564538,
+            "blackPixelFraction": 0.00021308331557639036,
+            "referenceMedianErrorReduction": 0.9404804587836242,
+            "relativeContrast": 0.5531687101086988
+          }
+        },
+        "reference": {
+          "leftForeground": {
+            "boundsNormalized": [
+              0.331,
+              0.4,
+              0.343,
+              0.66
+            ],
+            "median": 0.01238869429356086,
+            "mean": 0.014051696486166061,
+            "p10": 0.003829988917597128,
+            "p90": 0.02534093673860733,
+            "rms": 0.00887427952918799,
+            "blackPixelFraction": 0.0018633540372670807
+          },
+          "rightForeground": {
+            "boundsNormalized": [
+              0.863,
+              0.43,
+              0.875,
+              0.72
+            ],
+            "median": 0.017767611835413505,
+            "mean": 0.01918369904340022,
+            "p10": 0.004448485428218102,
+            "p90": 0.03615999574086852,
+            "rms": 0.012517815041773631,
+            "blackPixelFraction": 0.0027955271565495207
+          }
+        },
+        "deck": {
+          "changedChannels": 779798,
+          "totalChannels": 3855600,
+          "meanAbsolute8bitDifference": 0.2871910986616869,
+          "maxDifference": 193
+        }
+      },
+      "runs": [
+        {
+          "mode": "baseline",
+          "records": [
+            {
+              "id": "view-01",
+              "fps": 24.769757622201443,
+              "gpuMs": 32.11,
+              "cpuMs": 10.54,
+              "draws": 176,
+              "triangles": 19586103,
+              "readyMs": 12250
+            },
+            {
+              "id": "view-05",
+              "fps": 26.973476081424533,
+              "gpuMs": 27.46,
+              "cpuMs": 8.66,
+              "draws": 112,
+              "triangles": 19248157,
+              "readyMs": 12250
+            }
+          ],
+          "errors": []
+        },
+        {
+          "mode": "candidate",
+          "records": [
+            {
+              "id": "view-01",
+              "fps": 25.429644650205294,
+              "gpuMs": 33.95,
+              "cpuMs": 10.71,
+              "draws": 176,
+              "triangles": 19586103,
+              "readyMs": 12063
+            },
+            {
+              "id": "view-05",
+              "fps": 26.585138906929522,
+              "gpuMs": 26.8,
+              "cpuMs": 8.89,
+              "draws": 112,
+              "triangles": 19248157,
+              "readyMs": 12063
+            }
+          ],
+          "errors": []
+        }
+      ],
+      "performanceConclusion": "Same shader,draws,triangles,buffers; entrance+2.66%,deck-1.44% in one pair, consistent with timing variability; no FPS improvement claimed."
+    }
+  }
 }

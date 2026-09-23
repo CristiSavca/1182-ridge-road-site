@@ -43,12 +43,12 @@
       "bytes": 822233
     },
     {
-      "sourceUrl": "/ridge/webgpu/winter-vegetation.glb",
-      "sourceSha256": "edef38d11d5f71b33a009f2d4ba35ad2251d8153cbc00815e7d850e18fb91245",
-      "sourceBytes": 36968124,
-      "url": "/ridge/webgpu/transport/winter-vegetation.glb.gz",
-      "sha256": "be25f8f649ac4854478b2fdaa59b329774cab719cc2ad9d2af87b2165b94d466",
-      "bytes": 29480152
+      "sourceUrl": "/ridge/webgpu/winter-vegetation-aspen-229d5a217c56.glb",
+      "sourceSha256": "229d5a217c568ec2a56481cb4273a7307b69b53b8a2e17c0a7681033488933ed",
+      "sourceBytes": 661452,
+      "url": "/ridge/webgpu/transport/winter-vegetation-aspen-229d5a217c56.glb.gz",
+      "sha256": "08be29a44fc7eaba3306c723dceb232971eb216454c6ee62f30d691310940533",
+      "bytes": 592789
     },
     {
       "sourceUrl": "/ridge/webgpu/winter-interior.glb",
@@ -153,6 +153,22 @@
       "url": "/ridge/webgpu/transport/native-tree-geometry.glb.gz",
       "sha256": "a974620b34d6af880bcfaa52495b5cf480916da79dbd24ac6a90bc4137fad16a",
       "bytes": 34670293
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/native-tree-delta/native-tree-unique-e0e6e022380c.glb",
+      "sourceSha256": "e0e6e022380c95e24feb60b2f5222d014c96dc655a0005651c25d7a1e9ac3cad",
+      "sourceBytes": 27623300,
+      "url": "/ridge/webgpu/transport/native-tree-unique-e0e6e022380c.glb.gz",
+      "sha256": "54ea4a6f3c9ffadae8b50f465853a1e370033c2d93fa74d59c59ed2a7daa2b73",
+      "bytes": 21082552
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/native-tree-delta/native-tree-reuse-ao-811fe24f1d23.bin",
+      "sourceSha256": "811fe24f1d238670e8a99fb2c16d27b6695e1b6afaa622719d8a395d6f04251b",
+      "sourceBytes": 2253360,
+      "url": "/ridge/webgpu/transport/native-tree-reuse-ao-811fe24f1d23.bin.gz",
+      "sha256": "07f4cc6ef6417d2131a97fcc1bf47ca8ee5c1275456898455004f1b301b3eb54",
+      "bytes": 1616108
     }
   ]
 }

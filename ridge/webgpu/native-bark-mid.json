@@ -1,0 +1,3872 @@
+{
+  "schemaVersion": 1,
+  "url": "/ridge/webgpu/native-bark-mid.indices.gz",
+  "bytes": 1666946,
+  "compressedBytes": 1181989,
+  "sha256": "bb94392e9fdd771c3178060ffcf51356b1ba22381939a07cd138b08b1fcdcbde",
+  "sourcePath": "public/ridge/webgpu/vegetation.glb",
+  "sourceSha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+  "patchPath": "public/ridge/webgpu/native-tree-geometry.glb",
+  "patchSha256": "35547011835fba3205db38aa6dbc31e39fc64c2e4f6cebf927c5976443e54b2c",
+  "minimumCoverage": 0.95,
+  "resolution": 256,
+  "projectionCount": 9,
+  "maximumRelativeError": 0.002,
+  "normalWeight": 0.5,
+  "uvWeight": 1.5,
+  "prune": false,
+  "description": "Index-only material-isolated Meshopt simplification of restored native bark. No vertex or leaf data is changed. Adaptive error≤0.002 retains≥95% bare-bark silhouette in nine orthographic256px projections. Absolute error is the meshopt metric times geometry scale, not a Hausdorff guarantee. Native vertex addresses must be remapped together through runtime welding and cache reordering.",
+  "sourceTriangles": 1029463,
+  "triangles": 581476,
+  "records": [
+    {
+      "sourceMeshIndex": 0,
+      "sourcePrimitiveIndex": 0,
+      "name": "ENV_V21_full_LOD_1",
+      "material": "ENV_V21_Display_pine_tree_01_bark",
+      "usesRestoredSource": true,
+      "vertexCount": 5307,
+      "nativeIndexCount": 24402,
+      "indexCount": 24072,
+      "offset": 0,
+      "byteLength": 24077,
+      "sourceTriangles": 8134,
+      "triangles": 8024,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001938500558026135,
+      "absoluteMeshoptError": 0.0030891552717264292,
+      "minimumCoverage": 0.997979797979798,
+      "coverage": [
+        {
+          "referencePixels": 12815,
+          "candidatePixels": 12809,
+          "retained": 0.9995317986734296,
+          "intersectionOverUnion": 0.9995317986734296
+        },
+        {
+          "referencePixels": 5940,
+          "candidatePixels": 5928,
+          "retained": 0.997979797979798,
+          "intersectionOverUnion": 0.997979797979798
+        },
+        {
+          "referencePixels": 6115,
+          "candidatePixels": 6109,
+          "retained": 0.9990188062142273,
+          "intersectionOverUnion": 0.9990188062142273
+        },
+        {
+          "referencePixels": 10899,
+          "candidatePixels": 10893,
+          "retained": 0.9994494907789705,
+          "intersectionOverUnion": 0.9994494907789705
+        },
+        {
+          "referencePixels": 5334,
+          "candidatePixels": 5324,
+          "retained": 0.9981252343457068,
+          "intersectionOverUnion": 0.9981252343457068
+        },
+        {
+          "referencePixels": 5769,
+          "candidatePixels": 5758,
+          "retained": 0.9980932570636158,
+          "intersectionOverUnion": 0.9980932570636158
+        },
+        {
+          "referencePixels": 11835,
+          "candidatePixels": 11829,
+          "retained": 0.9994930291508238,
+          "intersectionOverUnion": 0.9994930291508238
+        },
+        {
+          "referencePixels": 12623,
+          "candidatePixels": 12609,
+          "retained": 0.9988909134120256,
+          "intersectionOverUnion": 0.9988909134120256
+        },
+        {
+          "referencePixels": 5030,
+          "candidatePixels": 5021,
+          "retained": 0.9982107355864811,
+          "intersectionOverUnion": 0.9982107355864811
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 0,
+      "sourcePrimitiveIndex": 1,
+      "name": "ENV_V21_full_LOD_1",
+      "material": "ENV_V21_Display_pine_tree_01_trunk_a",
+      "usesRestoredSource": true,
+      "vertexCount": 661,
+      "nativeIndexCount": 2466,
+      "indexCount": 2280,
+      "offset": 24077,
+      "byteLength": 2622,
+      "sourceTriangles": 822,
+      "triangles": 760,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019919222686439753,
+      "absoluteMeshoptError": 0.0017142991092636284,
+      "minimumCoverage": 0.9976954849231533,
+      "coverage": [
+        {
+          "referencePixels": 56411,
+          "candidatePixels": 56304,
+          "retained": 0.9976954849231533,
+          "intersectionOverUnion": 0.9972888684126591
+        },
+        {
+          "referencePixels": 8939,
+          "candidatePixels": 8938,
+          "retained": 0.999328783980311,
+          "intersectionOverUnion": 0.9987701252236136
+        },
+        {
+          "referencePixels": 8030,
+          "candidatePixels": 8028,
+          "retained": 0.999626400996264,
+          "intersectionOverUnion": 0.9995019300211679
+        },
+        {
+          "referencePixels": 39734,
+          "candidatePixels": 39668,
+          "retained": 0.9979866109629033,
+          "intersectionOverUnion": 0.9976351011371641
+        },
+        {
+          "referencePixels": 7163,
+          "candidatePixels": 7164,
+          "retained": 0.9994415747591792,
+          "intersectionOverUnion": 0.9987444196428571
+        },
+        {
+          "referencePixels": 7298,
+          "candidatePixels": 7293,
+          "retained": 0.9989038092628117,
+          "intersectionOverUnion": 0.9984933570743734
+        },
+        {
+          "referencePixels": 15152,
+          "candidatePixels": 15134,
+          "retained": 0.9986140443505808,
+          "intersectionOverUnion": 0.9984163642362257
+        },
+        {
+          "referencePixels": 24499,
+          "candidatePixels": 24450,
+          "retained": 0.9979591003714438,
+          "intersectionOverUnion": 0.9979183673469387
+        },
+        {
+          "referencePixels": 3701,
+          "candidatePixels": 3699,
+          "retained": 0.9994596055120237,
+          "intersectionOverUnion": 0.9994596055120237
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 0,
+      "sourcePrimitiveIndex": 3,
+      "name": "ENV_V21_full_LOD_1",
+      "material": "ENV_V21_Display_pine_tree_01_dead_branches",
+      "usesRestoredSource": true,
+      "vertexCount": 436,
+      "nativeIndexCount": 993,
+      "indexCount": 990,
+      "offset": 26699,
+      "byteLength": 995,
+      "sourceTriangles": 331,
+      "triangles": 330,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001920839655213058,
+      "absoluteMeshoptError": 0.0007642237587784234,
+      "minimumCoverage": 1,
+      "coverage": [
+        {
+          "referencePixels": 4308,
+          "candidatePixels": 4308,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 2013,
+          "candidatePixels": 2013,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 1639,
+          "candidatePixels": 1639,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 4052,
+          "candidatePixels": 4052,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 1721,
+          "candidatePixels": 1721,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 1777,
+          "candidatePixels": 1777,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 3453,
+          "candidatePixels": 3453,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4191,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 1546,
+          "candidatePixels": 1546,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 1,
+      "sourcePrimitiveIndex": 0,
+      "name": "ENV_V21_full_LOD_2",
+      "material": "ENV_V21_Display_pine_tree_01_bark",
+      "usesRestoredSource": true,
+      "vertexCount": 3361,
+      "nativeIndexCount": 15588,
+      "indexCount": 15471,
+      "offset": 27694,
+      "byteLength": 15476,
+      "sourceTriangles": 5196,
+      "triangles": 5157,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001944332616403699,
+      "absoluteMeshoptError": 0.003147873265457596,
+      "minimumCoverage": 0.9990105540897097,
+      "coverage": [
+        {
+          "referencePixels": 9371,
+          "candidatePixels": 9370,
+          "retained": 0.9998932878027958,
+          "intersectionOverUnion": 0.9998932878027958
+        },
+        {
+          "referencePixels": 6064,
+          "candidatePixels": 6058,
+          "retained": 0.9990105540897097,
+          "intersectionOverUnion": 0.9990105540897097
+        },
+        {
+          "referencePixels": 5299,
+          "candidatePixels": 5295,
+          "retained": 0.9992451405925646,
+          "intersectionOverUnion": 0.9992451405925646
+        },
+        {
+          "referencePixels": 10090,
+          "candidatePixels": 10089,
+          "retained": 0.9999008919722497,
+          "intersectionOverUnion": 0.9999008919722497
+        },
+        {
+          "referencePixels": 5798,
+          "candidatePixels": 5798,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 6246,
+          "candidatePixels": 6241,
+          "retained": 0.9991994876721102,
+          "intersectionOverUnion": 0.9991994876721102
+        },
+        {
+          "referencePixels": 8438,
+          "candidatePixels": 8435,
+          "retained": 0.9996444655131548,
+          "intersectionOverUnion": 0.9996444655131548
+        },
+        {
+          "referencePixels": 9349,
+          "candidatePixels": 9346,
+          "retained": 0.9996791100652476,
+          "intersectionOverUnion": 0.9996791100652476
+        },
+        {
+          "referencePixels": 3570,
+          "candidatePixels": 3568,
+          "retained": 0.9994397759103641,
+          "intersectionOverUnion": 0.9994397759103641
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 1,
+      "sourcePrimitiveIndex": 1,
+      "name": "ENV_V21_full_LOD_2",
+      "material": "ENV_V21_Display_pine_tree_01_trunk_b",
+      "usesRestoredSource": true,
+      "vertexCount": 653,
+      "nativeIndexCount": 2628,
+      "indexCount": 2421,
+      "offset": 43170,
+      "byteLength": 2916,
+      "sourceTriangles": 876,
+      "triangles": 807,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001963780727237463,
+      "absoluteMeshoptError": 0.001652864174794405,
+      "minimumCoverage": 0.997658945293248,
+      "coverage": [
+        {
+          "referencePixels": 54508,
+          "candidatePixels": 54606,
+          "retained": 0.9998899244147648,
+          "intersectionOverUnion": 0.9979857906687175
+        },
+        {
+          "referencePixels": 8896,
+          "candidatePixels": 8892,
+          "retained": 0.9994379496402878,
+          "intersectionOverUnion": 0.9993256153759694
+        },
+        {
+          "referencePixels": 8379,
+          "candidatePixels": 8377,
+          "retained": 0.9990452321279389,
+          "intersectionOverUnion": 0.9983303518187239
+        },
+        {
+          "referencePixels": 43965,
+          "candidatePixels": 44039,
+          "retained": 0.9999317639031048,
+          "intersectionOverUnion": 0.9981835520639389
+        },
+        {
+          "referencePixels": 7474,
+          "candidatePixels": 7474,
+          "retained": 0.9997324056729997,
+          "intersectionOverUnion": 0.9994649545211343
+        },
+        {
+          "referencePixels": 8116,
+          "candidatePixels": 8097,
+          "retained": 0.997658945293248,
+          "intersectionOverUnion": 0.997658945293248
+        },
+        {
+          "referencePixels": 15976,
+          "candidatePixels": 15996,
+          "retained": 0.9999374061091637,
+          "intersectionOverUnion": 0.9986247421391511
+        },
+        {
+          "referencePixels": 30288,
+          "candidatePixels": 30326,
+          "retained": 0.9998349181193872,
+          "intersectionOverUnion": 0.9984174606837889
+        },
+        {
+          "referencePixels": 4998,
+          "candidatePixels": 4991,
+          "retained": 0.9985994397759104,
+          "intersectionOverUnion": 0.9985994397759104
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 1,
+      "sourcePrimitiveIndex": 3,
+      "name": "ENV_V21_full_LOD_2",
+      "material": "ENV_V21_Display_pine_tree_01_dead_branches",
+      "usesRestoredSource": true,
+      "vertexCount": 454,
+      "nativeIndexCount": 1095,
+      "indexCount": 1095,
+      "offset": 46086,
+      "byteLength": 1100,
+      "sourceTriangles": 365,
+      "triangles": 365,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0,
+      "absoluteMeshoptError": 0,
+      "minimumCoverage": 1,
+      "coverage": [
+        {
+          "referencePixels": 5710,
+          "candidatePixels": 5710,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 3130,
+          "candidatePixels": 3130,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 2269,
+          "candidatePixels": 2269,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 4286,
+          "candidatePixels": 4286,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 2113,
+          "candidatePixels": 2113,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 2523,
+          "candidatePixels": 2523,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 5852,
+          "candidatePixels": 5852,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 4733,
+          "candidatePixels": 4733,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 2108,
+          "candidatePixels": 2108,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 2,
+      "sourcePrimitiveIndex": 0,
+      "name": "ENV_V21_full_LOD_3",
+      "material": "ENV_V21_Display_pine_tree_01_bark",
+      "usesRestoredSource": true,
+      "vertexCount": 4557,
+      "nativeIndexCount": 20802,
+      "indexCount": 20613,
+      "offset": 47186,
+      "byteLength": 20618,
+      "sourceTriangles": 6934,
+      "triangles": 6871,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019817075226455927,
+      "absoluteMeshoptError": 0.0030793365832195163,
+      "minimumCoverage": 0.9979987684729064,
+      "coverage": [
+        {
+          "referencePixels": 12647,
+          "candidatePixels": 12646,
+          "retained": 0.9999209298647901,
+          "intersectionOverUnion": 0.9999209298647901
+        },
+        {
+          "referencePixels": 6496,
+          "candidatePixels": 6483,
+          "retained": 0.9979987684729064,
+          "intersectionOverUnion": 0.9979987684729064
+        },
+        {
+          "referencePixels": 6280,
+          "candidatePixels": 6272,
+          "retained": 0.9987261146496815,
+          "intersectionOverUnion": 0.9987261146496815
+        },
+        {
+          "referencePixels": 12342,
+          "candidatePixels": 12337,
+          "retained": 0.9995948792740237,
+          "intersectionOverUnion": 0.9995948792740237
+        },
+        {
+          "referencePixels": 6253,
+          "candidatePixels": 6245,
+          "retained": 0.9987206141052295,
+          "intersectionOverUnion": 0.9987206141052295
+        },
+        {
+          "referencePixels": 6461,
+          "candidatePixels": 6454,
+          "retained": 0.9989165763813651,
+          "intersectionOverUnion": 0.9989165763813651
+        },
+        {
+          "referencePixels": 10783,
+          "candidatePixels": 10776,
+          "retained": 0.9993508300102012,
+          "intersectionOverUnion": 0.9993508300102012
+        },
+        {
+          "referencePixels": 12297,
+          "candidatePixels": 12295,
+          "retained": 0.9998373587053753,
+          "intersectionOverUnion": 0.9998373587053753
+        },
+        {
+          "referencePixels": 4776,
+          "candidatePixels": 4767,
+          "retained": 0.9981155778894473,
+          "intersectionOverUnion": 0.9981155778894473
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 2,
+      "sourcePrimitiveIndex": 1,
+      "name": "ENV_V21_full_LOD_3",
+      "material": "ENV_V21_Display_pine_tree_01_trunk_c",
+      "usesRestoredSource": true,
+      "vertexCount": 403,
+      "nativeIndexCount": 1557,
+      "indexCount": 1509,
+      "offset": 67804,
+      "byteLength": 1806,
+      "sourceTriangles": 519,
+      "triangles": 503,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019261105917394161,
+      "absoluteMeshoptError": 0.001666849593609132,
+      "minimumCoverage": 0.9991390443392165,
+      "coverage": [
+        {
+          "referencePixels": 52176,
+          "candidatePixels": 52139,
+          "retained": 0.9992716957988347,
+          "intersectionOverUnion": 0.9992525442244667
+        },
+        {
+          "referencePixels": 8384,
+          "candidatePixels": 8382,
+          "retained": 0.9996421755725191,
+          "intersectionOverUnion": 0.9995229576624926
+        },
+        {
+          "referencePixels": 8401,
+          "candidatePixels": 8404,
+          "retained": 1,
+          "intersectionOverUnion": 0.9996430271299381
+        },
+        {
+          "referencePixels": 46496,
+          "candidatePixels": 46473,
+          "retained": 0.9993762904335857,
+          "intersectionOverUnion": 0.9992473442002494
+        },
+        {
+          "referencePixels": 7764,
+          "candidatePixels": 7764,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 8433,
+          "candidatePixels": 8435,
+          "retained": 0.99976283647575,
+          "intersectionOverUnion": 0.9992888467464739
+        },
+        {
+          "referencePixels": 13817,
+          "candidatePixels": 13807,
+          "retained": 0.9992762538901353,
+          "intersectionOverUnion": 0.9992762538901353
+        },
+        {
+          "referencePixels": 28079,
+          "candidatePixels": 28068,
+          "retained": 0.9994301791374337,
+          "intersectionOverUnion": 0.9992522432701895
+        },
+        {
+          "referencePixels": 4646,
+          "candidatePixels": 4643,
+          "retained": 0.9991390443392165,
+          "intersectionOverUnion": 0.9989240370131267
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 2,
+      "sourcePrimitiveIndex": 3,
+      "name": "ENV_V21_full_LOD_3",
+      "material": "ENV_V21_Display_pine_tree_01_dead_branches",
+      "usesRestoredSource": true,
+      "vertexCount": 427,
+      "nativeIndexCount": 972,
+      "indexCount": 972,
+      "offset": 69610,
+      "byteLength": 977,
+      "sourceTriangles": 324,
+      "triangles": 324,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0,
+      "absoluteMeshoptError": 0,
+      "minimumCoverage": 1,
+      "coverage": [
+        {
+          "referencePixels": 6322,
+          "candidatePixels": 6322,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 2603,
+          "candidatePixels": 2603,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 1899,
+          "candidatePixels": 1899,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 5157,
+          "candidatePixels": 5157,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 1849,
+          "candidatePixels": 1849,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 2140,
+          "candidatePixels": 2140,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 5995,
+          "candidatePixels": 5995,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 5254,
+          "candidatePixels": 5254,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        },
+        {
+          "referencePixels": 1957,
+          "candidatePixels": 1957,
+          "retained": 1,
+          "intersectionOverUnion": 1
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 3,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 46046,
+      "nativeIndexCount": 179862,
+      "indexCount": 89136,
+      "offset": 70587,
+      "byteLength": 92636,
+      "sourceTriangles": 59954,
+      "triangles": 29712,
+      "relativeErrorLimit": 0.001921875,
+      "measuredError": 0.0019218727247789502,
+      "absoluteMeshoptError": 0.0365059117034936,
+      "minimumCoverage": 0.9518413597733711,
+      "coverage": [
+        {
+          "referencePixels": 5364,
+          "candidatePixels": 5117,
+          "retained": 0.9522744220730798,
+          "intersectionOverUnion": 0.950679322538619
+        },
+        {
+          "referencePixels": 4955,
+          "candidatePixels": 4831,
+          "retained": 0.9717457114026236,
+          "intersectionOverUnion": 0.9686179843089922
+        },
+        {
+          "referencePixels": 5120,
+          "candidatePixels": 4981,
+          "retained": 0.9697265625,
+          "intersectionOverUnion": 0.9667056074766355
+        },
+        {
+          "referencePixels": 4589,
+          "candidatePixels": 4378,
+          "retained": 0.9518413597733711,
+          "intersectionOverUnion": 0.9497716894977168
+        },
+        {
+          "referencePixels": 4614,
+          "candidatePixels": 4471,
+          "retained": 0.9679237104464673,
+          "intersectionOverUnion": 0.9668759471747131
+        },
+        {
+          "referencePixels": 4673,
+          "candidatePixels": 4533,
+          "retained": 0.9661887438476353,
+          "intersectionOverUnion": 0.962481347260712
+        },
+        {
+          "referencePixels": 4977,
+          "candidatePixels": 4840,
+          "retained": 0.9702632107695399,
+          "intersectionOverUnion": 0.9681234963913392
+        },
+        {
+          "referencePixels": 5562,
+          "candidatePixels": 5372,
+          "retained": 0.9629629629629629,
+          "intersectionOverUnion": 0.9602007888131947
+        },
+        {
+          "referencePixels": 4527,
+          "candidatePixels": 4382,
+          "retained": 0.9626684338413961,
+          "intersectionOverUnion": 0.957591738079543
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 4,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Pinus-ponderosa_D_spring-summer-autumn",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": true,
+      "vertexCount": 20092,
+      "nativeIndexCount": 78363,
+      "indexCount": 47898,
+      "offset": 163223,
+      "byteLength": 51829,
+      "sourceTriangles": 26121,
+      "triangles": 15966,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001972451340407133,
+      "absoluteMeshoptError": 0.01645382228686909,
+      "minimumCoverage": 0.9898998472245799,
+      "coverage": [
+        {
+          "referencePixels": 11782,
+          "candidatePixels": 11664,
+          "retained": 0.9898998472245799,
+          "intersectionOverUnion": 0.9898158363744377
+        },
+        {
+          "referencePixels": 6929,
+          "candidatePixels": 6905,
+          "retained": 0.9945158031461971,
+          "intersectionOverUnion": 0.9925104421719718
+        },
+        {
+          "referencePixels": 7822,
+          "candidatePixels": 7790,
+          "retained": 0.9938634620301713,
+          "intersectionOverUnion": 0.9918346516968615
+        },
+        {
+          "referencePixels": 12277,
+          "candidatePixels": 12179,
+          "retained": 0.991691781379816,
+          "intersectionOverUnion": 0.9913687810438889
+        },
+        {
+          "referencePixels": 7609,
+          "candidatePixels": 7575,
+          "retained": 0.9936916809041924,
+          "intersectionOverUnion": 0.9918667191394465
+        },
+        {
+          "referencePixels": 7312,
+          "candidatePixels": 7276,
+          "retained": 0.9927516411378556,
+          "intersectionOverUnion": 0.9904489016236867
+        },
+        {
+          "referencePixels": 8259,
+          "candidatePixels": 8234,
+          "retained": 0.9953989587117085,
+          "intersectionOverUnion": 0.9938346228239845
+        },
+        {
+          "referencePixels": 10752,
+          "candidatePixels": 10702,
+          "retained": 0.9947916666666666,
+          "intersectionOverUnion": 0.9942368469975832
+        },
+        {
+          "referencePixels": 7283,
+          "candidatePixels": 7270,
+          "retained": 0.9958808183440889,
+          "intersectionOverUnion": 0.9935616438356164
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 5,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": true,
+      "vertexCount": 46046,
+      "nativeIndexCount": 179862,
+      "indexCount": 89136,
+      "offset": 70587,
+      "byteLength": 92636,
+      "sourceTriangles": 59954,
+      "triangles": 29712,
+      "relativeErrorLimit": 0.001921875,
+      "measuredError": 0.0019218727247789502,
+      "absoluteMeshoptError": 0.0365059117034936,
+      "minimumCoverage": 0.9518413597733711,
+      "coverage": [
+        {
+          "referencePixels": 5364,
+          "candidatePixels": 5117,
+          "retained": 0.9522744220730798,
+          "intersectionOverUnion": 0.950679322538619
+        },
+        {
+          "referencePixels": 4955,
+          "candidatePixels": 4831,
+          "retained": 0.9717457114026236,
+          "intersectionOverUnion": 0.9686179843089922
+        },
+        {
+          "referencePixels": 5120,
+          "candidatePixels": 4981,
+          "retained": 0.9697265625,
+          "intersectionOverUnion": 0.9667056074766355
+        },
+        {
+          "referencePixels": 4589,
+          "candidatePixels": 4378,
+          "retained": 0.9518413597733711,
+          "intersectionOverUnion": 0.9497716894977168
+        },
+        {
+          "referencePixels": 4614,
+          "candidatePixels": 4471,
+          "retained": 0.9679237104464673,
+          "intersectionOverUnion": 0.9668759471747131
+        },
+        {
+          "referencePixels": 4673,
+          "candidatePixels": 4533,
+          "retained": 0.9661887438476353,
+          "intersectionOverUnion": 0.962481347260712
+        },
+        {
+          "referencePixels": 4977,
+          "candidatePixels": 4840,
+          "retained": 0.9702632107695399,
+          "intersectionOverUnion": 0.9681234963913392
+        },
+        {
+          "referencePixels": 5562,
+          "candidatePixels": 5372,
+          "retained": 0.9629629629629629,
+          "intersectionOverUnion": 0.9602007888131947
+        },
+        {
+          "referencePixels": 4527,
+          "candidatePixels": 4382,
+          "retained": 0.9626684338413961,
+          "intersectionOverUnion": 0.957591738079543
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 6,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 23131,
+      "nativeIndexCount": 96012,
+      "indexCount": 50037,
+      "offset": 215052,
+      "byteLength": 53753,
+      "sourceTriangles": 32004,
+      "triangles": 16679,
+      "relativeErrorLimit": 0.0016406250000000002,
+      "measuredError": 0.0016303668962791562,
+      "absoluteMeshoptError": 0.02048401541245637,
+      "minimumCoverage": 0.9529587455665485,
+      "coverage": [
+        {
+          "referencePixels": 10843,
+          "candidatePixels": 10388,
+          "retained": 0.9540717513603246,
+          "intersectionOverUnion": 0.9503031416498254
+        },
+        {
+          "referencePixels": 4608,
+          "candidatePixels": 4535,
+          "retained": 0.9787326388888888,
+          "intersectionOverUnion": 0.9734513274336283
+        },
+        {
+          "referencePixels": 4912,
+          "candidatePixels": 4838,
+          "retained": 0.9796416938110749,
+          "intersectionOverUnion": 0.9744835965978129
+        },
+        {
+          "referencePixels": 10714,
+          "candidatePixels": 10251,
+          "retained": 0.9529587455665485,
+          "intersectionOverUnion": 0.9493258949325895
+        },
+        {
+          "referencePixels": 4669,
+          "candidatePixels": 4598,
+          "retained": 0.9792246733775969,
+          "intersectionOverUnion": 0.9738019169329073
+        },
+        {
+          "referencePixels": 4835,
+          "candidatePixels": 4754,
+          "retained": 0.9782833505687694,
+          "intersectionOverUnion": 0.9734513274336283
+        },
+        {
+          "referencePixels": 5314,
+          "candidatePixels": 5188,
+          "retained": 0.9725254045916447,
+          "intersectionOverUnion": 0.9688788901387326
+        },
+        {
+          "referencePixels": 7317,
+          "candidatePixels": 7127,
+          "retained": 0.968293016263496,
+          "intersectionOverUnion": 0.9627666802554695
+        },
+        {
+          "referencePixels": 3095,
+          "candidatePixels": 3046,
+          "retained": 0.9793214862681745,
+          "intersectionOverUnion": 0.9745980707395498
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 7,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 51642,
+      "nativeIndexCount": 209583,
+      "indexCount": 144942,
+      "offset": 268805,
+      "byteLength": 151396,
+      "sourceTriangles": 69861,
+      "triangles": 48314,
+      "relativeErrorLimit": 0.0012187500000000002,
+      "measuredError": 0.0012109196977689862,
+      "absoluteMeshoptError": 0.01633779970863547,
+      "minimumCoverage": 0.9507756198851838,
+      "coverage": [
+        {
+          "referencePixels": 8187,
+          "candidatePixels": 7832,
+          "retained": 0.9507756198851838,
+          "intersectionOverUnion": 0.9452337583485124
+        },
+        {
+          "referencePixels": 5947,
+          "candidatePixels": 5827,
+          "retained": 0.9737682865310241,
+          "intersectionOverUnion": 0.9679090757145244
+        },
+        {
+          "referencePixels": 5925,
+          "candidatePixels": 5810,
+          "retained": 0.9758649789029535,
+          "intersectionOverUnion": 0.9712749874013102
+        },
+        {
+          "referencePixels": 8558,
+          "candidatePixels": 8235,
+          "retained": 0.9567655994391213,
+          "intersectionOverUnion": 0.9515398024404416
+        },
+        {
+          "referencePixels": 5739,
+          "candidatePixels": 5643,
+          "retained": 0.9790904338734971,
+          "intersectionOverUnion": 0.9750130140551796
+        },
+        {
+          "referencePixels": 6248,
+          "candidatePixels": 6135,
+          "retained": 0.9769526248399488,
+          "intersectionOverUnion": 0.9721293199554069
+        },
+        {
+          "referencePixels": 6182,
+          "candidatePixels": 6057,
+          "retained": 0.9747654480750566,
+          "intersectionOverUnion": 0.9699018187671012
+        },
+        {
+          "referencePixels": 7473,
+          "candidatePixels": 7267,
+          "retained": 0.9666800481734243,
+          "intersectionOverUnion": 0.961149547631719
+        },
+        {
+          "referencePixels": 4316,
+          "candidatePixels": 4248,
+          "retained": 0.9791473586654309,
+          "intersectionOverUnion": 0.9741816505301982
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 8,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 45118,
+      "nativeIndexCount": 197889,
+      "indexCount": 106641,
+      "offset": 420201,
+      "byteLength": 207826,
+      "sourceTriangles": 65963,
+      "triangles": 35547,
+      "relativeErrorLimit": 0.000875,
+      "measuredError": 0.0008735639275982976,
+      "absoluteMeshoptError": 0.013478570984756355,
+      "minimumCoverage": 0.9502721653289049,
+      "coverage": [
+        {
+          "referencePixels": 10538,
+          "candidatePixels": 10114,
+          "retained": 0.9508445625355855,
+          "intersectionOverUnion": 0.9424379232505643
+        },
+        {
+          "referencePixels": 5600,
+          "candidatePixels": 5537,
+          "retained": 0.9814285714285714,
+          "intersectionOverUnion": 0.9742953377060805
+        },
+        {
+          "referencePixels": 5608,
+          "candidatePixels": 5560,
+          "retained": 0.9864479315263909,
+          "intersectionOverUnion": 0.9815471965933286
+        },
+        {
+          "referencePixels": 10839,
+          "candidatePixels": 10395,
+          "retained": 0.9502721653289049,
+          "intersectionOverUnion": 0.9420157307481252
+        },
+        {
+          "referencePixels": 5698,
+          "candidatePixels": 5620,
+          "retained": 0.9824499824499825,
+          "intersectionOverUnion": 0.9786713286713287
+        },
+        {
+          "referencePixels": 5551,
+          "candidatePixels": 5499,
+          "retained": 0.9850477391460998,
+          "intersectionOverUnion": 0.9795772124686493
+        },
+        {
+          "referencePixels": 6337,
+          "candidatePixels": 6206,
+          "retained": 0.9730156225343223,
+          "intersectionOverUnion": 0.966912341226282
+        },
+        {
+          "referencePixels": 8977,
+          "candidatePixels": 8808,
+          "retained": 0.9718168653224908,
+          "intersectionOverUnion": 0.962807637126145
+        },
+        {
+          "referencePixels": 4214,
+          "candidatePixels": 4171,
+          "retained": 0.9829140958709065,
+          "intersectionOverUnion": 0.9761960876738157
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 9,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": true,
+      "vertexCount": 45118,
+      "nativeIndexCount": 197889,
+      "indexCount": 106641,
+      "offset": 420201,
+      "byteLength": 207826,
+      "sourceTriangles": 65963,
+      "triangles": 35547,
+      "relativeErrorLimit": 0.000875,
+      "measuredError": 0.0008735639275982976,
+      "absoluteMeshoptError": 0.013478570984756355,
+      "minimumCoverage": 0.9502721653289049,
+      "coverage": [
+        {
+          "referencePixels": 10538,
+          "candidatePixels": 10114,
+          "retained": 0.9508445625355855,
+          "intersectionOverUnion": 0.9424379232505643
+        },
+        {
+          "referencePixels": 5600,
+          "candidatePixels": 5537,
+          "retained": 0.9814285714285714,
+          "intersectionOverUnion": 0.9742953377060805
+        },
+        {
+          "referencePixels": 5608,
+          "candidatePixels": 5560,
+          "retained": 0.9864479315263909,
+          "intersectionOverUnion": 0.9815471965933286
+        },
+        {
+          "referencePixels": 10839,
+          "candidatePixels": 10395,
+          "retained": 0.9502721653289049,
+          "intersectionOverUnion": 0.9420157307481252
+        },
+        {
+          "referencePixels": 5698,
+          "candidatePixels": 5620,
+          "retained": 0.9824499824499825,
+          "intersectionOverUnion": 0.9786713286713287
+        },
+        {
+          "referencePixels": 5551,
+          "candidatePixels": 5499,
+          "retained": 0.9850477391460998,
+          "intersectionOverUnion": 0.9795772124686493
+        },
+        {
+          "referencePixels": 6337,
+          "candidatePixels": 6206,
+          "retained": 0.9730156225343223,
+          "intersectionOverUnion": 0.966912341226282
+        },
+        {
+          "referencePixels": 8977,
+          "candidatePixels": 8808,
+          "retained": 0.9718168653224908,
+          "intersectionOverUnion": 0.962807637126145
+        },
+        {
+          "referencePixels": 4214,
+          "candidatePixels": 4171,
+          "retained": 0.9829140958709065,
+          "intersectionOverUnion": 0.9761960876738157
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 10,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": true,
+      "vertexCount": 51642,
+      "nativeIndexCount": 209583,
+      "indexCount": 144942,
+      "offset": 268805,
+      "byteLength": 151396,
+      "sourceTriangles": 69861,
+      "triangles": 48314,
+      "relativeErrorLimit": 0.0012187500000000002,
+      "measuredError": 0.0012109196977689862,
+      "absoluteMeshoptError": 0.01633779970863547,
+      "minimumCoverage": 0.9507756198851838,
+      "coverage": [
+        {
+          "referencePixels": 8187,
+          "candidatePixels": 7832,
+          "retained": 0.9507756198851838,
+          "intersectionOverUnion": 0.9452337583485124
+        },
+        {
+          "referencePixels": 5947,
+          "candidatePixels": 5827,
+          "retained": 0.9737682865310241,
+          "intersectionOverUnion": 0.9679090757145244
+        },
+        {
+          "referencePixels": 5925,
+          "candidatePixels": 5810,
+          "retained": 0.9758649789029535,
+          "intersectionOverUnion": 0.9712749874013102
+        },
+        {
+          "referencePixels": 8558,
+          "candidatePixels": 8235,
+          "retained": 0.9567655994391213,
+          "intersectionOverUnion": 0.9515398024404416
+        },
+        {
+          "referencePixels": 5739,
+          "candidatePixels": 5643,
+          "retained": 0.9790904338734971,
+          "intersectionOverUnion": 0.9750130140551796
+        },
+        {
+          "referencePixels": 6248,
+          "candidatePixels": 6135,
+          "retained": 0.9769526248399488,
+          "intersectionOverUnion": 0.9721293199554069
+        },
+        {
+          "referencePixels": 6182,
+          "candidatePixels": 6057,
+          "retained": 0.9747654480750566,
+          "intersectionOverUnion": 0.9699018187671012
+        },
+        {
+          "referencePixels": 7473,
+          "candidatePixels": 7267,
+          "retained": 0.9666800481734243,
+          "intersectionOverUnion": 0.961149547631719
+        },
+        {
+          "referencePixels": 4316,
+          "candidatePixels": 4248,
+          "retained": 0.9791473586654309,
+          "intersectionOverUnion": 0.9741816505301982
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 11,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": true,
+      "vertexCount": 23131,
+      "nativeIndexCount": 96012,
+      "indexCount": 50037,
+      "offset": 215052,
+      "byteLength": 53753,
+      "sourceTriangles": 32004,
+      "triangles": 16679,
+      "relativeErrorLimit": 0.0016406250000000002,
+      "measuredError": 0.0016303668962791562,
+      "absoluteMeshoptError": 0.02048401541245637,
+      "minimumCoverage": 0.9529587455665485,
+      "coverage": [
+        {
+          "referencePixels": 10843,
+          "candidatePixels": 10388,
+          "retained": 0.9540717513603246,
+          "intersectionOverUnion": 0.9503031416498254
+        },
+        {
+          "referencePixels": 4608,
+          "candidatePixels": 4535,
+          "retained": 0.9787326388888888,
+          "intersectionOverUnion": 0.9734513274336283
+        },
+        {
+          "referencePixels": 4912,
+          "candidatePixels": 4838,
+          "retained": 0.9796416938110749,
+          "intersectionOverUnion": 0.9744835965978129
+        },
+        {
+          "referencePixels": 10714,
+          "candidatePixels": 10251,
+          "retained": 0.9529587455665485,
+          "intersectionOverUnion": 0.9493258949325895
+        },
+        {
+          "referencePixels": 4669,
+          "candidatePixels": 4598,
+          "retained": 0.9792246733775969,
+          "intersectionOverUnion": 0.9738019169329073
+        },
+        {
+          "referencePixels": 4835,
+          "candidatePixels": 4754,
+          "retained": 0.9782833505687694,
+          "intersectionOverUnion": 0.9734513274336283
+        },
+        {
+          "referencePixels": 5314,
+          "candidatePixels": 5188,
+          "retained": 0.9725254045916447,
+          "intersectionOverUnion": 0.9688788901387326
+        },
+        {
+          "referencePixels": 7317,
+          "candidatePixels": 7127,
+          "retained": 0.968293016263496,
+          "intersectionOverUnion": 0.9627666802554695
+        },
+        {
+          "referencePixels": 3095,
+          "candidatePixels": 3046,
+          "retained": 0.9793214862681745,
+          "intersectionOverUnion": 0.9745980707395498
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 12,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Populus-tremuloides_B_summer",
+      "material": "V62 bq_Bark_Populus-tremuloides",
+      "usesRestoredSource": true,
+      "vertexCount": 40133,
+      "nativeIndexCount": 131757,
+      "indexCount": 104196,
+      "offset": 628027,
+      "byteLength": 104673,
+      "sourceTriangles": 43919,
+      "triangles": 34732,
+      "relativeErrorLimit": 0.0017812499999999998,
+      "measuredError": 0.0017604903550818563,
+      "absoluteMeshoptError": 0.03979811665353661,
+      "minimumCoverage": 0.9500769526741054,
+      "coverage": [
+        {
+          "referencePixels": 10739,
+          "candidatePixels": 10246,
+          "retained": 0.9514852407114256,
+          "intersectionOverUnion": 0.9490108665366397
+        },
+        {
+          "referencePixels": 8038,
+          "candidatePixels": 7779,
+          "retained": 0.966036327444638,
+          "intersectionOverUnion": 0.9643566815697964
+        },
+        {
+          "referencePixels": 7593,
+          "candidatePixels": 7374,
+          "retained": 0.968128539444225,
+          "intersectionOverUnion": 0.9652048319327731
+        },
+        {
+          "referencePixels": 10396,
+          "candidatePixels": 9909,
+          "retained": 0.9500769526741054,
+          "intersectionOverUnion": 0.9471614883007288
+        },
+        {
+          "referencePixels": 7485,
+          "candidatePixels": 7250,
+          "retained": 0.9663326653306613,
+          "intersectionOverUnion": 0.9641428952279392
+        },
+        {
+          "referencePixels": 7773,
+          "candidatePixels": 7525,
+          "retained": 0.965007075775119,
+          "intersectionOverUnion": 0.9620366807746569
+        },
+        {
+          "referencePixels": 8249,
+          "candidatePixels": 7965,
+          "retained": 0.9631470481270457,
+          "intersectionOverUnion": 0.9608175111863587
+        },
+        {
+          "referencePixels": 10117,
+          "candidatePixels": 9729,
+          "retained": 0.9580903429870515,
+          "intersectionOverUnion": 0.9546931941298138
+        },
+        {
+          "referencePixels": 6705,
+          "candidatePixels": 6504,
+          "retained": 0.9653989560029829,
+          "intersectionOverUnion": 0.9609560570071259
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 13,
+      "sourcePrimitiveIndex": 0,
+      "name": "bq_Tree_Populus-tremuloides_A_summer",
+      "material": "V62 bq_Bark_Populus-tremuloides",
+      "usesRestoredSource": true,
+      "vertexCount": 60081,
+      "nativeIndexCount": 205578,
+      "indexCount": 181164,
+      "offset": 732700,
+      "byteLength": 181681,
+      "sourceTriangles": 68526,
+      "triangles": 60388,
+      "relativeErrorLimit": 0.0017187500000000002,
+      "measuredError": 0.0016914397710934281,
+      "absoluteMeshoptError": 0.02748261849628797,
+      "minimumCoverage": 0.9525041147425347,
+      "coverage": [
+        {
+          "referencePixels": 8871,
+          "candidatePixels": 8486,
+          "retained": 0.9558110697779281,
+          "intersectionOverUnion": 0.9550574453705789
+        },
+        {
+          "referencePixels": 7566,
+          "candidatePixels": 7330,
+          "retained": 0.9677504625958234,
+          "intersectionOverUnion": 0.966728280961183
+        },
+        {
+          "referencePixels": 7417,
+          "candidatePixels": 7206,
+          "retained": 0.9708777133611972,
+          "intersectionOverUnion": 0.9702236593909997
+        },
+        {
+          "referencePixels": 8506,
+          "candidatePixels": 8104,
+          "retained": 0.9525041147425347,
+          "intersectionOverUnion": 0.9522802068641278
+        },
+        {
+          "referencePixels": 7230,
+          "candidatePixels": 6997,
+          "retained": 0.966804979253112,
+          "intersectionOverUnion": 0.9658698355672239
+        },
+        {
+          "referencePixels": 7469,
+          "candidatePixels": 7256,
+          "retained": 0.970812692462177,
+          "intersectionOverUnion": 0.9701632325394701
+        },
+        {
+          "referencePixels": 8256,
+          "candidatePixels": 7963,
+          "retained": 0.9636627906976745,
+          "intersectionOverUnion": 0.9628464238170156
+        },
+        {
+          "referencePixels": 8234,
+          "candidatePixels": 7919,
+          "retained": 0.9605295117804227,
+          "intersectionOverUnion": 0.9593643862202814
+        },
+        {
+          "referencePixels": 7820,
+          "candidatePixels": 7601,
+          "retained": 0.9710997442455243,
+          "intersectionOverUnion": 0.9702312507985179
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 14,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_01_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7344,
+      "offset": 914381,
+      "byteLength": 9734,
+      "sourceTriangles": 8717,
+      "triangles": 2448,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019683907739818096,
+      "absoluteMeshoptError": 0.030411481274668972,
+      "minimumCoverage": 0.9762359431360068,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9781269254467037,
+          "intersectionOverUnion": 0.9733292458614347
+        },
+        {
+          "referencePixels": 4010,
+          "candidatePixels": 3935,
+          "retained": 0.9770573566084788,
+          "intersectionOverUnion": 0.9729327042463373
+        },
+        {
+          "referencePixels": 4194,
+          "candidatePixels": 4132,
+          "retained": 0.9830710538865045,
+          "intersectionOverUnion": 0.9809659766833214
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3124,
+          "retained": 0.9770656613257933,
+          "intersectionOverUnion": 0.9727869878010635
+        },
+        {
+          "referencePixels": 4295,
+          "candidatePixels": 4263,
+          "retained": 0.9869615832363213,
+          "intersectionOverUnion": 0.9814771937948599
+        },
+        {
+          "referencePixels": 3756,
+          "candidatePixels": 3695,
+          "retained": 0.981629392971246,
+          "intersectionOverUnion": 0.9795430393198725
+        },
+        {
+          "referencePixels": 4149,
+          "candidatePixels": 4092,
+          "retained": 0.9816823330923115,
+          "intersectionOverUnion": 0.9772072936660269
+        },
+        {
+          "referencePixels": 4713,
+          "candidatePixels": 4612,
+          "retained": 0.9762359431360068,
+          "intersectionOverUnion": 0.9739627434377646
+        },
+        {
+          "referencePixels": 2657,
+          "candidatePixels": 2640,
+          "retained": 0.9902145276627776,
+          "intersectionOverUnion": 0.9868717179294824
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 15,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_02_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7413,
+      "offset": 924115,
+      "byteLength": 9817,
+      "sourceTriangles": 8717,
+      "triangles": 2471,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019830851815640926,
+      "absoluteMeshoptError": 0.030413113415560744,
+      "minimumCoverage": 0.9783223374175306,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9784349969192853,
+          "intersectionOverUnion": 0.973934375958295
+        },
+        {
+          "referencePixels": 3956,
+          "candidatePixels": 3901,
+          "retained": 0.9815470171890799,
+          "intersectionOverUnion": 0.9771011575239054
+        },
+        {
+          "referencePixels": 4209,
+          "candidatePixels": 4160,
+          "retained": 0.9859824186267522,
+          "intersectionOverUnion": 0.9836454136051197
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9783223374175306,
+          "intersectionOverUnion": 0.9737335834896811
+        },
+        {
+          "referencePixels": 4277,
+          "candidatePixels": 4242,
+          "retained": 0.9869067103109657,
+          "intersectionOverUnion": 0.9820846905537459
+        },
+        {
+          "referencePixels": 3764,
+          "candidatePixels": 3702,
+          "retained": 0.9811370882040382,
+          "intersectionOverUnion": 0.978796713490591
+        },
+        {
+          "referencePixels": 4168,
+          "candidatePixels": 4115,
+          "retained": 0.9834452975047985,
+          "intersectionOverUnion": 0.9796845124282982
+        },
+        {
+          "referencePixels": 4732,
+          "candidatePixels": 4643,
+          "retained": 0.9784446322907862,
+          "intersectionOverUnion": 0.9757639620653319
+        },
+        {
+          "referencePixels": 2661,
+          "candidatePixels": 2613,
+          "retained": 0.9800826756858324,
+          "intersectionOverUnion": 0.978244561140285
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 16,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_03_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19362,
+      "offset": 933932,
+      "byteLength": 24018,
+      "sourceTriangles": 12265,
+      "triangles": 6454,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019908705726265907,
+      "absoluteMeshoptError": 0.022159918108087595,
+      "minimumCoverage": 0.9687425435456931,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4099,
+          "retained": 0.9694022770398482,
+          "intersectionOverUnion": 0.966650898770104
+        },
+        {
+          "referencePixels": 7991,
+          "candidatePixels": 7930,
+          "retained": 0.9868602177449631,
+          "intersectionOverUnion": 0.9814561294337274
+        },
+        {
+          "referencePixels": 6104,
+          "candidatePixels": 6037,
+          "retained": 0.9855832241153342,
+          "intersectionOverUnion": 0.982204081632653
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4076,
+          "retained": 0.9687425435456931,
+          "intersectionOverUnion": 0.9650582362728786
+        },
+        {
+          "referencePixels": 5075,
+          "candidatePixels": 5009,
+          "retained": 0.983448275862069,
+          "intersectionOverUnion": 0.9799725112900058
+        },
+        {
+          "referencePixels": 9565,
+          "candidatePixels": 9440,
+          "retained": 0.9841087297438578,
+          "intersectionOverUnion": 0.9813386155129274
+        },
+        {
+          "referencePixels": 8213,
+          "candidatePixels": 8147,
+          "retained": 0.9867283574820407,
+          "intersectionOverUnion": 0.9815891472868217
+        },
+        {
+          "referencePixels": 8912,
+          "candidatePixels": 8829,
+          "retained": 0.9863105924596051,
+          "intersectionOverUnion": 0.9820131828845939
+        },
+        {
+          "referencePixels": 4125,
+          "candidatePixels": 4092,
+          "retained": 0.9859393939393939,
+          "intersectionOverUnion": 0.98
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 17,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_04_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7377,
+      "offset": 957950,
+      "byteLength": 9776,
+      "sourceTriangles": 8717,
+      "triangles": 2459,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019817340653389692,
+      "absoluteMeshoptError": 0.030394690496996724,
+      "minimumCoverage": 0.9780033840947546,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9784349969192853,
+          "intersectionOverUnion": 0.973934375958295
+        },
+        {
+          "referencePixels": 3966,
+          "candidatePixels": 3907,
+          "retained": 0.9803328290468987,
+          "intersectionOverUnion": 0.9756587202007528
+        },
+        {
+          "referencePixels": 4208,
+          "candidatePixels": 4161,
+          "retained": 0.9864543726235742,
+          "intersectionOverUnion": 0.9841156946420104
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9783223374175306,
+          "intersectionOverUnion": 0.9737335834896811
+        },
+        {
+          "referencePixels": 4277,
+          "candidatePixels": 4242,
+          "retained": 0.9871405190554127,
+          "intersectionOverUnion": 0.9825459622992786
+        },
+        {
+          "referencePixels": 3769,
+          "candidatePixels": 3707,
+          "retained": 0.9811621119660388,
+          "intersectionOverUnion": 0.9788247750132345
+        },
+        {
+          "referencePixels": 4180,
+          "candidatePixels": 4119,
+          "retained": 0.9818181818181818,
+          "intersectionOverUnion": 0.9783075089392134
+        },
+        {
+          "referencePixels": 4728,
+          "candidatePixels": 4638,
+          "retained": 0.9780033840947546,
+          "intersectionOverUnion": 0.975115984816533
+        },
+        {
+          "referencePixels": 2664,
+          "candidatePixels": 2612,
+          "retained": 0.9793543543543544,
+          "intersectionOverUnion": 0.9782527184101987
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 18,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_05_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7377,
+      "offset": 967726,
+      "byteLength": 9737,
+      "sourceTriangles": 8717,
+      "triangles": 2459,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001990573713555932,
+      "absoluteMeshoptError": 0.03063809659788963,
+      "minimumCoverage": 0.975311247098544,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3187,
+          "retained": 0.977818853974122,
+          "intersectionOverUnion": 0.9739183798711261
+        },
+        {
+          "referencePixels": 3976,
+          "candidatePixels": 3915,
+          "retained": 0.9798792756539235,
+          "intersectionOverUnion": 0.9752190237797247
+        },
+        {
+          "referencePixels": 4231,
+          "candidatePixels": 4192,
+          "retained": 0.9884188135192626,
+          "intersectionOverUnion": 0.9860881867484084
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3124,
+          "retained": 0.9776939993716619,
+          "intersectionOverUnion": 0.9740219092331769
+        },
+        {
+          "referencePixels": 4278,
+          "candidatePixels": 4240,
+          "retained": 0.9866760168302945,
+          "intersectionOverUnion": 0.9823132417966023
+        },
+        {
+          "referencePixels": 3792,
+          "candidatePixels": 3746,
+          "retained": 0.9828586497890295,
+          "intersectionOverUnion": 0.9779585410653372
+        },
+        {
+          "referencePixels": 4137,
+          "candidatePixels": 4069,
+          "retained": 0.9806623156876964,
+          "intersectionOverUnion": 0.977825982164377
+        },
+        {
+          "referencePixels": 4739,
+          "candidatePixels": 4641,
+          "retained": 0.975311247098544,
+          "intersectionOverUnion": 0.971416561580496
+        },
+        {
+          "referencePixels": 2689,
+          "candidatePixels": 2671,
+          "retained": 0.9918185198958721,
+          "intersectionOverUnion": 0.9903453397697735
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 19,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_06_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19377,
+      "offset": 977463,
+      "byteLength": 24035,
+      "sourceTriangles": 12265,
+      "triangles": 6459,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019741032738238573,
+      "absoluteMeshoptError": 0.021960319376606252,
+      "minimumCoverage": 0.9677881173944166,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4099,
+          "retained": 0.9686907020872866,
+          "intersectionOverUnion": 0.9652564405577878
+        },
+        {
+          "referencePixels": 8044,
+          "candidatePixels": 7981,
+          "retained": 0.9868224763799105,
+          "intersectionOverUnion": 0.9815753678743663
+        },
+        {
+          "referencePixels": 6088,
+          "candidatePixels": 6026,
+          "retained": 0.9860381077529566,
+          "intersectionOverUnion": 0.9823269513991163
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4077,
+          "retained": 0.9677881173944166,
+          "intersectionOverUnion": 0.9629629629629629
+        },
+        {
+          "referencePixels": 5062,
+          "candidatePixels": 5004,
+          "retained": 0.9845910707230344,
+          "intersectionOverUnion": 0.9807162534435262
+        },
+        {
+          "referencePixels": 9614,
+          "candidatePixels": 9486,
+          "retained": 0.9833576034949033,
+          "intersectionOverUnion": 0.9800953763217914
+        },
+        {
+          "referencePixels": 8199,
+          "candidatePixels": 8119,
+          "retained": 0.9852421026954506,
+          "intersectionOverUnion": 0.9803398058252427
+        },
+        {
+          "referencePixels": 8958,
+          "candidatePixels": 8868,
+          "retained": 0.9853762000446529,
+          "intersectionOverUnion": 0.9808867651961329
+        },
+        {
+          "referencePixels": 4121,
+          "candidatePixels": 4067,
+          "retained": 0.9832564911429265,
+          "intersectionOverUnion": 0.9796905222437138
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 20,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_07_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7389,
+      "offset": 1001498,
+      "byteLength": 9787,
+      "sourceTriangles": 8717,
+      "triangles": 2463,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019865352660417557,
+      "absoluteMeshoptError": 0.03050335987665953,
+      "minimumCoverage": 0.9776135163674763,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9784349969192853,
+          "intersectionOverUnion": 0.973934375958295
+        },
+        {
+          "referencePixels": 3972,
+          "candidatePixels": 3917,
+          "retained": 0.9808660624370594,
+          "intersectionOverUnion": 0.9757074881041823
+        },
+        {
+          "referencePixels": 4217,
+          "candidatePixels": 4171,
+          "retained": 0.9871946881669433,
+          "intersectionOverUnion": 0.9853254437869823
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9783223374175306,
+          "intersectionOverUnion": 0.9737335834896811
+        },
+        {
+          "referencePixels": 4272,
+          "candidatePixels": 4237,
+          "retained": 0.987125468164794,
+          "intersectionOverUnion": 0.9825256290773532
+        },
+        {
+          "referencePixels": 3782,
+          "candidatePixels": 3727,
+          "retained": 0.9822845055526177,
+          "intersectionOverUnion": 0.9791776489193463
+        },
+        {
+          "referencePixels": 4178,
+          "candidatePixels": 4141,
+          "retained": 0.9863571086644327,
+          "intersectionOverUnion": 0.9816579323487374
+        },
+        {
+          "referencePixels": 4735,
+          "candidatePixels": 4647,
+          "retained": 0.9776135163674763,
+          "intersectionOverUnion": 0.9739112139701241
+        },
+        {
+          "referencePixels": 2672,
+          "candidatePixels": 2630,
+          "retained": 0.9820359281437125,
+          "intersectionOverUnion": 0.9798356982823002
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 21,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_08_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7359,
+      "offset": 1011285,
+      "byteLength": 9719,
+      "sourceTriangles": 8717,
+      "triangles": 2453,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019803959876298904,
+      "absoluteMeshoptError": 0.030405423150300592,
+      "minimumCoverage": 0.9739441059046018,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3189,
+          "retained": 0.977818853974122,
+          "intersectionOverUnion": 0.9733210671573137
+        },
+        {
+          "referencePixels": 3978,
+          "candidatePixels": 3904,
+          "retained": 0.9768728004022121,
+          "intersectionOverUnion": 0.9724724724724725
+        },
+        {
+          "referencePixels": 4215,
+          "candidatePixels": 4172,
+          "retained": 0.9881376037959668,
+          "intersectionOverUnion": 0.9864992894362862
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3122,
+          "retained": 0.9761231542569903,
+          "intersectionOverUnion": 0.9715447154471545
+        },
+        {
+          "referencePixels": 4268,
+          "candidatePixels": 4236,
+          "retained": 0.9878163074039362,
+          "intersectionOverUnion": 0.9832089552238806
+        },
+        {
+          "referencePixels": 3791,
+          "candidatePixels": 3731,
+          "retained": 0.9807438670535479,
+          "intersectionOverUnion": 0.9773922187171399
+        },
+        {
+          "referencePixels": 4174,
+          "candidatePixels": 4110,
+          "retained": 0.9803545759463345,
+          "intersectionOverUnion": 0.976145038167939
+        },
+        {
+          "referencePixels": 4759,
+          "candidatePixels": 4649,
+          "retained": 0.9739441059046018,
+          "intersectionOverUnion": 0.9710873664362036
+        },
+        {
+          "referencePixels": 2677,
+          "candidatePixels": 2638,
+          "retained": 0.9816959282779231,
+          "intersectionOverUnion": 0.9780424264979531
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 22,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_09_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19413,
+      "offset": 1021004,
+      "byteLength": 24087,
+      "sourceTriangles": 12265,
+      "triangles": 6471,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019953222945332527,
+      "absoluteMeshoptError": 0.022140788267981826,
+      "minimumCoverage": 0.9689811500835123,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4101,
+          "retained": 0.969876660341556,
+          "intersectionOverUnion": 0.9671239356669821
+        },
+        {
+          "referencePixels": 8082,
+          "candidatePixels": 8009,
+          "retained": 0.9870081662954714,
+          "intersectionOverUnion": 0.9831156026620655
+        },
+        {
+          "referencePixels": 6104,
+          "candidatePixels": 6039,
+          "retained": 0.9864023591087812,
+          "intersectionOverUnion": 0.9835021234890559
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4077,
+          "retained": 0.9689811500835123,
+          "intersectionOverUnion": 0.9652959353458521
+        },
+        {
+          "referencePixels": 5107,
+          "candidatePixels": 5046,
+          "retained": 0.9839436068141766,
+          "intersectionOverUnion": 0.9799141965678627
+        },
+        {
+          "referencePixels": 9628,
+          "candidatePixels": 9517,
+          "retained": 0.9853552139592854,
+          "intersectionOverUnion": 0.9822944709049493
+        },
+        {
+          "referencePixels": 8276,
+          "candidatePixels": 8189,
+          "retained": 0.9851377477042049,
+          "intersectionOverUnion": 0.9808710298363811
+        },
+        {
+          "referencePixels": 8903,
+          "candidatePixels": 8817,
+          "retained": 0.9855105020779512,
+          "intersectionOverUnion": 0.9807735300693047
+        },
+        {
+          "referencePixels": 4120,
+          "candidatePixels": 4086,
+          "retained": 0.9890776699029126,
+          "intersectionOverUnion": 0.9864439603001695
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 23,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_10_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7338,
+      "offset": 1045091,
+      "byteLength": 9703,
+      "sourceTriangles": 8717,
+      "triangles": 2446,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001999069470912218,
+      "absoluteMeshoptError": 0.030857064155358938,
+      "minimumCoverage": 0.9730922850536052,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3182,
+          "retained": 0.9765865680837954,
+          "intersectionOverUnion": 0.9729895641497851
+        },
+        {
+          "referencePixels": 4013,
+          "candidatePixels": 3929,
+          "retained": 0.9748317966608522,
+          "intersectionOverUnion": 0.9707196029776675
+        },
+        {
+          "referencePixels": 4217,
+          "candidatePixels": 4161,
+          "retained": 0.9848233341237846,
+          "intersectionOverUnion": 0.9829585798816568
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3123,
+          "retained": 0.9776939993716619,
+          "intersectionOverUnion": 0.9743268628678773
+        },
+        {
+          "referencePixels": 4300,
+          "candidatePixels": 4267,
+          "retained": 0.9862790697674418,
+          "intersectionOverUnion": 0.9803513638465094
+        },
+        {
+          "referencePixels": 3799,
+          "candidatePixels": 3716,
+          "retained": 0.9757831008160042,
+          "intersectionOverUnion": 0.9734768907563025
+        },
+        {
+          "referencePixels": 4106,
+          "candidatePixels": 4041,
+          "retained": 0.9802727715538236,
+          "intersectionOverUnion": 0.9764677341096555
+        },
+        {
+          "referencePixels": 4757,
+          "candidatePixels": 4640,
+          "retained": 0.9730922850536052,
+          "intersectionOverUnion": 0.9708473154362416
+        },
+        {
+          "referencePixels": 2614,
+          "candidatePixels": 2601,
+          "retained": 0.9923488905891354,
+          "intersectionOverUnion": 0.9896985883250667
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 24,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_11_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7302,
+      "offset": 1054794,
+      "byteLength": 9701,
+      "sourceTriangles": 8717,
+      "triangles": 2434,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019908116664737463,
+      "absoluteMeshoptError": 0.030922075795238424,
+      "minimumCoverage": 0.9733952702702703,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3184,
+          "retained": 0.9768946395563771,
+          "intersectionOverUnion": 0.9729978521018717
+        },
+        {
+          "referencePixels": 3948,
+          "candidatePixels": 3859,
+          "retained": 0.975177304964539,
+          "intersectionOverUnion": 0.9729593126105636
+        },
+        {
+          "referencePixels": 4245,
+          "candidatePixels": 4199,
+          "retained": 0.9865724381625441,
+          "intersectionOverUnion": 0.9840225563909775
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3121,
+          "retained": 0.976751492302859,
+          "intersectionOverUnion": 0.9730829420970266
+        },
+        {
+          "referencePixels": 4307,
+          "candidatePixels": 4273,
+          "retained": 0.9867657302066404,
+          "intersectionOverUnion": 0.9815242494226328
+        },
+        {
+          "referencePixels": 3773,
+          "candidatePixels": 3713,
+          "retained": 0.9803869599787968,
+          "intersectionOverUnion": 0.9767626089252707
+        },
+        {
+          "referencePixels": 4170,
+          "candidatePixels": 4083,
+          "retained": 0.9769784172661871,
+          "intersectionOverUnion": 0.9748743718592965
+        },
+        {
+          "referencePixels": 4736,
+          "candidatePixels": 4617,
+          "retained": 0.9733952702702703,
+          "intersectionOverUnion": 0.9719586759434957
+        },
+        {
+          "referencePixels": 2689,
+          "candidatePixels": 2665,
+          "retained": 0.9884715507623651,
+          "intersectionOverUnion": 0.9859050445103857
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 25,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_12_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19416,
+      "offset": 1064495,
+      "byteLength": 24094,
+      "sourceTriangles": 12265,
+      "triangles": 6472,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019530347781255841,
+      "absoluteMeshoptError": 0.021739400621426763,
+      "minimumCoverage": 0.9687425435456931,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4101,
+          "retained": 0.969876660341556,
+          "intersectionOverUnion": 0.9671239356669821
+        },
+        {
+          "referencePixels": 8025,
+          "candidatePixels": 7973,
+          "retained": 0.9881619937694704,
+          "intersectionOverUnion": 0.9828953891918691
+        },
+        {
+          "referencePixels": 6082,
+          "candidatePixels": 6017,
+          "retained": 0.9856954949029925,
+          "intersectionOverUnion": 0.9821428571428571
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4076,
+          "retained": 0.9687425435456931,
+          "intersectionOverUnion": 0.9650582362728786
+        },
+        {
+          "referencePixels": 5073,
+          "candidatePixels": 5009,
+          "retained": 0.9846244825547014,
+          "intersectionOverUnion": 0.9819146844898762
+        },
+        {
+          "referencePixels": 9591,
+          "candidatePixels": 9481,
+          "retained": 0.9851944531331457,
+          "intersectionOverUnion": 0.9819183206900135
+        },
+        {
+          "referencePixels": 8187,
+          "candidatePixels": 8121,
+          "retained": 0.9876633687553439,
+          "intersectionOverUnion": 0.9834590124057407
+        },
+        {
+          "referencePixels": 8950,
+          "candidatePixels": 8863,
+          "retained": 0.986145251396648,
+          "intersectionOverUnion": 0.982085234227217
+        },
+        {
+          "referencePixels": 4095,
+          "candidatePixels": 4065,
+          "retained": 0.9873015873015873,
+          "intersectionOverUnion": 0.9820257469030848
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 26,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_13_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7383,
+      "offset": 1088589,
+      "byteLength": 9751,
+      "sourceTriangles": 8717,
+      "triangles": 2461,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019948312547057867,
+      "absoluteMeshoptError": 0.030649761829241173,
+      "minimumCoverage": 0.9768956101659315,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9784349969192853,
+          "intersectionOverUnion": 0.973934375958295
+        },
+        {
+          "referencePixels": 3971,
+          "candidatePixels": 3915,
+          "retained": 0.9806094182825484,
+          "intersectionOverUnion": 0.9754509018036072
+        },
+        {
+          "referencePixels": 4224,
+          "candidatePixels": 4185,
+          "retained": 0.9883996212121212,
+          "intersectionOverUnion": 0.9860651865847898
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9783223374175306,
+          "intersectionOverUnion": 0.9737335834896811
+        },
+        {
+          "referencePixels": 4280,
+          "candidatePixels": 4250,
+          "retained": 0.9876168224299066,
+          "intersectionOverUnion": 0.9823379037880549
+        },
+        {
+          "referencePixels": 3789,
+          "candidatePixels": 3736,
+          "retained": 0.9836368434943257,
+          "intersectionOverUnion": 0.9813059505002633
+        },
+        {
+          "referencePixels": 4186,
+          "candidatePixels": 4121,
+          "retained": 0.9801720019111323,
+          "intersectionOverUnion": 0.9759752616555661
+        },
+        {
+          "referencePixels": 4761,
+          "candidatePixels": 4667,
+          "retained": 0.9768956101659315,
+          "intersectionOverUnion": 0.9736236131463262
+        },
+        {
+          "referencePixels": 2674,
+          "candidatePixels": 2640,
+          "retained": 0.9842931937172775,
+          "intersectionOverUnion": 0.9813571961222968
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 27,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_14_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7389,
+      "offset": 1098340,
+      "byteLength": 9767,
+      "sourceTriangles": 8717,
+      "triangles": 2463,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019742357544600964,
+      "absoluteMeshoptError": 0.030417719724550984,
+      "minimumCoverage": 0.9744127516778524,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3187,
+          "retained": 0.977818853974122,
+          "intersectionOverUnion": 0.9739183798711261
+        },
+        {
+          "referencePixels": 3983,
+          "candidatePixels": 3905,
+          "retained": 0.9769018327893547,
+          "intersectionOverUnion": 0.973480110082562
+        },
+        {
+          "referencePixels": 4233,
+          "candidatePixels": 4190,
+          "retained": 0.9867706118592016,
+          "intersectionOverUnion": 0.9837494112105512
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3121,
+          "retained": 0.9761231542569903,
+          "intersectionOverUnion": 0.9718486080700657
+        },
+        {
+          "referencePixels": 4293,
+          "candidatePixels": 4255,
+          "retained": 0.9857908222688097,
+          "intersectionOverUnion": 0.9805375347544022
+        },
+        {
+          "referencePixels": 3786,
+          "candidatePixels": 3711,
+          "retained": 0.9778129952456418,
+          "intersectionOverUnion": 0.9754940711462451
+        },
+        {
+          "referencePixels": 4130,
+          "candidatePixels": 4065,
+          "retained": 0.9801452784503631,
+          "intersectionOverUnion": 0.9761273209549072
+        },
+        {
+          "referencePixels": 4768,
+          "candidatePixels": 4657,
+          "retained": 0.9744127516778524,
+          "intersectionOverUnion": 0.9721699100230173
+        },
+        {
+          "referencePixels": 2684,
+          "candidatePixels": 2659,
+          "retained": 0.9884500745156483,
+          "intersectionOverUnion": 0.9862453531598513
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 28,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_15_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19413,
+      "offset": 1108107,
+      "byteLength": 24081,
+      "sourceTriangles": 12265,
+      "triangles": 6471,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019914498552680016,
+      "absoluteMeshoptError": 0.022101054566282308,
+      "minimumCoverage": 0.9680267239322358,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4097,
+          "retained": 0.9689278937381404,
+          "intersectionOverUnion": 0.9661778618732261
+        },
+        {
+          "referencePixels": 8087,
+          "candidatePixels": 8020,
+          "retained": 0.9876344750834672,
+          "intersectionOverUnion": 0.9836206896551725
+        },
+        {
+          "referencePixels": 6107,
+          "candidatePixels": 6046,
+          "retained": 0.9867365318486983,
+          "intersectionOverUnion": 0.9835155867471846
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4073,
+          "retained": 0.9680267239322358,
+          "intersectionOverUnion": 0.9643451390539577
+        },
+        {
+          "referencePixels": 5106,
+          "candidatePixels": 5036,
+          "retained": 0.982373678025852,
+          "intersectionOverUnion": 0.9785407725321889
+        },
+        {
+          "referencePixels": 9639,
+          "candidatePixels": 9531,
+          "retained": 0.9858906525573192,
+          "intersectionOverUnion": 0.9830350677562842
+        },
+        {
+          "referencePixels": 8272,
+          "candidatePixels": 8182,
+          "retained": 0.9851305609284333,
+          "intersectionOverUnion": 0.981216134858519
+        },
+        {
+          "referencePixels": 8895,
+          "candidatePixels": 8816,
+          "retained": 0.9863968521641372,
+          "intersectionOverUnion": 0.9817612174107643
+        },
+        {
+          "referencePixels": 4107,
+          "candidatePixels": 4071,
+          "retained": 0.9856342829315802,
+          "intersectionOverUnion": 0.9801452784503631
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 29,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_16_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7197,
+      "offset": 1132188,
+      "byteLength": 9553,
+      "sourceTriangles": 8717,
+      "triangles": 2399,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001991583965718746,
+      "absoluteMeshoptError": 0.03121913696512557,
+      "minimumCoverage": 0.9775115594787726,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9793592113370302,
+          "intersectionOverUnion": 0.9757519950890117
+        },
+        {
+          "referencePixels": 3988,
+          "candidatePixels": 3923,
+          "retained": 0.9789368104312939,
+          "intersectionOverUnion": 0.9742949837783879
+        },
+        {
+          "referencePixels": 4111,
+          "candidatePixels": 4065,
+          "retained": 0.985891510581367,
+          "intersectionOverUnion": 0.9830220713073005
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9789506754633993,
+          "intersectionOverUnion": 0.9749687108886108
+        },
+        {
+          "referencePixels": 4166,
+          "candidatePixels": 4127,
+          "retained": 0.985837734037446,
+          "intersectionOverUnion": 0.9811275680840899
+        },
+        {
+          "referencePixels": 3795,
+          "candidatePixels": 3731,
+          "retained": 0.9799736495388669,
+          "intersectionOverUnion": 0.9768846861045443
+        },
+        {
+          "referencePixels": 4081,
+          "candidatePixels": 4017,
+          "retained": 0.98015192354815,
+          "intersectionOverUnion": 0.9760858955588092
+        },
+        {
+          "referencePixels": 4758,
+          "candidatePixels": 4667,
+          "retained": 0.9775115594787726,
+          "intersectionOverUnion": 0.9742354419773774
+        },
+        {
+          "referencePixels": 2595,
+          "candidatePixels": 2569,
+          "retained": 0.9865125240847784,
+          "intersectionOverUnion": 0.9831029185867896
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 30,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_17_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7260,
+      "offset": 1141741,
+      "byteLength": 9630,
+      "sourceTriangles": 8717,
+      "triangles": 2420,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019994645845144987,
+      "absoluteMeshoptError": 0.0312143587219893,
+      "minimumCoverage": 0.97431038113287,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3195,
+          "retained": 0.9790511398644486,
+          "intersectionOverUnion": 0.9739503524364083
+        },
+        {
+          "referencePixels": 3930,
+          "candidatePixels": 3856,
+          "retained": 0.9758269720101781,
+          "intersectionOverUnion": 0.970640344216654
+        },
+        {
+          "referencePixels": 4271,
+          "candidatePixels": 4219,
+          "retained": 0.9845469445094825,
+          "intersectionOverUnion": 0.9813302217036173
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3135,
+          "retained": 0.979579013509268,
+          "intersectionOverUnion": 0.974375
+        },
+        {
+          "referencePixels": 4285,
+          "candidatePixels": 4250,
+          "retained": 0.9864644107351225,
+          "intersectionOverUnion": 0.9811977715877437
+        },
+        {
+          "referencePixels": 3815,
+          "candidatePixels": 3756,
+          "retained": 0.981389252948886,
+          "intersectionOverUnion": 0.9783119937287693
+        },
+        {
+          "referencePixels": 4113,
+          "candidatePixels": 4044,
+          "retained": 0.9771456357889619,
+          "intersectionOverUnion": 0.971242145964234
+        },
+        {
+          "referencePixels": 4749,
+          "candidatePixels": 4645,
+          "retained": 0.97431038113287,
+          "intersectionOverUnion": 0.9706314243759178
+        },
+        {
+          "referencePixels": 2728,
+          "candidatePixels": 2704,
+          "retained": 0.9890029325513197,
+          "intersectionOverUnion": 0.9868324798829554
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 31,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_18_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19287,
+      "offset": 1151371,
+      "byteLength": 23928,
+      "sourceTriangles": 12265,
+      "triangles": 6429,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019985076505690813,
+      "absoluteMeshoptError": 0.02234713752372053,
+      "minimumCoverage": 0.9689811500835123,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4095,
+          "retained": 0.969639468690702,
+          "intersectionOverUnion": 0.9680322045938906
+        },
+        {
+          "referencePixels": 8055,
+          "candidatePixels": 7983,
+          "retained": 0.986219739292365,
+          "intersectionOverUnion": 0.9814677538917717
+        },
+        {
+          "referencePixels": 6100,
+          "candidatePixels": 6021,
+          "retained": 0.9849180327868853,
+          "intersectionOverUnion": 0.9828234909209881
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4068,
+          "retained": 0.9689811500835123,
+          "intersectionOverUnion": 0.9673654121010005
+        },
+        {
+          "referencePixels": 5096,
+          "candidatePixels": 5041,
+          "retained": 0.9866562009419152,
+          "intersectionOverUnion": 0.9841456253669995
+        },
+        {
+          "referencePixels": 9549,
+          "candidatePixels": 9416,
+          "retained": 0.9831395957691905,
+          "intersectionOverUnion": 0.980265218753263
+        },
+        {
+          "referencePixels": 8235,
+          "candidatePixels": 8167,
+          "retained": 0.9871281117182756,
+          "intersectionOverUnion": 0.982593980418228
+        },
+        {
+          "referencePixels": 8857,
+          "candidatePixels": 8756,
+          "retained": 0.9847578186744947,
+          "intersectionOverUnion": 0.9809920143965808
+        },
+        {
+          "referencePixels": 4107,
+          "candidatePixels": 4058,
+          "retained": 0.9836863890917945,
+          "intersectionOverUnion": 0.9793939393939394
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 32,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_19_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7332,
+      "offset": 1175299,
+      "byteLength": 9721,
+      "sourceTriangles": 8717,
+      "triangles": 2444,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019823750481009483,
+      "absoluteMeshoptError": 0.03062744267320916,
+      "minimumCoverage": 0.9742381401193843,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3181,
+          "retained": 0.9759704251386322,
+          "intersectionOverUnion": 0.9720773243326174
+        },
+        {
+          "referencePixels": 3993,
+          "candidatePixels": 3928,
+          "retained": 0.9792136238417231,
+          "intersectionOverUnion": 0.974819247070556
+        },
+        {
+          "referencePixels": 4231,
+          "candidatePixels": 4173,
+          "retained": 0.9836917986291657,
+          "intersectionOverUnion": 0.9811409712399811
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3113,
+          "retained": 0.9742381401193843,
+          "intersectionOverUnion": 0.9705790297339593
+        },
+        {
+          "referencePixels": 4302,
+          "candidatePixels": 4269,
+          "retained": 0.9867503486750349,
+          "intersectionOverUnion": 0.9812760055478502
+        },
+        {
+          "referencePixels": 3732,
+          "candidatePixels": 3674,
+          "retained": 0.9828510182207931,
+          "intersectionOverUnion": 0.9812734082397003
+        },
+        {
+          "referencePixels": 4187,
+          "candidatePixels": 4125,
+          "retained": 0.9813709099593981,
+          "intersectionOverUnion": 0.9776350226029027
+        },
+        {
+          "referencePixels": 4735,
+          "candidatePixels": 4630,
+          "retained": 0.9744456177402323,
+          "intersectionOverUnion": 0.9711639654809514
+        },
+        {
+          "referencePixels": 2676,
+          "candidatePixels": 2649,
+          "retained": 0.9861733931240658,
+          "intersectionOverUnion": 0.9825018615040954
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 33,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_20_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7338,
+      "offset": 1185020,
+      "byteLength": 9705,
+      "sourceTriangles": 8717,
+      "triangles": 2446,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019647362641990185,
+      "absoluteMeshoptError": 0.030407710226817652,
+      "minimumCoverage": 0.9749681798896903,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3197,
+          "retained": 0.9793592113370302,
+          "intersectionOverUnion": 0.9739583333333334
+        },
+        {
+          "referencePixels": 3995,
+          "candidatePixels": 3918,
+          "retained": 0.9764705882352941,
+          "intersectionOverUnion": 0.9723330009970089
+        },
+        {
+          "referencePixels": 4226,
+          "candidatePixels": 4178,
+          "retained": 0.9862754377662092,
+          "intersectionOverUnion": 0.983947119924457
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3136,
+          "retained": 0.9798931825322024,
+          "intersectionOverUnion": 0.9746875
+        },
+        {
+          "referencePixels": 4310,
+          "candidatePixels": 4278,
+          "retained": 0.9877030162412993,
+          "intersectionOverUnion": 0.98291387670284
+        },
+        {
+          "referencePixels": 3768,
+          "candidatePixels": 3688,
+          "retained": 0.975583864118896,
+          "intersectionOverUnion": 0.9724867724867725
+        },
+        {
+          "referencePixels": 4146,
+          "candidatePixels": 4076,
+          "retained": 0.9794983116256633,
+          "intersectionOverUnion": 0.9759673155491468
+        },
+        {
+          "referencePixels": 4714,
+          "candidatePixels": 4609,
+          "retained": 0.9749681798896903,
+          "intersectionOverUnion": 0.9722868627036175
+        },
+        {
+          "referencePixels": 2661,
+          "candidatePixels": 2629,
+          "retained": 0.9849680571213829,
+          "intersectionOverUnion": 0.9820157362307981
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 34,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_21_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19263,
+      "offset": 1194725,
+      "byteLength": 23853,
+      "sourceTriangles": 12265,
+      "triangles": 6421,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019901790656149387,
+      "absoluteMeshoptError": 0.022324231476597234,
+      "minimumCoverage": 0.968503937007874,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4093,
+          "retained": 0.9691650853889943,
+          "intersectionOverUnion": 0.9675586076249112
+        },
+        {
+          "referencePixels": 8073,
+          "candidatePixels": 8004,
+          "retained": 0.986250464511334,
+          "intersectionOverUnion": 0.9811460258780037
+        },
+        {
+          "referencePixels": 6082,
+          "candidatePixels": 5990,
+          "retained": 0.9827359421243013,
+          "intersectionOverUnion": 0.9806398687448729
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4066,
+          "retained": 0.968503937007874,
+          "intersectionOverUnion": 0.9668889947594093
+        },
+        {
+          "referencePixels": 5069,
+          "candidatePixels": 5004,
+          "retained": 0.9844150720063128,
+          "intersectionOverUnion": 0.9817037182766083
+        },
+        {
+          "referencePixels": 9651,
+          "candidatePixels": 9539,
+          "retained": 0.9854937312195627,
+          "intersectionOverUnion": 0.982642835003616
+        },
+        {
+          "referencePixels": 8278,
+          "candidatePixels": 8189,
+          "retained": 0.9845373278569702,
+          "intersectionOverUnion": 0.9799206444631477
+        },
+        {
+          "referencePixels": 8903,
+          "candidatePixels": 8813,
+          "retained": 0.985398180388633,
+          "intersectionOverUnion": 0.9809907189980991
+        },
+        {
+          "referencePixels": 4102,
+          "candidatePixels": 4043,
+          "retained": 0.9829351535836177,
+          "intersectionOverUnion": 0.9803063457330415
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 35,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_22_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7440,
+      "offset": 1218578,
+      "byteLength": 9835,
+      "sourceTriangles": 8717,
+      "triangles": 2480,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019786690827459097,
+      "absoluteMeshoptError": 0.030383115763836788,
+      "minimumCoverage": 0.9764231096006797,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3190,
+          "retained": 0.9775107825015403,
+          "intersectionOverUnion": 0.9724180202267851
+        },
+        {
+          "referencePixels": 3929,
+          "candidatePixels": 3878,
+          "retained": 0.9806566556375668,
+          "intersectionOverUnion": 0.9744562468386444
+        },
+        {
+          "referencePixels": 4179,
+          "candidatePixels": 4135,
+          "retained": 0.9875568317779373,
+          "intersectionOverUnion": 0.9856699307379986
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9783223374175306,
+          "intersectionOverUnion": 0.9737335834896811
+        },
+        {
+          "referencePixels": 4234,
+          "candidatePixels": 4197,
+          "retained": 0.9870099196976854,
+          "intersectionOverUnion": 0.9828316086547507
+        },
+        {
+          "referencePixels": 3734,
+          "candidatePixels": 3678,
+          "retained": 0.9820567755757901,
+          "intersectionOverUnion": 0.9791722296395193
+        },
+        {
+          "referencePixels": 4154,
+          "candidatePixels": 4100,
+          "retained": 0.9819451131439576,
+          "intersectionOverUnion": 0.9770059880239521
+        },
+        {
+          "referencePixels": 4708,
+          "candidatePixels": 4618,
+          "retained": 0.9764231096006797,
+          "intersectionOverUnion": 0.9720871220131106
+        },
+        {
+          "referencePixels": 2725,
+          "candidatePixels": 2686,
+          "retained": 0.9831192660550458,
+          "intersectionOverUnion": 0.9806002928257687
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 36,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_23_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7377,
+      "offset": 1228413,
+      "byteLength": 9766,
+      "sourceTriangles": 8717,
+      "triangles": 2459,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001993791200220585,
+      "absoluteMeshoptError": 0.030908222450812595,
+      "minimumCoverage": 0.9776433456075749,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9787430683918669,
+          "intersectionOverUnion": 0.9745398773006135
+        },
+        {
+          "referencePixels": 3942,
+          "candidatePixels": 3876,
+          "retained": 0.9781836631151699,
+          "intersectionOverUnion": 0.9732458354366481
+        },
+        {
+          "referencePixels": 4248,
+          "candidatePixels": 4192,
+          "retained": 0.98469868173258,
+          "intersectionOverUnion": 0.9826168663377965
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3128,
+          "retained": 0.978636506440465,
+          "intersectionOverUnion": 0.9746558197747184
+        },
+        {
+          "referencePixels": 4250,
+          "candidatePixels": 4224,
+          "retained": 0.9875294117647059,
+          "intersectionOverUnion": 0.9812953004442366
+        },
+        {
+          "referencePixels": 3802,
+          "candidatePixels": 3729,
+          "retained": 0.9776433456075749,
+          "intersectionOverUnion": 0.9745673833245936
+        },
+        {
+          "referencePixels": 4169,
+          "candidatePixels": 4101,
+          "retained": 0.9808107459822499,
+          "intersectionOverUnion": 0.9779956948098542
+        },
+        {
+          "referencePixels": 4737,
+          "candidatePixels": 4648,
+          "retained": 0.978045176271902,
+          "intersectionOverUnion": 0.9749579124579124
+        },
+        {
+          "referencePixels": 2737,
+          "candidatePixels": 2710,
+          "retained": 0.9894044574351479,
+          "intersectionOverUnion": 0.9886820007301935
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 37,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_24_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19371,
+      "offset": 1238179,
+      "byteLength": 24005,
+      "sourceTriangles": 12265,
+      "triangles": 6457,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001997435698285699,
+      "absoluteMeshoptError": 0.022249409452646862,
+      "minimumCoverage": 0.9673109043187783,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4093,
+          "retained": 0.9679791271347249,
+          "intersectionOverUnion": 0.9652317880794702
+        },
+        {
+          "referencePixels": 8031,
+          "candidatePixels": 7976,
+          "retained": 0.9874237330344914,
+          "intersectionOverUnion": 0.9818001733316826
+        },
+        {
+          "referencePixels": 6069,
+          "candidatePixels": 6001,
+          "retained": 0.9855000823858955,
+          "intersectionOverUnion": 0.9822630973887337
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4070,
+          "retained": 0.9673109043187783,
+          "intersectionOverUnion": 0.9636320418350368
+        },
+        {
+          "referencePixels": 5057,
+          "candidatePixels": 4994,
+          "retained": 0.9847735811746094,
+          "intersectionOverUnion": 0.9820548215342142
+        },
+        {
+          "referencePixels": 9567,
+          "candidatePixels": 9449,
+          "retained": 0.9851573115919305,
+          "intersectionOverUnion": 0.9826921071838182
+        },
+        {
+          "referencePixels": 8194,
+          "candidatePixels": 8131,
+          "retained": 0.9873077861850135,
+          "intersectionOverUnion": 0.9823922282938676
+        },
+        {
+          "referencePixels": 8898,
+          "candidatePixels": 8800,
+          "retained": 0.9849404360530456,
+          "intersectionOverUnion": 0.9809715692858741
+        },
+        {
+          "referencePixels": 4067,
+          "candidatePixels": 4020,
+          "retained": 0.9850012294074256,
+          "intersectionOverUnion": 0.9816221514334722
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 38,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_25_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7395,
+      "offset": 1262184,
+      "byteLength": 9785,
+      "sourceTriangles": 8717,
+      "triangles": 2465,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019808148499578238,
+      "absoluteMeshoptError": 0.030433410004175876,
+      "minimumCoverage": 0.9750052509976895,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9784349969192853,
+          "intersectionOverUnion": 0.973934375958295
+        },
+        {
+          "referencePixels": 3967,
+          "candidatePixels": 3907,
+          "retained": 0.9808419460549533,
+          "intersectionOverUnion": 0.9769018327893547
+        },
+        {
+          "referencePixels": 4221,
+          "candidatePixels": 4178,
+          "retained": 0.9874437337123905,
+          "intersectionOverUnion": 0.9851099030961947
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9783223374175306,
+          "intersectionOverUnion": 0.9737335834896811
+        },
+        {
+          "referencePixels": 4269,
+          "candidatePixels": 4236,
+          "retained": 0.9873506676036542,
+          "intersectionOverUnion": 0.9825174825174825
+        },
+        {
+          "referencePixels": 3786,
+          "candidatePixels": 3733,
+          "retained": 0.9833597464342314,
+          "intersectionOverUnion": 0.9807692307692307
+        },
+        {
+          "referencePixels": 4167,
+          "candidatePixels": 4102,
+          "retained": 0.9812814974802015,
+          "intersectionOverUnion": 0.9782296650717703
+        },
+        {
+          "referencePixels": 4761,
+          "candidatePixels": 4657,
+          "retained": 0.9750052509976895,
+          "intersectionOverUnion": 0.9719430485762144
+        },
+        {
+          "referencePixels": 2660,
+          "candidatePixels": 2639,
+          "retained": 0.9894736842105263,
+          "intersectionOverUnion": 0.9868766404199475
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 39,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_26_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7377,
+      "offset": 1271969,
+      "byteLength": 9745,
+      "sourceTriangles": 8717,
+      "triangles": 2459,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001983781112357974,
+      "absoluteMeshoptError": 0.030483751455601116,
+      "minimumCoverage": 0.975311247098544,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9784349969192853,
+          "intersectionOverUnion": 0.973934375958295
+        },
+        {
+          "referencePixels": 3968,
+          "candidatePixels": 3901,
+          "retained": 0.9790826612903226,
+          "intersectionOverUnion": 0.9751506024096386
+        },
+        {
+          "referencePixels": 4226,
+          "candidatePixels": 4187,
+          "retained": 0.9884051112162802,
+          "intersectionOverUnion": 0.9860717658168083
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9783223374175306,
+          "intersectionOverUnion": 0.9737335834896811
+        },
+        {
+          "referencePixels": 4279,
+          "candidatePixels": 4255,
+          "retained": 0.9887824258004206,
+          "intersectionOverUnion": 0.9832674877992098
+        },
+        {
+          "referencePixels": 3790,
+          "candidatePixels": 3732,
+          "retained": 0.9823218997361478,
+          "intersectionOverUnion": 0.9799947354566991
+        },
+        {
+          "referencePixels": 4187,
+          "candidatePixels": 4118,
+          "retained": 0.9796990685454979,
+          "intersectionOverUnion": 0.9759695455626933
+        },
+        {
+          "referencePixels": 4739,
+          "candidatePixels": 4633,
+          "retained": 0.975311247098544,
+          "intersectionOverUnion": 0.9730526315789474
+        },
+        {
+          "referencePixels": 2665,
+          "candidatePixels": 2631,
+          "retained": 0.9864915572232645,
+          "intersectionOverUnion": 0.9857517810273716
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 40,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_27_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19407,
+      "offset": 1281714,
+      "byteLength": 24045,
+      "sourceTriangles": 12265,
+      "triangles": 6469,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019730739295482635,
+      "absoluteMeshoptError": 0.02188359549691654,
+      "minimumCoverage": 0.9663564781675018,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4091,
+          "retained": 0.9675047438330171,
+          "intersectionOverUnion": 0.9647587511825922
+        },
+        {
+          "referencePixels": 8077,
+          "candidatePixels": 8014,
+          "retained": 0.9874953571870744,
+          "intersectionOverUnion": 0.9828712261244609
+        },
+        {
+          "referencePixels": 6114,
+          "candidatePixels": 6048,
+          "retained": 0.9857703631010795,
+          "intersectionOverUnion": 0.9823960880195599
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4065,
+          "retained": 0.9663564781675018,
+          "intersectionOverUnion": 0.9629101283880172
+        },
+        {
+          "referencePixels": 5109,
+          "candidatePixels": 5050,
+          "retained": 0.9849285574476414,
+          "intersectionOverUnion": 0.9814706456017164
+        },
+        {
+          "referencePixels": 9616,
+          "candidatePixels": 9514,
+          "retained": 0.9864808652246256,
+          "intersectionOverUnion": 0.9836167565325591
+        },
+        {
+          "referencePixels": 8281,
+          "candidatePixels": 8190,
+          "retained": 0.9843014128728415,
+          "intersectionOverUnion": 0.9796875
+        },
+        {
+          "referencePixels": 8904,
+          "candidatePixels": 8806,
+          "retained": 0.984052111410602,
+          "intersectionOverUnion": 0.9792132320071525
+        },
+        {
+          "referencePixels": 4126,
+          "candidatePixels": 4084,
+          "retained": 0.9854580707707222,
+          "intersectionOverUnion": 0.9811776061776062
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 41,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_28_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7323,
+      "offset": 1305759,
+      "byteLength": 9712,
+      "sourceTriangles": 8717,
+      "triangles": 2441,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019758439157158136,
+      "absoluteMeshoptError": 0.03040391781472973,
+      "minimumCoverage": 0.9736897495264155,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9784349969192853,
+          "intersectionOverUnion": 0.973934375958295
+        },
+        {
+          "referencePixels": 3988,
+          "candidatePixels": 3931,
+          "retained": 0.9791875626880642,
+          "intersectionOverUnion": 0.9728450423517688
+        },
+        {
+          "referencePixels": 4215,
+          "candidatePixels": 4170,
+          "retained": 0.9864768683274021,
+          "intersectionOverUnion": 0.9836763662171752
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9783223374175306,
+          "intersectionOverUnion": 0.9737335834896811
+        },
+        {
+          "referencePixels": 4284,
+          "candidatePixels": 4245,
+          "retained": 0.9869281045751634,
+          "intersectionOverUnion": 0.9830272029760521
+        },
+        {
+          "referencePixels": 3790,
+          "candidatePixels": 3745,
+          "retained": 0.983377308707124,
+          "intersectionOverUnion": 0.9787289915966386
+        },
+        {
+          "referencePixels": 4139,
+          "candidatePixels": 4075,
+          "retained": 0.9801884513167431,
+          "intersectionOverUnion": 0.9759441905220111
+        },
+        {
+          "referencePixels": 4751,
+          "candidatePixels": 4643,
+          "retained": 0.9736897495264155,
+          "intersectionOverUnion": 0.9702181208053692
+        },
+        {
+          "referencePixels": 2685,
+          "candidatePixels": 2665,
+          "retained": 0.9895716945996276,
+          "intersectionOverUnion": 0.9866320089119941
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 42,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_29_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 5111,
+      "nativeIndexCount": 26151,
+      "indexCount": 7407,
+      "offset": 1315471,
+      "byteLength": 9792,
+      "sourceTriangles": 8717,
+      "triangles": 2469,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019802115857601166,
+      "absoluteMeshoptError": 0.030383459831035964,
+      "minimumCoverage": 0.9759392148585901,
+      "coverage": [
+        {
+          "referencePixels": 3246,
+          "candidatePixels": 3191,
+          "retained": 0.9784349969192853,
+          "intersectionOverUnion": 0.973934375958295
+        },
+        {
+          "referencePixels": 3965,
+          "candidatePixels": 3895,
+          "retained": 0.9780580075662043,
+          "intersectionOverUnion": 0.9738824711200402
+        },
+        {
+          "referencePixels": 4215,
+          "candidatePixels": 4166,
+          "retained": 0.9862396204033215,
+          "intersectionOverUnion": 0.9841382575757576
+        },
+        {
+          "referencePixels": 3183,
+          "candidatePixels": 3129,
+          "retained": 0.9783223374175306,
+          "intersectionOverUnion": 0.9737335834896811
+        },
+        {
+          "referencePixels": 4269,
+          "candidatePixels": 4236,
+          "retained": 0.9875849144998828,
+          "intersectionOverUnion": 0.9829797155514106
+        },
+        {
+          "referencePixels": 3775,
+          "candidatePixels": 3708,
+          "retained": 0.9798675496688741,
+          "intersectionOverUnion": 0.9775369978858351
+        },
+        {
+          "referencePixels": 4184,
+          "candidatePixels": 4117,
+          "retained": 0.9804015296367112,
+          "intersectionOverUnion": 0.9768992617289831
+        },
+        {
+          "referencePixels": 4738,
+          "candidatePixels": 4637,
+          "retained": 0.9759392148585901,
+          "intersectionOverUnion": 0.9732687855188381
+        },
+        {
+          "referencePixels": 2668,
+          "candidatePixels": 2620,
+          "retained": 0.9808845577211395,
+          "intersectionOverUnion": 0.9797828528640958
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 43,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Fitted_Roots_SITE_TREE_30_TRUNK_SURVEY_DBH",
+      "material": "V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 7561,
+      "nativeIndexCount": 36795,
+      "indexCount": 19413,
+      "offset": 1325263,
+      "byteLength": 24071,
+      "sourceTriangles": 12265,
+      "triangles": 6471,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.001992974430322647,
+      "absoluteMeshoptError": 0.022116598187889025,
+      "minimumCoverage": 0.9673109043187783,
+      "coverage": [
+        {
+          "referencePixels": 4216,
+          "candidatePixels": 4092,
+          "retained": 0.967741935483871,
+          "intersectionOverUnion": 0.9649952696310312
+        },
+        {
+          "referencePixels": 8054,
+          "candidatePixels": 7984,
+          "retained": 0.9874596473801838,
+          "intersectionOverUnion": 0.9836734693877551
+        },
+        {
+          "referencePixels": 6104,
+          "candidatePixels": 6043,
+          "retained": 0.9867300131061599,
+          "intersectionOverUnion": 0.9835075114304376
+        },
+        {
+          "referencePixels": 4191,
+          "candidatePixels": 4070,
+          "retained": 0.9673109043187783,
+          "intersectionOverUnion": 0.9636320418350368
+        },
+        {
+          "referencePixels": 5109,
+          "candidatePixels": 5040,
+          "retained": 0.9831669602661969,
+          "intersectionOverUnion": 0.9799063597346859
+        },
+        {
+          "referencePixels": 9619,
+          "candidatePixels": 9508,
+          "retained": 0.9855494334130367,
+          "intersectionOverUnion": 0.982688918834871
+        },
+        {
+          "referencePixels": 8246,
+          "candidatePixels": 8165,
+          "retained": 0.9855687606112055,
+          "intersectionOverUnion": 0.9810478029937229
+        },
+        {
+          "referencePixels": 8894,
+          "candidatePixels": 8794,
+          "retained": 0.9842590510456487,
+          "intersectionOverUnion": 0.9798522498321021
+        },
+        {
+          "referencePixels": 4129,
+          "candidatePixels": 4094,
+          "retained": 0.9876483410026641,
+          "intersectionOverUnion": 0.9838359469240048
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 44,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Shared_Native_A",
+      "material": "V60_Render_A_V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 40007,
+      "nativeIndexCount": 171738,
+      "indexCount": 89511,
+      "offset": 1349334,
+      "byteLength": 186461,
+      "sourceTriangles": 57246,
+      "triangles": 29837,
+      "relativeErrorLimit": 0.0011406250000000001,
+      "measuredError": 0.0011386865517124534,
+      "absoluteMeshoptError": 0.012515387706764969,
+      "minimumCoverage": 0.9524481598089242,
+      "coverage": [
+        {
+          "referencePixels": 9211,
+          "candidatePixels": 8866,
+          "retained": 0.9524481598089242,
+          "intersectionOverUnion": 0.9429277730008598
+        },
+        {
+          "referencePixels": 3413,
+          "candidatePixels": 3347,
+          "retained": 0.9701142689715793,
+          "intersectionOverUnion": 0.9599884024354886
+        },
+        {
+          "referencePixels": 3475,
+          "candidatePixels": 3396,
+          "retained": 0.9694964028776979,
+          "intersectionOverUnion": 0.9620217018846373
+        },
+        {
+          "referencePixels": 9470,
+          "candidatePixels": 9134,
+          "retained": 0.9562829989440338,
+          "intersectionOverUnion": 0.9484708839547549
+        },
+        {
+          "referencePixels": 3546,
+          "candidatePixels": 3487,
+          "retained": 0.973209249858996,
+          "intersectionOverUnion": 0.963428252372976
+        },
+        {
+          "referencePixels": 3456,
+          "candidatePixels": 3391,
+          "retained": 0.9728009259259259,
+          "intersectionOverUnion": 0.9647058823529412
+        },
+        {
+          "referencePixels": 4275,
+          "candidatePixels": 4158,
+          "retained": 0.9616374269005848,
+          "intersectionOverUnion": 0.9511800092549746
+        },
+        {
+          "referencePixels": 6885,
+          "candidatePixels": 6751,
+          "retained": 0.9692084241103849,
+          "intersectionOverUnion": 0.9583512853655034
+        },
+        {
+          "referencePixels": 3027,
+          "candidatePixels": 2977,
+          "retained": 0.973571192599934,
+          "intersectionOverUnion": 0.9640170101406608
+        }
+      ]
+    },
+    {
+      "sourceMeshIndex": 45,
+      "sourcePrimitiveIndex": 0,
+      "name": "V60_Render_Shared_Native_C",
+      "material": "V60_Render_C_V62 bq_Bark_Pinus-ponderosa",
+      "usesRestoredSource": false,
+      "vertexCount": 44094,
+      "nativeIndexCount": 172788,
+      "indexCount": 129885,
+      "offset": 1535795,
+      "byteLength": 131151,
+      "sourceTriangles": 57596,
+      "triangles": 43295,
+      "relativeErrorLimit": 0.002,
+      "measuredError": 0.0019872132688760757,
+      "absoluteMeshoptError": 0.012725621594741554,
+      "minimumCoverage": 0.9799488893257322,
+      "coverage": [
+        {
+          "referencePixels": 7658,
+          "candidatePixels": 7557,
+          "retained": 0.9826325411334552,
+          "intersectionOverUnion": 0.9785435630689207
+        },
+        {
+          "referencePixels": 6581,
+          "candidatePixels": 6494,
+          "retained": 0.9831332624221243,
+          "intersectionOverUnion": 0.979560938682816
+        },
+        {
+          "referencePixels": 6582,
+          "candidatePixels": 6499,
+          "retained": 0.9822242479489517,
+          "intersectionOverUnion": 0.9771765417170496
+        },
+        {
+          "referencePixels": 8035,
+          "candidatePixels": 7907,
+          "retained": 0.9800871188550093,
+          "intersectionOverUnion": 0.9761993306061733
+        },
+        {
+          "referencePixels": 6514,
+          "candidatePixels": 6412,
+          "retained": 0.9805035308566166,
+          "intersectionOverUnion": 0.9767548554824896
+        },
+        {
+          "referencePixels": 6759,
+          "candidatePixels": 6652,
+          "retained": 0.9801745820387632,
+          "intersectionOverUnion": 0.9762746831712349
+        },
+        {
+          "referencePixels": 5854,
+          "candidatePixels": 5774,
+          "retained": 0.9832593098735907,
+          "intersectionOverUnion": 0.9802452316076294
+        },
+        {
+          "referencePixels": 6599,
+          "candidatePixels": 6523,
+          "retained": 0.9845431125928171,
+          "intersectionOverUnion": 0.9806792452830189
+        },
+        {
+          "referencePixels": 5087,
+          "candidatePixels": 5002,
+          "retained": 0.9799488893257322,
+          "intersectionOverUnion": 0.9766849529780565
+        }
+      ]
+    }
+  ],
+  "uniqueIndexStreams": 48
+}

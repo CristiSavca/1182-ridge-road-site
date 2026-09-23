@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "trial": true,
+  "source": {
+    "path": "output/blender/assets/usgs_naip/nederland_regional_30km_4000.jpg",
+    "sha256": "b5526c48c4c7633329eaaee2964ca00b25f4cbe013258149f9d5eb9230c3d362",
+    "dimensions": [
+      4000,
+      4000
+    ],
+    "cropPixelsTopLeft": [
+      530,
+      1400,
+      256,
+      256
+    ],
+    "metersPerPixel": 7.5,
+    "classifier": "smooth(.87,.97,B/max(R,1))*smooth(.92,.99,G/max(R,1))*smooth(168,205,min(R,G,B)); 4-connected source components >=80 px",
+    "inputColorSpace": "Raw JPEG RGB/255, not linearized",
+    "provenance": "Registered NAIP raster; neutral-white seasonal candidate corroborated by real West270/275 site photos, not a surveyed snow map"
+  },
+  "registration": {
+    "crs": "EPSG:26913",
+    "worldToUtmMatrix": [
+      [
+        0.7693581765250624,
+        0,
+        0.6388176549016402
+      ],
+      [
+        0.6388176549016402,
+        0,
+        -0.7693581765250624
+      ]
+    ],
+    "worldToUtmTranslationMeters": [
+      458517.2714476108,
+      4424958.880997516
+    ],
+    "originUtmMeters": [
+      447493.6442766578,
+      4427527.022872338
+    ],
+    "spanMeters": 1920
+  },
+  "mask": {
+    "url": "/ridge/webgpu/alpine-snow/likelihood-r8.bin.gz",
+    "width": 256,
+    "height": 256,
+    "metersPerTexel": 7.5,
+    "format": "R8_UNORM",
+    "rawBytes": 65536,
+    "rawSha256": "194ee41a4eb8fcd4f85fb24b3007f5e60a4972c07e5a561a958b524fdfce8183",
+    "gzipBytes": 705,
+    "gzipSha256": "65402948ac871627be242e55a2aeba8b15ac1c8d41d2247f0eccd836def29fde",
+    "gpuBytesWithMipmaps": 87381,
+    "retainedSourceComponentPixels": [
+      343,
+      88
+    ],
+    "semantics": "Opt-in summer snow-likelihood signal only; source-derived footprint, no RGB aerial albedo or new terrain geometry."
+  }
+}

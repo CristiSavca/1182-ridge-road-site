@@ -13,15 +13,15 @@
       "encodedBytes": 4137111
     },
     {
-      "sourceUrl": "/ridge/webgpu/terrain-surface/forest_ground_04_rough_2k.jpg",
-      "sourceSha256": "24194662948424c323c75e0918461ad9d38bc0a275022000144f248b3efb4119",
-      "url": "/ridge/webgpu/compact-channels/forest_ground_04_rough_2k-be7bb5ec6c10.bin.gz",
+      "sourceUrl": "/ridge/webgpu/terrain-surface/forrest_ground_03_rough_2k.jpg",
+      "sourceSha256": "b3b04dddd8ed6f441dc0271c3e6e4ac4d6ba882ab9c1028d13b08ddd39f091fa",
+      "url": "/ridge/webgpu/compact-channels/forrest_ground_03_rough_2k-82df23937c12.bin.gz",
       "width": 2048,
       "height": 2048,
       "channels": "r",
       "bytes": 4194304,
-      "sha256": "be7bb5ec6c1017504483856bbe140ccb38a27522bef870529b396c5ce4c68018",
-      "encodedBytes": 2777950
+      "sha256": "82df23937c124fea6842fb3eadff699c60ac807538689383ca82858fda600c15",
+      "encodedBytes": 3023225
     },
     {
       "sourceUrl": "/ridge/webgpu/terrain-surface/rock_face_03_rough_2k.jpg",
@@ -48,46 +48,46 @@
     {
       "sourceUrl": "/ridge/webgpu/wood-surfaces/cedar-roughness.jpg",
       "sourceSha256": "d604b810623cc84ecfe7e833a6da2e1732e2644a9f91db6fecaee543e53a056a",
-      "url": "/ridge/webgpu/compact-channels/cedar-roughness-a52fea987e0a.bin.gz",
+      "url": "/ridge/webgpu/compact-channels/cedar-roughness-672dfa27e15e.bin.gz",
       "width": 2048,
       "height": 2048,
-      "channels": "rg",
-      "bytes": 8388608,
-      "sha256": "a52fea987e0a8574dad8b8289ec3e1e8b5468caf3dc30219541d2f320b272701",
-      "encodedBytes": 3943934
+      "channels": "r",
+      "bytes": 4194304,
+      "sha256": "672dfa27e15e35706af9a15d5b0ed5351df4d49cbb641e52e7d869f4a574b7a2",
+      "encodedBytes": 3160698
     },
     {
       "sourceUrl": "/ridge/webgpu/wood-surfaces/oak-roughness.jpg",
       "sourceSha256": "dabea63e99b103566932bda974a4a54d787a647d2582f1d988aa124ffbf3072c",
-      "url": "/ridge/webgpu/compact-channels/oak-roughness-13432bbbd3e0.bin.gz",
+      "url": "/ridge/webgpu/compact-channels/oak-roughness-cd92c6816be8.bin.gz",
       "width": 2048,
       "height": 2048,
-      "channels": "rg",
-      "bytes": 8388608,
-      "sha256": "13432bbbd3e046a54c113d700f8c974d79342e788c66687c6beadf64f456e61e",
-      "encodedBytes": 4066271
+      "channels": "r",
+      "bytes": 4194304,
+      "sha256": "cd92c6816be88ab3622a4816f245d981e73d8df13d733551ad71465f604d0c4e",
+      "encodedBytes": 3286104
     },
     {
       "sourceUrl": "/ridge/webgpu/wood-surfaces/stained-oak-roughness.jpg",
       "sourceSha256": "655340357cb0a5924d9f4c486ad604ab99387aaee52eeb1ca2e173d139c11a25",
-      "url": "/ridge/webgpu/compact-channels/stained-oak-roughness-e335ecc6d352.bin.gz",
+      "url": "/ridge/webgpu/compact-channels/stained-oak-roughness-5950889e0bc0.bin.gz",
       "width": 2048,
       "height": 2048,
-      "channels": "rg",
-      "bytes": 8388608,
-      "sha256": "e335ecc6d352225d99256b72e27085949f20491d5c4ded7d06d475a04de572b0",
-      "encodedBytes": 2036484
+      "channels": "r",
+      "bytes": 4194304,
+      "sha256": "5950889e0bc005b62cbe3a66b433c9874d93a814407621bc30731b2fc88cdafe",
+      "encodedBytes": 1814697
     },
     {
       "sourceUrl": "/ridge/webgpu/wood-surfaces/ipe-roughness.jpg",
       "sourceSha256": "d7eb2b5b9a506665fbbb2d7edaff5dec3df7ce044c24f3f645e107fd65ed2119",
-      "url": "/ridge/webgpu/compact-channels/ipe-roughness-7bcc9516e62a.bin.gz",
+      "url": "/ridge/webgpu/compact-channels/ipe-roughness-c3f13a4023a4.bin.gz",
       "width": 650,
       "height": 325,
-      "channels": "rg",
-      "bytes": 422500,
-      "sha256": "7bcc9516e62a981c58b63712aece1b3cedd3c483569865037156f9d0eb61b8b3",
-      "encodedBytes": 96264
+      "channels": "r",
+      "bytes": 211250,
+      "sha256": "c3f13a4023a4f6f7fba9b3cc60b1edc4e1ef8f4c9e87b332e49c38d3d3ff4c7c",
+      "encodedBytes": 86352
     },
     {
       "sourceUrl": "/ridge/webgpu/wood-surfaces/ipe-height.jpg",
@@ -103,13 +103,13 @@
     {
       "sourceUrl": "/ridge/webgpu/source-textiles/loft-cover-roughness-2k.jpg",
       "sourceSha256": "a3dc1911f6e25d88fdb0031fe0cfb602eec5496084c508774c60691bed087417",
-      "url": "/ridge/webgpu/compact-channels/loft-cover-roughness-2k-48aba62e8c4f.bin.gz",
+      "url": "/ridge/webgpu/compact-channels/loft-cover-roughness-2k-a74455d1a0df.bin.gz",
       "width": 2048,
       "height": 2048,
-      "channels": "rg",
-      "bytes": 8388608,
-      "sha256": "48aba62e8c4fec22eddc2010c48ac7ed5096ba4d4c02a5971cb2ac1917546b66",
-      "encodedBytes": 3276592
+      "channels": "r",
+      "bytes": 4194304,
+      "sha256": "a74455d1a0df165dd49ee4d8b10928ffa8f74db741bacc09ea4e1602251b2ecb",
+      "encodedBytes": 2802439
     }
   ]
 }

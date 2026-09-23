@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "trial": true,
+  "source": {
+    "path": "output/blender/assets/v10_horizon/USGS_NAIP_66km_20m.jpg",
+    "sha256": "ad5cc228db65dabacf03d4bb164eae23a7fee86718554a4e8c1abd0c77814da0",
+    "dimensions": [
+      3300,
+      3300
+    ],
+    "provenance": "USGS National Agriculture Imagery Program registered in terrain-surface.json; no new geographic source"
+  },
+  "registration": {
+    "crs": "EPSG:26913",
+    "worldToUtmMatrix": [
+      [
+        0.7693581765250624,
+        0,
+        0.6388176549016402
+      ],
+      [
+        0.6388176549016402,
+        0,
+        -0.7693581765250624
+      ]
+    ],
+    "worldToUtmTranslationMeters": [
+      458517.2714476108,
+      4424958.880997516
+    ],
+    "originUtmMeters": [
+      425513.6442766578,
+      4391952.022872338
+    ],
+    "spanMeters": 66000,
+    "uvFormula": "utm=worldToUtmMatrix*world+translation; uv=((utm.easting-origin.easting)/span,1-(utm.northing-origin.northing)/span); clamp outside [0,1]"
+  },
+  "materialIntent": "Use only as macro canopy/clearing evidence beyond about 8.5 km, gated by habitat*(1-rockExposure)*(1-snow). Preserve scanned local ground and terrain lighting; do not use raw aerial RGB as lit albedo.",
+  "variants": [
+    {
+      "dimension": 1024,
+      "metersPerTexel": 64.453125,
+      "fallback": {
+        "url": "/ridge/webgpu/far-canopy/naip-66km-1024.jpg",
+        "bytes": 552427,
+        "sha256": "724dd9aef312f90f46319537b367af11afe9009dfa9b7379aea36e81d43abd81",
+        "encoding": "JPEG-90-444",
+        "meanAbsByte": 3.647507667541504,
+        "p95AbsByte": 10
+      },
+      "packed": {
+        "url": "/ridge/webgpu/far-canopy/naip-66km-1024-uastc.ktx2",
+        "bytes": 1326946,
+        "sha256": "b7bf9502f552a1e07ecd953c0a28df712da63845f6e796faba75d6878788bae0",
+        "encoding": "UASTC",
+        "baseLevelMeanAbsByte": 1.7283083597819011,
+        "baseLevelP95AbsByte": 5,
+        "gpuBytesBC7orASTC4x4": 1398128,
+        "gpuBytesBC1orETC2": 699064
+      },
+      "formatTrial": {
+        "uastc": {
+          "bytes": 1326946,
+          "meanAbsByte": 1.7283083597819011,
+          "p95AbsByte": 5
+        },
+        "etc1s": {
+          "bytes": 236837,
+          "meanAbsByte": 6.913595517476399,
+          "p95AbsByte": 20
+        }
+      }
+    },
+    {
+      "dimension": 2048,
+      "metersPerTexel": 32.2265625,
+      "fallback": {
+        "url": "/ridge/webgpu/far-canopy/naip-66km-2048.jpg",
+        "bytes": 1851558,
+        "sha256": "9dc578fb6bd85fce42f243ddeca9b3cc359307ff23585f43965eddadd40d9b83",
+        "encoding": "JPEG-90-444",
+        "meanAbsByte": 3.2890048821767173,
+        "p95AbsByte": 9
+      },
+      "packed": {
+        "url": "/ridge/webgpu/far-canopy/naip-66km-2048-uastc.ktx2",
+        "bytes": 5217904,
+        "sha256": "b668166a82c7c35569fed520192bb745611f5f480447f04fe8b020cc311d2e60",
+        "encoding": "UASTC",
+        "baseLevelMeanAbsByte": 1.4901800950368245,
+        "baseLevelP95AbsByte": 4,
+        "gpuBytesBC7orASTC4x4": 5592432,
+        "gpuBytesBC1orETC2": 2796216
+      },
+      "formatTrial": {
+        "uastc": {
+          "bytes": 5217904,
+          "meanAbsByte": 1.4901800950368245,
+          "p95AbsByte": 4
+        },
+        "etc1s": {
+          "bytes": 884650,
+          "meanAbsByte": 6.340410391489665,
+          "p95AbsByte": 19
+        }
+      }
+    }
+  ]
+}

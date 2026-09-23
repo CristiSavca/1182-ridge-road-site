@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "4a42a90ae1305a5fade7175b7ebced90ecbac54887578d029f8512ec2035a9e6",
+  "originalPatchSha256": "35547011835fba3205db38aa6dbc31e39fc64c2e4f6cebf927c5976443e54b2c",
+  "unique": {
+    "url": "/ridge/webgpu/native-tree-delta/native-tree-unique-e0e6e022380c.glb",
+    "sha256": "e0e6e022380c95e24feb60b2f5222d014c96dc655a0005651c25d7a1e9ac3cad",
+    "bytes": 27623300,
+    "gzipSha256": "54ea4a6f3c9ffadae8b50f465853a1e370033c2d93fa74d59c59ed2a7daa2b73",
+    "gzipBytes": 21082552,
+    "decodedViews": 39603060
+  },
+  "coverage": {
+    "url": "/ridge/webgpu/native-tree-delta/native-tree-reuse-ao-811fe24f1d23.bin",
+    "sha256": "811fe24f1d238670e8a99fb2c16d27b6695e1b6afaa622719d8a395d6f04251b",
+    "bytes": 2253360,
+    "gzipSha256": "07f4cc6ef6417d2131a97fcc1bf47ca8ee5c1275456898455004f1b301b3eb54",
+    "gzipBytes": 1616108
+  },
+  "reuse": [
+    {
+      "targetMeshIndex": 5,
+      "targetMeshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "primitiveIndex": 0,
+      "donorMeshIndex": 3,
+      "donorMeshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "streams": [
+        {
+          "semantic": "indices",
+          "runtimeName": "index",
+          "type": "SCALAR",
+          "componentType": 5125,
+          "normalized": false,
+          "count": 179862,
+          "itemSize": 1,
+          "bytes": 719448,
+          "sha256": "6329d98ff76d8b477a56fc7107d5d600279f0ce440b855f301e960d5e93d1f6e"
+        },
+        {
+          "semantic": "POSITION",
+          "runtimeName": "position",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 46046,
+          "itemSize": 3,
+          "bytes": 552552,
+          "sha256": "60b48f7f870664173930cc4683720b8d21918631b0f7e48c439ad6958444571e"
+        },
+        {
+          "semantic": "NORMAL",
+          "runtimeName": "normal",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 46046,
+          "itemSize": 3,
+          "bytes": 552552,
+          "sha256": "3c99be311749875bbf424b8811cf5b94a2b26de42e35692465c95d69123c9ee7"
+        },
+        {
+          "semantic": "TEXCOORD_0",
+          "runtimeName": "uv",
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 46046,
+          "itemSize": 2,
+          "bytes": 368368,
+          "sha256": "805e9cb4905f75fb43f1d11c17bc1b4ad4d985e725f230b424dca295769d54fa"
+        }
+      ],
+      "coverage": {
+        "semantic": "_NATIVE_CANOPY_OCCLUSION",
+        "runtimeName": "_native_canopy_occlusion",
+        "offset": 0,
+        "bytes": 184184,
+        "count": 46046,
+        "itemSize": 1,
+        "componentType": 5126,
+        "normalized": false,
+        "sha256": "ff4519ebd463fa3536082a405192045f8f1d21085fbd2f42408b0d5687f73aa9"
+      }
+    },
+    {
+      "targetMeshIndex": 5,
+      "targetMeshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "primitiveIndex": 1,
+      "donorMeshIndex": 3,
+      "donorMeshName": "bq_Tree_Pinus-ponderosa_B_spring-summer-autumn",
+      "streams": [
+        {
+          "semantic": "indices",
+          "runtimeName": "index",
+          "type": "SCALAR",
+          "componentType": 5125,
+          "normalized": false,
+          "count": 328638,
+          "itemSize": 1,
+          "bytes": 1314552,
+          "sha256": "5914f4970c29375d32eca9ba5b164de2afdb1047e2eb8cc9be2f6225f8950aa8"
+        },
+        {
+          "semantic": "POSITION",
+          "runtimeName": "position",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 176544,
+          "itemSize": 3,
+          "bytes": 2118528,
+          "sha256": "3ae259d16922fb80863d0e74368d11367488855fbd83daec495d4d7bc1ed5127"
+        },
+        {
+          "semantic": "NORMAL",
+          "runtimeName": "normal",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 176544,
+          "itemSize": 3,
+          "bytes": 2118528,
+          "sha256": "92bc5d97243d010d2eb65ec8b7907e7dd36dfbacb8022986a3026ff4d4b06aae"
+        },
+        {
+          "semantic": "TEXCOORD_0",
+          "runtimeName": "uv",
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 176544,
+          "itemSize": 2,
+          "bytes": 1412352,
+          "sha256": "7bda4ff78e5453b04ad3fdec790466e1475dd3270134381fec529baa5d59bda0"
+        }
+      ],
+      "coverage": {
+        "semantic": "_NATIVE_CANOPY_OCCLUSION",
+        "runtimeName": "_native_canopy_occlusion",
+        "offset": 184184,
+        "bytes": 706176,
+        "count": 176544,
+        "itemSize": 1,
+        "componentType": 5126,
+        "normalized": false,
+        "sha256": "a7bf5276c67866d2e732ef232ce5a611f7320dab9186c0f076ba2ae2c4b3f39d"
+      }
+    },
+    {
+      "targetMeshIndex": 9,
+      "targetMeshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "primitiveIndex": 0,
+      "donorMeshIndex": 8,
+      "donorMeshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "streams": [
+        {
+          "semantic": "indices",
+          "runtimeName": "index",
+          "type": "SCALAR",
+          "componentType": 5125,
+          "normalized": false,
+          "count": 197889,
+          "itemSize": 1,
+          "bytes": 791556,
+          "sha256": "cf876693fdec6c5ca3c9d7e049a34fd1e5c1cd69cb1c4c99122f5a1f66ec6ea1"
+        },
+        {
+          "semantic": "POSITION",
+          "runtimeName": "position",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 45118,
+          "itemSize": 3,
+          "bytes": 541416,
+          "sha256": "995a42c2749435f2c2dece703c72c9257f9e683ddd407397b454fd951dd70df7"
+        },
+        {
+          "semantic": "NORMAL",
+          "runtimeName": "normal",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 45118,
+          "itemSize": 3,
+          "bytes": 541416,
+          "sha256": "ab2c9fa4ff5c7e22718cbd6631cb3ed635ac3f3658e0dc13071e276e216e5ac6"
+        },
+        {
+          "semantic": "TEXCOORD_0",
+          "runtimeName": "uv",
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 45118,
+          "itemSize": 2,
+          "bytes": 360944,
+          "sha256": "4fca474f164c206357f444d43bac9e129418c2445389f937a0e1f0fb37e4995b"
+        }
+      ],
+      "coverage": {
+        "semantic": "_NATIVE_CANOPY_OCCLUSION",
+        "runtimeName": "_native_canopy_occlusion",
+        "offset": 890360,
+        "bytes": 180472,
+        "count": 45118,
+        "itemSize": 1,
+        "componentType": 5126,
+        "normalized": false,
+        "sha256": "e3c4fdb1e3d3c093955437c2a47f59349bf48f73e87ec4ec470a8020e9d8143b"
+      }
+    },
+    {
+      "targetMeshIndex": 9,
+      "targetMeshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "primitiveIndex": 1,
+      "donorMeshIndex": 8,
+      "donorMeshName": "bq_Tree_Pinus-ponderosa_A_spring-summer-autumn",
+      "streams": [
+        {
+          "semantic": "indices",
+          "runtimeName": "index",
+          "type": "SCALAR",
+          "componentType": 5125,
+          "normalized": false,
+          "count": 281784,
+          "itemSize": 1,
+          "bytes": 1127136,
+          "sha256": "27a8e9f2975459ae2c97c909b2805b54267f54584b94636e16d69a8ff2588d1e"
+        },
+        {
+          "semantic": "POSITION",
+          "runtimeName": "position",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 140892,
+          "itemSize": 3,
+          "bytes": 1690704,
+          "sha256": "cda144fd44069785d0941a16746f3c4c4f1718cf85c51d13262bb053eee2a47b"
+        },
+        {
+          "semantic": "NORMAL",
+          "runtimeName": "normal",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 140892,
+          "itemSize": 3,
+          "bytes": 1690704,
+          "sha256": "ad481fca2392293291339e1101daadc9f9ba9159fe441a6f095604cb382f7e9a"
+        },
+        {
+          "semantic": "TEXCOORD_0",
+          "runtimeName": "uv",
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 140892,
+          "itemSize": 2,
+          "bytes": 1127136,
+          "sha256": "a36545951c8f09d95b347e0ff9e164d509ea27daf9b45b513103a04356329769"
+        }
+      ],
+      "coverage": {
+        "semantic": "_NATIVE_CANOPY_OCCLUSION",
+        "runtimeName": "_native_canopy_occlusion",
+        "offset": 1070832,
+        "bytes": 563568,
+        "count": 140892,
+        "itemSize": 1,
+        "componentType": 5126,
+        "normalized": false,
+        "sha256": "611def8cccfb84f542c1210cdf47bd3492e4b9bc51621701e873239ff63cdcae"
+      }
+    },
+    {
+      "targetMeshIndex": 10,
+      "targetMeshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "primitiveIndex": 0,
+      "donorMeshIndex": 7,
+      "donorMeshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "streams": [
+        {
+          "semantic": "indices",
+          "runtimeName": "index",
+          "type": "SCALAR",
+          "componentType": 5125,
+          "normalized": false,
+          "count": 209583,
+          "itemSize": 1,
+          "bytes": 838332,
+          "sha256": "df98114c1189b89ded73bfbf8d8e434df41a7c594141122671bcbe73edc04ec3"
+        },
+        {
+          "semantic": "POSITION",
+          "runtimeName": "position",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 51642,
+          "itemSize": 3,
+          "bytes": 619704,
+          "sha256": "6310bd4a9ea7945b2d1605123fde380030afe48b9ec40f735d9c0686f91c45c0"
+        },
+        {
+          "semantic": "NORMAL",
+          "runtimeName": "normal",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 51642,
+          "itemSize": 3,
+          "bytes": 619704,
+          "sha256": "675c43b47589be56d346f96e201a366b15cfab028835239f5d23950e17e16f8a"
+        },
+        {
+          "semantic": "TEXCOORD_0",
+          "runtimeName": "uv",
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 51642,
+          "itemSize": 2,
+          "bytes": 413136,
+          "sha256": "fef02d4ef9cd38bc916d6579b35f73526da07e87dfbd7ff9903b884be0164bf5"
+        }
+      ],
+      "coverage": {
+        "semantic": "_NATIVE_CANOPY_OCCLUSION",
+        "runtimeName": "_native_canopy_occlusion",
+        "offset": 1634400,
+        "bytes": 206568,
+        "count": 51642,
+        "itemSize": 1,
+        "componentType": 5126,
+        "normalized": false,
+        "sha256": "97d9adf11ba689496c492b563da262fabaf86854b25b33540b593361032f0702"
+      }
+    },
+    {
+      "targetMeshIndex": 10,
+      "targetMeshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "primitiveIndex": 1,
+      "donorMeshIndex": 7,
+      "donorMeshName": "bq_Tree_Pinus-ponderosa_C_spring-summer-autumn",
+      "streams": [
+        {
+          "semantic": "indices",
+          "runtimeName": "index",
+          "type": "SCALAR",
+          "componentType": 5125,
+          "normalized": false,
+          "count": 129339,
+          "itemSize": 1,
+          "bytes": 517356,
+          "sha256": "96eb8bd2d91b2c45c45e9a8f28590b1d61bc689d9aa949b9ea27c5501f899661"
+        },
+        {
+          "semantic": "POSITION",
+          "runtimeName": "position",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 71855,
+          "itemSize": 3,
+          "bytes": 862260,
+          "sha256": "f917026c2b094ea75e71ae8b1744da39c86cf8f6d387334bdf061a05950034cc"
+        },
+        {
+          "semantic": "NORMAL",
+          "runtimeName": "normal",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 71855,
+          "itemSize": 3,
+          "bytes": 862260,
+          "sha256": "27cb0f8b4a66a7c1145900fe927dea61340ccda79e1b129469348380f218ffa1"
+        },
+        {
+          "semantic": "TEXCOORD_0",
+          "runtimeName": "uv",
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 71855,
+          "itemSize": 2,
+          "bytes": 574840,
+          "sha256": "ccc311257fe506bd342bea1bcc7d4d4b5789b66f3f466fc141935b3a11177c89"
+        }
+      ],
+      "coverage": {
+        "semantic": "_NATIVE_CANOPY_OCCLUSION",
+        "runtimeName": "_native_canopy_occlusion",
+        "offset": 1840968,
+        "bytes": 287420,
+        "count": 71855,
+        "itemSize": 1,
+        "componentType": 5126,
+        "normalized": false,
+        "sha256": "a8d8b85b1e9aa2abd431cbf48108802a69ab653befd65c874aaadce2febe1095"
+      }
+    },
+    {
+      "targetMeshIndex": 11,
+      "targetMeshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "primitiveIndex": 0,
+      "donorMeshIndex": 6,
+      "donorMeshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "streams": [
+        {
+          "semantic": "indices",
+          "runtimeName": "index",
+          "type": "SCALAR",
+          "componentType": 5125,
+          "normalized": false,
+          "count": 96012,
+          "itemSize": 1,
+          "bytes": 384048,
+          "sha256": "dbb28f71a0c3ca1075207d0417b86c8eae9501198f7c0d04e10ebfeb4b4b2e72"
+        },
+        {
+          "semantic": "POSITION",
+          "runtimeName": "position",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 23131,
+          "itemSize": 3,
+          "bytes": 277572,
+          "sha256": "2c963ec3b5f5c07d90bc582902a7d582f19dec66e002c5c27e7c06224c88f688"
+        },
+        {
+          "semantic": "NORMAL",
+          "runtimeName": "normal",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 23131,
+          "itemSize": 3,
+          "bytes": 277572,
+          "sha256": "f6159556ea2137d410b833e856e6d1d872a8812468e1eb2a506ddd0de32811c7"
+        },
+        {
+          "semantic": "TEXCOORD_0",
+          "runtimeName": "uv",
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 23131,
+          "itemSize": 2,
+          "bytes": 185048,
+          "sha256": "37046fc205476f23ca2d271a2d30d8840eb41e7c127ddbe903a45b74d46e5c8d"
+        }
+      ],
+      "coverage": {
+        "semantic": "_NATIVE_CANOPY_OCCLUSION",
+        "runtimeName": "_native_canopy_occlusion",
+        "offset": 2128388,
+        "bytes": 92524,
+        "count": 23131,
+        "itemSize": 1,
+        "componentType": 5126,
+        "normalized": false,
+        "sha256": "bc003555db78ae66708db8292ed4f7ed37ef04721b2a667e20b31c4b2f6c97d6"
+      }
+    },
+    {
+      "targetMeshIndex": 11,
+      "targetMeshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "primitiveIndex": 1,
+      "donorMeshIndex": 6,
+      "donorMeshName": "bq_Tree_Pinus-ponderosa_E_spring-summer-autumn",
+      "streams": [
+        {
+          "semantic": "indices",
+          "runtimeName": "index",
+          "type": "SCALAR",
+          "componentType": 5125,
+          "normalized": false,
+          "count": 16224,
+          "itemSize": 1,
+          "bytes": 64896,
+          "sha256": "98b49389a9f5d7a1e2bc552a4adbe00d137fceacef7ee1c41a6981915bbb62f4"
+        },
+        {
+          "semantic": "POSITION",
+          "runtimeName": "position",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 8112,
+          "itemSize": 3,
+          "bytes": 97344,
+          "sha256": "3c6e26b8db187da28942fd4d0f945f7c73f7b3957f13126ab74409de7b98082d"
+        },
+        {
+          "semantic": "NORMAL",
+          "runtimeName": "normal",
+          "type": "VEC3",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 8112,
+          "itemSize": 3,
+          "bytes": 97344,
+          "sha256": "ffee110c9adabc25213a4be85def0313723fef2f456e4134d99a00fc1be2c7c8"
+        },
+        {
+          "semantic": "TEXCOORD_0",
+          "runtimeName": "uv",
+          "type": "VEC2",
+          "componentType": 5126,
+          "normalized": false,
+          "count": 8112,
+          "itemSize": 2,
+          "bytes": 64896,
+          "sha256": "d765f88e1829e0f0f618e04d6ff14b32aaab277cca36b3e2acae5764ac2f796d"
+        }
+      ],
+      "coverage": {
+        "semantic": "_NATIVE_CANOPY_OCCLUSION",
+        "runtimeName": "_native_canopy_occlusion",
+        "offset": 2220912,
+        "bytes": 32448,
+        "count": 8112,
+        "itemSize": 1,
+        "componentType": 5126,
+        "normalized": false,
+        "sha256": "c969d7d2269c8fbfbf1e733fd96986fef1ebfcb4304e5a895d95110bca7cea69"
+      }
+    }
+  ],
+  "expectedTargetPrimitives": [
+    {
+      "meshIndex": 0,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 0,
+      "primitiveIndex": 1
+    },
+    {
+      "meshIndex": 0,
+      "primitiveIndex": 2
+    },
+    {
+      "meshIndex": 0,
+      "primitiveIndex": 3
+    },
+    {
+      "meshIndex": 1,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 1,
+      "primitiveIndex": 1
+    },
+    {
+      "meshIndex": 1,
+      "primitiveIndex": 2
+    },
+    {
+      "meshIndex": 1,
+      "primitiveIndex": 3
+    },
+    {
+      "meshIndex": 2,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 2,
+      "primitiveIndex": 1
+    },
+    {
+      "meshIndex": 2,
+      "primitiveIndex": 2
+    },
+    {
+      "meshIndex": 2,
+      "primitiveIndex": 3
+    },
+    {
+      "meshIndex": 4,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 4,
+      "primitiveIndex": 1
+    },
+    {
+      "meshIndex": 5,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 5,
+      "primitiveIndex": 1
+    },
+    {
+      "meshIndex": 9,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 9,
+      "primitiveIndex": 1
+    },
+    {
+      "meshIndex": 10,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 10,
+      "primitiveIndex": 1
+    },
+    {
+      "meshIndex": 11,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 11,
+      "primitiveIndex": 1
+    },
+    {
+      "meshIndex": 12,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 12,
+      "primitiveIndex": 1
+    },
+    {
+      "meshIndex": 13,
+      "primitiveIndex": 0
+    },
+    {
+      "meshIndex": 13,
+      "primitiveIndex": 1
+    }
+  ],
+  "savings": {
+    "duplicateDecodedBytes": 23784204,
+    "removedMeshoptPayloadBytes": 16175524,
+    "originalGlbBytes": 45503136,
+    "originalGzipBytes": 34670293,
+    "deltaDecodedContainerBytes": 29876660,
+    "deltaGzipBytes": 22698660,
+    "containerBytesSaved": 15626476,
+    "gzipBytesSaved": 11971633
+  }
+}

@@ -3,6 +3,7 @@
   "url": "/ridge/webgpu/ecotone.bin",
   "stride": 8,
   "instances": 51837,
+  "sha256": "ad23bf11f7521fcadae288844d424374ab4fe5f55e217650257890d5070a152b",
   "counts": [
     38731,
     8417,

@@ -1,0 +1,159 @@
+{
+  "method": "Selected active-scene aspen roots; remapped dependencies; copied original meshopt and raw bufferView bytes without re-encoding",
+  "source": "public/ridge/webgpu/winter-vegetation.glb",
+  "sourceBytes": 36968124,
+  "sourceSha256": "edef38d11d5f71b33a009f2d4ba35ad2251d8153cbc00815e7d850e18fb91245",
+  "output": "public/ridge/webgpu/winter-vegetation-aspen-229d5a217c56.glb",
+  "bytes": 661452,
+  "sha256": "229d5a217c568ec2a56481cb4273a7307b69b53b8a2e17c0a7681033488933ed",
+  "savingBytes": 36306672,
+  "sourceRoots": 46,
+  "selectedRoots": [
+    10,
+    13
+  ],
+  "copiedCompressedBytes": 651003,
+  "copiedRawBytes": 280,
+  "compressedViews": 16,
+  "selectedRootRecords": [
+    {
+      "sourceNodeIndex": 10,
+      "sourceMeshIndex": 10,
+      "name": "V108 Winter shared bq_Tree_Populus-tremuloides_B_summer",
+      "primitiveTriangles": [
+        3057,
+        8002
+      ],
+      "prototypeTriangles": 11059,
+      "prototypeVertices": [
+        2586,
+        7362
+      ],
+      "instances": 3,
+      "drawnTriangles": 33177,
+      "sourceObjects": 3,
+      "namedSourceObjects": 3
+    },
+    {
+      "sourceNodeIndex": 13,
+      "sourceMeshIndex": 13,
+      "name": "V108 Winter shared bq_Tree_Populus-tremuloides_A_summer",
+      "primitiveTriangles": [
+        3763,
+        7236
+      ],
+      "prototypeTriangles": 10999,
+      "prototypeVertices": [
+        3381,
+        7481
+      ],
+      "instances": 4,
+      "drawnTriangles": 43996,
+      "sourceObjects": 4,
+      "namedSourceObjects": 3
+    }
+  ],
+  "prototypeTriangles": 22058,
+  "drawnTriangles": 77173,
+  "instances": 7,
+  "sourceObjects": 7,
+  "namedSourceObjects": 6,
+  "nodes": 2,
+  "meshes": 2,
+  "materials": 2,
+  "accessors": 22,
+  "bufferViews": 22,
+  "images": 4,
+  "textures": 4,
+  "samplers": 1,
+  "verifiedViews": 22,
+  "comparedPrimitives": 4,
+  "comparedAttributes": 18,
+  "comparedInstances": 7,
+  "comparedMaterials": 2,
+  "comparedTextures": 4,
+  "comparedImages": 4,
+  "uncompressedEquivalentBytes": 938408,
+  "uncompressedEquivalentSha256": "d55eead5b0e0d9cb14c9a25f9ccc0df143324cc6bc536c4cea3975f624a04908",
+  "sourceUnchanged": true,
+  "meshoptPayloadsByteIdentical": true,
+  "decodedAttributesAndInstancesIdentical": true,
+  "materialsAndTextureReferencesIdentical": true,
+  "indexMaps": {
+    "nodes": {
+      "10": 0,
+      "13": 1
+    },
+    "meshes": {
+      "10": 0,
+      "13": 1
+    },
+    "materials": {
+      "5": 0,
+      "6": 1
+    },
+    "accessors": {
+      "120": 0,
+      "121": 1,
+      "122": 2,
+      "123": 3,
+      "124": 4,
+      "125": 5,
+      "126": 6,
+      "127": 7,
+      "152": 11,
+      "153": 12,
+      "154": 13,
+      "155": 14,
+      "156": 15,
+      "157": 16,
+      "158": 17,
+      "159": 18,
+      "334": 8,
+      "335": 9,
+      "336": 10,
+      "343": 19,
+      "344": 20,
+      "345": 21
+    },
+    "bufferViews": {
+      "120": 0,
+      "121": 1,
+      "122": 2,
+      "123": 3,
+      "124": 4,
+      "125": 5,
+      "126": 6,
+      "127": 7,
+      "152": 11,
+      "153": 12,
+      "154": 13,
+      "155": 14,
+      "156": 15,
+      "157": 16,
+      "158": 17,
+      "159": 18,
+      "334": 8,
+      "335": 9,
+      "336": 10,
+      "343": 19,
+      "344": 20,
+      "345": 21
+    },
+    "images": {
+      "12": 0,
+      "13": 1,
+      "14": 2,
+      "15": 3
+    },
+    "textures": {
+      "12": 0,
+      "13": 1,
+      "14": 2,
+      "15": 3
+    },
+    "samplers": {
+      "0": 0
+    }
+  }
+}
