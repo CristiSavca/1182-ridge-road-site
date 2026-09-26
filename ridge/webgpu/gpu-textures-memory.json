@@ -1,0 +1,1303 @@
+{
+  "schemaVersion": 1,
+  "source": "/ridge/webgpu/gpu-textures.json",
+  "thresholds": {
+    "colorPsnrDb": 33,
+    "dataPsnrDb": 36,
+    "normalMeanDegrees": 2.5,
+    "normalP99Degrees": 10,
+    "alphaIou": 0.99
+  },
+  "note": "Rejected by the near-lossless default gate; accepted for GPU memory at visually equivalent thresholds. Originals unchanged; unaligned images resampled to a multiple of 4.",
+  "records": [
+    {
+      "sourceUrl": "/ridge/webgpu/textures/0eb66e3604d579a55fe0.jpg",
+      "sourceBytes": 2497471,
+      "sourceSha256": "42bef08a7fd70b542228eb15df32cc69c6edc2e094244d6c4c1f7bfc0d39d2a3",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/42bef08a7fd70b542228-linear-uastc.ktx2",
+      "bytes": 4578362,
+      "sha256": "bf35e30d0cc1a5f02e05cb0cac2998ea76d1b288632d08db5d2cf37bbc448139",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 41.18184056495409,
+        "meanAbsoluteRgbError255": 1.6484953165054321,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.2796199321746826,
+          "p99": 3.7956175804138184
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/24ec5f5e130c051276dd.jpg",
+      "sourceBytes": 2016350,
+      "sourceSha256": "2be58841566c8b1044f72379e3f00b93084eb194d53249f0c665e96d35b105a5",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/2be58841566c8b1044f7-srgb-uastc-2044x2048.ktx2",
+      "bytes": 4064132,
+      "sha256": "5ebf3b408e751e956284e65fc5f6d51774377180847243f3507271c5b199c06f",
+      "encoding": "UASTC",
+      "dimensions": [
+        2044,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2044,
+        "height": 2048,
+        "rgbPsnrDb": 35.83310389385693,
+        "meanAbsoluteRgbError255": 3.0934269428253174,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18",
+        "--resize",
+        "2044x2048"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5584240,
+      "originalRgba8MipBytes": 22310236,
+      "resizedFrom": [
+        2043,
+        2048
+      ],
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/377ee88d1a432b0999ae.jpg",
+      "sourceBytes": 90051,
+      "sourceSha256": "3a19b5a6ada4e90e0c6900a0cdc75b7a3094c223983b8f762846854344d2cd62",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/3a19b5a6ada4e90e0c69-srgb-uastc-540x1024.ktx2",
+      "bytes": 520748,
+      "sha256": "f3d9fffc2157d2e56a38f5fa85be362344aeee6430fa31aa1523fb183b9b36ab",
+      "encoding": "UASTC",
+      "dimensions": [
+        540,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 540,
+        "height": 1024,
+        "rgbPsnrDb": 46.58490894793058,
+        "meanAbsoluteRgbError255": 0.7572748064994812,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18",
+        "--resize",
+        "540x1024"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 738768,
+      "originalRgba8MipBytes": 2952620,
+      "resizedFrom": [
+        541,
+        1024
+      ],
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/16feb881c8627094ff1d.jpg",
+      "sourceBytes": 309497,
+      "sourceSha256": "83185912187a9fd39346a1d216ee69c87ca5a57d73adb9fafc0477fc8672d0e4",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/83185912187a9fd39346-linear-uastc.ktx2",
+      "bytes": 1201911,
+      "sha256": "0db589be7c28e45ef4f50061e7eedb207e3bded61c4d328c5ac34dd55e4a41e1",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 41.964613626322375,
+        "meanAbsoluteRgbError255": 1.4220002889633179,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.1462372541427612,
+          "p99": 4.319965839385986
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/e80e667ee5691e358769.jpg",
+      "sourceBytes": 498049,
+      "sourceSha256": "1b62470d74cf6c7d66b624e52ef4a92b5c8b3264da78379b7ca031b23c11a8ea",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/1b62470d74cf6c7d66b6-linear-uastc.ktx2",
+      "bytes": 1308337,
+      "sha256": "70a961b6c3a3ae450be832af4aed3b432da734eca58362e4fc2057075f41728d",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 36.662643923230775,
+        "meanAbsoluteRgbError255": 2.744400978088379,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 2.1878976821899414,
+          "p99": 7.501295566558838
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/native-v69-couch-metallic-roughness-2k.png",
+      "sourceBytes": 3525586,
+      "sourceSha256": "dc342ae1e8c4c374036e144cb71904518380e2908b632f322e2b6b8e47afeb2c",
+      "role": "data",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/dc342ae1e8c4c374036e-linear-uastc-2048x2052.ktx2",
+      "bytes": 3402875,
+      "sha256": "28e97c6ed4a058e9e709528d45f961c4cd08c9d4e0ce1f7f85cc192c8e98405e",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2052
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2052,
+        "rgbPsnrDb": 44.56132577661516,
+        "meanAbsoluteRgbError255": 0.6007235646247864,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18",
+        "--resize",
+        "2048x2052"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5606768,
+      "originalRgba8MipBytes": 22420820,
+      "resizedFrom": [
+        2048,
+        2053
+      ],
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/bdb6450f9cb087174837.jpg",
+      "sourceBytes": 44939,
+      "sourceSha256": "51806566d77be471a64b835d4589512144b2b44edf34a9d659b876bbf8c7a9a9",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/51806566d77be471a64b-srgb-uastc-652x324.ktx2",
+      "bytes": 238695,
+      "sha256": "eeb4cef8b38eb5ee1a2d887541b6b7fbace59a0c438c65b0a72219e673b6c6de",
+      "encoding": "UASTC",
+      "dimensions": [
+        652,
+        324
+      ],
+      "levels": 10,
+      "quality": {
+        "width": 652,
+        "height": 324,
+        "rgbPsnrDb": 36.69704109046104,
+        "meanAbsoluteRgbError255": 2.1297054290771484,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18",
+        "--resize",
+        "652x324"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 283376,
+      "originalRgba8MipBytes": 1125300,
+      "resizedFrom": [
+        650,
+        325
+      ],
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/d497a1812bafc2de5840.jpg",
+      "sourceBytes": 113150,
+      "sourceSha256": "0df45b7f7228ba23cd629d6332a0461c1993a7c7c750a77f7bfb607e71ea0b61",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/0df45b7f7228ba23cd62-linear-uastc.ktx2",
+      "bytes": 316837,
+      "sha256": "c20e07098575ccd6bb4c46052fb4c01423255c0a99a5fcad6e7d3d4af9e02ad3",
+      "encoding": "UASTC",
+      "dimensions": [
+        256,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 256,
+        "height": 1024,
+        "rgbPsnrDb": 37.65153012988914,
+        "meanAbsoluteRgbError255": 2.5149192810058594,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.8962013721466064,
+          "p99": 5.186923503875732
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 349584,
+      "originalRgba8MipBytes": 1398108,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/6c39bbb4f09badbaf84d.jpg",
+      "sourceBytes": 114838,
+      "sourceSha256": "9deebcd3e1c38dfaec66f9d882ee13eda1fd869cc5ebe4abc6d35808df7813a4",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/9deebcd3e1c38dfaec66-linear-uastc.ktx2",
+      "bytes": 317411,
+      "sha256": "1d09012325f30285f27e7683a876989787055d3199de6d863fcd3cf7eaed0905",
+      "encoding": "UASTC",
+      "dimensions": [
+        256,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 256,
+        "height": 1024,
+        "rgbPsnrDb": 37.50485926451868,
+        "meanAbsoluteRgbError255": 2.55981707572937,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.9334838390350342,
+          "p99": 5.291030406951904
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 349584,
+      "originalRgba8MipBytes": 1398108,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/6623f380ced9e6997b78.png",
+      "sourceBytes": 1024940,
+      "sourceSha256": "01a824badbcb8077bc5162211f9c10e54ab88befc58dee804979f83a3dc363d0",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [
+        0.35
+      ],
+      "url": "/ridge/webgpu/gpu-textures/01a824badbcb8077bc51-srgb-uastc.ktx2",
+      "bytes": 461788,
+      "sha256": "73b0920531173e73f316d1422e3dceeb84945fdb44db5c07eba05b1ffc556e98",
+      "encoding": "UASTC",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 512,
+        "height": 1024,
+        "rgbPsnrDb": 34.24878871266059,
+        "meanAbsoluteRgbError255": 3.1037044525146484,
+        "alphaCoverage": [
+          {
+            "cutoff": 0.35,
+            "sourcePixels": 275475,
+            "decodedPixels": 274252,
+            "intersectionOverUnion": 0.9912738890418302
+          }
+        ]
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 699088,
+      "originalRgba8MipBytes": 2796204,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/bc09fe0c658c4cf2d908.jpg",
+      "sourceBytes": 188443,
+      "sourceSha256": "2cfbe00b36db051f695d251eb4d3d0113838d285e43c34a7e396f96f0b87856c",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/2cfbe00b36db051f695d-linear-uastc.ktx2",
+      "bytes": 483512,
+      "sha256": "5cff30d742f8d76d4a7bbaf761892f157d6db37047324de3c7f866e2a083e5ea",
+      "encoding": "UASTC",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 512,
+        "height": 1024,
+        "rgbPsnrDb": 37.498051163799964,
+        "meanAbsoluteRgbError255": 2.1112060546875,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.8519983291625977,
+          "p99": 8.422867774963379
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 699088,
+      "originalRgba8MipBytes": 2796204,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/944d5d58d30a5ea92d9c.png",
+      "sourceBytes": 911226,
+      "sourceSha256": "bb514fa17d4f993abdecff2b9ad66dc8da1ce1d2c55be081aaedf7f00b991405",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [
+        0.35
+      ],
+      "url": "/ridge/webgpu/gpu-textures/bb514fa17d4f993abdec-srgb-uastc.ktx2",
+      "bytes": 536727,
+      "sha256": "72ebb48bb438ad64e1ad4a07b31a3be4eab8be9959e02f87912f675e4b45a69a",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 37.418168207791105,
+        "meanAbsoluteRgbError255": 1.7482883930206299,
+        "alphaCoverage": [
+          {
+            "cutoff": 0.35,
+            "sourcePixels": 349772,
+            "decodedPixels": 349479,
+            "intersectionOverUnion": 0.9963313805428986
+          }
+        ]
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/6805da61ad55be06e9b0.jpg",
+      "sourceBytes": 197779,
+      "sourceSha256": "9857903060301adab328f527a4d8ef9630e5378999a6d99cee374aec5dc287cf",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/9857903060301adab328-linear-uastc.ktx2",
+      "bytes": 627616,
+      "sha256": "c8629c1534e0838d6a97910b143ccc693d27c71b81ecc57856773cb13fc2cb42",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 40.188244594468124,
+        "meanAbsoluteRgbError255": 1.0811179876327515,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 0.8599442839622498,
+          "p99": 7.671832084655762
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/ee94ee6ec659e6089a58.png",
+      "sourceBytes": 934821,
+      "sourceSha256": "e04a3b71dd8850854edaf544533fab121d80269fe7c45baf5bcde086d8c5bf37",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [
+        0.35
+      ],
+      "url": "/ridge/webgpu/gpu-textures/e04a3b71dd8850854eda-srgb-uastc.ktx2",
+      "bytes": 438692,
+      "sha256": "cd33d4197c4f8dd9cc543f38945263c173289fc1ac512c426da8e96504f71833",
+      "encoding": "UASTC",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 512,
+        "height": 1024,
+        "rgbPsnrDb": 33.13167370206028,
+        "meanAbsoluteRgbError255": 3.3567731380462646,
+        "alphaCoverage": [
+          {
+            "cutoff": 0.35,
+            "sourcePixels": 275501,
+            "decodedPixels": 274453,
+            "intersectionOverUnion": 0.9907404726051199
+          }
+        ]
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 699088,
+      "originalRgba8MipBytes": 2796204,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/574254c3724afe2c81b2.jpg",
+      "sourceBytes": 188378,
+      "sourceSha256": "d0b1146968365bb232dcd3e8a581034f812ef7f400ade7eda2185568d030b0a0",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/d0b1146968365bb232dc-linear-uastc.ktx2",
+      "bytes": 483626,
+      "sha256": "75777d31d146c142af72d81e461678ab0fb0e898509e69639411044fdfb01761",
+      "encoding": "UASTC",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 512,
+        "height": 1024,
+        "rgbPsnrDb": 37.48143641636153,
+        "meanAbsoluteRgbError255": 2.115673065185547,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.8560070991516113,
+          "p99": 8.406250953674316
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 699088,
+      "originalRgba8MipBytes": 2796204,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/412290819f076053fb8b.jpg",
+      "sourceBytes": 74320,
+      "sourceSha256": "559b87675502d85c1125086be3fc1b25dd616f1a381844b381b14dc25a98b25a",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/559b87675502d85c1125-linear-uastc.ktx2",
+      "bytes": 314759,
+      "sha256": "359ad6d883146188356a4ec17669ef9681f885d4e8e0d694baeb2abdd4a741b8",
+      "encoding": "UASTC",
+      "dimensions": [
+        512,
+        512
+      ],
+      "levels": 10,
+      "quality": {
+        "width": 512,
+        "height": 512,
+        "rgbPsnrDb": 40.996641209646384,
+        "meanAbsoluteRgbError255": 1.466473937034607,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.1134904623031616,
+          "p99": 5.1388020515441895
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 349552,
+      "originalRgba8MipBytes": 1398100,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/b6658006c5bd62d530d3.jpg",
+      "sourceBytes": 327922,
+      "sourceSha256": "cf91b19b1651c4ec326b78c4e7c13a1a230d64ebbb02ab5bc4d85edc21d73be2",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/cf91b19b1651c4ec326b-linear-uastc.ktx2",
+      "bytes": 1122108,
+      "sha256": "710ed6aa1baf4e13cd568e75e6a8e527fdaf5a162272ef50c042a1a217e4be55",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 39.68559739752862,
+        "meanAbsoluteRgbError255": 1.5571199655532837,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.3298077583312988,
+          "p99": 7.716238498687744
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/be589050268e9b5967f3.png",
+      "sourceBytes": 443829,
+      "sourceSha256": "3e83af957a33d9530b835e5bde7460f6a79b332335ed0d3a808eb5d59f5963ff",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [
+        0.35
+      ],
+      "url": "/ridge/webgpu/gpu-textures/3e83af957a33d9530b83-srgb-uastc.ktx2",
+      "bytes": 272991,
+      "sha256": "6a32c860ff33f78bd6d1ea4f74d51d5b1c1ecaf63e85daa6d7bdb724cc45eff4",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 36.95776583686262,
+        "meanAbsoluteRgbError255": 2.2619831562042236,
+        "alphaCoverage": [
+          {
+            "cutoff": 0.35,
+            "sourcePixels": 166839,
+            "decodedPixels": 166656,
+            "intersectionOverUnion": 0.9921804996356077
+          }
+        ]
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/c28be559431346a6da43.jpg",
+      "sourceBytes": 131553,
+      "sourceSha256": "ac184b08e58904e2ffb60279a909faf428a7ae591d22f27fd8410a90a2b65597",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/ac184b08e58904e2ffb6-linear-uastc.ktx2",
+      "bytes": 413726,
+      "sha256": "5315e5a24f6d852a7f66bed9e9b3efd3bd98e6f27cd164a2465fd18143622b09",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 42.29293200046827,
+        "meanAbsoluteRgbError255": 0.7257506251335144,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 0.5386321544647217,
+          "p99": 5.20257043838501
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/ff5ecb374a65cb21bdd0.jpg",
+      "sourceBytes": 404253,
+      "sourceSha256": "519d5d848e99f457c679929c004613d6498b06c04dba25a12bbf23ef62874983",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/519d5d848e99f457c679-linear-uastc.ktx2",
+      "bytes": 1259139,
+      "sha256": "73a9a4dbb22785230ffa26cc9a1732971356aee92112487a16ab4d3b8d826ae5",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 38.11627175052125,
+        "meanAbsoluteRgbError255": 2.268643379211426,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.7416362762451172,
+          "p99": 6.175560474395752
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/06d9f11a42105ea1b90e.jpg",
+      "sourceBytes": 348646,
+      "sourceSha256": "4fe1898b6f41f70e439c0c4abee7a4a298c087bdf4c00e945af6a309a67312a4",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/4fe1898b6f41f70e439c-linear-uastc.ktx2",
+      "bytes": 1118662,
+      "sha256": "d512e798ed0235123202bd41cc70a7b6db5c40884e717de49237cc5716ea39ac",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 38.288306724499506,
+        "meanAbsoluteRgbError255": 1.830884337425232,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.5358171463012695,
+          "p99": 8.642714500427246
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/80aa09dc45a13c55782b.jpg",
+      "sourceBytes": 406748,
+      "sourceSha256": "7ed3d807032bd5681824744f66ac53409813589cd7e41d6fc08a6814fe5f106f",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/7ed3d807032bd5681824-linear-uastc.ktx2",
+      "bytes": 1012280,
+      "sha256": "6071071337b35f433d81fd9de23b067ebe796ac833f711706769cd0770a8e682",
+      "encoding": "UASTC",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 1024,
+        "height": 1024,
+        "rgbPsnrDb": 36.38564136975609,
+        "meanAbsoluteRgbError255": 2.4313323497772217,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.9050705432891846,
+          "p99": 8.412965774536133
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1398128,
+      "originalRgba8MipBytes": 5592404,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/a89f91ff0d0855b45582.jpg",
+      "sourceBytes": 77580,
+      "sourceSha256": "01fa7f4b7c3b825d5184a871a7e4ab5eb7aacbca0e49d9a7ed455218b170172f",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/01fa7f4b7c3b825d5184-linear-uastc.ktx2",
+      "bytes": 301431,
+      "sha256": "be6eb06ce0404aa8ffe7321b535bcc98a614c11c4eb9096b0d93641bf2f0186d",
+      "encoding": "UASTC",
+      "dimensions": [
+        256,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 256,
+        "height": 1024,
+        "rgbPsnrDb": 41.68555250212126,
+        "meanAbsoluteRgbError255": 1.3899002075195312,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.0785034894943237,
+          "p99": 4.4044952392578125
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 349584,
+      "originalRgba8MipBytes": 1398108,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/7e583d3083c3c3c75183.jpg",
+      "sourceBytes": 69506,
+      "sourceSha256": "755d8b6732e91c676c4e0b3621e79535f0027f0c57b34a70edf3e61fba0bb351",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/755d8b6732e91c676c4e-linear-uastc.ktx2",
+      "bytes": 163128,
+      "sha256": "863ad2567f08476ec60f8d872695e7bfc01f7d0e1b0305a2c3a52c116a5f8ed1",
+      "encoding": "UASTC",
+      "dimensions": [
+        128,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 128,
+        "height": 1024,
+        "rgbPsnrDb": 35.10272887306223,
+        "meanAbsoluteRgbError255": 3.198946714401245,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 2.456272840499878,
+          "p99": 8.652040481567383
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 174864,
+      "originalRgba8MipBytes": 699068,
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/wood-surfaces/ipe-roughness.jpg",
+      "sourceBytes": 42396,
+      "sourceSha256": "d7eb2b5b9a506665fbbb2d7edaff5dec3df7ce044c24f3f645e107fd65ed2119",
+      "role": "data",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/d7eb2b5b9a506665fbbb-linear-uastc-652x324.ktx2",
+      "bytes": 163460,
+      "sha256": "301d3061b58975de00e33a453b1805f1ec4961262ded5c8c7ddb57eef9f2400f",
+      "encoding": "UASTC",
+      "dimensions": [
+        652,
+        324
+      ],
+      "levels": 10,
+      "quality": {
+        "width": 652,
+        "height": 324,
+        "rgbPsnrDb": 46.62225010187386,
+        "meanAbsoluteRgbError255": 0.7084848284721375,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18",
+        "--resize",
+        "652x324"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 283376,
+      "originalRgba8MipBytes": 1125300,
+      "resizedFrom": [
+        650,
+        325
+      ],
+      "acceptance": "gpu-memory tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/source-textiles/loft-cover-normal-2k.jpg",
+      "sourceBytes": 3379814,
+      "sourceSha256": "083579b03a8f31ec1886512e5972f3b893610bf26a2098f97910e0f46745cdc9",
+      "role": "normal",
+      "colorSpace": "linear",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/083579b03a8f31ec1886-linear-uastc.ktx2",
+      "bytes": 4914020,
+      "sha256": "24c56517470f4d719cd7c47288cf9849fc12125a75867c38847da690e516134e",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 38.11675722097927,
+        "meanAbsoluteRgbError255": 2.372361660003662,
+        "alphaCoverage": [],
+        "normalAngleDegrees": {
+          "mean": 1.7784759998321533,
+          "p99": 5.800871849060059
+        }
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "linear",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22369620,
+      "acceptance": "gpu-memory tier"
+    }
+  ],
+  "keptOriginal": [
+    "/ridge/webgpu/textures/1439f0a10a4945a807d5.jpg",
+    "/ridge/webgpu/textures/780f191f5ad4f20b710b.jpg",
+    "/ridge/webgpu/textures/08717d4c0f720b3cda1e.jpg",
+    "/ridge/webgpu/textures/7ed1d70fa8ad2ce80135.jpg",
+    "/ridge/webgpu/textures/50139c10ca6748174ebc.jpg",
+    "/ridge/webgpu/textures/70116212645f02571c22.jpg",
+    "/ridge/webgpu/source-textiles/loft-cover-roughness-2k.jpg",
+    "/ridge/webgpu/terrain-surface/forrest_ground_03_rough_2k.jpg",
+    "/ridge/webgpu/terrain-surface/rock_face_03_rough_2k.jpg"
+  ]
+}

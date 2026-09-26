@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "source": "/ridge/webgpu/gpu-textures.json",
+  "thresholds": {
+    "colorPsnrDb": 33,
+    "dataPsnrDb": 36,
+    "normalMeanDegrees": 2.5,
+    "normalP99Degrees": 10,
+    "alphaIou": 0.99
+  },
+  "note": "Re-encoded at sizes whose levels are 4x4-block aligned down to 256 px, so the preview and lite tiers can drop leading levels. Originals and earlier tiers unchanged.",
+  "records": [
+    {
+      "sourceUrl": "/ridge/webgpu/textures/24ec5f5e130c051276dd.jpg",
+      "sourceBytes": 2016350,
+      "sourceSha256": "2be58841566c8b1044f72379e3f00b93084eb194d53249f0c665e96d35b105a5",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/2be58841566c8b1044f7-srgb-uastc-2048x2048.ktx2",
+      "bytes": 4072929,
+      "sha256": "91822f043a1e92da0fc6c90111b53163741f6c35983905331422761a025bfefd",
+      "encoding": "UASTC",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "levels": 12,
+      "quality": {
+        "width": 2048,
+        "height": 2048,
+        "rgbPsnrDb": 35.8633672490985,
+        "meanAbsoluteRgbError255": 3.079678535461426,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18",
+        "--resize",
+        "2048x2048"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 5592432,
+      "originalRgba8MipBytes": 22310236,
+      "resizedFrom": [
+        2043,
+        2048
+      ],
+      "acceptance": "block-aligned preview tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/377ee88d1a432b0999ae.jpg",
+      "sourceBytes": 90051,
+      "sourceSha256": "3a19b5a6ada4e90e0c6900a0cdc75b7a3094c223983b8f762846854344d2cd62",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/3a19b5a6ada4e90e0c69-srgb-uastc-544x1024.ktx2",
+      "bytes": 524864,
+      "sha256": "b7598087df768adbfe89ca536b1df499c426e2487fe95172431c00bfeeb65b78",
+      "encoding": "UASTC",
+      "dimensions": [
+        544,
+        1024
+      ],
+      "levels": 11,
+      "quality": {
+        "width": 544,
+        "height": 1024,
+        "rgbPsnrDb": 46.786943568681814,
+        "meanAbsoluteRgbError255": 0.7349470257759094,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18",
+        "--resize",
+        "544x1024"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 742992,
+      "originalRgba8MipBytes": 2952620,
+      "resizedFrom": [
+        541,
+        1024
+      ],
+      "acceptance": "block-aligned preview tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/bdb6450f9cb087174837.jpg",
+      "sourceBytes": 44939,
+      "sourceSha256": "51806566d77be471a64b835d4589512144b2b44edf34a9d659b876bbf8c7a9a9",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/51806566d77be471a64b-srgb-uastc-640x320.ktx2",
+      "bytes": 230306,
+      "sha256": "603424ee4228829ccc9723f1b4e56a2cdfd0c8d72aa603a4aae6420faa4fa68c",
+      "encoding": "UASTC",
+      "dimensions": [
+        640,
+        320
+      ],
+      "levels": 10,
+      "quality": {
+        "width": 640,
+        "height": 320,
+        "rgbPsnrDb": 36.71726758599724,
+        "meanAbsoluteRgbError255": 2.1414225101470947,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18",
+        "--resize",
+        "640x320"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 273200,
+      "originalRgba8MipBytes": 1125300,
+      "resizedFrom": [
+        650,
+        325
+      ],
+      "acceptance": "block-aligned preview tier"
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/94807299ff052cdc14d5.jpg",
+      "sourceBytes": 88434,
+      "sourceSha256": "60085f0d03fd9e0b7ed630edf0561ee1570d753d6b6b83d7e0784e5aa7a19372",
+      "role": "color",
+      "colorSpace": "srgb",
+      "alphaCutoffs": [],
+      "url": "/ridge/webgpu/gpu-textures/60085f0d03fd9e0b7ed6-srgb-uastc-896x896.ktx2",
+      "bytes": 557659,
+      "sha256": "d7a6e25132d85e265a9a2afa86a3eb93be83de0d4d25b55b19ff9e9bfe9a279b",
+      "encoding": "UASTC",
+      "dimensions": [
+        896,
+        896
+      ],
+      "levels": 10,
+      "quality": {
+        "width": 896,
+        "height": 896,
+        "rgbPsnrDb": 33.188351249755094,
+        "meanAbsoluteRgbError255": 1.1169142723083496,
+        "alphaCoverage": []
+      },
+      "encoderSettings": [
+        "--encode",
+        "uastc",
+        "--threads",
+        "2",
+        "--genmipmap",
+        "--filter",
+        "box",
+        "--assign_oetf",
+        "srgb",
+        "--assign_primaries",
+        "bt709",
+        "--uastc_quality",
+        "3",
+        "--zcmp",
+        "18",
+        "--resize",
+        "896x896"
+      ],
+      "estimatedGpuBytesBC7orASTC4x4": 1070512,
+      "originalRgba8MipBytes": 4319376,
+      "resizedFrom": [
+        900,
+        900
+      ],
+      "acceptance": "block-aligned preview tier"
+    }
+  ]
+}

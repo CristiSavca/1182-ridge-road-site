@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "maxSize": 256,
+  "method": "LANCZOS downsample of the unchanged original (JPEG q92, 4:4:4); the original replaces it after the tour opens",
+  "records": [
+    {
+      "sourceUrl": "/ridge/webgpu/textures/1439f0a10a4945a807d5.jpg",
+      "sourceSha256": "ccfb4178084c042b2b49d4f29dbad8bb6bf5ef2b771b8b22334141eb1c98985c",
+      "role": "normal",
+      "url": "/ridge/webgpu/texture-previews/ccfb4178084c042b2b49-255x256.jpg",
+      "bytes": 1350,
+      "sha256": "54def0b71f0dceab9f675ea778b543797074cbc505255b66e87b8da731ecbb34",
+      "dimensions": [
+        255,
+        256
+      ]
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/08717d4c0f720b3cda1e.jpg",
+      "sourceSha256": "929c6346bcc24a4c90d1fd336b09d24fa5e65df1ec29eccc02ef329e664fe412",
+      "role": "normal",
+      "url": "/ridge/webgpu/texture-previews/929c6346bcc24a4c90d1-256x256.jpg",
+      "bytes": 52078,
+      "sha256": "464ed82597e8adc190e3cbc970c1da87e37f11b07addd62f900bba3bacd92336",
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/7ed1d70fa8ad2ce80135.jpg",
+      "sourceSha256": "6b153a76dc1517bf4c23a6875a1090596075d1ac7c9b6ef9e075975b3f637c48",
+      "role": "normal",
+      "url": "/ridge/webgpu/texture-previews/6b153a76dc1517bf4c23-256x256.jpg",
+      "bytes": 64127,
+      "sha256": "349247be15f92ec3326c8dccc5baf586c1397ba50780d71a14bddbd0e1c0fe63",
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "sourceUrl": "/ridge/webgpu/textures/50139c10ca6748174ebc.jpg",
+      "sourceSha256": "12a882646f6905bfe42c7d2697776e84b31ef6ffc2da51fc1e386dcacdcd3897",
+      "role": "normal",
+      "url": "/ridge/webgpu/texture-previews/12a882646f6905bfe42c-256x256.jpg",
+      "bytes": 53541,
+      "sha256": "f4262036e47cfeb879cb5711a37e552c526b86d9e1e95b3d35706fa601f69c05",
+      "dimensions": [
+        256,
+        256
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1281 @@
+{
+  "schemaVersion": 1,
+  "maxSize": 256,
+  "method": "Leading KTX2 levels removed; retained level data copied byte for byte",
+  "records": [
+    {
+      "url": "/ridge/webgpu/gpu-textures/69e4ea104145aadf1a46-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/69e4ea104145aadf1a46-srgb-uastc-max256.ktx2",
+        "bytes": 14394,
+        "sha256": "75a6f785c375c4135ded44e04750ada0a399e790984a2c0003f67ea623fb9b2a",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/b1d6b48f3c60227dbbd2-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/b1d6b48f3c60227dbbd2-linear-uastc-max256.ktx2",
+        "bytes": 11362,
+        "sha256": "41b949221229e6d0f3554d502838b1d7862544074d1aced9d40d73a5e5b48182",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/2032d52cea9650f763c9-photo-pigment-3ddc85fe1086.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/2032d52cea9650f763c9-photo-pigment-3ddc85fe1086-max256.ktx2",
+        "bytes": 61193,
+        "sha256": "17d4658d486a3481f36577a175b2bbccaa9caad8ec5f9efda0fa1088217e981c",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/6038ee3055dbb57d6808-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/6038ee3055dbb57d6808-srgb-uastc-max256.ktx2",
+        "bytes": 33283,
+        "sha256": "1d43d495c8df1dee6aeebd926df2d89f25b10232b7d741a48c8216e8cd06e93e",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/191055163b60397c1cee-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/191055163b60397c1cee-srgb-uastc-max256.ktx2",
+        "bytes": 33735,
+        "sha256": "777972f25027467589c7e6492030e1f5a836c30d509ea44e03c7e64c78947557",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/f7432bc557d6f75b12a8-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/f7432bc557d6f75b12a8-srgb-uastc-max256.ktx2",
+        "bytes": 66118,
+        "sha256": "a020de7e0bb68391362e9048b300aadcb07dc99e7d15a92600a4c3af65505857",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/c5e07b9cc8e4caa484d8-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/c5e07b9cc8e4caa484d8-srgb-uastc-max256.ktx2",
+        "bytes": 69837,
+        "sha256": "69457598721ccee707cc34397cfaaf39b0007b27dd0469ee357562449949be21",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/9d12226523ee6aa3e030-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/9d12226523ee6aa3e030-srgb-uastc-max256.ktx2",
+        "bytes": 71687,
+        "sha256": "a162b790e3e7a7f5c14577c16382dd9d68c667c66c2f4ffbe8b9aa5297f9752f",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/e9e535c97ffa8e2efc4e-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/e9e535c97ffa8e2efc4e-srgb-uastc-max256.ktx2",
+        "bytes": 21425,
+        "sha256": "08bff287b4c69365a52bc5c93b495892f925148447da9b2de6dae6d1e0548851",
+        "dimensions": [
+          64,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/7348ae2a7a71900b7c0a-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/7348ae2a7a71900b7c0a-srgb-uastc-max256.ktx2",
+        "bytes": 80312,
+        "sha256": "2bb0d5922f67a5fbd880c84486060efcbb484b69a17ee55eb73eafe1c28d59b2",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/7801452b3415902e4b9e-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/7801452b3415902e4b9e-srgb-uastc-max256.ktx2",
+        "bytes": 73051,
+        "sha256": "9772e72c3f7c0d339d0ddceee405d0aa8aa53e794e745266445b7d85d3534d41",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/ec01790f3423f601c8fe-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/ec01790f3423f601c8fe-linear-uastc-max256.ktx2",
+        "bytes": 69180,
+        "sha256": "733bc9905c619e547cd720801de88b8101e2941eb40cd5f4732a2b3d3475fcd8",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/ef2693ef97b02506192e-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/ef2693ef97b02506192e-srgb-uastc-max256.ktx2",
+        "bytes": 74821,
+        "sha256": "d129026da8235090ca27a18475a3db6b12d71d562ae9544a69d13bc6cc0f045a",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/b2f4f2d74f955f8c65d0-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/b2f4f2d74f955f8c65d0-linear-uastc-max256.ktx2",
+        "bytes": 46448,
+        "sha256": "ced5a1e69978588cb69642433189fb87d7f129a7513e6952197ce44a48395136",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/81b254eadac04b0fdffc-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/81b254eadac04b0fdffc-srgb-uastc-max256.ktx2",
+        "bytes": 66796,
+        "sha256": "9292d6dac2495d710b6af6d6919d4d8b6d52d6b3228925fd59e0af35312192ad",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/9ff34042a917c4d24d46-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/9ff34042a917c4d24d46-linear-uastc-max256.ktx2",
+        "bytes": 52595,
+        "sha256": "0d38d8083be1e9c010e6a451797edd34c18c37f14682ce6c526877623eaf9f77",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/f707c6d3f3632b187448-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/f707c6d3f3632b187448-srgb-uastc-max256.ktx2",
+        "bytes": 79999,
+        "sha256": "98791d38fc00e3630037d89fa9b6b5766b13e7881c87e57894c0015efebfcb86",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/74b13eccfaeb61c6fcd1-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/74b13eccfaeb61c6fcd1-srgb-uastc-max256.ktx2",
+        "bytes": 81460,
+        "sha256": "d889357c21d3dea46bcca1a4b08832328229fb185a5d4404dcc1647771c299b7",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/c7770f32f9ffa5be43db-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/c7770f32f9ffa5be43db-linear-uastc-max256.ktx2",
+        "bytes": 53823,
+        "sha256": "a73a10f364a73f1cc7cb92484168c5f8a1725b4319f6894dc19e33d2e661ae55",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/73ed730dd5a3027b9166-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/73ed730dd5a3027b9166-srgb-uastc-max256.ktx2",
+        "bytes": 30734,
+        "sha256": "7cb2077ed21092e116172a1fe38097f089bbf0aaeaf80c4cc277aa4b92dac9f4",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/c4e01d32810aee52298a-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/c4e01d32810aee52298a-srgb-uastc-max256.ktx2",
+        "bytes": 54389,
+        "sha256": "247c8faf18dfc89a85fa790332e6a5e702d5a20c25a05a6a143f9023fe6fb38d",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 4
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/b470900c214eb82fad42-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/b470900c214eb82fad42-linear-uastc-max256.ktx2",
+        "bytes": 54803,
+        "sha256": "e1ec574cd58bcb685d609c0cd15071885adeda5a326fd1a87c7d1fb9a86414f6",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 4
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/c8a8b22e148ae092a509-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/c8a8b22e148ae092a509-linear-uastc-max256.ktx2",
+        "bytes": 32929,
+        "sha256": "a7543a308f08d261d18619c64b68454feb5fafcf5a03c66fa7a6b88ef17d3f66",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 4
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/d416ff18be19b8db1ef4-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/d416ff18be19b8db1ef4-srgb-uastc-max256.ktx2",
+        "bytes": 61346,
+        "sha256": "2ac79f8a8f9072ffde754d54202f9661c8f8cecf4814f203f45130275582072a",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/6d9bff7d355fba903841-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/6d9bff7d355fba903841-linear-uastc-max256.ktx2",
+        "bytes": 62534,
+        "sha256": "21dc79f53d3a11c6d032b8d35f9fba2b7dab4d7e58f85209db833e02ae6815d3",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/03eccccaf7966cd73e33-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/03eccccaf7966cd73e33-linear-uastc-max256.ktx2",
+        "bytes": 58436,
+        "sha256": "58385f2a35550e8a61edd371f79436c9fd5a8e6e41027428a58b87fcd82d7c6f",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/3b782137e34d63fd59b2-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/3b782137e34d63fd59b2-linear-uastc-max256.ktx2",
+        "bytes": 67096,
+        "sha256": "19c1488c7b7e02b8e43c4f75a7c658a4724028deb9964e23486c28b62fd8049c",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/b14930c13ccef582a7f9-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/b14930c13ccef582a7f9-srgb-uastc-max256.ktx2",
+        "bytes": 79110,
+        "sha256": "8d543633cff92f35e037f7cf1bf18c238cd27b6f29ca41986a3ae6847247fffd",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/9e69d7ce032e0b71c9e9-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/9e69d7ce032e0b71c9e9-srgb-uastc-max256.ktx2",
+        "bytes": 81419,
+        "sha256": "9a7e5ada24c40108fbcc920f6a2d655f7404d20bf85d2e86a0af6884ce6a8a11",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/bbb70d9107e91e04fc36-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/bbb70d9107e91e04fc36-srgb-uastc-max256.ktx2",
+        "bytes": 68868,
+        "sha256": "380e3367665d09c9933618a2df91aee2843a78d716501c841b793e6c1271cdaa",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/2a5e3570ba64c648002a-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/2a5e3570ba64c648002a-linear-uastc-max256.ktx2",
+        "bytes": 47317,
+        "sha256": "bfc4a927d1583153ada8193e50de1ff7dab83994f3445c41b26ba37cba8c2721",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/5271494389a7660fe6f5-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/5271494389a7660fe6f5-srgb-uastc-max256.ktx2",
+        "bytes": 70774,
+        "sha256": "6b6887ae7470774cd659516f8900ab7cd58c93da7711314c0a1911fa4a1ac9f5",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/40a1916b40ad5ec35f8c-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/40a1916b40ad5ec35f8c-linear-uastc-max256.ktx2",
+        "bytes": 50027,
+        "sha256": "7885f739207a33c8e8b35734e2abc2e0bee1273f2730095641a2680ecf14b6b1",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/831b4d36c763ffd17604-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/831b4d36c763ffd17604-srgb-uastc-max256.ktx2",
+        "bytes": 80415,
+        "sha256": "05dfcaa6c5037986ecbf04f9ea7a116805fda87aa48ece92b6a15a0f792fd87e",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/2ad68ce91db440d3092f-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/2ad68ce91db440d3092f-srgb-uastc-max256.ktx2",
+        "bytes": 10247,
+        "sha256": "7bbff577f3cddd5d251def0391206d9620c85a21974bafbceaec3271622f24e1",
+        "dimensions": [
+          32,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/c40c272683db8e8a5626-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/c40c272683db8e8a5626-linear-uastc-max256.ktx2",
+        "bytes": 10284,
+        "sha256": "8b8d32c589654a4eecf68c8c76b0f6e183320ac7aaa7cad43d12bf89cc82d71a",
+        "dimensions": [
+          32,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/8024da2171e74e7cab5f-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/8024da2171e74e7cab5f-srgb-uastc-max256.ktx2",
+        "bytes": 10211,
+        "sha256": "f34174ae2c788c0311c56cc29a2e2a6bc0643a48ae3ba050596b3a29d5c12d89",
+        "dimensions": [
+          32,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/6c3bd7adac35b558b5e5-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/6c3bd7adac35b558b5e5-linear-uastc-max256.ktx2",
+        "bytes": 10237,
+        "sha256": "7c4f85f56ee62745439c80ce0e86aa51ff4dc2a98e2e6430c1792469e2611e44",
+        "dimensions": [
+          32,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/065ef52619e3a1d9a0cd-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/065ef52619e3a1d9a0cd-srgb-uastc-max256.ktx2",
+        "bytes": 21343,
+        "sha256": "b62f5503d61e4989a0b256e6045f70a8ce6df429e5791d2282cdabcc3fe60e27",
+        "dimensions": [
+          64,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/0fd9d1c11de799172deb-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/0fd9d1c11de799172deb-linear-uastc-max256.ktx2",
+        "bytes": 34734,
+        "sha256": "329760b857ccca493589046c8f87ab2ff2c4c598560e7703e73272b2aea9c8a5",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/4f3749a55370710138fe-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/4f3749a55370710138fe-srgb-uastc-max256.ktx2",
+        "bytes": 21373,
+        "sha256": "0f8fc33a0e5c05d804c164c53be3d481c3a376d4768003e42c5836983935bba1",
+        "dimensions": [
+          64,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/0c2dc8c3748d7b1986b5-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/0c2dc8c3748d7b1986b5-linear-uastc-max256.ktx2",
+        "bytes": 34684,
+        "sha256": "14605b194ae387d5dbe5bacfefcfcf7a775e4e88b1f83d37301bf4c06f56adcf",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/79686557d24f6598d555-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/79686557d24f6598d555-srgb-uastc-max256.ktx2",
+        "bytes": 80749,
+        "sha256": "5dfd2d49c99f00a194a12af8ac7c37222728d2efee2c32aa9b042ef87f39ce8d",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/662f5dc682d32d51a3c8-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/662f5dc682d32d51a3c8-linear-uastc-max256.ktx2",
+        "bytes": 68999,
+        "sha256": "62bd6c715fc74b966b04d469ded536249ebc4b6e7d2b53e5f86aa9af89c9d821",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/d6447e353c72d461a463-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/d6447e353c72d461a463-srgb-uastc-max256.ktx2",
+        "bytes": 75191,
+        "sha256": "c3c9d62a8dec09240f35ef56fb72722a10ce628b72f00244a309089151052631",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 1
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/5a20a8b168a54c166984-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/5a20a8b168a54c166984-linear-uastc-max256.ktx2",
+        "bytes": 69805,
+        "sha256": "321df54d32ca41f4e815ffa5a2cdb44f2944cb848fcfd7fa0b3c1ad212c86170",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/b62bca0a6cc864e88277-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/b62bca0a6cc864e88277-srgb-uastc-max256.ktx2",
+        "bytes": 10989,
+        "sha256": "e8270421fa524792a90e0ebe595b9dd27d3e168b7c6416d5a13cd3f3e7209952",
+        "dimensions": [
+          32,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/4e5d14b8a17d9cd12c82-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/4e5d14b8a17d9cd12c82-srgb-uastc-max256.ktx2",
+        "bytes": 74425,
+        "sha256": "499595cb4b754b8a2a98ec3989b748bbdce51b81da0540ad39c646022142591f",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/843e454ae6ec79bdec18-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/843e454ae6ec79bdec18-srgb-uastc-max256.ktx2",
+        "bytes": 81789,
+        "sha256": "1b67837f3e6cbb50eeda2a0d529059d193f87b65ef1a3a0460b5f9541616b051",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/5c40ef77913896d2fcf3-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/5c40ef77913896d2fcf3-srgb-uastc-max256.ktx2",
+        "bytes": 80390,
+        "sha256": "bcec5aa03704156d25b0e1dc777195f8178b080438ffb890fdd05fdb7de9098b",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/2468e0be6b56033e605b-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/2468e0be6b56033e605b-srgb-uastc-max256.ktx2",
+        "bytes": 80767,
+        "sha256": "a7dce5a0ea3e084a3fcc38c2de6b06a0cc65d88d92ece59a222bb498dc73a128",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/ddc7ff6b8ded7d6aba85-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/ddc7ff6b8ded7d6aba85-srgb-uastc-max256.ktx2",
+        "bytes": 10984,
+        "sha256": "5c8b8e87553e3144f837fda8ed4024e3c2b7aa4754845dbdd646c278f1082c3d",
+        "dimensions": [
+          32,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/d604b810623cc84ecfe7-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/d604b810623cc84ecfe7-linear-uastc-max256.ktx2",
+        "bytes": 65049,
+        "sha256": "33ed4fcfc2518b308e21ba8a3ac182e27b29b749fd92c8214abc5e232c86685f",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/4eae59b53283b0fd70bb-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/4eae59b53283b0fd70bb-srgb-uastc-max256.ktx2",
+        "bytes": 75911,
+        "sha256": "00cb9895a0fd016db3b5023a442cae656f2309c6357987eada00a3e88e1727cd",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/dabea63e99b103566932-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/dabea63e99b103566932-linear-uastc-max256.ktx2",
+        "bytes": 69690,
+        "sha256": "0417f0f74d03cd8b581ed9efcbb20cb80e9126788ff9d6ebc5d22b3adbb24065",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/240eb1a2e4f66d53262e-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/240eb1a2e4f66d53262e-srgb-uastc-max256.ktx2",
+        "bytes": 72283,
+        "sha256": "3e9889992d93d7169549323b12ae2232d7a6a2a7f5a278d0d878eac418ce9768",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/655340357cb0a5924d9f-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/655340357cb0a5924d9f-linear-uastc-max256.ktx2",
+        "bytes": 47652,
+        "sha256": "c2a5482787bcca891baba014e3842f95e43f46c5c9a22c1eaf7f3f4fa3a02897",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/0ca5245ba70777d3e41f-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/0ca5245ba70777d3e41f-srgb-uastc-max256.ktx2",
+        "bytes": 72987,
+        "sha256": "40c06c9ff9f1cfc5efb5a17dca944d50fcd50a05e12bcfafa8366b0bf2b11c1c",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/a3eb7b24c5cf6f113ec9-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/a3eb7b24c5cf6f113ec9-srgb-uastc-max256.ktx2",
+        "bytes": 50520,
+        "sha256": "a27744fc35922b3eea07314840b5cac08f1dc06d98f2645309f457f8384ab2e3",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/58ce9b818772d37fe16e-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/58ce9b818772d37fe16e-linear-uastc-max256.ktx2",
+        "bytes": 43714,
+        "sha256": "e10a07c5c973c5e09f4a2b2a96da79d9e785ceaa97c8e9ba03fe5bf2562c4d74",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/f88aab6f11e0cbe3d366-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/f88aab6f11e0cbe3d366-linear-uastc-max256.ktx2",
+        "bytes": 19331,
+        "sha256": "8c479c0a9524bb47be08b988e77b8f0eaa9e3bec1d2f2e64471da2adafd59914",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/757943ae78706df4a77e-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/757943ae78706df4a77e-srgb-uastc-max256.ktx2",
+        "bytes": 81172,
+        "sha256": "ed1315eae9dde9b85bba5f584ec8f9e1d0627bc5464bc9a45bb8ba57c1bd30d8",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/c43dba443372db2fad5f-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/c43dba443372db2fad5f-linear-uastc-max256.ktx2",
+        "bytes": 63713,
+        "sha256": "2073fc3a9d16be0978dc839dd881b42a94b3ddce7b0a8700c9e40282bc22b291",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/187a8e33773473939c0e-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/187a8e33773473939c0e-srgb-uastc-max256.ktx2",
+        "bytes": 78027,
+        "sha256": "379c1f11ee489da179417e0169e41e63aacb586343b3f4bbe70f2cfcc8f51d57",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/644ee79df7ffbf5f6afc-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/644ee79df7ffbf5f6afc-srgb-uastc-max256.ktx2",
+        "bytes": 80858,
+        "sha256": "19bba29d4648219797e386b4643e563bc8a27c51797eaa457d95e3cd20ce41f5",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/42bef08a7fd70b542228-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/42bef08a7fd70b542228-linear-uastc-max256.ktx2",
+        "bytes": 67299,
+        "sha256": "27a2b8e3362d17df42cb383447a9882f3f334ef415542d0c419e6b26b1396f2a",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/83185912187a9fd39346-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/83185912187a9fd39346-linear-uastc-max256.ktx2",
+        "bytes": 78143,
+        "sha256": "d710c19bbaa09dd5a4387f4c64ba0694d448c8fc186a753e84dffb41378e247d",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/1b62470d74cf6c7d66b6-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/1b62470d74cf6c7d66b6-linear-uastc-max256.ktx2",
+        "bytes": 81978,
+        "sha256": "3c16704ff7c380e9f8ad06e42ed86d0fe0050ecac22e906a3db439043913a9bd",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/dc342ae1e8c4c374036e-linear-uastc-2048x2052.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/dc342ae1e8c4c374036e-linear-uastc-2048x2052-max256.ktx2",
+        "bytes": 25683,
+        "sha256": "0c82478778b1918504e19b84a98fcdff244ff3455d6b134dba1b906db26e5da3",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/0df45b7f7228ba23cd62-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/0df45b7f7228ba23cd62-linear-uastc-max256.ktx2",
+        "bytes": 20023,
+        "sha256": "6e71fb52fa8eb9ce4d37468d3d316a31440118d03fe1f551ffc0830726173634",
+        "dimensions": [
+          64,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/9deebcd3e1c38dfaec66-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/9deebcd3e1c38dfaec66-linear-uastc-max256.ktx2",
+        "bytes": 20146,
+        "sha256": "8c4f54b486706981f94a73dc057e45561e9c782dafe781ff42c2ba2cfc684efb",
+        "dimensions": [
+          64,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/01a824badbcb8077bc51-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/01a824badbcb8077bc51-srgb-uastc-max256.ktx2",
+        "bytes": 34537,
+        "sha256": "fd44264fbef8007922b32521ed858a97588066b89c703811da672db0286794ad",
+        "dimensions": [
+          128,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/2cfbe00b36db051f695d-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/2cfbe00b36db051f695d-linear-uastc-max256.ktx2",
+        "bytes": 32414,
+        "sha256": "79963beb16566fb87af7ce05ed8ea6f701105459ad14b4783d5b0e23d450da6b",
+        "dimensions": [
+          128,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/bb514fa17d4f993abdec-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/bb514fa17d4f993abdec-srgb-uastc-max256.ktx2",
+        "bytes": 42699,
+        "sha256": "4dd3523a3798263fe1a7bb0bda6e9cd918365b1e842826de1798e00652ed90db",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/9857903060301adab328-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/9857903060301adab328-linear-uastc-max256.ktx2",
+        "bytes": 45707,
+        "sha256": "1d97dd10f5c62729416682e81bdff54025557f47177bccfe8516255cc5d34681",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/e04a3b71dd8850854eda-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/e04a3b71dd8850854eda-srgb-uastc-max256.ktx2",
+        "bytes": 33989,
+        "sha256": "cfdd93f8f7c06f3906a338dad3b92fd107203f8285245ae70de93d30614b4707",
+        "dimensions": [
+          128,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/d0b1146968365bb232dc-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/d0b1146968365bb232dc-linear-uastc-max256.ktx2",
+        "bytes": 32480,
+        "sha256": "4177f14b5c05dfc851387062c5fc8ce82ceb15dddab8251dc3c1294fb6f02986",
+        "dimensions": [
+          128,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/559b87675502d85c1125-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/559b87675502d85c1125-linear-uastc-max256.ktx2",
+        "bytes": 80349,
+        "sha256": "a81a2e369a9c1061f9f370315b838f383133ef75902fc7eb9fa43cecd28aa2e6",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 1
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/cf91b19b1651c4ec326b-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/cf91b19b1651c4ec326b-linear-uastc-max256.ktx2",
+        "bytes": 77365,
+        "sha256": "6917cd3cee520aea0984bca1aef28fc702f82790a030693147bc91d677ce6e17",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/3e83af957a33d9530b83-srgb-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/3e83af957a33d9530b83-srgb-uastc-max256.ktx2",
+        "bytes": 25450,
+        "sha256": "bb36bceeb1a6edd90546df4ee5139ac386cfc2bf85ebea3d9f240e1070c9d7cf",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/ac184b08e58904e2ffb6-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/ac184b08e58904e2ffb6-linear-uastc-max256.ktx2",
+        "bytes": 30076,
+        "sha256": "83aa401b59929e5a8e9e12e0c7ec8058fb1d9453c40918dcd150ef981554e21a",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/519d5d848e99f457c679-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/519d5d848e99f457c679-linear-uastc-max256.ktx2",
+        "bytes": 79365,
+        "sha256": "9f310712e7b5770cbc36989c168e5ef936963dc3e23dbe0a9a73b7da1af11ecd",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/4fe1898b6f41f70e439c-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/4fe1898b6f41f70e439c-linear-uastc-max256.ktx2",
+        "bytes": 77184,
+        "sha256": "013e47a67c57015f275801b5dd78892e2a31899bc0b6f01b223e352a8ea5a892",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/7ed3d807032bd5681824-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/7ed3d807032bd5681824-linear-uastc-max256.ktx2",
+        "bytes": 66308,
+        "sha256": "206994008b04102e990e8ed984652c1094934c8b47ec7085bcb257d07c9957e4",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/01fa7f4b7c3b825d5184-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/01fa7f4b7c3b825d5184-linear-uastc-max256.ktx2",
+        "bytes": 20014,
+        "sha256": "cc65c0cb1356fd8b8bab66b5037e9eb9c9c74a0ce32826019f1678e77fbe97c3",
+        "dimensions": [
+          64,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/755d8b6732e91c676c4e-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/755d8b6732e91c676c4e-linear-uastc-max256.ktx2",
+        "bytes": 10948,
+        "sha256": "0415c8850332e6f5321ec733f8a07cd37b15bd21bca5efe297cafa420e03d508",
+        "dimensions": [
+          32,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/083579b03a8f31ec1886-linear-uastc.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/083579b03a8f31ec1886-linear-uastc-max256.ktx2",
+        "bytes": 68081,
+        "sha256": "5710da1b9473ac7f4a7a646107ea4f2ba93a5076a7bb4e9ec4f3146df36f3693",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/2be58841566c8b1044f7-srgb-uastc-2048x2048.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/2be58841566c8b1044f7-srgb-uastc-2048x2048-max256.ktx2",
+        "bytes": 45864,
+        "sha256": "a763599b9cc0321c1a8660e0f1ef547c45d4a5bd23898dc938bff2099eeed0cb",
+        "dimensions": [
+          256,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 3
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/3a19b5a6ada4e90e0c69-srgb-uastc-544x1024.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/3a19b5a6ada4e90e0c69-srgb-uastc-544x1024-max256.ktx2",
+        "bytes": 36304,
+        "sha256": "53e37d1d6a0ab9b889324d547bcaff22203f0465df76e808e91e6c4d2445263e",
+        "dimensions": [
+          136,
+          256
+        ],
+        "levels": 9,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/51806566d77be471a64b-srgb-uastc-640x320.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/51806566d77be471a64b-srgb-uastc-640x320-max256.ktx2",
+        "bytes": 15954,
+        "sha256": "a19fb58206e203f159ba613a563a603c0d2886d65b6aecf10a8620731a6e0d2f",
+        "dimensions": [
+          160,
+          80
+        ],
+        "levels": 8,
+        "droppedLevels": 2
+      }
+    },
+    {
+      "url": "/ridge/webgpu/gpu-textures/60085f0d03fd9e0b7ed6-srgb-uastc-896x896.ktx2",
+      "variant": {
+        "url": "/ridge/webgpu/gpu-textures/60085f0d03fd9e0b7ed6-srgb-uastc-896x896-max256.ktx2",
+        "bytes": 42987,
+        "sha256": "d346e82ee4a8ce5bd60400c7030ac610a04dafe3ab0602780453f6098cd3c481",
+        "dimensions": [
+          224,
+          224
+        ],
+        "levels": 8,
+        "droppedLevels": 2
+      }
+    }
+  ]
+}

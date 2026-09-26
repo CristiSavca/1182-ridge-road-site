@@ -1,0 +1,1 @@
+function e(e){return new Worker(`/_next/static/weekender-bark-simplify.worker-vSlXaBvP.js`,{name:e?.name})}export{e as default};

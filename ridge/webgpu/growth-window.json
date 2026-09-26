@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "encoding": "f32-row-delta-planes+habitat-u8",
+  "compression": "gzip",
+  "source": {
+    "url": "/ridge/webgpu/growth-surface.bin",
+    "bytes": 33587208,
+    "sha256": "18242db69296e3c0cfeff6e0a023b95c1622b626695ef8f52b79b8a79447d0c5",
+    "minX": -8192,
+    "minZ": -8192,
+    "width": 2049,
+    "height": 2049,
+    "step": 8
+  },
+  "x0": 511,
+  "z0": 513,
+  "width": 1025,
+  "height": 1025,
+  "minX": -4104,
+  "minZ": -4088,
+  "step": 8,
+  "url": "/ridge/webgpu/growth-window.bin.gz",
+  "bytes": 2962997,
+  "sha256": "472a9a56ab63a9494dac355d3dde79438b0abb11e5f2c3610017994c07eae3fd",
+  "decodedBytes": 5253125,
+  "decodedSha256": "c5dfe13254075f9a195d4f01dcc520ec47bb4e0abf014e0e1056eeb39cbd1b39"
+}
